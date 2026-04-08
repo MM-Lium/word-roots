@@ -1,0 +1,37 @@
+{
+  "level": "A1",
+  "part": 4,
+  "totalParts": 11,
+  "title": "入門級 A1 (Beginner) - 商業與工作",
+  "count": 4,
+  "words": [
+    {
+      "word": "buy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "購買;便宜貨",
+      "cefr": "A1"
+    },
+    {
+      "word": "money",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "錢",
+      "cefr": "A1"
+    },
+    {
+      "word": "office",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "辦公室",
+      "cefr": "A1"
+    },
+    {
+      "word": "work",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "工作,作品",
+      "cefr": "A1"
+    }
+  ]
+}

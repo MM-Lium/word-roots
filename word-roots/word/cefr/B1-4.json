@@ -1,0 +1,436 @@
+{
+  "level": "B1",
+  "part": 4,
+  "totalParts": 11,
+  "title": "中級 B1 (Intermediate) - 商業與工作",
+  "count": 61,
+  "words": [
+    {
+      "word": "afford",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "買得起",
+      "cefr": "B1"
+    },
+    {
+      "word": "agent",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "代理人;代理商",
+      "cefr": "B1"
+    },
+    {
+      "word": "airway",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "風道;氣道;航空公司",
+      "cefr": "B1"
+    },
+    {
+      "word": "apron",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "圍裙;工作裙",
+      "cefr": "B1"
+    },
+    {
+      "word": "banker",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "銀行家;莊家",
+      "cefr": "B1"
+    },
+    {
+      "word": "betray",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "背叛;出賣",
+      "cefr": "B1"
+    },
+    {
+      "word": "brand",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "商標",
+      "cefr": "B1"
+    },
+    {
+      "word": "cabin",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "客艙",
+      "cefr": "B1"
+    },
+    {
+      "word": "career",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "職業;生涯;歷程",
+      "cefr": "B1"
+    },
+    {
+      "word": "change",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "零錢",
+      "cefr": "B1"
+    },
+    {
+      "word": "cinema",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "電影院;電影;電影業",
+      "cefr": "B1"
+    },
+    {
+      "word": "clerk",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "店員;辦事員;職員",
+      "cefr": "B1"
+    },
+    {
+      "word": "client",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "顧客,客戶",
+      "cefr": "B1"
+    },
+    {
+      "word": "confer",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "授予(學位等);給予;協商",
+      "cefr": "B1"
+    },
+    {
+      "word": "craft",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "工藝,手藝",
+      "cefr": "B1"
+    },
+    {
+      "word": "crude",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "未經加工的;粗野的;粗糙的",
+      "cefr": "B1"
+    },
+    {
+      "word": "dairy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "牛奶店;牛奶及乳品業",
+      "cefr": "B1"
+    },
+    {
+      "word": "dealer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "業者;商人;發牌者",
+      "cefr": "B1"
+    },
+    {
+      "word": "deputy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "代表,代理人;副職,副手",
+      "cefr": "B1"
+    },
+    {
+      "word": "extra",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "附加的人物或錢;號外",
+      "cefr": "B1"
+    },
+    {
+      "word": "freeze",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "結冰;凝固;(物價,工資等的)凍結",
+      "cefr": "B1"
+    },
+    {
+      "word": "goods",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "商品;貨物",
+      "cefr": "B1"
+    },
+    {
+      "word": "govern",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "統治;管理",
+      "cefr": "B1"
+    },
+    {
+      "word": "grocer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "食品雜貨商",
+      "cefr": "B1"
+    },
+    {
+      "word": "guest",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "客人",
+      "cefr": "B1"
+    },
+    {
+      "word": "hacker",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "駭客",
+      "cefr": "B1"
+    },
+    {
+      "word": "import",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "進口商品",
+      "cefr": "B1"
+    },
+    {
+      "word": "label",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "貼紙;標籤;商標",
+      "cefr": "B1"
+    },
+    {
+      "word": "labor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "勞工;分娩,陣痛",
+      "cefr": "B1"
+    },
+    {
+      "word": "layman",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(未受神職的)一般信徒;外行人",
+      "cefr": "B1"
+    },
+    {
+      "word": "lounge",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(旅館等的)會客廳;候機室;躺椅",
+      "cefr": "B1"
+    },
+    {
+      "word": "manage",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "管理;經營;處理",
+      "cefr": "B1"
+    },
+    {
+      "word": "means",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "手段,方法;工具;收入",
+      "cefr": "B1"
+    },
+    {
+      "word": "medium",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "中間;中庸;媒體;工具;傳播媒介",
+      "cefr": "B1"
+    },
+    {
+      "word": "miller",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "磨坊主;碾磨工",
+      "cefr": "B1"
+    },
+    {
+      "word": "miner",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "礦工",
+      "cefr": "B1"
+    },
+    {
+      "word": "outfit",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "全套(工具、衣物等)",
+      "cefr": "B1"
+    },
+    {
+      "word": "parlor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "客廳;接待室",
+      "cefr": "B1"
+    },
+    {
+      "word": "patron",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "贊助者;主顧(尤指老顧客)",
+      "cefr": "B1"
+    },
+    {
+      "word": "porter",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "搬運工人,腳夫",
+      "cefr": "B1"
+    },
+    {
+      "word": "promote",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "推銷(商品等)",
+      "cefr": "B1"
+    },
+    {
+      "word": "purse",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "錢包",
+      "cefr": "B1"
+    },
+    {
+      "word": "raise",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "加薪;賭注加碼",
+      "cefr": "B1"
+    },
+    {
+      "word": "screen",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "屏;銀幕",
+      "cefr": "B1"
+    },
+    {
+      "word": "serve",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "服務",
+      "cefr": "B1"
+    },
+    {
+      "word": "spend",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "花費(錢或時間)",
+      "cefr": "B1"
+    },
+    {
+      "word": "staff",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(全體)職員;幕僚",
+      "cefr": "B1"
+    },
+    {
+      "word": "strike",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "攻擊;罷工",
+      "cefr": "B1"
+    },
+    {
+      "word": "studio",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "工作室,畫室;雕塑室;照相館",
+      "cefr": "B1"
+    },
+    {
+      "word": "summit",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "頂峰;最高級會議",
+      "cefr": "B1"
+    },
+    {
+      "word": "tease",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "戲弄;賣弄風騷的女孩",
+      "cefr": "B1"
+    },
+    {
+      "word": "technology",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "工藝學;工藝",
+      "cefr": "B1"
+    },
+    {
+      "word": "teller",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "敘述者;(銀行)出納員",
+      "cefr": "B1"
+    },
+    {
+      "word": "tenant",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "房客",
+      "cefr": "B1"
+    },
+    {
+      "word": "thrift",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "節儉;繁茂;互助儲蓄銀行",
+      "cefr": "B1"
+    },
+    {
+      "word": "trader",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "商人;交易人",
+      "cefr": "B1"
+    },
+    {
+      "word": "truant",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "逃學者;玩忽職守者",
+      "cefr": "B1"
+    },
+    {
+      "word": "union",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "工會;結合",
+      "cefr": "B1"
+    },
+    {
+      "word": "vacant",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "空白的;(職位)空缺的",
+      "cefr": "B1"
+    },
+    {
+      "word": "wages",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "代價;報償;工資總額",
+      "cefr": "B1"
+    },
+    {
+      "word": "waiter",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "男服務生",
+      "cefr": "B1"
+    }
+  ]
+}

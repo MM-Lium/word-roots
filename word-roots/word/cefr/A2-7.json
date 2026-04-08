@@ -1,0 +1,730 @@
+{
+  "level": "A2",
+  "part": 7,
+  "totalParts": 11,
+  "title": "基礎級 A2 (Elementary) - 人物與感官",
+  "count": 103,
+  "words": [
+    {
+      "word": "adult",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "成年人",
+      "cefr": "A2"
+    },
+    {
+      "word": "aid",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "幫助;助手;助聽器",
+      "cefr": "A2"
+    },
+    {
+      "word": "arm",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "手臂",
+      "cefr": "A2"
+    },
+    {
+      "word": "bald",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "禿頭的",
+      "cefr": "A2"
+    },
+    {
+      "word": "blood",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "血",
+      "cefr": "A2"
+    },
+    {
+      "word": "body",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "身體",
+      "cefr": "A2"
+    },
+    {
+      "word": "bone",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "骨頭",
+      "cefr": "A2"
+    },
+    {
+      "word": "bore",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "令人討厭的人(或事物)",
+      "cefr": "A2"
+    },
+    {
+      "word": "brow",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "眉頭;眉毛",
+      "cefr": "A2"
+    },
+    {
+      "word": "calf",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小牛;(鯨、象等的)幼兒;小腿",
+      "cefr": "A2"
+    },
+    {
+      "word": "cane",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "藤條;手杖",
+      "cefr": "A2"
+    },
+    {
+      "word": "cell",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "單人牢房;細胞;蜂房的巢室;電池",
+      "cefr": "A2"
+    },
+    {
+      "word": "clam",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "蛤;蚌;守口如瓶的人",
+      "cefr": "A2"
+    },
+    {
+      "word": "Coke",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "可口可樂",
+      "cefr": "A2"
+    },
+    {
+      "word": "cow",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "母牛",
+      "cefr": "A2"
+    },
+    {
+      "word": "dock",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "碼頭",
+      "cefr": "A2"
+    },
+    {
+      "word": "dose",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(藥物等的)一劑,一服",
+      "cefr": "A2"
+    },
+    {
+      "word": "drug",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "藥品;毒品",
+      "cefr": "A2"
+    },
+    {
+      "word": "ear",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "耳朵",
+      "cefr": "A2"
+    },
+    {
+      "word": "exit",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "出口",
+      "cefr": "A2"
+    },
+    {
+      "word": "farmer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "農夫",
+      "cefr": "A2"
+    },
+    {
+      "word": "finger",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "手指",
+      "cefr": "A2"
+    },
+    {
+      "word": "fit",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "適合;合身",
+      "cefr": "A2"
+    },
+    {
+      "word": "flap",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "薄片;(信封的)蓋口;拍動",
+      "cefr": "A2"
+    },
+    {
+      "word": "foe",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "敵人;反對者",
+      "cefr": "A2"
+    },
+    {
+      "word": "folk",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "人們",
+      "cefr": "A2"
+    },
+    {
+      "word": "gap",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "裂口,缺口",
+      "cefr": "A2"
+    },
+    {
+      "word": "gasp",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "倒抽一口氣;喘氣",
+      "cefr": "A2"
+    },
+    {
+      "word": "germ",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "微生物;細菌;病菌",
+      "cefr": "A2"
+    },
+    {
+      "word": "glasses",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "眼鏡",
+      "cefr": "A2"
+    },
+    {
+      "word": "gown",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(婦女穿的)長禮服;晨衣,睡袍",
+      "cefr": "A2"
+    },
+    {
+      "word": "gulp",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "吞嚥;一(大)口;哽塞(聲)",
+      "cefr": "A2"
+    },
+    {
+      "word": "guy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "傢伙;人",
+      "cefr": "A2"
+    },
+    {
+      "word": "hair",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "頭髮",
+      "cefr": "A2"
+    },
+    {
+      "word": "ham",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "火腿",
+      "cefr": "A2"
+    },
+    {
+      "word": "hear",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "聽見",
+      "cefr": "A2"
+    },
+    {
+      "word": "heel",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "腳後跟,踵",
+      "cefr": "A2"
+    },
+    {
+      "word": "heir",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "繼承人;嗣子",
+      "cefr": "A2"
+    },
+    {
+      "word": "hen",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "母雞",
+      "cefr": "A2"
+    },
+    {
+      "word": "host",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "主人",
+      "cefr": "A2"
+    },
+    {
+      "word": "hurt",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(精神上的)創傷;傷;痛",
+      "cefr": "A2"
+    },
+    {
+      "word": "husband",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "丈夫",
+      "cefr": "A2"
+    },
+    {
+      "word": "jeer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "嘲笑;奚落人的話",
+      "cefr": "A2"
+    },
+    {
+      "word": "lad",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "男孩;小伙子",
+      "cefr": "A2"
+    },
+    {
+      "word": "lady",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "淑女",
+      "cefr": "A2"
+    },
+    {
+      "word": "lame",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使跛腳;使...變得無力",
+      "cefr": "A2"
+    },
+    {
+      "word": "leg",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "腿",
+      "cefr": "A2"
+    },
+    {
+      "word": "liar",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "說謊的人",
+      "cefr": "A2"
+    },
+    {
+      "word": "life",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "人生;生命",
+      "cefr": "A2"
+    },
+    {
+      "word": "maid",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "侍女;女僕",
+      "cefr": "A2"
+    },
+    {
+      "word": "miss",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "少女",
+      "cefr": "A2"
+    },
+    {
+      "word": "mom",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "母親",
+      "cefr": "A2"
+    },
+    {
+      "word": "mule",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "騾;固執的人",
+      "cefr": "A2"
+    },
+    {
+      "word": "myth",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "神話;虛構的人(或事物)",
+      "cefr": "A2"
+    },
+    {
+      "word": "nag",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "好嘮叨的人",
+      "cefr": "A2"
+    },
+    {
+      "word": "nod",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "點頭",
+      "cefr": "A2"
+    },
+    {
+      "word": "nose",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鼻子",
+      "cefr": "A2"
+    },
+    {
+      "word": "nun",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "修女;尼姑",
+      "cefr": "A2"
+    },
+    {
+      "word": "oar",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "槳;櫓;划手",
+      "cefr": "A2"
+    },
+    {
+      "word": "oral",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "口試",
+      "cefr": "A2"
+    },
+    {
+      "word": "pain",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "疼痛;痛苦",
+      "cefr": "A2"
+    },
+    {
+      "word": "palm",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "手掌,手心",
+      "cefr": "A2"
+    },
+    {
+      "word": "parent",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "雙親之一",
+      "cefr": "A2"
+    },
+    {
+      "word": "paw",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "腳爪;爪子",
+      "cefr": "A2"
+    },
+    {
+      "word": "peek",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "偷偷看;一瞥",
+      "cefr": "A2"
+    },
+    {
+      "word": "peep",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "窺視;偷看;一瞥",
+      "cefr": "A2"
+    },
+    {
+      "word": "peg",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "栓;樁;(曬衣用)衣夾;(木製)假腿",
+      "cefr": "A2"
+    },
+    {
+      "word": "pier",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "碼頭;防波堤",
+      "cefr": "A2"
+    },
+    {
+      "word": "pill",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "藥丸,藥片;(女用)口服避孕藥",
+      "cefr": "A2"
+    },
+    {
+      "word": "pin",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大頭針;胸針",
+      "cefr": "A2"
+    },
+    {
+      "word": "pocket",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "口袋",
+      "cefr": "A2"
+    },
+    {
+      "word": "poet",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "詩人",
+      "cefr": "A2"
+    },
+    {
+      "word": "poke",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "戳;捅;撥弄;慢性子的人",
+      "cefr": "A2"
+    },
+    {
+      "word": "rail",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "欄杆;扶手;鐵軌",
+      "cefr": "A2"
+    },
+    {
+      "word": "rip",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "裂口",
+      "cefr": "A2"
+    },
+    {
+      "word": "robot",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "機器人",
+      "cefr": "A2"
+    },
+    {
+      "word": "sane",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "神志正常的;頭腦清楚的",
+      "cefr": "A2"
+    },
+    {
+      "word": "self",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "自身,自己;自我",
+      "cefr": "A2"
+    },
+    {
+      "word": "sick",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "生病的",
+      "cefr": "A2"
+    },
+    {
+      "word": "singer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "歌手",
+      "cefr": "A2"
+    },
+    {
+      "word": "sip",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "一小口",
+      "cefr": "A2"
+    },
+    {
+      "word": "sister",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "姊妹",
+      "cefr": "A2"
+    },
+    {
+      "word": "sore",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "痛處;瘡,潰瘍;傷心事",
+      "cefr": "A2"
+    },
+    {
+      "word": "stab",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "刺,戳;刺破的傷口",
+      "cefr": "A2"
+    },
+    {
+      "word": "stone",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "石頭",
+      "cefr": "A2"
+    },
+    {
+      "word": "suck",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "吸吮,吸食;一口",
+      "cefr": "A2"
+    },
+    {
+      "word": "tack",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大頭釘;圖釘",
+      "cefr": "A2"
+    },
+    {
+      "word": "tap",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "龍頭;竊聽器",
+      "cefr": "A2"
+    },
+    {
+      "word": "tear",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "眼淚",
+      "cefr": "A2"
+    },
+    {
+      "word": "tie",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "結;領帶;平手",
+      "cefr": "A2"
+    },
+    {
+      "word": "tin",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "錫;罐頭",
+      "cefr": "A2"
+    },
+    {
+      "word": "toad",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "蟾蜍;令人討厭的人",
+      "cefr": "A2"
+    },
+    {
+      "word": "toe",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "腳趾",
+      "cefr": "A2"
+    },
+    {
+      "word": "toll",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "通行費;長途電話費;傷亡人數;鐘聲",
+      "cefr": "A2"
+    },
+    {
+      "word": "vet",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "獸醫;老兵",
+      "cefr": "A2"
+    },
+    {
+      "word": "view",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "視力;視野;看法",
+      "cefr": "A2"
+    },
+    {
+      "word": "voice",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(人的)聲音",
+      "cefr": "A2"
+    },
+    {
+      "word": "wag",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "搖擺;愛說笑打趣的人",
+      "cefr": "A2"
+    },
+    {
+      "word": "ward",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "病房;牢房;行政區",
+      "cefr": "A2"
+    },
+    {
+      "word": "watch",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "手錶",
+      "cefr": "A2"
+    },
+    {
+      "word": "wax",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "蠟;蜂蠟;耳垢",
+      "cefr": "A2"
+    },
+    {
+      "word": "wife",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "妻子",
+      "cefr": "A2"
+    },
+    {
+      "word": "wink",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "眨眼;瞬間",
+      "cefr": "A2"
+    }
+  ]
+}

@@ -1,0 +1,450 @@
+{
+  "level": "C1",
+  "part": 5,
+  "totalParts": 11,
+  "title": "高級 C1 (Advanced) - 學校與教育",
+  "count": 63,
+  "words": [
+    {
+      "word": "abbreviate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "縮寫",
+      "cefr": "C1"
+    },
+    {
+      "word": "abbreviation",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "縮寫;省略",
+      "cefr": "C1"
+    },
+    {
+      "word": "accomplishment",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "成就;成績;造詣;實現",
+      "cefr": "C1"
+    },
+    {
+      "word": "accountant",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "會計師",
+      "cefr": "C1"
+    },
+    {
+      "word": "accounting",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "會計;會計學",
+      "cefr": "C1"
+    },
+    {
+      "word": "adaptation",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "適應;改寫",
+      "cefr": "C1"
+    },
+    {
+      "word": "apprentice",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "學徒;生手",
+      "cefr": "C1"
+    },
+    {
+      "word": "architecture",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "建築學",
+      "cefr": "C1"
+    },
+    {
+      "word": "astronomer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "天文學家",
+      "cefr": "C1"
+    },
+    {
+      "word": "attainment",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "達到;獲得;到達;成就;學識,才能",
+      "cefr": "C1"
+    },
+    {
+      "word": "biochemistry",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "生物化學",
+      "cefr": "C1"
+    },
+    {
+      "word": "biological",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "生物的;生物學的",
+      "cefr": "C1"
+    },
+    {
+      "word": "calligraphy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "書法;筆跡",
+      "cefr": "C1"
+    },
+    {
+      "word": "certificate",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "證明書;執照",
+      "cefr": "C1"
+    },
+    {
+      "word": "chairperson",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "主席(沒有性別歧視的字眼)",
+      "cefr": "C1"
+    },
+    {
+      "word": "commence",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "開始;著手;得學位",
+      "cefr": "C1"
+    },
+    {
+      "word": "composition",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "寫作;作曲;作品;作文",
+      "cefr": "C1"
+    },
+    {
+      "word": "consideration",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "考慮",
+      "cefr": "C1"
+    },
+    {
+      "word": "contemplate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "凝視;思忖;仔細考慮",
+      "cefr": "C1"
+    },
+    {
+      "word": "curriculum",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "學校的全部課程",
+      "cefr": "C1"
+    },
+    {
+      "word": "descriptive",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "描寫的;描述性的",
+      "cefr": "C1"
+    },
+    {
+      "word": "dictionary",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "字典",
+      "cefr": "C1"
+    },
+    {
+      "word": "discipline",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "紀律,風紀;教養",
+      "cefr": "C1"
+    },
+    {
+      "word": "educational",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "教育的",
+      "cefr": "C1"
+    },
+    {
+      "word": "electronics",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "電子學",
+      "cefr": "C1"
+    },
+    {
+      "word": "encyclopedia",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "百科全書",
+      "cefr": "C1"
+    },
+    {
+      "word": "enlightenment",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "啟蒙;教化;開明",
+      "cefr": "C1"
+    },
+    {
+      "word": "extracurricular",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "課外的",
+      "cefr": "C1"
+    },
+    {
+      "word": "geographical",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "地理學的;地理的",
+      "cefr": "C1"
+    },
+    {
+      "word": "hairdresser",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "美髮師",
+      "cefr": "C1"
+    },
+    {
+      "word": "handwriting",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "書寫;手寫",
+      "cefr": "C1"
+    },
+    {
+      "word": "historical",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "歷史的,史學的",
+      "cefr": "C1"
+    },
+    {
+      "word": "informative",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "教育性的;有益的",
+      "cefr": "C1"
+    },
+    {
+      "word": "instruction",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "教學,講授",
+      "cefr": "C1"
+    },
+    {
+      "word": "instructor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "教練;指導者",
+      "cefr": "C1"
+    },
+    {
+      "word": "knowledgeable",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "博學的;有見識的",
+      "cefr": "C1"
+    },
+    {
+      "word": "literature",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "文學;文學作品",
+      "cefr": "C1"
+    },
+    {
+      "word": "manuscript",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "手稿;打字稿;原稿",
+      "cefr": "C1"
+    },
+    {
+      "word": "mathematical",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "數學的",
+      "cefr": "C1"
+    },
+    {
+      "word": "mathematics",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "數學",
+      "cefr": "C1"
+    },
+    {
+      "word": "missionary",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "傳教士;鼓吹者;(外交)使節",
+      "cefr": "C1"
+    },
+    {
+      "word": "naturalist",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "博物學家",
+      "cefr": "C1"
+    },
+    {
+      "word": "pharmacist",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "配藥者;藥劑師",
+      "cefr": "C1"
+    },
+    {
+      "word": "philosopher",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "哲學家",
+      "cefr": "C1"
+    },
+    {
+      "word": "philosophical",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "哲學的",
+      "cefr": "C1"
+    },
+    {
+      "word": "philosophy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "哲學",
+      "cefr": "C1"
+    },
+    {
+      "word": "photographer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "攝影師,照相師",
+      "cefr": "C1"
+    },
+    {
+      "word": "pronunciation",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "發音;發音法;讀法",
+      "cefr": "C1"
+    },
+    {
+      "word": "psychologist",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "心理學家",
+      "cefr": "C1"
+    },
+    {
+      "word": "psychology",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "心理學",
+      "cefr": "C1"
+    },
+    {
+      "word": "rhetoric",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "修辭;修辭學;辭令",
+      "cefr": "C1"
+    },
+    {
+      "word": "scholarship",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "獎學金",
+      "cefr": "C1"
+    },
+    {
+      "word": "scientific",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "科學的",
+      "cefr": "C1"
+    },
+    {
+      "word": "statistical",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "統計的;統計學的",
+      "cefr": "C1"
+    },
+    {
+      "word": "supplement",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "增補;(書籍的)補遺;附錄",
+      "cefr": "C1"
+    },
+    {
+      "word": "technician",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "技術人員,技師",
+      "cefr": "C1"
+    },
+    {
+      "word": "thoughtful",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "考慮周到的",
+      "cefr": "C1"
+    },
+    {
+      "word": "transcript",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "抄本;謄本;成績報告單",
+      "cefr": "C1"
+    },
+    {
+      "word": "typewriter",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "打字機",
+      "cefr": "C1"
+    },
+    {
+      "word": "university",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大學",
+      "cefr": "C1"
+    },
+    {
+      "word": "upbringing",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "養育;教養",
+      "cefr": "C1"
+    },
+    {
+      "word": "vice-president",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "副(總統、校長、總裁等)",
+      "cefr": "C1"
+    },
+    {
+      "word": "vocabulary",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "字彙",
+      "cefr": "C1"
+    }
+  ]
+}

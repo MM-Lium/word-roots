@@ -1,0 +1,1038 @@
+{
+  "level": "B1",
+  "part": 7,
+  "totalParts": 11,
+  "title": "中級 B1 (Intermediate) - 人物與感官",
+  "count": 147,
+  "words": [
+    {
+      "word": "actor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "男演員",
+      "cefr": "B1"
+    },
+    {
+      "word": "addict",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "入迷的人;有癮的人",
+      "cefr": "B1"
+    },
+    {
+      "word": "agony",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "極度痛苦",
+      "cefr": "B1"
+    },
+    {
+      "word": "alien",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "外國人;外星人",
+      "cefr": "B1"
+    },
+    {
+      "word": "ankle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "腳踝",
+      "cefr": "B1"
+    },
+    {
+      "word": "asthma",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "氣喘(病);哮喘",
+      "cefr": "B1"
+    },
+    {
+      "word": "audio",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "聽覺的,聲音的",
+      "cefr": "B1"
+    },
+    {
+      "word": "auntie",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(aunt的暱稱)伯母;嬸母;姑母;姨母;舅母",
+      "cefr": "B1"
+    },
+    {
+      "word": "aunty",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(aunt的暱稱)伯母;嬸母;姑母;姨母;舅母",
+      "cefr": "B1"
+    },
+    {
+      "word": "batter",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "打擊手;糊狀物",
+      "cefr": "B1"
+    },
+    {
+      "word": "beauty",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "美貌;美人",
+      "cefr": "B1"
+    },
+    {
+      "word": "beckon",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "(招手或點頭)示意;召喚",
+      "cefr": "B1"
+    },
+    {
+      "word": "better",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(人或事物)較優者,較好者",
+      "cefr": "B1"
+    },
+    {
+      "word": "bleed",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "流血",
+      "cefr": "B1"
+    },
+    {
+      "word": "blind",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使看不見,使失明;使失去理智",
+      "cefr": "B1"
+    },
+    {
+      "word": "blink",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "眨眼睛;一瞬間",
+      "cefr": "B1"
+    },
+    {
+      "word": "blond",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "白膚金髮碧眼的人",
+      "cefr": "B1"
+    },
+    {
+      "word": "blonde",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "白膚金髮碧眼的女人",
+      "cefr": "B1"
+    },
+    {
+      "word": "bloody",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "流血的",
+      "cefr": "B1"
+    },
+    {
+      "word": "blouse",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "女裝短上衣",
+      "cefr": "B1"
+    },
+    {
+      "word": "bother",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "煩惱,麻煩;使人煩惱的人(或事物)",
+      "cefr": "B1"
+    },
+    {
+      "word": "brain",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "腦;智力,頭腦",
+      "cefr": "B1"
+    },
+    {
+      "word": "brooch",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "女用胸針(或領針)",
+      "cefr": "B1"
+    },
+    {
+      "word": "brute",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "畜生;殘暴的人",
+      "cefr": "B1"
+    },
+    {
+      "word": "burst",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "爆炸;破裂;缺口",
+      "cefr": "B1"
+    },
+    {
+      "word": "cactus",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "仙人掌",
+      "cefr": "B1"
+    },
+    {
+      "word": "cattle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "牛;牲口,家畜",
+      "cefr": "B1"
+    },
+    {
+      "word": "cavity",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "洞;(身體的)腔;(牙的)蛀洞",
+      "cefr": "B1"
+    },
+    {
+      "word": "child",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小孩",
+      "cefr": "B1"
+    },
+    {
+      "word": "clutch",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "爪子;手;掌握;攫取;離合器",
+      "cefr": "B1"
+    },
+    {
+      "word": "contact",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "接觸;隱形眼鏡",
+      "cefr": "B1"
+    },
+    {
+      "word": "cousin",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "表(堂)兄弟姊妹",
+      "cefr": "B1"
+    },
+    {
+      "word": "coward",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "懦夫,膽怯者",
+      "cefr": "B1"
+    },
+    {
+      "word": "crisis",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "危機;緊急關頭",
+      "cefr": "B1"
+    },
+    {
+      "word": "daddy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "父親",
+      "cefr": "B1"
+    },
+    {
+      "word": "dazzle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "耀眼的光;令人讚歎的東西",
+      "cefr": "B1"
+    },
+    {
+      "word": "doctor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "醫生",
+      "cefr": "B1"
+    },
+    {
+      "word": "donor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "贈送人;捐贈者",
+      "cefr": "B1"
+    },
+    {
+      "word": "dosage",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(藥的)劑量;服法",
+      "cefr": "B1"
+    },
+    {
+      "word": "drill",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鑽,鑽頭;鑽床",
+      "cefr": "B1"
+    },
+    {
+      "word": "enemy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "敵人",
+      "cefr": "B1"
+    },
+    {
+      "word": "entry",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "進入,入場;入口",
+      "cefr": "B1"
+    },
+    {
+      "word": "excuse",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "藉口",
+      "cefr": "B1"
+    },
+    {
+      "word": "expert",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "專家;能手",
+      "cefr": "B1"
+    },
+    {
+      "word": "export",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "出口",
+      "cefr": "B1"
+    },
+    {
+      "word": "eyelid",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "眼皮;眼瞼",
+      "cefr": "B1"
+    },
+    {
+      "word": "fairy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小妖精;仙女",
+      "cefr": "B1"
+    },
+    {
+      "word": "fancy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "愛好;迷戀;想像;怪念頭",
+      "cefr": "B1"
+    },
+    {
+      "word": "father",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "父親",
+      "cefr": "B1"
+    },
+    {
+      "word": "fetch",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "活人的魂;鬼",
+      "cefr": "B1"
+    },
+    {
+      "word": "fiancé",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "未婚夫",
+      "cefr": "B1"
+    },
+    {
+      "word": "flick",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(鞭子的)輕打;(手指的)輕彈",
+      "cefr": "B1"
+    },
+    {
+      "word": "fling",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "扔;擲;(手;腳等的)揮動",
+      "cefr": "B1"
+    },
+    {
+      "word": "fossil",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "化石;守舊的人(或事物)",
+      "cefr": "B1"
+    },
+    {
+      "word": "frail",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "身體虛弱的;易損壞的",
+      "cefr": "B1"
+    },
+    {
+      "word": "freak",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "畸形人(或動植物);反常現象;怪人",
+      "cefr": "B1"
+    },
+    {
+      "word": "garlic",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大蒜;蒜頭",
+      "cefr": "B1"
+    },
+    {
+      "word": "giant",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "巨人",
+      "cefr": "B1"
+    },
+    {
+      "word": "glare",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "瞪眼;怒視;刺眼的強光",
+      "cefr": "B1"
+    },
+    {
+      "word": "glove",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "手套",
+      "cefr": "B1"
+    },
+    {
+      "word": "grief",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "悲痛,悲傷",
+      "cefr": "B1"
+    },
+    {
+      "word": "hairdo",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "髮式,髮型;做頭髮",
+      "cefr": "B1"
+    },
+    {
+      "word": "handle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "把手",
+      "cefr": "B1"
+    },
+    {
+      "word": "helmet",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "盔;頭盔;鋼盔;帽盔;安全帽",
+      "cefr": "B1"
+    },
+    {
+      "word": "honey",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "蜂蜜;心愛的人",
+      "cefr": "B1"
+    },
+    {
+      "word": "hound",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "獵犬;卑劣的人",
+      "cefr": "B1"
+    },
+    {
+      "word": "human",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "人",
+      "cefr": "B1"
+    },
+    {
+      "word": "hunter",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "獵人",
+      "cefr": "B1"
+    },
+    {
+      "word": "inject",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "注射(藥液等)",
+      "cefr": "B1"
+    },
+    {
+      "word": "joint",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "接頭,接縫;關節",
+      "cefr": "B1"
+    },
+    {
+      "word": "keeper",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "保管人;守衛",
+      "cefr": "B1"
+    },
+    {
+      "word": "lament",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "悲痛之情;哀悼;悼詞",
+      "cefr": "B1"
+    },
+    {
+      "word": "listen",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "傾聽",
+      "cefr": "B1"
+    },
+    {
+      "word": "lovely",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "動人的",
+      "cefr": "B1"
+    },
+    {
+      "word": "lover",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "情人",
+      "cefr": "B1"
+    },
+    {
+      "word": "ma'am",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "女士",
+      "cefr": "B1"
+    },
+    {
+      "word": "madam",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "夫人,太太",
+      "cefr": "B1"
+    },
+    {
+      "word": "maiden",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "少女;處女",
+      "cefr": "B1"
+    },
+    {
+      "word": "manual",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "手冊",
+      "cefr": "B1"
+    },
+    {
+      "word": "marvel",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "令人驚奇的事物(或人物)",
+      "cefr": "B1"
+    },
+    {
+      "word": "master",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "主人",
+      "cefr": "B1"
+    },
+    {
+      "word": "menace",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "恐嚇;具有危害性的人(或物)",
+      "cefr": "B1"
+    },
+    {
+      "word": "mimic",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "善於模仿的人;滑稽劇演員",
+      "cefr": "B1"
+    },
+    {
+      "word": "misery",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "痛苦;不幸;悲慘;窮困",
+      "cefr": "B1"
+    },
+    {
+      "word": "mommy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "母親",
+      "cefr": "B1"
+    },
+    {
+      "word": "mortal",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "人;凡人",
+      "cefr": "B1"
+    },
+    {
+      "word": "mother",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "母親",
+      "cefr": "B1"
+    },
+    {
+      "word": "mound",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "土墩;墳堆;小丘;投手的踏板",
+      "cefr": "B1"
+    },
+    {
+      "word": "mourn",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "哀痛;哀悼",
+      "cefr": "B1"
+    },
+    {
+      "word": "niece",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "侄女;外甥女",
+      "cefr": "B1"
+    },
+    {
+      "word": "operate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "運作;運轉;動手術",
+      "cefr": "B1"
+    },
+    {
+      "word": "oyster",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "牡蠣;沈默寡言的人",
+      "cefr": "B1"
+    },
+    {
+      "word": "pedal",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "踏板;腳蹬",
+      "cefr": "B1"
+    },
+    {
+      "word": "person",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "人",
+      "cefr": "B1"
+    },
+    {
+      "word": "pillow",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "枕頭",
+      "cefr": "B1"
+    },
+    {
+      "word": "pistol",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "手槍",
+      "cefr": "B1"
+    },
+    {
+      "word": "porch",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "門廊;入口處;走廊",
+      "cefr": "B1"
+    },
+    {
+      "word": "reckon",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "認為;把...看作;覺得;測量",
+      "cefr": "B1"
+    },
+    {
+      "word": "remedy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "治療;治療法;藥物",
+      "cefr": "B1"
+    },
+    {
+      "word": "resume",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(個人)簡歷",
+      "cefr": "B1"
+    },
+    {
+      "word": "rhyme",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "韻,韻腳",
+      "cefr": "B1"
+    },
+    {
+      "word": "rival",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "競爭者,對手,敵手",
+      "cefr": "B1"
+    },
+    {
+      "word": "saint",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "聖徒;道德崇高的人",
+      "cefr": "B1"
+    },
+    {
+      "word": "savage",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "野蠻人",
+      "cefr": "B1"
+    },
+    {
+      "word": "scream",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "尖叫;尖銳刺耳的聲音",
+      "cefr": "B1"
+    },
+    {
+      "word": "skull",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "頭骨;骷髏畫",
+      "cefr": "B1"
+    },
+    {
+      "word": "slogan",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "口號,標語",
+      "cefr": "B1"
+    },
+    {
+      "word": "snort",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "噴鼻息;噴氣聲",
+      "cefr": "B1"
+    },
+    {
+      "word": "socket",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "插座;插口",
+      "cefr": "B1"
+    },
+    {
+      "word": "sorrow",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "悲痛,悲哀,悲傷,憂傷",
+      "cefr": "B1"
+    },
+    {
+      "word": "source",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "源頭",
+      "cefr": "B1"
+    },
+    {
+      "word": "spicy",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "辛辣的;痛快的",
+      "cefr": "B1"
+    },
+    {
+      "word": "spike",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "牆頭釘;尖鐵;釘鞋;細高跟",
+      "cefr": "B1"
+    },
+    {
+      "word": "stitch",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "一針;(縫合傷口的)針線;針法",
+      "cefr": "B1"
+    },
+    {
+      "word": "stool",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "凳子;擱腳凳;解大便",
+      "cefr": "B1"
+    },
+    {
+      "word": "strain",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "拉緊;張力;壓力;扭傷;血緣",
+      "cefr": "B1"
+    },
+    {
+      "word": "suffer",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "遭受;經歷;受苦;患病",
+      "cefr": "B1"
+    },
+    {
+      "word": "tablet",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "藥片;小片",
+      "cefr": "B1"
+    },
+    {
+      "word": "tackle",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "著手對付(或處理);擒抱並摔倒",
+      "cefr": "B1"
+    },
+    {
+      "word": "tactic",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "戰術;策略;手法",
+      "cefr": "B1"
+    },
+    {
+      "word": "taunt",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "辱罵;嘲笑;被嘲笑的人",
+      "cefr": "B1"
+    },
+    {
+      "word": "thigh",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "股;大腿",
+      "cefr": "B1"
+    },
+    {
+      "word": "thirst",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "渴,口渴",
+      "cefr": "B1"
+    },
+    {
+      "word": "thorn",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "刺;棘;惱人的事或人",
+      "cefr": "B1"
+    },
+    {
+      "word": "throng",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "人群;大群;群集",
+      "cefr": "B1"
+    },
+    {
+      "word": "tickle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "呵癢;癢感;使人癢的東西",
+      "cefr": "B1"
+    },
+    {
+      "word": "tiptoe",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "腳趾尖",
+      "cefr": "B1"
+    },
+    {
+      "word": "title",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "標題;頭銜",
+      "cefr": "B1"
+    },
+    {
+      "word": "tongue",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "舌頭",
+      "cefr": "B1"
+    },
+    {
+      "word": "tough",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "堅韌的,牢固的;頑固的;棘手的",
+      "cefr": "B1"
+    },
+    {
+      "word": "trauma",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "外傷;傷口;(感情方面的)創傷",
+      "cefr": "B1"
+    },
+    {
+      "word": "tyrant",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "暴君;專橫的人",
+      "cefr": "B1"
+    },
+    {
+      "word": "unique",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "獨一無二的人(或事物)",
+      "cefr": "B1"
+    },
+    {
+      "word": "viewer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "觀看者;觀眾",
+      "cefr": "B1"
+    },
+    {
+      "word": "virgin",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "處女",
+      "cefr": "B1"
+    },
+    {
+      "word": "virus",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "病毒",
+      "cefr": "B1"
+    },
+    {
+      "word": "vocal",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "母音;濁音;聲樂作品",
+      "cefr": "B1"
+    },
+    {
+      "word": "warmth",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "溫暖;親切;熱情",
+      "cefr": "B1"
+    },
+    {
+      "word": "wharf",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "碼頭;停泊處",
+      "cefr": "B1"
+    },
+    {
+      "word": "witch",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "女巫,巫婆",
+      "cefr": "B1"
+    },
+    {
+      "word": "wizard",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "奇才;高手;男巫",
+      "cefr": "B1"
+    },
+    {
+      "word": "woman",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "女人",
+      "cefr": "B1"
+    },
+    {
+      "word": "wound",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "傷口",
+      "cefr": "B1"
+    },
+    {
+      "word": "wrench",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "猛扭;扳手;痛苦",
+      "cefr": "B1"
+    },
+    {
+      "word": "wrist",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "手腕",
+      "cefr": "B1"
+    },
+    {
+      "word": "yeast",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "酵母;酵母片",
+      "cefr": "B1"
+    },
+    {
+      "word": "yucky",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "討人厭的;噁心的",
+      "cefr": "B1"
+    }
+  ]
+}

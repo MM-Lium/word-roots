@@ -1,0 +1,191 @@
+{
+  "level": "B2",
+  "part": 1,
+  "totalParts": 11,
+  "title": "中高級 B2 (Upper-Intermediate) - 體能與運動",
+  "count": 26,
+  "words": [
+    {
+      "word": "athlete",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "運動員,體育家",
+      "cefr": "B2"
+    },
+    {
+      "word": "athletic",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "運動的,體育的;行動敏捷的",
+      "cefr": "B2"
+    },
+    {
+      "word": "badminton",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "羽毛球",
+      "cefr": "B2"
+    },
+    {
+      "word": "balloon",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "汽球",
+      "cefr": "B2"
+    },
+    {
+      "word": "baseball",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "棒球",
+      "cefr": "B2"
+    },
+    {
+      "word": "bowling",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "保齡球戲",
+      "cefr": "B2"
+    },
+    {
+      "word": "campaign",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "運動,活動",
+      "cefr": "B2"
+    },
+    {
+      "word": "cavalry",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "騎兵;騎兵部隊",
+      "cefr": "B2"
+    },
+    {
+      "word": "concede",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "(勉強)承認;讓步;承認失敗",
+      "cefr": "B2"
+    },
+    {
+      "word": "escalate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使逐步上升(增強或擴大)",
+      "cefr": "B2"
+    },
+    {
+      "word": "evolve",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使逐步形成;發展",
+      "cefr": "B2"
+    },
+    {
+      "word": "exercise",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "運動;習題",
+      "cefr": "B2"
+    },
+    {
+      "word": "football",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "美式足球",
+      "cefr": "B2"
+    },
+    {
+      "word": "further",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "更遠地;進一步地;促進;助長",
+      "cefr": "B2"
+    },
+    {
+      "word": "gradual",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "逐漸的,逐步的",
+      "cefr": "B2"
+    },
+    {
+      "word": "guerrilla",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "游擊隊(員)",
+      "cefr": "B2"
+    },
+    {
+      "word": "gymnasium",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "體育館;健身房",
+      "cefr": "B2"
+    },
+    {
+      "word": "marathon",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "馬拉松賽跑",
+      "cefr": "B2"
+    },
+    {
+      "word": "migrate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "移居;定期移棲;回游",
+      "cefr": "B2"
+    },
+    {
+      "word": "ping-pong",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "乒乓球,桌球",
+      "cefr": "B2"
+    },
+    {
+      "word": "procedure",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "程序;手續;步驟",
+      "cefr": "B2"
+    },
+    {
+      "word": "progress",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "進步",
+      "cefr": "B2"
+    },
+    {
+      "word": "sneaker",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "運動鞋",
+      "cefr": "B2"
+    },
+    {
+      "word": "sportsman",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "運動家;願意冒險的人",
+      "cefr": "B2"
+    },
+    {
+      "word": "stadium",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "體育場,運動場;球場;競技場",
+      "cefr": "B2"
+    },
+    {
+      "word": "T-shirt",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "短袖圓領運動衫",
+      "cefr": "B2"
+    }
+  ]
+}

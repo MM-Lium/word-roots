@@ -1,0 +1,86 @@
+{
+  "level": "A1",
+  "part": 5,
+  "totalParts": 11,
+  "title": "入門級 A1 (Beginner) - 學校與教育",
+  "count": 11,
+  "words": [
+    {
+      "word": "book",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "書本",
+      "cefr": "A1"
+    },
+    {
+      "word": "cook",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "廚師",
+      "cefr": "A1"
+    },
+    {
+      "word": "desk",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "書桌",
+      "cefr": "A1"
+    },
+    {
+      "word": "learn",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "學習",
+      "cefr": "A1"
+    },
+    {
+      "word": "name",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "名字",
+      "cefr": "A1"
+    },
+    {
+      "word": "read",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "閱讀",
+      "cefr": "A1"
+    },
+    {
+      "word": "school",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "學校",
+      "cefr": "A1"
+    },
+    {
+      "word": "study",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "書房",
+      "cefr": "A1"
+    },
+    {
+      "word": "teach",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "教",
+      "cefr": "A1"
+    },
+    {
+      "word": "word",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "字",
+      "cefr": "A1"
+    },
+    {
+      "word": "write",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "寫",
+      "cefr": "A1"
+    }
+  ]
+}

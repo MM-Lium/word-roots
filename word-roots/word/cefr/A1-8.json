@@ -1,0 +1,128 @@
+{
+  "level": "A1",
+  "part": 8,
+  "totalParts": 11,
+  "title": "入門級 A1 (Beginner) - 情感與溝通",
+  "count": 17,
+  "words": [
+    {
+      "word": "angry",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "生氣的",
+      "cefr": "A1"
+    },
+    {
+      "word": "ask",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "問",
+      "cefr": "A1"
+    },
+    {
+      "word": "call",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "呼叫;請求;通話;(紙牌)叫牌;判決",
+      "cefr": "A1"
+    },
+    {
+      "word": "cold",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "感冒",
+      "cefr": "A1"
+    },
+    {
+      "word": "funny",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "可笑的;滑稽的",
+      "cefr": "A1"
+    },
+    {
+      "word": "hello",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "表示問候的叫聲",
+      "cefr": "A1"
+    },
+    {
+      "word": "laugh",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "笑,笑聲",
+      "cefr": "A1"
+    },
+    {
+      "word": "like",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "愛好",
+      "cefr": "A1"
+    },
+    {
+      "word": "say",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "說",
+      "cefr": "A1"
+    },
+    {
+      "word": "shout",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "呼喊;喊叫聲",
+      "cefr": "A1"
+    },
+    {
+      "word": "sing",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "唱歌",
+      "cefr": "A1"
+    },
+    {
+      "word": "smile",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "微笑",
+      "cefr": "A1"
+    },
+    {
+      "word": "sound",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "聲音",
+      "cefr": "A1"
+    },
+    {
+      "word": "talk",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "談話;交談;空話;話題;談判",
+      "cefr": "A1"
+    },
+    {
+      "word": "thank",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "感謝;謝意;謝辭",
+      "cefr": "A1"
+    },
+    {
+      "word": "think",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "想",
+      "cefr": "A1"
+    },
+    {
+      "word": "why",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "原因,理由;難解的問題,謎",
+      "cefr": "A1"
+    }
+  ]
+}

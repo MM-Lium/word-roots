@@ -1,0 +1,401 @@
+{
+  "level": "B1",
+  "part": 3,
+  "totalParts": 11,
+  "title": "中級 B1 (Intermediate) - 交通與旅遊",
+  "count": 56,
+  "words": [
+    {
+      "word": "aboard",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "在船(或飛機;車)上;上船(或飛機;車)",
+      "cefr": "B1"
+    },
+    {
+      "word": "access",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "通道;入口;門路",
+      "cefr": "B1"
+    },
+    {
+      "word": "alley",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小巷,後街",
+      "cefr": "B1"
+    },
+    {
+      "word": "astray",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "迷路的;離開正道的",
+      "cefr": "B1"
+    },
+    {
+      "word": "avenue",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大街,大道",
+      "cefr": "B1"
+    },
+    {
+      "word": "ballot",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "選票;候選人名單",
+      "cefr": "B1"
+    },
+    {
+      "word": "bazaar",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(中東的)市場;商店街;義賣",
+      "cefr": "B1"
+    },
+    {
+      "word": "block",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "街區",
+      "cefr": "B1"
+    },
+    {
+      "word": "board",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "木板;膳食;車上;船上;董事會",
+      "cefr": "B1"
+    },
+    {
+      "word": "brake",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "煞車",
+      "cefr": "B1"
+    },
+    {
+      "word": "cargo",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(船、飛機、車輛裝載的)貨物",
+      "cefr": "B1"
+    },
+    {
+      "word": "check",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "支票;買單",
+      "cefr": "B1"
+    },
+    {
+      "word": "clear",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使乾淨;收拾;交換票據",
+      "cefr": "B1"
+    },
+    {
+      "word": "coupon",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "回數票;減價優待券",
+      "cefr": "B1"
+    },
+    {
+      "word": "crane",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "起重機,吊車",
+      "cefr": "B1"
+    },
+    {
+      "word": "cruise",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "巡航;航遊;巡邏",
+      "cefr": "B1"
+    },
+    {
+      "word": "embark",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "上船(或飛機等);從事",
+      "cefr": "B1"
+    },
+    {
+      "word": "express",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "快車;快遞;快運",
+      "cefr": "B1"
+    },
+    {
+      "word": "ferry",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "渡輪",
+      "cefr": "B1"
+    },
+    {
+      "word": "fleet",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "艦隊;機群;車隊",
+      "cefr": "B1"
+    },
+    {
+      "word": "flight",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "飛行",
+      "cefr": "B1"
+    },
+    {
+      "word": "flock",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(飛禽,牲畜等的)群;人群,群眾",
+      "cefr": "B1"
+    },
+    {
+      "word": "garage",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "車庫",
+      "cefr": "B1"
+    },
+    {
+      "word": "grace",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "優雅;(票據等到期後的)寬限",
+      "cefr": "B1"
+    },
+    {
+      "word": "hatch",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(船的)艙口",
+      "cefr": "B1"
+    },
+    {
+      "word": "liner",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "班輪;眼線筆",
+      "cefr": "B1"
+    },
+    {
+      "word": "marine",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "船舶;海運業;海軍陸戰隊隊員",
+      "cefr": "B1"
+    },
+    {
+      "word": "motel",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "汽車旅館",
+      "cefr": "B1"
+    },
+    {
+      "word": "outing",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "遠足;郊遊",
+      "cefr": "B1"
+    },
+    {
+      "word": "outlet",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "出口;出路;商店",
+      "cefr": "B1"
+    },
+    {
+      "word": "parade",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "行列,遊行",
+      "cefr": "B1"
+    },
+    {
+      "word": "peddle",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "挨戶兜售;沿街叫賣",
+      "cefr": "B1"
+    },
+    {
+      "word": "pilot",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(飛機等的)駕駛員",
+      "cefr": "B1"
+    },
+    {
+      "word": "plane",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "飛機",
+      "cefr": "B1"
+    },
+    {
+      "word": "rocket",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "飛彈,火箭",
+      "cefr": "B1"
+    },
+    {
+      "word": "rotate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "旋轉;輪流",
+      "cefr": "B1"
+    },
+    {
+      "word": "route",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "路;路線;路程",
+      "cefr": "B1"
+    },
+    {
+      "word": "saddle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "馬鞍;(自行車、摩托車的)車座",
+      "cefr": "B1"
+    },
+    {
+      "word": "signal",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "信號;暗號;交通指示燈",
+      "cefr": "B1"
+    },
+    {
+      "word": "stall",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "廄;攤位;(汽車的)拋錨",
+      "cefr": "B1"
+    },
+    {
+      "word": "stamp",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "郵票;印章",
+      "cefr": "B1"
+    },
+    {
+      "word": "stock",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(公司的)股票;存貨",
+      "cefr": "B1"
+    },
+    {
+      "word": "stray",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "迷路者;流浪者;走失的家畜",
+      "cefr": "B1"
+    },
+    {
+      "word": "subway",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "地鐵",
+      "cefr": "B1"
+    },
+    {
+      "word": "ticket",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "票;罰單",
+      "cefr": "B1"
+    },
+    {
+      "word": "travel",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "旅行",
+      "cefr": "B1"
+    },
+    {
+      "word": "tread",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "踩;踏;樓梯踏板;輪胎面;鞋底",
+      "cefr": "B1"
+    },
+    {
+      "word": "truck",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "卡車",
+      "cefr": "B1"
+    },
+    {
+      "word": "vessel",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "船,艦;器皿;血管",
+      "cefr": "B1"
+    },
+    {
+      "word": "voter",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "選舉人;投票人",
+      "cefr": "B1"
+    },
+    {
+      "word": "voyage",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "乘船旅遊;空中旅行",
+      "cefr": "B1"
+    },
+    {
+      "word": "wagon",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "運貨馬車",
+      "cefr": "B1"
+    },
+    {
+      "word": "wander",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "遊蕩;徘徊",
+      "cefr": "B1"
+    },
+    {
+      "word": "wheel",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "輪子",
+      "cefr": "B1"
+    },
+    {
+      "word": "wreck",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(船等的)失事,遇難",
+      "cefr": "B1"
+    },
+    {
+      "word": "yacht",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "快艇;遊艇",
+      "cefr": "B1"
+    }
+  ]
+}

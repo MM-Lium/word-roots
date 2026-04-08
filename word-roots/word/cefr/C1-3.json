@@ -1,0 +1,93 @@
+{
+  "level": "C1",
+  "part": 3,
+  "totalParts": 11,
+  "title": "高級 C1 (Advanced) - 交通與旅遊",
+  "count": 12,
+  "words": [
+    {
+      "word": "acceptance",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "接受;領受;(票據等的)承兌,認付",
+      "cefr": "C1"
+    },
+    {
+      "word": "automobile",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "汽車",
+      "cefr": "C1"
+    },
+    {
+      "word": "caterpillar",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "履帶牽引車",
+      "cefr": "C1"
+    },
+    {
+      "word": "intersection",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "交叉點;十字路口",
+      "cefr": "C1"
+    },
+    {
+      "word": "locomotive",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "火車頭",
+      "cefr": "C1"
+    },
+    {
+      "word": "motorcycle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "機車",
+      "cefr": "C1"
+    },
+    {
+      "word": "sightseeing",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "觀光,遊覽",
+      "cefr": "C1"
+    },
+    {
+      "word": "spacecraft",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "太空船,航天器",
+      "cefr": "C1"
+    },
+    {
+      "word": "stewardess",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(客機、輪船)女服務員",
+      "cefr": "C1"
+    },
+    {
+      "word": "transportation",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "運輸;輸送;交通車輛",
+      "cefr": "C1"
+    },
+    {
+      "word": "wheelchair",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "輪椅",
+      "cefr": "C1"
+    },
+    {
+      "word": "windshield",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(汽車等的)擋風玻璃",
+      "cefr": "C1"
+    }
+  ]
+}

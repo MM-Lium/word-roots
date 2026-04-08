@@ -1,0 +1,352 @@
+{
+  "level": "C1",
+  "part": 8,
+  "totalParts": 11,
+  "title": "高級 C1 (Advanced) - 情感與溝通",
+  "count": 49,
+  "words": [
+    {
+      "word": "accountable",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "應負責任的;可說明的",
+      "cefr": "C1"
+    },
+    {
+      "word": "acknowledgement",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "承認;確認;致謝;回音;公證狀",
+      "cefr": "C1"
+    },
+    {
+      "word": "appreciate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "感謝;賞識",
+      "cefr": "C1"
+    },
+    {
+      "word": "atmosphere",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大氣;氣氛",
+      "cefr": "C1"
+    },
+    {
+      "word": "communicative",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "愛說話的;交際的",
+      "cefr": "C1"
+    },
+    {
+      "word": "compliment",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "恭維;問候;致意",
+      "cefr": "C1"
+    },
+    {
+      "word": "conceive",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "構想出;設想;懷孕",
+      "cefr": "C1"
+    },
+    {
+      "word": "consultant",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "顧問",
+      "cefr": "C1"
+    },
+    {
+      "word": "contagious",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "接觸傳染的;(感情等)感染性的",
+      "cefr": "C1"
+    },
+    {
+      "word": "contemplation",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "凝視;沈思;冥想",
+      "cefr": "C1"
+    },
+    {
+      "word": "conversation",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "會話",
+      "cefr": "C1"
+    },
+    {
+      "word": "depression",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "沮喪,意氣消沈",
+      "cefr": "C1"
+    },
+    {
+      "word": "disconnect",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "切斷(電話、電源等)",
+      "cefr": "C1"
+    },
+    {
+      "word": "discourage",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使洩氣,使沮喪",
+      "cefr": "C1"
+    },
+    {
+      "word": "discouragement",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "沮喪,氣餒,洩氣;勸阻",
+      "cefr": "C1"
+    },
+    {
+      "word": "expiration",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "失效;期滿;吐氣",
+      "cefr": "C1"
+    },
+    {
+      "word": "explanation",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "說明,解釋",
+      "cefr": "C1"
+    },
+    {
+      "word": "fulfillment",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "完成,履行;實現;成就(感)",
+      "cefr": "C1"
+    },
+    {
+      "word": "hysterical",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "歇斯底里的;極可笑的",
+      "cefr": "C1"
+    },
+    {
+      "word": "illustrate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "(用圖,實例等)說明",
+      "cefr": "C1"
+    },
+    {
+      "word": "illustration",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "說明,圖解",
+      "cefr": "C1"
+    },
+    {
+      "word": "imaginable",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "能想像的",
+      "cefr": "C1"
+    },
+    {
+      "word": "imagination",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "想像力;創造力",
+      "cefr": "C1"
+    },
+    {
+      "word": "imaginative",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "虛構的;幻想的",
+      "cefr": "C1"
+    },
+    {
+      "word": "imperative",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "必要的事;命令;祈使語氣",
+      "cefr": "C1"
+    },
+    {
+      "word": "indifferent",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "不感興趣的;中立的;無關緊要的",
+      "cefr": "C1"
+    },
+    {
+      "word": "indignation",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "憤怒;憤慨;義憤",
+      "cefr": "C1"
+    },
+    {
+      "word": "infectious",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "傳染的;有感染力的",
+      "cefr": "C1"
+    },
+    {
+      "word": "inspiration",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "靈感",
+      "cefr": "C1"
+    },
+    {
+      "word": "intonation",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "語調;抑揚之聲",
+      "cefr": "C1"
+    },
+    {
+      "word": "irritation",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "激怒;惱怒",
+      "cefr": "C1"
+    },
+    {
+      "word": "meditation",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "沈思;默想;冥想",
+      "cefr": "C1"
+    },
+    {
+      "word": "melancholy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "憂鬱;愁思",
+      "cefr": "C1"
+    },
+    {
+      "word": "mischievous",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "惡作劇的;淘氣的",
+      "cefr": "C1"
+    },
+    {
+      "word": "optimistic",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "樂觀的",
+      "cefr": "C1"
+    },
+    {
+      "word": "perception",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "感知;察覺;認知",
+      "cefr": "C1"
+    },
+    {
+      "word": "persuasion",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "說服,勸說",
+      "cefr": "C1"
+    },
+    {
+      "word": "persuasive",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "有說服力的",
+      "cefr": "C1"
+    },
+    {
+      "word": "preference",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "偏愛;優先(權)",
+      "cefr": "C1"
+    },
+    {
+      "word": "quarrelsome",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "喜歡爭吵的",
+      "cefr": "C1"
+    },
+    {
+      "word": "questionnaire",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "問卷;意見調查表",
+      "cefr": "C1"
+    },
+    {
+      "word": "recreation",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "消遣;娛樂",
+      "cefr": "C1"
+    },
+    {
+      "word": "recreational",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "消遣的;娛樂的;休養的",
+      "cefr": "C1"
+    },
+    {
+      "word": "resentment",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "憤慨;怨恨",
+      "cefr": "C1"
+    },
+    {
+      "word": "ridiculous",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "可笑的,荒謬的;滑稽的",
+      "cefr": "C1"
+    },
+    {
+      "word": "sensitivity",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "敏感性;感受性",
+      "cefr": "C1"
+    },
+    {
+      "word": "sentimental",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "情深的;情感;多愁善感的",
+      "cefr": "C1"
+    },
+    {
+      "word": "supersonic",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "超音波的;超音速的",
+      "cefr": "C1"
+    },
+    {
+      "word": "temperament",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "氣質;性情",
+      "cefr": "C1"
+    }
+  ]
+}

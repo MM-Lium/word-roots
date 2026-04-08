@@ -1,0 +1,1164 @@
+{
+  "level": "B2",
+  "part": 7,
+  "totalParts": 11,
+  "title": "中高級 B2 (Upper-Intermediate) - 人物與感官",
+  "count": 165,
+  "words": [
+    {
+      "word": "actress",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "女演員",
+      "cefr": "B2"
+    },
+    {
+      "word": "amiable",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "和藹可親的",
+      "cefr": "B2"
+    },
+    {
+      "word": "anchorman",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "男主播",
+      "cefr": "B2"
+    },
+    {
+      "word": "annoyance",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "惱怒;打擾;討厭的東西(或人)",
+      "cefr": "B2"
+    },
+    {
+      "word": "appetite",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "胃口,食慾",
+      "cefr": "B2"
+    },
+    {
+      "word": "applicant",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "申請人",
+      "cefr": "B2"
+    },
+    {
+      "word": "armchair",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "扶手椅子",
+      "cefr": "B2"
+    },
+    {
+      "word": "aspirin",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "阿斯匹靈(解熱鎮痛藥)",
+      "cefr": "B2"
+    },
+    {
+      "word": "assistant",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "助手",
+      "cefr": "B2"
+    },
+    {
+      "word": "astronaut",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "太空人,宇航員",
+      "cefr": "B2"
+    },
+    {
+      "word": "audience",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "聽眾",
+      "cefr": "B2"
+    },
+    {
+      "word": "awesome",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "令人敬畏的;非凡的",
+      "cefr": "B2"
+    },
+    {
+      "word": "bachelor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "單身漢",
+      "cefr": "B2"
+    },
+    {
+      "word": "barbarian",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "野蠻人",
+      "cefr": "B2"
+    },
+    {
+      "word": "barefoot",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "赤腳的",
+      "cefr": "B2"
+    },
+    {
+      "word": "beginner",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "新手",
+      "cefr": "B2"
+    },
+    {
+      "word": "beloved",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "心愛的人",
+      "cefr": "B2"
+    },
+    {
+      "word": "bondage",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "奴隸身分;奴役;束縛",
+      "cefr": "B2"
+    },
+    {
+      "word": "boyhood",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(男姓的)童年",
+      "cefr": "B2"
+    },
+    {
+      "word": "bracelet",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "手鐲;臂鐲",
+      "cefr": "B2"
+    },
+    {
+      "word": "candidate",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "候選人;候補者",
+      "cefr": "B2"
+    },
+    {
+      "word": "captive",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "俘虜;獵獲物;著迷的人",
+      "cefr": "B2"
+    },
+    {
+      "word": "casualty",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "傷亡人員",
+      "cefr": "B2"
+    },
+    {
+      "word": "celebrity",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "名人;名流",
+      "cefr": "B2"
+    },
+    {
+      "word": "cellphone",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "手機,大哥大",
+      "cefr": "B2"
+    },
+    {
+      "word": "check-in",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "辦理投宿(或登機)手續;報到",
+      "cefr": "B2"
+    },
+    {
+      "word": "cheerful",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "使人感到愉快的",
+      "cefr": "B2"
+    },
+    {
+      "word": "chronic",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "(病)慢性的;(人)久病的;長期的",
+      "cefr": "B2"
+    },
+    {
+      "word": "coordinate",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "同等的人(或物);座標",
+      "cefr": "B2"
+    },
+    {
+      "word": "corporate",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "法人(組織)的;團體的;共同的",
+      "cefr": "B2"
+    },
+    {
+      "word": "cripple",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "跛子;殘廢的人",
+      "cefr": "B2"
+    },
+    {
+      "word": "dandruff",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "頭皮屑",
+      "cefr": "B2"
+    },
+    {
+      "word": "darling",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "心愛的人",
+      "cefr": "B2"
+    },
+    {
+      "word": "dedicate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "奉獻;獻身於;舉行落成典禮",
+      "cefr": "B2"
+    },
+    {
+      "word": "dentist",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "牙醫",
+      "cefr": "B2"
+    },
+    {
+      "word": "descent",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "下降;下傾;血統",
+      "cefr": "B2"
+    },
+    {
+      "word": "dictate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "口授,口述,",
+      "cefr": "B2"
+    },
+    {
+      "word": "diplomacy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "外交;外交手腕",
+      "cefr": "B2"
+    },
+    {
+      "word": "directory",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "姓名住址簿;使用手冊",
+      "cefr": "B2"
+    },
+    {
+      "word": "discreet",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "謹慎的;謙虛的;不引人注意的",
+      "cefr": "B2"
+    },
+    {
+      "word": "disease",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "病,疾病",
+      "cefr": "B2"
+    },
+    {
+      "word": "disgrace",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "恥辱;丟臉的事(或人)",
+      "cefr": "B2"
+    },
+    {
+      "word": "disorder",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "混亂,無秩序;不適,小病",
+      "cefr": "B2"
+    },
+    {
+      "word": "dispense",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "分配;執行;配(藥)",
+      "cefr": "B2"
+    },
+    {
+      "word": "distress",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "悲痛;苦惱",
+      "cefr": "B2"
+    },
+    {
+      "word": "doorway",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "出入口;門口",
+      "cefr": "B2"
+    },
+    {
+      "word": "dramatic",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "戲劇性的;引人注目的",
+      "cefr": "B2"
+    },
+    {
+      "word": "drugstore",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(常兼售雜貨的)藥房",
+      "cefr": "B2"
+    },
+    {
+      "word": "dynamite",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "炸藥;具有爆炸性的事",
+      "cefr": "B2"
+    },
+    {
+      "word": "earphone",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "耳機",
+      "cefr": "B2"
+    },
+    {
+      "word": "eccentric",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "古怪的人",
+      "cefr": "B2"
+    },
+    {
+      "word": "eloquence",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "雄辯;(流利的)口才",
+      "cefr": "B2"
+    },
+    {
+      "word": "entrance",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "入口",
+      "cefr": "B2"
+    },
+    {
+      "word": "epidemic",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "流行病;(流行病)傳播;流行",
+      "cefr": "B2"
+    },
+    {
+      "word": "evidence",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "證據;證詞;證人;物證",
+      "cefr": "B2"
+    },
+    {
+      "word": "explosive",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "爆炸物;炸藥",
+      "cefr": "B2"
+    },
+    {
+      "word": "eyelash",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(一根)睫毛;(一根)眼毛",
+      "cefr": "B2"
+    },
+    {
+      "word": "fabulous",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "極好的;驚人的",
+      "cefr": "B2"
+    },
+    {
+      "word": "favorite",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "特別喜愛的人(或物)",
+      "cefr": "B2"
+    },
+    {
+      "word": "feminine",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "女性;陰性;陰性詞(或形式)",
+      "cefr": "B2"
+    },
+    {
+      "word": "fiancée",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "未婚妻",
+      "cefr": "B2"
+    },
+    {
+      "word": "firewoman",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "女消防隊員",
+      "cefr": "B2"
+    },
+    {
+      "word": "fisherman",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "漁夫",
+      "cefr": "B2"
+    },
+    {
+      "word": "following",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "一批追隨者;下列事物(或人員)",
+      "cefr": "B2"
+    },
+    {
+      "word": "foreigner",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "外國人",
+      "cefr": "B2"
+    },
+    {
+      "word": "glamour",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "魅力,誘惑力;迷人的美;妖豔",
+      "cefr": "B2"
+    },
+    {
+      "word": "goddess",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "女神",
+      "cefr": "B2"
+    },
+    {
+      "word": "gracious",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "親切的;和藹的",
+      "cefr": "B2"
+    },
+    {
+      "word": "grandma",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "祖母;外祖母",
+      "cefr": "B2"
+    },
+    {
+      "word": "grandpa",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "祖父;外祖父",
+      "cefr": "B2"
+    },
+    {
+      "word": "harmonica",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "口琴",
+      "cefr": "B2"
+    },
+    {
+      "word": "headphone",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "頭戴式耳機",
+      "cefr": "B2"
+    },
+    {
+      "word": "heroine",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "女英雄,女傑",
+      "cefr": "B2"
+    },
+    {
+      "word": "hospital",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "醫院",
+      "cefr": "B2"
+    },
+    {
+      "word": "hostage",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "人質;抵押品",
+      "cefr": "B2"
+    },
+    {
+      "word": "hostess",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "女主人",
+      "cefr": "B2"
+    },
+    {
+      "word": "household",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "一家人;家眷;家庭,戶",
+      "cefr": "B2"
+    },
+    {
+      "word": "humanity",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "人性;人道;慈愛",
+      "cefr": "B2"
+    },
+    {
+      "word": "humankind",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "人類",
+      "cefr": "B2"
+    },
+    {
+      "word": "identity",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "身分",
+      "cefr": "B2"
+    },
+    {
+      "word": "ingenious",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "心靈手巧的;足智多謀的",
+      "cefr": "B2"
+    },
+    {
+      "word": "ingenuity",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "心靈手巧;獨創性;足智多謀",
+      "cefr": "B2"
+    },
+    {
+      "word": "inquiry",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "詢問,打聽;質詢",
+      "cefr": "B2"
+    },
+    {
+      "word": "intellect",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "智力;理解力;有才智的人",
+      "cefr": "B2"
+    },
+    {
+      "word": "intimacy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "熟悉;親密;親近",
+      "cefr": "B2"
+    },
+    {
+      "word": "landlady",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "女房東",
+      "cefr": "B2"
+    },
+    {
+      "word": "lifelong",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "終身的;一輩子的",
+      "cefr": "B2"
+    },
+    {
+      "word": "lifetime",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "一生,終身",
+      "cefr": "B2"
+    },
+    {
+      "word": "lipstick",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "口紅",
+      "cefr": "B2"
+    },
+    {
+      "word": "listener",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "傾聽者",
+      "cefr": "B2"
+    },
+    {
+      "word": "lunatic",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "瘋子;瘋傻的人",
+      "cefr": "B2"
+    },
+    {
+      "word": "mankind",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "人類",
+      "cefr": "B2"
+    },
+    {
+      "word": "masculine",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "男性;陽性;陽性詞",
+      "cefr": "B2"
+    },
+    {
+      "word": "medicine",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "藥",
+      "cefr": "B2"
+    },
+    {
+      "word": "messenger",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "送信人",
+      "cefr": "B2"
+    },
+    {
+      "word": "mistress",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "女主人,主婦",
+      "cefr": "B2"
+    },
+    {
+      "word": "monstrous",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "怪異的;駭人聽聞的;巨大的",
+      "cefr": "B2"
+    },
+    {
+      "word": "murderer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "謀殺犯,兇手",
+      "cefr": "B2"
+    },
+    {
+      "word": "newlywed",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "新結婚的人",
+      "cefr": "B2"
+    },
+    {
+      "word": "nominee",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "被提名人",
+      "cefr": "B2"
+    },
+    {
+      "word": "nostril",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鼻孔",
+      "cefr": "B2"
+    },
+    {
+      "word": "notable",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "名人;顯要人物",
+      "cefr": "B2"
+    },
+    {
+      "word": "nuisance",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "討厭的人(或事物);騷擾行為",
+      "cefr": "B2"
+    },
+    {
+      "word": "observe",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "看到;觀察",
+      "cefr": "B2"
+    },
+    {
+      "word": "offspring",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "子女;子孫;後代",
+      "cefr": "B2"
+    },
+    {
+      "word": "operation",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "手術;操作",
+      "cefr": "B2"
+    },
+    {
+      "word": "opponent",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "對手;敵手,反對者",
+      "cefr": "B2"
+    },
+    {
+      "word": "oriental",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "東方人;亞洲人",
+      "cefr": "B2"
+    },
+    {
+      "word": "orphanage",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "孤兒院;孤兒身分",
+      "cefr": "B2"
+    },
+    {
+      "word": "outsider",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "外人;門外漢;局外人",
+      "cefr": "B2"
+    },
+    {
+      "word": "overhear",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "無意中聽到;偷聽",
+      "cefr": "B2"
+    },
+    {
+      "word": "oversleep",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "睡過頭",
+      "cefr": "B2"
+    },
+    {
+      "word": "ownership",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "物主身分;所有權",
+      "cefr": "B2"
+    },
+    {
+      "word": "painful",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "痛的",
+      "cefr": "B2"
+    },
+    {
+      "word": "password",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "密碼;口令;暗語",
+      "cefr": "B2"
+    },
+    {
+      "word": "patient",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "病人",
+      "cefr": "B2"
+    },
+    {
+      "word": "peacock",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "孔雀;愛炫耀的人",
+      "cefr": "B2"
+    },
+    {
+      "word": "peasant",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "農夫",
+      "cefr": "B2"
+    },
+    {
+      "word": "personal",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "個人的",
+      "cefr": "B2"
+    },
+    {
+      "word": "politics",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "黨派關係,手腕,權術",
+      "cefr": "B2"
+    },
+    {
+      "word": "portable",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "手提式的;輕便的",
+      "cefr": "B2"
+    },
+    {
+      "word": "prescribe",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "規定;指定;開(藥方)",
+      "cefr": "B2"
+    },
+    {
+      "word": "private",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "私人的",
+      "cefr": "B2"
+    },
+    {
+      "word": "proceed",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "開始,著手",
+      "cefr": "B2"
+    },
+    {
+      "word": "producer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "生產者,製造者製片人",
+      "cefr": "B2"
+    },
+    {
+      "word": "receiver",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "受領人;收件人,收款人",
+      "cefr": "B2"
+    },
+    {
+      "word": "recruit",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "新兵;新手;補給品",
+      "cefr": "B2"
+    },
+    {
+      "word": "referee",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "裁判員;仲裁人",
+      "cefr": "B2"
+    },
+    {
+      "word": "relative",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "親戚",
+      "cefr": "B2"
+    },
+    {
+      "word": "remainder",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "剩餘物;其餘的人;餘數",
+      "cefr": "B2"
+    },
+    {
+      "word": "resident",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "居民;住院醫生",
+      "cefr": "B2"
+    },
+    {
+      "word": "romantic",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "浪漫的人;愛幻想者",
+      "cefr": "B2"
+    },
+    {
+      "word": "rooster",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "雄雞;狂妄自負的人",
+      "cefr": "B2"
+    },
+    {
+      "word": "shepherd",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "牧羊人",
+      "cefr": "B2"
+    },
+    {
+      "word": "slavery",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "奴隸身分;奴役",
+      "cefr": "B2"
+    },
+    {
+      "word": "soldier",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "軍人",
+      "cefr": "B2"
+    },
+    {
+      "word": "somebody",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "某人;有名氣的人",
+      "cefr": "B2"
+    },
+    {
+      "word": "someone",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "某人;有名氣的人",
+      "cefr": "B2"
+    },
+    {
+      "word": "something",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "某人;某事;重要的人(或事物);",
+      "cefr": "B2"
+    },
+    {
+      "word": "sorrowful",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "悲傷的;令人傷心的",
+      "cefr": "B2"
+    },
+    {
+      "word": "spokesman",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "發言人,代言人",
+      "cefr": "B2"
+    },
+    {
+      "word": "stature",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "身高;高度",
+      "cefr": "B2"
+    },
+    {
+      "word": "stepchild",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "繼子(或繼女)",
+      "cefr": "B2"
+    },
+    {
+      "word": "stranger",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "陌生人",
+      "cefr": "B2"
+    },
+    {
+      "word": "subjective",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "主觀的;個人的;主詞的",
+      "cefr": "B2"
+    },
+    {
+      "word": "successor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "繼任者;繼承人",
+      "cefr": "B2"
+    },
+    {
+      "word": "surgeon",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "外科醫生",
+      "cefr": "B2"
+    },
+    {
+      "word": "surgery",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(外科)手術",
+      "cefr": "B2"
+    },
+    {
+      "word": "tedious",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "冗長乏味的;使人厭煩的",
+      "cefr": "B2"
+    },
+    {
+      "word": "teenager",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "十幾歲孩子",
+      "cefr": "B2"
+    },
+    {
+      "word": "terminal",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "終端機;接頭",
+      "cefr": "B2"
+    },
+    {
+      "word": "thirsty",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "口渴的",
+      "cefr": "B2"
+    },
+    {
+      "word": "through",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "穿過,通過;從頭至尾;(電話)接通",
+      "cefr": "B2"
+    },
+    {
+      "word": "tiresome",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "令人厭倦的",
+      "cefr": "B2"
+    },
+    {
+      "word": "torment",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "痛苦;苦惱;折磨",
+      "cefr": "B2"
+    },
+    {
+      "word": "undertake",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "著手做;進行",
+      "cefr": "B2"
+    },
+    {
+      "word": "veteran",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "富有經驗的人;退役軍人",
+      "cefr": "B2"
+    },
+    {
+      "word": "victimize",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使犧牲;使痛苦",
+      "cefr": "B2"
+    },
+    {
+      "word": "villain",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "壞人;反派角色",
+      "cefr": "B2"
+    },
+    {
+      "word": "violinist",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小提琴手",
+      "cefr": "B2"
+    },
+    {
+      "word": "visible",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "可看見的",
+      "cefr": "B2"
+    },
+    {
+      "word": "wardrobe",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "衣櫃;(個人的)全部服裝",
+      "cefr": "B2"
+    },
+    {
+      "word": "whistle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "口哨;警笛",
+      "cefr": "B2"
+    },
+    {
+      "word": "widower",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鰥夫",
+      "cefr": "B2"
+    },
+    {
+      "word": "youngster",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "年輕人",
+      "cefr": "B2"
+    }
+  ]
+}

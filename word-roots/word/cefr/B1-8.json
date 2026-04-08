@@ -1,0 +1,660 @@
+{
+  "level": "B1",
+  "part": 8,
+  "totalParts": 11,
+  "title": "中級 B1 (Intermediate) - 情感與溝通",
+  "count": 93,
+  "words": [
+    {
+      "word": "absorb",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "吸收(液體,氣體,光,聲等)",
+      "cefr": "B1"
+    },
+    {
+      "word": "accent",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "重音;腔調",
+      "cefr": "B1"
+    },
+    {
+      "word": "adore",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "崇拜;愛慕",
+      "cefr": "B1"
+    },
+    {
+      "word": "afraid",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "害怕",
+      "cefr": "B1"
+    },
+    {
+      "word": "album",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "相簿;集郵簿;唱片集",
+      "cefr": "B1"
+    },
+    {
+      "word": "anger",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "生氣",
+      "cefr": "B1"
+    },
+    {
+      "word": "annoy",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "惹惱,使生氣;使煩惱",
+      "cefr": "B1"
+    },
+    {
+      "word": "arouse",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "喚起;激動;叫醒",
+      "cefr": "B1"
+    },
+    {
+      "word": "awful",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "可怕的",
+      "cefr": "B1"
+    },
+    {
+      "word": "boast",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "吹牛;大話",
+      "cefr": "B1"
+    },
+    {
+      "word": "caress",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "愛撫;撫摸;寵愛",
+      "cefr": "B1"
+    },
+    {
+      "word": "chant",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "詠唱;吟誦;單調的語調",
+      "cefr": "B1"
+    },
+    {
+      "word": "chill",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "寒冷,寒氣",
+      "cefr": "B1"
+    },
+    {
+      "word": "chord",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(樂器的)弦;心弦;弦桿;和音",
+      "cefr": "B1"
+    },
+    {
+      "word": "chorus",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "合唱隊",
+      "cefr": "B1"
+    },
+    {
+      "word": "climate",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "氣候",
+      "cefr": "B1"
+    },
+    {
+      "word": "comedy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "喜劇",
+      "cefr": "B1"
+    },
+    {
+      "word": "crunch",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "嘎吱吱(咬嚼)聲音;關鍵時刻",
+      "cefr": "B1"
+    },
+    {
+      "word": "curse",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "咒語;詛咒",
+      "cefr": "B1"
+    },
+    {
+      "word": "deafen",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使聾;淹沒(聲音)",
+      "cefr": "B1"
+    },
+    {
+      "word": "disco",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "迪斯科音樂",
+      "cefr": "B1"
+    },
+    {
+      "word": "enjoy",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "喜歡;享受",
+      "cefr": "B1"
+    },
+    {
+      "word": "essay",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "論說文;散文",
+      "cefr": "B1"
+    },
+    {
+      "word": "exotic",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "隨音樂表演豔舞者",
+      "cefr": "B1"
+    },
+    {
+      "word": "expire",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "失效;滿期;吐氣",
+      "cefr": "B1"
+    },
+    {
+      "word": "favor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "偏愛;偏袒",
+      "cefr": "B1"
+    },
+    {
+      "word": "gloom",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "陰暗;暗處;沮喪的氣氛",
+      "cefr": "B1"
+    },
+    {
+      "word": "greet",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "問候;致敬",
+      "cefr": "B1"
+    },
+    {
+      "word": "growl",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "嗥叫(聲);咆哮",
+      "cefr": "B1"
+    },
+    {
+      "word": "happy",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "快樂的",
+      "cefr": "B1"
+    },
+    {
+      "word": "hatred",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "憎恨,增惡;敵意",
+      "cefr": "B1"
+    },
+    {
+      "word": "heater",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "暖氣機",
+      "cefr": "B1"
+    },
+    {
+      "word": "hi-fi",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "高傳真的音響裝置",
+      "cefr": "B1"
+    },
+    {
+      "word": "hoarse",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "(嗓音)嘶啞的",
+      "cefr": "B1"
+    },
+    {
+      "word": "ideal",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "理想",
+      "cefr": "B1"
+    },
+    {
+      "word": "idiom",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "成語",
+      "cefr": "B1"
+    },
+    {
+      "word": "infect",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "傳染;侵染;感染",
+      "cefr": "B1"
+    },
+    {
+      "word": "intend",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "想要;打算",
+      "cefr": "B1"
+    },
+    {
+      "word": "issue",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "問題;爭論;發行(物)",
+      "cefr": "B1"
+    },
+    {
+      "word": "joyful",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "高興的,充滿喜悅的",
+      "cefr": "B1"
+    },
+    {
+      "word": "joyous",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "快樂的;高興的",
+      "cefr": "B1"
+    },
+    {
+      "word": "legend",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "傳說;傳奇故事",
+      "cefr": "B1"
+    },
+    {
+      "word": "luxury",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "奢侈品,奢華;享受,樂趣",
+      "cefr": "B1"
+    },
+    {
+      "word": "mention",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "提及,說起",
+      "cefr": "B1"
+    },
+    {
+      "word": "morale",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "士氣;鬥志;道德",
+      "cefr": "B1"
+    },
+    {
+      "word": "mumble",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "含糊的話;咕噥",
+      "cefr": "B1"
+    },
+    {
+      "word": "mummy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "木乃伊;(兒語)媽媽",
+      "cefr": "B1"
+    },
+    {
+      "word": "notion",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "概念;想法;打算",
+      "cefr": "B1"
+    },
+    {
+      "word": "novel",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小說",
+      "cefr": "B1"
+    },
+    {
+      "word": "offend",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "冒犯;觸怒",
+      "cefr": "B1"
+    },
+    {
+      "word": "oxygen",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "氧;氧氣",
+      "cefr": "B1"
+    },
+    {
+      "word": "petty",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "小的;瑣碎的;氣量小的",
+      "cefr": "B1"
+    },
+    {
+      "word": "phone",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "電話",
+      "cefr": "B1"
+    },
+    {
+      "word": "phrase",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "片語,詞組",
+      "cefr": "B1"
+    },
+    {
+      "word": "prefer",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "更喜歡",
+      "cefr": "B1"
+    },
+    {
+      "word": "prick",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "刺;扎;刺傷;悔恨",
+      "cefr": "B1"
+    },
+    {
+      "word": "proud",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "感光榮的;驕傲的",
+      "cefr": "B1"
+    },
+    {
+      "word": "quack",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鴨叫聲",
+      "cefr": "B1"
+    },
+    {
+      "word": "query",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "質問;詢問",
+      "cefr": "B1"
+    },
+    {
+      "word": "rascal",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "無賴;淘氣鬼",
+      "cefr": "B1"
+    },
+    {
+      "word": "recall",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "回想;收回",
+      "cefr": "B1"
+    },
+    {
+      "word": "record",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "記錄;唱片",
+      "cefr": "B1"
+    },
+    {
+      "word": "regard",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "事項;問候",
+      "cefr": "B1"
+    },
+    {
+      "word": "regret",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "懊悔,悔恨;抱歉,遺憾;哀悼",
+      "cefr": "B1"
+    },
+    {
+      "word": "relish",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "滋味;愛好;開胃食品",
+      "cefr": "B1"
+    },
+    {
+      "word": "repay",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "償還;報答",
+      "cefr": "B1"
+    },
+    {
+      "word": "resent",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "憤慨;怨恨",
+      "cefr": "B1"
+    },
+    {
+      "word": "revolt",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "反叛;起義;反感",
+      "cefr": "B1"
+    },
+    {
+      "word": "reward",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "報答;報償;獎賞",
+      "cefr": "B1"
+    },
+    {
+      "word": "riddle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "謎,謎語",
+      "cefr": "B1"
+    },
+    {
+      "word": "scent",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "氣味;香味;蹤跡",
+      "cefr": "B1"
+    },
+    {
+      "word": "score",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "得分;二十;刻痕;樂譜",
+      "cefr": "B1"
+    },
+    {
+      "word": "scorn",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "輕蔑;嘲笑",
+      "cefr": "B1"
+    },
+    {
+      "word": "settle",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "安放;安頓;解決(問題等)",
+      "cefr": "B1"
+    },
+    {
+      "word": "shame",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "羞恥(心),羞愧(感)",
+      "cefr": "B1"
+    },
+    {
+      "word": "shriek",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "尖叫聲",
+      "cefr": "B1"
+    },
+    {
+      "word": "sleepy",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "想睡的",
+      "cefr": "B1"
+    },
+    {
+      "word": "slump",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "暴跌;不景氣;消沈",
+      "cefr": "B1"
+    },
+    {
+      "word": "sneer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "冷笑;嘲笑",
+      "cefr": "B1"
+    },
+    {
+      "word": "sniff",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "嗅;聞;吸氣聲",
+      "cefr": "B1"
+    },
+    {
+      "word": "speak",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "說;講",
+      "cefr": "B1"
+    },
+    {
+      "word": "spoil",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "寵壞,溺愛",
+      "cefr": "B1"
+    },
+    {
+      "word": "steam",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "蒸氣",
+      "cefr": "B1"
+    },
+    {
+      "word": "stereo",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "立體音響裝置",
+      "cefr": "B1"
+    },
+    {
+      "word": "stingy",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "小氣的",
+      "cefr": "B1"
+    },
+    {
+      "word": "stink",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "臭氣",
+      "cefr": "B1"
+    },
+    {
+      "word": "swing",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鞦韆;搖擺音樂",
+      "cefr": "B1"
+    },
+    {
+      "word": "temper",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "情緒;脾氣;暴躁",
+      "cefr": "B1"
+    },
+    {
+      "word": "theme",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "主題思想;題材",
+      "cefr": "B1"
+    },
+    {
+      "word": "topic",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "論題;話題",
+      "cefr": "B1"
+    },
+    {
+      "word": "utter",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "發出(聲音等);說;講",
+      "cefr": "B1"
+    },
+    {
+      "word": "whine",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "哀鳴聲;牢騷",
+      "cefr": "B1"
+    },
+    {
+      "word": "wicked",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "缺德的;淘氣的;過分的",
+      "cefr": "B1"
+    }
+  ]
+}

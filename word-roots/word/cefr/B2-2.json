@@ -1,0 +1,380 @@
+{
+  "level": "B2",
+  "part": 2,
+  "totalParts": 11,
+  "title": "中高級 B2 (Upper-Intermediate) - 飲食與烹飪",
+  "count": 53,
+  "words": [
+    {
+      "word": "alcohol",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "酒精;酒",
+      "cefr": "B2"
+    },
+    {
+      "word": "alcoholic",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "酒鬼",
+      "cefr": "B2"
+    },
+    {
+      "word": "applause",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鼓掌歡迎,喝采",
+      "cefr": "B2"
+    },
+    {
+      "word": "aquarium",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "養魚缸;水族館",
+      "cefr": "B2"
+    },
+    {
+      "word": "astonish",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使吃驚,使驚訝",
+      "cefr": "B2"
+    },
+    {
+      "word": "barbecue",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "烤肉",
+      "cefr": "B2"
+    },
+    {
+      "word": "biscuit",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(美國)小麵包",
+      "cefr": "B2"
+    },
+    {
+      "word": "breakfast",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "早餐",
+      "cefr": "B2"
+    },
+    {
+      "word": "buffalo",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "水牛",
+      "cefr": "B2"
+    },
+    {
+      "word": "butcher",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "肉販",
+      "cefr": "B2"
+    },
+    {
+      "word": "cabbage",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "包心菜",
+      "cefr": "B2"
+    },
+    {
+      "word": "cafeteria",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "自助餐館",
+      "cefr": "B2"
+    },
+    {
+      "word": "caffeine",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "咖啡因",
+      "cefr": "B2"
+    },
+    {
+      "word": "champagne",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "香檳酒;香檳酒色",
+      "cefr": "B2"
+    },
+    {
+      "word": "chicken",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "雞;雞肉",
+      "cefr": "B2"
+    },
+    {
+      "word": "cocktail",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "雞尾酒",
+      "cefr": "B2"
+    },
+    {
+      "word": "coconut",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "椰子;椰子肉",
+      "cefr": "B2"
+    },
+    {
+      "word": "conserve",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "糖漬食品,蜜餞;果醬",
+      "cefr": "B2"
+    },
+    {
+      "word": "crumble",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "酥皮點心(水果派)",
+      "cefr": "B2"
+    },
+    {
+      "word": "crystal",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "水晶",
+      "cefr": "B2"
+    },
+    {
+      "word": "cuisine",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "烹飪(法);菜餚",
+      "cefr": "B2"
+    },
+    {
+      "word": "current",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "水流;電流",
+      "cefr": "B2"
+    },
+    {
+      "word": "daffodil",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "黃水仙花;淡黃色",
+      "cefr": "B2"
+    },
+    {
+      "word": "decisive",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "決定性的;確定的;果斷的",
+      "cefr": "B2"
+    },
+    {
+      "word": "delicious",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "好吃的",
+      "cefr": "B2"
+    },
+    {
+      "word": "dessert",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "餐後甜點",
+      "cefr": "B2"
+    },
+    {
+      "word": "diabetes",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "糖尿病",
+      "cefr": "B2"
+    },
+    {
+      "word": "drinking",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "喝酒",
+      "cefr": "B2"
+    },
+    {
+      "word": "eventual",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "最後的;結果的",
+      "cefr": "B2"
+    },
+    {
+      "word": "fountain",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "泉水;噴泉;水源",
+      "cefr": "B2"
+    },
+    {
+      "word": "frighten",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "害怕;吃驚",
+      "cefr": "B2"
+    },
+    {
+      "word": "highlight",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "強光(效果);最精彩的部分",
+      "cefr": "B2"
+    },
+    {
+      "word": "lemonade",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "檸檬水",
+      "cefr": "B2"
+    },
+    {
+      "word": "lettuce",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "類似萵苣的生菜",
+      "cefr": "B2"
+    },
+    {
+      "word": "lollipop",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "棒棒糖",
+      "cefr": "B2"
+    },
+    {
+      "word": "luncheon",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "午餐,(正式的)午餐會",
+      "cefr": "B2"
+    },
+    {
+      "word": "muscular",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "肌肉的;健壯的",
+      "cefr": "B2"
+    },
+    {
+      "word": "mustard",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "芥末;芥菜;芥末色",
+      "cefr": "B2"
+    },
+    {
+      "word": "orchard",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "果樹園;果樹林",
+      "cefr": "B2"
+    },
+    {
+      "word": "overeat",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "吃得過飽",
+      "cefr": "B2"
+    },
+    {
+      "word": "painting",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "油畫,水彩畫",
+      "cefr": "B2"
+    },
+    {
+      "word": "perfume",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "香水;香料",
+      "cefr": "B2"
+    },
+    {
+      "word": "pitcher",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大水罐;一壺的量;投手",
+      "cefr": "B2"
+    },
+    {
+      "word": "poacher",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "煮蛋用的鍋;蒸鍋;偷獵者",
+      "cefr": "B2"
+    },
+    {
+      "word": "protein",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "蛋白質",
+      "cefr": "B2"
+    },
+    {
+      "word": "reservoir",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "蓄水庫;貯水池",
+      "cefr": "B2"
+    },
+    {
+      "word": "resolve",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "決心,決意;堅決,剛毅,果斷",
+      "cefr": "B2"
+    },
+    {
+      "word": "serving",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "服務;侍候;(食物、飲料等)一份",
+      "cefr": "B2"
+    },
+    {
+      "word": "spaghetti",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "義大利麵條",
+      "cefr": "B2"
+    },
+    {
+      "word": "spinach",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "菠菜",
+      "cefr": "B2"
+    },
+    {
+      "word": "stammer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "口吃;結巴",
+      "cefr": "B2"
+    },
+    {
+      "word": "stutter",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "結巴;口吃",
+      "cefr": "B2"
+    },
+    {
+      "word": "whiskey",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "威士忌酒",
+      "cefr": "B2"
+    }
+  ]
+}

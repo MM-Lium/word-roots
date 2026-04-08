@@ -1,0 +1,478 @@
+{
+  "level": "B2",
+  "part": 9,
+  "totalParts": 11,
+  "title": "中高級 B2 (Upper-Intermediate) - 生活與物品",
+  "count": 67,
+  "words": [
+    {
+      "word": "approach",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "靠近;方法,門徑",
+      "cefr": "B2"
+    },
+    {
+      "word": "authentic",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "可信的;真實的",
+      "cefr": "B2"
+    },
+    {
+      "word": "backpack",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "背包",
+      "cefr": "B2"
+    },
+    {
+      "word": "bedroom",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "臥房",
+      "cefr": "B2"
+    },
+    {
+      "word": "briefcase",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "公事包",
+      "cefr": "B2"
+    },
+    {
+      "word": "burglar",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "夜賊,破門盜竊者",
+      "cefr": "B2"
+    },
+    {
+      "word": "cardboard",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "硬紙板;卡紙板",
+      "cefr": "B2"
+    },
+    {
+      "word": "chamber",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "室,房間;議院",
+      "cefr": "B2"
+    },
+    {
+      "word": "cigarette",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "香煙,紙煙",
+      "cefr": "B2"
+    },
+    {
+      "word": "cleanse",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "清洗;淨化",
+      "cefr": "B2"
+    },
+    {
+      "word": "clinical",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "臨床的;診所的",
+      "cefr": "B2"
+    },
+    {
+      "word": "clothes",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "衣服",
+      "cefr": "B2"
+    },
+    {
+      "word": "clothing",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(總稱)衣服,衣著",
+      "cefr": "B2"
+    },
+    {
+      "word": "compass",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "羅盤;指南針;圓規",
+      "cefr": "B2"
+    },
+    {
+      "word": "comprehend",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "理解;領會;包含",
+      "cefr": "B2"
+    },
+    {
+      "word": "comprise",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "包括;由...組成",
+      "cefr": "B2"
+    },
+    {
+      "word": "confident",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "有信心的",
+      "cefr": "B2"
+    },
+    {
+      "word": "contain",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "包含;容納",
+      "cefr": "B2"
+    },
+    {
+      "word": "convert",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "轉變;變換;改變信仰",
+      "cefr": "B2"
+    },
+    {
+      "word": "credible",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "可信的;可靠的",
+      "cefr": "B2"
+    },
+    {
+      "word": "curtain",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "窗簾;(舞臺上的)幕",
+      "cefr": "B2"
+    },
+    {
+      "word": "detergent",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "洗潔劑,洗衣粉",
+      "cefr": "B2"
+    },
+    {
+      "word": "disbelief",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "不信;懷疑",
+      "cefr": "B2"
+    },
+    {
+      "word": "disciple",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "信徒;門徒",
+      "cefr": "B2"
+    },
+    {
+      "word": "distrust",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "不信任;懷疑",
+      "cefr": "B2"
+    },
+    {
+      "word": "doorstep",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "門階",
+      "cefr": "B2"
+    },
+    {
+      "word": "dresser",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "衣櫃",
+      "cefr": "B2"
+    },
+    {
+      "word": "dubious",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "半信半疑的;含糊的",
+      "cefr": "B2"
+    },
+    {
+      "word": "envelope",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "信封",
+      "cefr": "B2"
+    },
+    {
+      "word": "expertise",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "專門知識;專門技術",
+      "cefr": "B2"
+    },
+    {
+      "word": "fanatic",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "狂熱者;盲信者",
+      "cefr": "B2"
+    },
+    {
+      "word": "feedback",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "反饋的信息",
+      "cefr": "B2"
+    },
+    {
+      "word": "follower",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "追隨者;信徒",
+      "cefr": "B2"
+    },
+    {
+      "word": "furnish",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "給(房間)配置(傢俱等);供應;提供",
+      "cefr": "B2"
+    },
+    {
+      "word": "garment",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "服裝;衣著",
+      "cefr": "B2"
+    },
+    {
+      "word": "hallway",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "玄關;門廳,走",
+      "cefr": "B2"
+    },
+    {
+      "word": "headline",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(報紙等的)標題",
+      "cefr": "B2"
+    },
+    {
+      "word": "housing",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "房屋,住宅",
+      "cefr": "B2"
+    },
+    {
+      "word": "inclusive",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "包含的;包括在內的",
+      "cefr": "B2"
+    },
+    {
+      "word": "kangaroo",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "袋鼠",
+      "cefr": "B2"
+    },
+    {
+      "word": "keyboard",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鍵盤",
+      "cefr": "B2"
+    },
+    {
+      "word": "landlord",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "房東",
+      "cefr": "B2"
+    },
+    {
+      "word": "lantern",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "燈籠",
+      "cefr": "B2"
+    },
+    {
+      "word": "laundry",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "洗衣店;送洗的衣服",
+      "cefr": "B2"
+    },
+    {
+      "word": "mattress",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "床墊",
+      "cefr": "B2"
+    },
+    {
+      "word": "network",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "電視網;電腦網絡",
+      "cefr": "B2"
+    },
+    {
+      "word": "overcoat",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "外套,大衣",
+      "cefr": "B2"
+    },
+    {
+      "word": "package",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "包裹",
+      "cefr": "B2"
+    },
+    {
+      "word": "pajamas",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "睡衣",
+      "cefr": "B2"
+    },
+    {
+      "word": "plastic",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "塑膠;塑膠製品;信用卡",
+      "cefr": "B2"
+    },
+    {
+      "word": "postcard",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "明信片",
+      "cefr": "B2"
+    },
+    {
+      "word": "reliable",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "可信賴的;可靠的;確實的",
+      "cefr": "B2"
+    },
+    {
+      "word": "reliance",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "信任;依賴",
+      "cefr": "B2"
+    },
+    {
+      "word": "scissors",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "剪刀",
+      "cefr": "B2"
+    },
+    {
+      "word": "segment",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "部分;部門;切片",
+      "cefr": "B2"
+    },
+    {
+      "word": "shampoo",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "洗髮精",
+      "cefr": "B2"
+    },
+    {
+      "word": "shutter",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "關閉物;活動遮板;(相機的)快門",
+      "cefr": "B2"
+    },
+    {
+      "word": "slipper",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "拖鞋",
+      "cefr": "B2"
+    },
+    {
+      "word": "spotlight",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "聚光燈;公眾注意的中心",
+      "cefr": "B2"
+    },
+    {
+      "word": "straight",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "直,挺直;(紙牌)五張順牌",
+      "cefr": "B2"
+    },
+    {
+      "word": "sweater",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "毛衣",
+      "cefr": "B2"
+    },
+    {
+      "word": "technical",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "專門的,技術性的",
+      "cefr": "B2"
+    },
+    {
+      "word": "telegraph",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "電報,電信",
+      "cefr": "B2"
+    },
+    {
+      "word": "threshold",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "門檻;開端;起點",
+      "cefr": "B2"
+    },
+    {
+      "word": "treasury",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "金庫;庫房;國庫;寶庫",
+      "cefr": "B2"
+    },
+    {
+      "word": "underwear",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "內衣",
+      "cefr": "B2"
+    },
+    {
+      "word": "vacancy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "空;空白;空房;空缺",
+      "cefr": "B2"
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "level": "B1",
+  "part": 9,
+  "totalParts": 11,
+  "title": "中級 B1 (Intermediate) - 生活與物品",
+  "count": 50,
+  "words": [
+    {
+      "word": "ability",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "能力;專門技能",
+      "cefr": "B1"
+    },
+    {
+      "word": "bathe",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "洗澡",
+      "cefr": "B1"
+    },
+    {
+      "word": "belief",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "相信;信仰",
+      "cefr": "B1"
+    },
+    {
+      "word": "bench",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "長凳;長椅",
+      "cefr": "B1"
+    },
+    {
+      "word": "blade",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "刀片;葉片;葉片狀物",
+      "cefr": "B1"
+    },
+    {
+      "word": "bosom",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "胸;乳房;(衣服的)襟;胸懷",
+      "cefr": "B1"
+    },
+    {
+      "word": "breast",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "乳房",
+      "cefr": "B1"
+    },
+    {
+      "word": "cable",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "纜索;有線電視",
+      "cefr": "B1"
+    },
+    {
+      "word": "carton",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "紙盒;紙板箱",
+      "cefr": "B1"
+    },
+    {
+      "word": "clinic",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "診所,門診所",
+      "cefr": "B1"
+    },
+    {
+      "word": "closet",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "壁櫥;衣櫥",
+      "cefr": "B1"
+    },
+    {
+      "word": "cloth",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "布;(棉,毛,合成纖維等)織物;衣料",
+      "cefr": "B1"
+    },
+    {
+      "word": "clothe",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "給...穿衣;為...提供衣服",
+      "cefr": "B1"
+    },
+    {
+      "word": "collar",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "衣領",
+      "cefr": "B1"
+    },
+    {
+      "word": "column",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(報紙的)欄,段;行",
+      "cefr": "B1"
+    },
+    {
+      "word": "credit",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "信用;貸方",
+      "cefr": "B1"
+    },
+    {
+      "word": "drape",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "簾(尤指窗簾);幔",
+      "cefr": "B1"
+    },
+    {
+      "word": "dryer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "烘衣機",
+      "cefr": "B1"
+    },
+    {
+      "word": "faith",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "信念;信任,完全信賴",
+      "cefr": "B1"
+    },
+    {
+      "word": "flare",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "閃耀的火光;閃光信號;照明彈",
+      "cefr": "B1"
+    },
+    {
+      "word": "hanger",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "衣架",
+      "cefr": "B1"
+    },
+    {
+      "word": "herald",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "報信者;使者;先驅",
+      "cefr": "B1"
+    },
+    {
+      "word": "hover",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "盤旋;徘徊",
+      "cefr": "B1"
+    },
+    {
+      "word": "include",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "包含",
+      "cefr": "B1"
+    },
+    {
+      "word": "linen",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "亞麻布製品(如床單,桌巾,內衣等)",
+      "cefr": "B1"
+    },
+    {
+      "word": "lobby",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大廳;門廊",
+      "cefr": "B1"
+    },
+    {
+      "word": "locker",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(公共場所的)衣物櫃",
+      "cefr": "B1"
+    },
+    {
+      "word": "packet",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小包(裹);小捆;小袋",
+      "cefr": "B1"
+    },
+    {
+      "word": "panel",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鑲板;壁板;專門小組",
+      "cefr": "B1"
+    },
+    {
+      "word": "parcel",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小包,包裹",
+      "cefr": "B1"
+    },
+    {
+      "word": "pious",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "虔誠的;篤信的",
+      "cefr": "B1"
+    },
+    {
+      "word": "plate",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "盤;碟",
+      "cefr": "B1"
+    },
+    {
+      "word": "quiver",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "顫抖;抖動;箭袋內的箭",
+      "cefr": "B1"
+    },
+    {
+      "word": "razor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "剃刀",
+      "cefr": "B1"
+    },
+    {
+      "word": "sandal",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "涼鞋;拖鞋",
+      "cefr": "B1"
+    },
+    {
+      "word": "scrub",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "擦洗,擦淨",
+      "cefr": "B1"
+    },
+    {
+      "word": "sector",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "扇形;扇形面部分;部門",
+      "cefr": "B1"
+    },
+    {
+      "word": "shave",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "剃刀,刮鬍刀;修面",
+      "cefr": "B1"
+    },
+    {
+      "word": "sheet",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "一張(紙);床單",
+      "cefr": "B1"
+    },
+    {
+      "word": "siege",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "圍攻;包圍;圍城",
+      "cefr": "B1"
+    },
+    {
+      "word": "skate",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "冰鞋",
+      "cefr": "B1"
+    },
+    {
+      "word": "spiral",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "螺旋(形);盤旋",
+      "cefr": "B1"
+    },
+    {
+      "word": "strip",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "條,帶;脫衣舞",
+      "cefr": "B1"
+    },
+    {
+      "word": "suite",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "套房;系列",
+      "cefr": "B1"
+    },
+    {
+      "word": "sword",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "劍,刀",
+      "cefr": "B1"
+    },
+    {
+      "word": "tissue",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "紙巾;面紙;(動植物的)組織[",
+      "cefr": "B1"
+    },
+    {
+      "word": "trust",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "信任,信賴;託管,信託",
+      "cefr": "B1"
+    },
+    {
+      "word": "unpack",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "打開包裹(或行李等)",
+      "cefr": "B1"
+    },
+    {
+      "word": "update",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "最新的(信息、報導等);更新",
+      "cefr": "B1"
+    },
+    {
+      "word": "window",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "窗戶",
+      "cefr": "B1"
+    }
+  ]
+}

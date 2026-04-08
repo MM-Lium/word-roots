@@ -1,0 +1,212 @@
+{
+  "level": "A1",
+  "part": 6,
+  "totalParts": 11,
+  "title": "入門級 A1 (Beginner) - 自然與環境",
+  "count": 29,
+  "words": [
+    {
+      "word": "as",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "跟...一樣地,同樣地;如同;例如",
+      "cefr": "A1"
+    },
+    {
+      "word": "but",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "只,僅僅,才;絕對地",
+      "cefr": "A1"
+    },
+    {
+      "word": "cat",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "貓",
+      "cefr": "A1"
+    },
+    {
+      "word": "day",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "白天;日",
+      "cefr": "A1"
+    },
+    {
+      "word": "dog",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "狗",
+      "cefr": "A1"
+    },
+    {
+      "word": "down",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "下降;蕭條;絨毛;有草丘陵地",
+      "cefr": "A1"
+    },
+    {
+      "word": "dry",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "曬乾;風乾",
+      "cefr": "A1"
+    },
+    {
+      "word": "fall",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "秋天",
+      "cefr": "A1"
+    },
+    {
+      "word": "fine",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "好天氣;罰金,罰款",
+      "cefr": "A1"
+    },
+    {
+      "word": "fish",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "魚",
+      "cefr": "A1"
+    },
+    {
+      "word": "long",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "長久地;始終;渴望",
+      "cefr": "A1"
+    },
+    {
+      "word": "lot",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "很多,多數;一批;一塊地",
+      "cefr": "A1"
+    },
+    {
+      "word": "place",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "地方",
+      "cefr": "A1"
+    },
+    {
+      "word": "rain",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "雨",
+      "cefr": "A1"
+    },
+    {
+      "word": "sky",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "天空",
+      "cefr": "A1"
+    },
+    {
+      "word": "snow",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "雪",
+      "cefr": "A1"
+    },
+    {
+      "word": "star",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "星星;明星",
+      "cefr": "A1"
+    },
+    {
+      "word": "summer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "夏天",
+      "cefr": "A1"
+    },
+    {
+      "word": "sun",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "太陽",
+      "cefr": "A1"
+    },
+    {
+      "word": "there",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "那個地方,那裡",
+      "cefr": "A1"
+    },
+    {
+      "word": "today",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "今天",
+      "cefr": "A1"
+    },
+    {
+      "word": "tomorrow",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "明天",
+      "cefr": "A1"
+    },
+    {
+      "word": "tree",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "樹木",
+      "cefr": "A1"
+    },
+    {
+      "word": "under",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "在下面,在下方;從屬地",
+      "cefr": "A1"
+    },
+    {
+      "word": "warm",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "暖和的地方;取暖,加熱",
+      "cefr": "A1"
+    },
+    {
+      "word": "where",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "哪裡,何處;地點",
+      "cefr": "A1"
+    },
+    {
+      "word": "wind",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "風",
+      "cefr": "A1"
+    },
+    {
+      "word": "winter",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "冬天",
+      "cefr": "A1"
+    },
+    {
+      "word": "zoo",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "動物園",
+      "cefr": "A1"
+    }
+  ]
+}

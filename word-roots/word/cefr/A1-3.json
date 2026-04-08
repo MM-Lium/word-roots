@@ -1,0 +1,93 @@
+{
+  "level": "A1",
+  "part": 3,
+  "totalParts": 11,
+  "title": "入門級 A1 (Beginner) - 交通與旅遊",
+  "count": 12,
+  "words": [
+    {
+      "word": "bus",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "公車",
+      "cefr": "A1"
+    },
+    {
+      "word": "car",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "汽車",
+      "cefr": "A1"
+    },
+    {
+      "word": "go",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "輪到的機會;嘗試",
+      "cefr": "A1"
+    },
+    {
+      "word": "no",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "不;沒有;拒絕;反對票",
+      "cefr": "A1"
+    },
+    {
+      "word": "play",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "遊戲;戲劇",
+      "cefr": "A1"
+    },
+    {
+      "word": "road",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "道路",
+      "cefr": "A1"
+    },
+    {
+      "word": "round",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "一輪,一回合,一場,一局;圓形物",
+      "cefr": "A1"
+    },
+    {
+      "word": "stand",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "攤子;停止,站立；立場;態度",
+      "cefr": "A1"
+    },
+    {
+      "word": "stop",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "車站",
+      "cefr": "A1"
+    },
+    {
+      "word": "street",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "街道",
+      "cefr": "A1"
+    },
+    {
+      "word": "turn",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "輪到",
+      "cefr": "A1"
+    },
+    {
+      "word": "yes",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "肯定的回答,同意;贊成票",
+      "cefr": "A1"
+    }
+  ]
+}

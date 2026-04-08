@@ -1,0 +1,415 @@
+{
+  "level": "C1",
+  "part": 7,
+  "totalParts": 11,
+  "title": "高級 C1 (Advanced) - 人物與感官",
+  "count": 58,
+  "words": [
+    {
+      "word": "acceptable",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "可以接受的;令人滿意的",
+      "cefr": "C1"
+    },
+    {
+      "word": "acquaintance",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "相識的人",
+      "cefr": "C1"
+    },
+    {
+      "word": "affectionate",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "充滿深情的;溫柔親切的",
+      "cefr": "C1"
+    },
+    {
+      "word": "anchorwoman",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "女主播",
+      "cefr": "C1"
+    },
+    {
+      "word": "attendance",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "出席;出席人數;侍候",
+      "cefr": "C1"
+    },
+    {
+      "word": "attractive",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "有吸引力的;引人注目的",
+      "cefr": "C1"
+    },
+    {
+      "word": "brotherhood",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "兄弟關係;同志關係",
+      "cefr": "C1"
+    },
+    {
+      "word": "cell-phone",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "手機,大哥大",
+      "cefr": "C1"
+    },
+    {
+      "word": "cellularphone",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "手機,大哥大",
+      "cefr": "C1"
+    },
+    {
+      "word": "chairwoman",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "女主席;女議長",
+      "cefr": "C1"
+    },
+    {
+      "word": "colloquial",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "口語的;會話的",
+      "cefr": "C1"
+    },
+    {
+      "word": "competitor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "競爭者;對手",
+      "cefr": "C1"
+    },
+    {
+      "word": "congresswoman",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "國會女議員;女眾議員",
+      "cefr": "C1"
+    },
+    {
+      "word": "contemporary",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "同時代的人;同年齡的人;同時期的東西",
+      "cefr": "C1"
+    },
+    {
+      "word": "counterpart",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "對應的人(或物)",
+      "cefr": "C1"
+    },
+    {
+      "word": "dedication",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "奉獻;揭幕儀式;獻身",
+      "cefr": "C1"
+    },
+    {
+      "word": "delightful",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "令人愉快的,令人高興的",
+      "cefr": "C1"
+    },
+    {
+      "word": "diplomatic",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "外交的;有外交手腕的",
+      "cefr": "C1"
+    },
+    {
+      "word": "eloquent",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "雄辯的;口才流利的",
+      "cefr": "C1"
+    },
+    {
+      "word": "embarrassment",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "窘;難堪;使人為難的人(或事物)",
+      "cefr": "C1"
+    },
+    {
+      "word": "enrollment",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "登記;入會;入伍;登記人數",
+      "cefr": "C1"
+    },
+    {
+      "word": "flashlight",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "手電筒",
+      "cefr": "C1"
+    },
+    {
+      "word": "formidable",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "令人畏懼的;難對付的",
+      "cefr": "C1"
+    },
+    {
+      "word": "grandchild",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "孫子;孫女;外孫;外孫女",
+      "cefr": "C1"
+    },
+    {
+      "word": "granddaughter",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "孫女;外孫女",
+      "cefr": "C1"
+    },
+    {
+      "word": "grandfather",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "祖父;外祖父",
+      "cefr": "C1"
+    },
+    {
+      "word": "grandmother",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "祖母;外祖母",
+      "cefr": "C1"
+    },
+    {
+      "word": "handkerchief",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "手帕",
+      "cefr": "C1"
+    },
+    {
+      "word": "heterosexual",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "異性戀的人",
+      "cefr": "C1"
+    },
+    {
+      "word": "housekeeper",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "女管家",
+      "cefr": "C1"
+    },
+    {
+      "word": "humanitarian",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "人道主義者;慈善家",
+      "cefr": "C1"
+    },
+    {
+      "word": "impressive",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "予人深刻印象的",
+      "cefr": "C1"
+    },
+    {
+      "word": "individual",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "個人;個體",
+      "cefr": "C1"
+    },
+    {
+      "word": "intermediate",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "中間事物;調解人",
+      "cefr": "C1"
+    },
+    {
+      "word": "manipulate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "操作;運用;操縱;對...做手腳",
+      "cefr": "C1"
+    },
+    {
+      "word": "medication",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "藥物治療;藥物",
+      "cefr": "C1"
+    },
+    {
+      "word": "membership",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "會員身分",
+      "cefr": "C1"
+    },
+    {
+      "word": "metropolitan",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大城市人",
+      "cefr": "C1"
+    },
+    {
+      "word": "motherhood",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "母性;(總稱)母親們",
+      "cefr": "C1"
+    },
+    {
+      "word": "mouthpiece",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "樂器的吹口;電話的送話口;代言人",
+      "cefr": "C1"
+    },
+    {
+      "word": "personality",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "人格,品格",
+      "cefr": "C1"
+    },
+    {
+      "word": "perspective",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "看法;遠景;前途;透視圖",
+      "cefr": "C1"
+    },
+    {
+      "word": "pickpocket",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "扒手",
+      "cefr": "C1"
+    },
+    {
+      "word": "population",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "人口",
+      "cefr": "C1"
+    },
+    {
+      "word": "relationship",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "關係,關聯;人際關係",
+      "cefr": "C1"
+    },
+    {
+      "word": "representative",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "代表,代理人",
+      "cefr": "C1"
+    },
+    {
+      "word": "respectful",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "恭敬的;尊敬人的",
+      "cefr": "C1"
+    },
+    {
+      "word": "saleswoman",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "女店員;售貨員",
+      "cefr": "C1"
+    },
+    {
+      "word": "satisfactory",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "令人滿意的",
+      "cefr": "C1"
+    },
+    {
+      "word": "specialist",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "專家;專科醫生",
+      "cefr": "C1"
+    },
+    {
+      "word": "spokesperson",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "發言人",
+      "cefr": "C1"
+    },
+    {
+      "word": "spokeswoman",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "女發言人",
+      "cefr": "C1"
+    },
+    {
+      "word": "stepfather",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "繼父,後父",
+      "cefr": "C1"
+    },
+    {
+      "word": "stepmother",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "繼母,後母",
+      "cefr": "C1"
+    },
+    {
+      "word": "tremendous",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "巨大的;極度的,驚人的",
+      "cefr": "C1"
+    },
+    {
+      "word": "troublesome",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "麻煩的,棘手的",
+      "cefr": "C1"
+    },
+    {
+      "word": "tuberculosis",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "結核病",
+      "cefr": "C1"
+    },
+    {
+      "word": "veterinarian",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "獸醫",
+      "cefr": "C1"
+    }
+  ]
+}

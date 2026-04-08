@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CEFR 單字表 | Word Root Explorer</title>
+  <meta name="description" content="依據 CEFR 歐洲語言共同參考架構分類的英文單字表，涵蓋 A1 至 C2 六個等級，每組 40 個單字助你系統化學習。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* ── CEFR Page Extras ── */
+
+    /* Level color tokens */
+    :root {
+      --a1: #22c55e;   /* green */
+      --a2: #06b6d4;   /* teal */
+      --b1: #f59e0b;   /* amber */
+      --b2: #f97316;   /* orange */
+      --c1: #a855f7;   /* purple */
+      --c2: #ec4899;   /* pink */
+    }
+
+    /* ── Sidebar Layout ── */
+    .cefr-layout {
+      display: grid;
+      grid-template-columns: 260px 1fr;
+      gap: 28px;
+      align-items: start;
+    }
+    @media (max-width: 900px) {
+      .cefr-layout { grid-template-columns: 1fr; }
+      .cefr-sidebar { display: none; }
+      .cefr-sidebar.open { display: block; }
+    }
+
+    /* ── Sidebar ── */
+    .cefr-sidebar {
+      position: sticky;
+      top: 88px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-card);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-card);
+    }
+    .sidebar-header {
+      padding: 18px 20px 14px;
+      border-bottom: 1px solid var(--border-subtle);
+      background: rgba(0,0,0,0.02);
+    }
+    .sidebar-title {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text-secondary);
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      margin-bottom: 12px;
+    }
+    .sidebar-stats {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .stat-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 13px;
+    }
+    .stat-dot {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .stat-label { color: var(--text-secondary); flex: 1; }
+    .stat-count { color: var(--text-muted); font-family: var(--font-mono); font-size: 12px; }
+
+    /* Level nav buttons */
+    .level-nav { padding: 10px 10px 10px; }
+    .level-btn {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      width: 100%;
+      padding: 10px 12px;
+      border-radius: 10px;
+      border: none;
+      background: transparent;
+      cursor: pointer;
+      transition: var(--transition);
+      margin-bottom: 2px;
+      font-family: var(--font-base);
+      text-align: left;
+    }
+    .level-btn:hover { background: rgba(0,0,0,0.02); }
+    .level-btn.active { background: rgba(0,0,0,0.04); }
+    .level-badge-sm {
+      width: 34px; height: 24px;
+      border-radius: 6px;
+      font-size: 11px;
+      font-weight: 800;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+      letter-spacing: 0.3px;
+    }
+    .level-btn-info { flex: 1; min-width: 0; }
+    .level-btn-name { font-size: 13px; font-weight: 600; color: var(--text-primary); display: block; }
+    .level-btn-count { font-size: 11px; color: var(--text-muted); font-family: var(--font-mono); }
+    .level-btn-arrow { font-size: 12px; color: var(--text-muted); transition: var(--transition); }
+    .level-btn.active .level-btn-arrow { color: var(--text-primary); }
+
+    /* ── Main Panel ── */
+
+    /* Level header card */
+    .level-header-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-card);
+      border-radius: var(--radius-lg);
+      padding: 28px 32px;
+      margin-bottom: 24px;
+      position: relative;
+      overflow: hidden;
+      box-shadow: var(--shadow-card);
+    }
+    .level-header-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+    }
+    .level-header-top {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 12px;
+      flex-wrap: wrap;
+    }
+    .level-badge-lg {
+      width: 56px; height: 40px;
+      border-radius: 10px;
+      font-size: 18px;
+      font-weight: 900;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+      letter-spacing: 0.5px;
+    }
+    .level-header-info { flex: 1; }
+    .level-header-name {
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--text-primary);
+      line-height: 1.2;
+      margin-bottom: 4px;
+    }
+    .level-header-desc { font-size: 14px; color: var(--text-secondary); }
+    .level-header-meta {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .meta-item { display: flex; flex-direction: column; gap: 2px; }
+    .meta-value {
+      font-size: 22px;
+      font-weight: 800;
+      font-family: var(--font-mono);
+      color: var(--text-primary);
+    }
+    .meta-label { font-size: 11px; color: var(--text-muted); }
+    .meta-divider { width: 1px; height: 36px; background: var(--border-subtle); }
+
+    /* Part navigation */
+    .part-nav {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+    .part-nav-label {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-right: 4px;
+      flex-shrink: 0;
+    }
+    .part-chips { display: flex; flex-wrap: wrap; gap: 6px; flex: 1; }
+    .part-chip {
+      padding: 5px 12px;
+      border-radius: 20px;
+      border: 1px solid var(--border-subtle);
+      background: var(--bg-card);
+      color: var(--text-secondary);
+      font-size: 13px;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    .part-chip:hover { border-color: var(--border-card); color: var(--text-primary); background: rgba(0,0,0,0.02); }
+    .part-chip.active {
+      color: white;
+      border-color: transparent;
+    }
+
+    /* Search bar */
+    .word-search-bar {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--bg-card);
+      border: 1.5px solid var(--border-card);
+      border-radius: var(--radius-md);
+      padding: 10px 16px;
+      margin-bottom: 20px;
+      transition: var(--transition);
+    }
+    .word-search-bar:focus-within {
+      border-color: var(--accent-primary);
+      box-shadow: 0 0 0 3px rgba(124,92,252,0.1);
+    }
+    .word-search-bar input {
+      flex: 1;
+      background: none;
+      border: none;
+      outline: none;
+      color: var(--text-primary);
+      font-size: 14px;
+      font-family: var(--font-base);
+    }
+    .word-search-bar input::placeholder { color: var(--text-muted); }
+    .ws-icon { font-size: 16px; color: var(--text-muted); }
+    .ws-clear {
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      cursor: pointer;
+      font-size: 14px;
+      padding: 2px 6px;
+      border-radius: 6px;
+      transition: var(--transition);
+      display: none;
+    }
+    .ws-clear.visible { display: block; }
+    .ws-clear:hover { color: var(--text-primary); background: var(--glass); }
+
+    /* ── Word Grid ── */
+    .word-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 12px;
+      animation: fadeInUp 0.35s ease;
+    }
+    .word-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 16px 18px;
+      cursor: pointer;
+      transition: var(--transition);
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .word-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      opacity: 0;
+      transition: var(--transition);
+    }
+    .word-card:hover {
+      border-color: var(--border-card);
+      background: var(--bg-card-hover);
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-card);
+    }
+    .word-card:hover::before { opacity: 1; }
+
+    .word-card-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 6px;
+    }
+    .word-card-word {
+      font-family: var(--font-mono);
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--text-primary);
+      letter-spacing: 0.3px;
+    }
+    .word-card-pos {
+      font-size: 10px;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+      flex-shrink: 0;
+    }
+    .word-card-def {
+      font-size: 12px;
+      color: var(--text-secondary);
+      line-height: 1.5;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .word-card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 4px;
+    }
+    .word-card-num {
+      font-size: 10px;
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+    }
+    .word-card-link {
+      font-size: 10px;
+      color: var(--text-muted);
+      opacity: 0;
+      transition: var(--transition);
+    }
+    .word-card:hover .word-card-link { opacity: 1; color: var(--accent-teal); }
+    /* Clicking hint on hover */
+    .word-card:hover { cursor: pointer; }
+
+    /* ── Word List Mode (toggle) ── */
+    .word-list-item {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 12px 18px;
+      cursor: pointer;
+      transition: var(--transition);
+      display: grid;
+      grid-template-columns: 36px 160px 80px 1fr auto;
+      align-items: center;
+      gap: 14px;
+    }
+    .word-list-item:hover {
+      border-color: var(--border-card);
+      background: var(--bg-card-hover);
+    }
+    .wli-num { font-size: 11px; color: var(--text-muted); font-family: var(--font-mono); text-align: right; }
+    .wli-word { font-family: var(--font-mono); font-size: 15px; font-weight: 700; color: var(--text-primary); }
+    .wli-def { font-size: 13px; color: var(--text-secondary); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .wli-link { font-size: 11px; color: var(--text-muted); opacity: 0; transition: var(--transition); white-space: nowrap; }
+    .word-list-item:hover .wli-link { opacity: 1; color: var(--accent-teal); }
+    .word-list-item { cursor: pointer; }
+
+    /* ── View Toggle ── */
+    .toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .toolbar-left { display: flex; align-items: center; gap: 10px; }
+    .toolbar-right { display: flex; align-items: center; gap: 8px; }
+    .result-count { font-size: 13px; color: var(--text-muted); }
+    .result-count span { color: var(--text-primary); font-weight: 600; }
+    .view-toggle { display: flex; gap: 4px; }
+    .view-btn {
+      width: 32px; height: 32px;
+      display: flex; align-items: center; justify-content: center;
+      border-radius: 8px;
+      border: 1px solid var(--border-subtle);
+      background: var(--bg-card);
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: var(--transition);
+      font-size: 14px;
+    }
+    .view-btn.active { border-color: var(--accent-primary); color: var(--accent-primary); background: rgba(124,92,252,0.1); }
+    .view-btn:hover:not(.active) { border-color: var(--border-card); color: var(--text-secondary); }
+
+    /* ── POS color helpers ── */
+    .c-n   { background: rgba(168,85,247,0.12); color: #7e22ce; border: 1px solid rgba(168,85,247,0.25); }
+    .c-v   { background: rgba(34,197,94,0.10);  color: #15803d; border: 1px solid rgba(34,197,94,0.25); }
+    .c-adj { background: rgba(245,158,11,0.10); color: #b45309; border: 1px solid rgba(245,158,11,0.25); }
+    .c-adv { background: rgba(6,182,212,0.10);  color: #0e7490; border: 1px solid rgba(6,182,212,0.25); }
+
+    /* ── Level color utilities ── */
+    .lc-a1 { color: var(--a1); }  .bg-a1 { background: var(--a1); }  .bdr-a1 { border-color: var(--a1); }
+    .lc-a2 { color: var(--a2); }  .bg-a2 { background: var(--a2); }  .bdr-a2 { border-color: var(--a2); }
+    .lc-b1 { color: var(--b1); }  .bg-b1 { background: var(--b1); }  .bdr-b1 { border-color: var(--b1); }
+    .lc-b2 { color: var(--b2); }  .bg-b2 { background: var(--b2); }  .bdr-b2 { border-color: var(--b2); }
+    .lc-c1 { color: var(--c1); }  .bg-c1 { background: var(--c1); }  .bdr-c1 { border-color: var(--c1); }
+    .lc-c2 { color: var(--c2); }  .bg-c2 { background: var(--c2); }  .bdr-c2 { border-color: var(--c2); }
+
+    .bgfade-a1 { background: rgba(34,197,94,0.12); }
+    .bgfade-a2 { background: rgba(6,182,212,0.12); }
+    .bgfade-b1 { background: rgba(245,158,11,0.12); }
+    .bgfade-b2 { background: rgba(249,115,22,0.12); }
+    .bgfade-c1 { background: rgba(168,85,247,0.12); }
+    .bgfade-c2 { background: rgba(236,72,153,0.12); }
+
+    /* ── Loading ── */
+    .loading-spinner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      padding: 80px 24px;
+      color: var(--text-muted);
+      font-size: 14px;
+    }
+    .spinner-ring {
+      width: 40px; height: 40px;
+      border: 3px solid rgba(124,92,252,0.2);
+      border-top-color: var(--accent-primary);
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+    }
+
+    /* ── Empty / error ── */
+    .panel-empty {
+      text-align: center;
+      padding: 60px 24px;
+      color: var(--text-muted);
+    }
+    .panel-empty-icon { font-size: 48px; margin-bottom: 16px; }
+    .panel-empty-text { font-size: 15px; }
+
+    /* ── Progress ring (sidebar) ── */
+    .progress-wrap { display: flex; align-items: center; gap: 8px; margin-top: 4px; }
+    .progress-bar-outer {
+      flex: 1;
+      height: 4px;
+      border-radius: 2px;
+      background: rgba(0,0,0,0.06);
+      overflow: hidden;
+    }
+    .progress-bar-inner { height: 100%; border-radius: 2px; transition: width 0.5s ease; }
+
+    /* hover ripple on word card */
+    .word-card:active { transform: scale(0.97); }
+
+    /* ── Breadcrumb / back link ── */
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      color: var(--text-muted);
+      text-decoration: none;
+      margin-bottom: 28px;
+      transition: var(--transition);
+      padding: 6px 0;
+    }
+    .back-link:hover { color: var(--text-primary); }
+
+    /* ── Responsive ── */
+    @media (max-width: 700px) {
+      .word-grid { grid-template-columns: 1fr 1fr; }
+      .word-list-item { grid-template-columns: 24px 1fr 60px; }
+      .wli-def, .wli-link { display: none; }
+      .level-header-card { padding: 20px; }
+      .level-badge-lg { width: 44px; height: 34px; font-size: 15px; }
+    }
+
+    /* ── Mobile sidebar toggle ── */
+    .mobile-level-toggle {
+      display: none;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 16px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-card);
+      border-radius: var(--radius-md);
+      color: var(--text-secondary);
+      font-size: 14px;
+      cursor: pointer;
+      margin-bottom: 16px;
+      font-family: var(--font-base);
+      width: 100%;
+    }
+    @media (max-width: 900px) { .mobile-level-toggle { display: flex; } }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo-group">
+        <div class="logo-icon">
+          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="40" height="40" rx="12" fill="url(#logoGradC)"/>
+            <text x="8" y="28" font-size="20" fill="white" font-family="Inter" font-weight="800">Rr</text>
+            <defs>
+              <linearGradient id="logoGradC" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#6C63FF"/>
+                <stop offset="1" stop-color="#A855F7"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-title">字根字首探索器</span>
+          <span class="logo-sub">Word Root Explorer</span>
+        </div>
+      </div>
+      <nav class="header-nav">
+        <a href="index.html" class="nav-btn">🔍 探索器</a>
+        <a href="cefr.html" class="nav-btn active">🎓 CEFR 單字表</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <a href="index.html" class="back-link">← 返回字根字首探索器</a>
+
+    <!-- Hero -->
+    <div class="section-hero" style="margin-bottom:32px">
+      <h1 class="hero-title">CEFR <span class="gradient-text">單字分級表</span></h1>
+      <p class="hero-sub">依據歐洲語言共同參考架構分類，從 A1 入門到 C2 精通，系統化征服英文詞彙</p>
+    </div>
+
+    <!-- Mobile level toggle -->
+    <button class="mobile-level-toggle" id="mobileLevelToggle" onclick="toggleMobileSidebar()">
+      <span>🎯</span>
+      <span id="mobileLevelLabel">選擇等級</span>
+      <span style="margin-left:auto">▼</span>
+    </button>
+
+    <div class="cefr-layout">
+      <!-- ─── Sidebar ─── -->
+      <aside class="cefr-sidebar" id="cefrSidebar">
+        <div class="sidebar-header">
+          <div class="sidebar-title">等級選擇</div>
+          <div class="sidebar-stats" id="sidebarStats">
+            <!-- filled by JS -->
+          </div>
+        </div>
+        <nav class="level-nav" id="levelNav">
+          <!-- filled by JS -->
+        </nav>
+      </aside>
+
+      <!-- ─── Main Panel ─── -->
+      <div class="cefr-main" id="cefrMain">
+        <div class="loading-spinner" id="mainLoading">
+          <div class="spinner-ring"></div>
+          <span>載入索引中…</span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Modal removed: clicking a word now navigates directly to index.html?q=word -->
+
+  <!-- Toast -->
+  <div class="toast" id="toast"></div>
+
+  <script>
+  // ═══════════════════════════════════════════════
+  //  Config
+  // ═══════════════════════════════════════════════
+  const CEFR_DIR = 'word/cefr/';
+
+  const LEVEL_META = {
+    A1: { name: '入門級 A1', desc: 'Beginner — 基礎日常溝通', color: '#22c55e', cls: 'a1', emoji: '🌱' },
+    A2: { name: '基礎級 A2', desc: 'Elementary — 熟悉常見情境', color: '#06b6d4', cls: 'a2', emoji: '📗' },
+    B1: { name: '中級 B1',   desc: 'Intermediate — 表達主要想法', color: '#f59e0b', cls: 'b1', emoji: '📘' },
+    B2: { name: '中高級 B2', desc: 'Upper-Intermediate — 流暢討論', color: '#f97316', cls: 'b2', emoji: '📙' },
+    C1: { name: '高級 C1',   desc: 'Advanced — 精準複雜表達', color: '#a855f7', cls: 'c1', emoji: '📕' },
+    C2: { name: '精通級 C2', desc: 'Proficiency — 母語者水準', color: '#ec4899', cls: 'c2', emoji: '🏆' },
+  };
+
+  const POS_ZH = { n:'名詞', v:'動詞', adj:'形容詞', adv:'副詞' };
+  const POS_CLS = { n:'c-n', v:'c-v', adj:'c-adj', adv:'c-adv' };
+
+  // ═══════════════════════════════════════════════
+  //  State
+  // ═══════════════════════════════════════════════
+  let indexData   = [];          // from index.json
+  let levelGroups = {};          // { A1: [{file,part,count,...}], ... }
+  let currentLevel = 'A1';
+  let currentPart  = 1;
+  let currentWords = [];         // words currently displayed
+  let viewMode     = 'grid';     // 'grid' | 'list'
+  let searchQuery  = '';
+
+  // ═══════════════════════════════════════════════
+  //  Boot
+  // ═══════════════════════════════════════════════
+  document.addEventListener('DOMContentLoaded', () => {
+    loadIndex();
+  });
+
+  async function loadIndex() {
+    try {
+      const res  = await fetch(CEFR_DIR + 'index.json');
+      indexData  = await res.json();
+      buildGroups();
+      renderSidebar();
+      // pick first level with words
+      const firstLevel = Object.keys(levelGroups).find(lv => levelGroups[lv].length > 0) || 'A1';
+      selectLevel(firstLevel, 1);
+    } catch(e) {
+      document.getElementById('mainLoading').innerHTML = `
+        <div class="panel-empty">
+          <div class="panel-empty-icon">⚠️</div>
+          <div class="panel-empty-text">無法載入索引，請確認 word/cefr/index.json 存在。<br><small style="color:var(--text-muted)">${e.message}</small></div>
+        </div>`;
+    }
+  }
+
+  function buildGroups() {
+    levelGroups = {};
+    Object.keys(LEVEL_META).forEach(lv => levelGroups[lv] = []);
+    indexData.forEach(item => {
+      if (levelGroups[item.level]) levelGroups[item.level].push(item);
+    });
+  }
+
+  // ═══════════════════════════════════════════════
+  //  Sidebar
+  // ═══════════════════════════════════════════════
+  function renderSidebar() {
+    const nav   = document.getElementById('levelNav');
+    const stats = document.getElementById('sidebarStats');
+    const total = indexData.reduce((s, x) => s + x.count, 0);
+
+    nav.innerHTML = '';
+    stats.innerHTML = `<div class="stat-row">
+      <div class="stat-dot" style="background:var(--accent-primary)"></div>
+      <span class="stat-label">總單字數</span>
+      <span class="stat-count" style="color:var(--text-primary);font-weight:700">${total.toLocaleString()}</span>
+    </div>`;
+
+    Object.entries(LEVEL_META).forEach(([lv, meta]) => {
+      const items  = levelGroups[lv] || [];
+      const count  = items.reduce((s, x) => s + x.count, 0);
+      const parts  = items.length;
+      const pct    = total > 0 ? ((count / total) * 100).toFixed(1) : 0;
+
+      // sidebar stat row
+      stats.innerHTML += `
+        <div class="stat-row">
+          <div class="stat-dot" style="background:${meta.color}"></div>
+          <span class="stat-label">${lv} ${meta.emoji}</span>
+          <span class="stat-count">${count}</span>
+        </div>`;
+
+      // nav button
+      const btn = document.createElement('button');
+      btn.className = 'level-btn';
+      btn.id = `lvBtn-${lv}`;
+      btn.onclick = () => selectLevel(lv, 1);
+      btn.innerHTML = `
+        <div class="level-badge-sm bgfade-${meta.cls}" style="color:${meta.color}">${lv}</div>
+        <div class="level-btn-info">
+          <span class="level-btn-name">${meta.name}</span>
+          <span class="level-btn-count">${count} 字 · ${parts} 組</span>
+        </div>
+        <span class="level-btn-arrow">›</span>`;
+      nav.appendChild(btn);
+    });
+  }
+
+  function updateSidebarActive(lv) {
+    document.querySelectorAll('.level-btn').forEach(b => b.classList.remove('active'));
+    const btn = document.getElementById(`lvBtn-${lv}`);
+    if (btn) btn.classList.add('active');
+  }
+
+  // ═══════════════════════════════════════════════
+  //  Level & Part Selection
+  // ═══════════════════════════════════════════════
+  async function selectLevel(lv, part) {
+    currentLevel = lv;
+    currentPart  = part;
+    searchQuery  = '';
+    updateSidebarActive(lv);
+    document.getElementById('mobileLevelLabel').textContent = `${lv} — ${LEVEL_META[lv].name}`;
+
+    const main = document.getElementById('cefrMain');
+    main.innerHTML = `<div class="loading-spinner"><div class="spinner-ring"></div><span>載入 ${lv} 單字…</span></div>`;
+
+    const items = levelGroups[lv] || [];
+    if (items.length === 0) {
+      main.innerHTML = `<div class="panel-empty"><div class="panel-empty-icon">🏷️</div><div class="panel-empty-text">此等級尚無單字資料</div></div>`;
+      return;
+    }
+
+    // load part
+    const partItem = items.find(x => x.part === part) || items[0];
+    currentPart = partItem.part;
+
+    try {
+      const res  = await fetch(CEFR_DIR + partItem.file);
+      const data = await res.json();
+      currentWords = data.words || [];
+      renderMain(lv, items, currentPart, currentWords);
+    } catch(e) {
+      main.innerHTML = `<div class="panel-empty"><div class="panel-empty-icon">⚠️</div><div class="panel-empty-text">載入失敗：${e.message}</div></div>`;
+    }
+  }
+
+  function renderMain(lv, items, part, words) {
+    const meta      = LEVEL_META[lv];
+    const totalWords = items.reduce((s, x) => s + x.count, 0);
+    const totalParts = items.length;
+
+    const main = document.getElementById('cefrMain');
+    main.innerHTML = `
+      <!-- Level header -->
+      <div class="level-header-card" id="levelHeaderCard">
+        <div class="level-header-card__bar"></div>
+        <div class="level-header-top">
+          <div class="level-badge-lg bgfade-${meta.cls}" style="color:${meta.color}">${lv}</div>
+          <div class="level-header-info">
+            <div class="level-header-name">${meta.emoji} ${meta.name}</div>
+            <div class="level-header-desc">${meta.desc}</div>
+          </div>
+          <div class="level-header-meta">
+            <div class="meta-item">
+              <div class="meta-value" style="color:${meta.color}">${totalWords}</div>
+              <div class="meta-label">總單字數</div>
+            </div>
+            <div class="meta-divider"></div>
+            <div class="meta-item">
+              <div class="meta-value">${totalParts}</div>
+              <div class="meta-label">分類數</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Part navigation -->
+      <div class="part-nav">
+        <span class="part-nav-label">類別：</span>
+        <div class="part-chips" id="partChips"></div>
+      </div>
+
+      <!-- Search bar -->
+      <div class="word-search-bar">
+        <span class="ws-icon">🔍</span>
+        <input type="text" id="wordSearchInput" placeholder="在此類別內搜尋單字或定義…" oninput="onSearchInput(this.value)" />
+        <button class="ws-clear" id="wsClear" onclick="clearSearch()">✕</button>
+      </div>
+
+      <!-- Toolbar -->
+      <div class="toolbar">
+        <div class="toolbar-left">
+          <div class="result-count" id="resultCount"></div>
+        </div>
+        <div class="toolbar-right">
+          <div class="view-toggle">
+            <button class="view-btn" id="viewGrid" title="格狀" onclick="setView('grid')">⊞</button>
+            <button class="view-btn" id="viewList" title="清單" onclick="setView('list')">☰</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Word container -->
+      <div id="wordContainer"></div>
+    `;
+
+    // style header bar
+    const headerCard = document.getElementById('levelHeaderCard');
+    headerCard.style.setProperty('--lv-color', meta.color);
+    const bar = headerCard.querySelector('.level-header-card__bar');
+    bar.style.cssText = `position:absolute;top:0;left:0;right:0;height:3px;background:${meta.color};opacity:0.8;`;
+
+    // part chips
+    renderPartChips(items, lv, part, meta);
+
+    // set view buttons
+    setViewBtns();
+    renderWords(words);
+  }
+
+  function renderPartChips(items, lv, activePart, meta) {
+    const chips = document.getElementById('partChips');
+    chips.innerHTML = '';
+    items.forEach(item => {
+      const chip = document.createElement('button');
+      chip.className = `part-chip ${item.part === activePart ? 'active' : ''}`;
+      if (item.part === activePart) {
+        chip.style.background = meta.color;
+        chip.style.color = '#fff';
+      }
+      
+      const catName = item.title && item.title.includes(' - ') ? item.title.split(' - ')[1] : `第 ${item.part} 組`;
+      chip.textContent = catName;
+      chip.title = `${item.count} 個單字`;
+      chip.onclick = () => selectLevel(lv, item.part);
+      chips.appendChild(chip);
+    });
+  }
+
+  // ═══════════════════════════════════════════════
+  //  Word Rendering
+  // ═══════════════════════════════════════════════
+  function renderWords(words) {
+    const q = searchQuery.trim().toLowerCase();
+    const filtered = q
+      ? words.filter(w => w.word.toLowerCase().includes(q) || (w.definition||'').includes(q))
+      : words;
+
+    const count = document.getElementById('resultCount');
+    if (count) count.innerHTML = `顯示 <span>${filtered.length}</span> / ${words.length} 個單字`;
+
+    const container = document.getElementById('wordContainer');
+    if (!container) return;
+
+    if (filtered.length === 0) {
+      container.innerHTML = `<div class="panel-empty"><div class="panel-empty-icon">🔎</div><div class="panel-empty-text">找不到符合「${q}」的單字</div></div>`;
+      return;
+    }
+
+    if (viewMode === 'grid') {
+      container.innerHTML = `<div class="word-grid" id="wordGrid"></div>`;
+      const grid = document.getElementById('wordGrid');
+      filtered.forEach((w, i) => {
+        const meta  = LEVEL_META[w.cefr] || LEVEL_META['B1'];
+        const posC  = POS_CLS[w.pos] || 'c-n';
+        const card  = document.createElement('div');
+        card.className = 'word-card';
+        card.style.setProperty('--lv-color', meta.color);
+        card.querySelector?.('.word-card')?.style.setProperty('--lv-color', meta.color);
+        // set ::before gradient via inline style trick with inline element
+        card.innerHTML = `
+          <div style="position:absolute;top:0;left:0;right:0;height:2px;background:${meta.color};opacity:0.7;border-radius:var(--radius-md) var(--radius-md) 0 0;transition:opacity .2s;"></div>
+          <div class="word-card-top">
+            <span class="word-card-word">${w.word}</span>
+            <span class="word-card-pos ${posC}">${w.posZh || POS_ZH[w.pos] || w.pos}</span>
+          </div>
+          <div class="word-card-def">${w.definition || ''}</div>
+          <div class="word-card-footer">
+            <span class="word-card-num">#${(currentPart - 1) * 40 + i + 1}</span>
+            <span class="word-card-link">🌿 查字根字首 →</span>
+          </div>`;
+        card.onclick = () => goToWordRoot(w.word);
+        grid.appendChild(card);
+      });
+    } else {
+      // list mode
+      container.innerHTML = `<div style="display:flex;flex-direction:column;gap:8px;" id="wordList"></div>`;
+      const list = document.getElementById('wordList');
+      filtered.forEach((w, i) => {
+        const meta = LEVEL_META[w.cefr] || LEVEL_META['B1'];
+        const posC = POS_CLS[w.pos] || 'c-n';
+        const item = document.createElement('div');
+        item.className = 'word-list-item';
+        item.innerHTML = `
+          <span class="wli-num">${(currentPart-1)*40+i+1}</span>
+          <span class="wli-word">${w.word}</span>
+          <span class="word-card-pos ${posC}" style="font-size:10px;padding:2px 8px;">${w.posZh || POS_ZH[w.pos] || w.pos}</span>
+          <span class="wli-def">${w.definition || ''}</span>
+          <span class="wli-link">🌿 查字根字首 →</span>`;
+        item.onclick = () => goToWordRoot(w.word);
+        list.appendChild(item);
+      });
+    }
+  }
+
+  // ═══════════════════════════════════════════════
+  //  Search
+  // ═══════════════════════════════════════════════
+  function onSearchInput(val) {
+    searchQuery = val;
+    const clear = document.getElementById('wsClear');
+    if (clear) clear.classList.toggle('visible', val.length > 0);
+    renderWords(currentWords);
+  }
+
+  function clearSearch() {
+    searchQuery = '';
+    const input = document.getElementById('wordSearchInput');
+    const clear = document.getElementById('wsClear');
+    if (input) input.value = '';
+    if (clear) clear.classList.remove('visible');
+    renderWords(currentWords);
+  }
+
+  // ═══════════════════════════════════════════════
+  //  View Toggle
+  // ═══════════════════════════════════════════════
+  function setView(mode) {
+    viewMode = mode;
+    setViewBtns();
+    renderWords(currentWords);
+  }
+
+  function setViewBtns() {
+    const gBtn = document.getElementById('viewGrid');
+    const lBtn = document.getElementById('viewList');
+    if (!gBtn || !lBtn) return;
+    gBtn.classList.toggle('active', viewMode === 'grid');
+    lBtn.classList.toggle('active', viewMode === 'list');
+  }
+
+  // ═══════════════════════════════════════════════
+  //  Word Navigation — go directly to root explorer
+  // ═══════════════════════════════════════════════
+  function goToWordRoot(word) {
+    window.location.href = `index.html?q=${encodeURIComponent(word)}`;
+  }
+
+  // ═══════════════════════════════════════════════
+  //  Mobile sidebar
+  // ═══════════════════════════════════════════════
+  function toggleMobileSidebar() {
+    document.getElementById('cefrSidebar').classList.toggle('open');
+  }
+
+  // ═══════════════════════════════════════════════
+  //  Toast
+  // ═══════════════════════════════════════════════
+  let toastTimer;
+  function showToast(msg) {
+    const t = document.getElementById('toast');
+    t.textContent = msg;
+    t.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => t.classList.remove('show'), 2500);
+  }
+
+  // ═══════════════════════════════════════════════
+  //  Handle ?q= deep-link from root explorer page
+  // ═══════════════════════════════════════════════
+  (function handleDeepLink() {
+    const params = new URLSearchParams(window.location.search);
+    // future: pre-select level from URL param, e.g. ?level=B2&part=3
+    const lvParam = params.get('level');
+    const ptParam = parseInt(params.get('part')) || 1;
+    if (lvParam && LEVEL_META[lvParam]) {
+      // will be applied after index loads — update selectLevel to handle
+      window._deepLevel = lvParam;
+      window._deepPart  = ptParam;
+    }
+  })();
+  </script>
+</body>
+</html>

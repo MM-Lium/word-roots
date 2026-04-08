@@ -1,0 +1,702 @@
+{
+  "level": "B2",
+  "part": 5,
+  "totalParts": 11,
+  "title": "中高級 B2 (Upper-Intermediate) - 學校與教育",
+  "count": 99,
+  "words": [
+    {
+      "word": "academy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "學院;大學;研究院",
+      "cefr": "B2"
+    },
+    {
+      "word": "adviser",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "顧問;指導教授",
+      "cefr": "B2"
+    },
+    {
+      "word": "alphabet",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "字母",
+      "cefr": "B2"
+    },
+    {
+      "word": "analyst",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "分析師",
+      "cefr": "B2"
+    },
+    {
+      "word": "anticipate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "預期;預先考慮到",
+      "cefr": "B2"
+    },
+    {
+      "word": "antonym",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "反義字",
+      "cefr": "B2"
+    },
+    {
+      "word": "architect",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "建築師",
+      "cefr": "B2"
+    },
+    {
+      "word": "astronomy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "天文學",
+      "cefr": "B2"
+    },
+    {
+      "word": "autograph",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(尤指名人的)親筆簽名",
+      "cefr": "B2"
+    },
+    {
+      "word": "biology",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "生物學",
+      "cefr": "B2"
+    },
+    {
+      "word": "bookcase",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "書架",
+      "cefr": "B2"
+    },
+    {
+      "word": "caption",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "標題;字幕",
+      "cefr": "B2"
+    },
+    {
+      "word": "catalogue",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "目錄;大學概況一覽;登記,記載",
+      "cefr": "B2"
+    },
+    {
+      "word": "cathedral",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大教堂",
+      "cefr": "B2"
+    },
+    {
+      "word": "certify",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "證明;保證;發證書(或執照等)",
+      "cefr": "B2"
+    },
+    {
+      "word": "chapter",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(書籍的)章,回",
+      "cefr": "B2"
+    },
+    {
+      "word": "character",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "特性;角色;(中文)字",
+      "cefr": "B2"
+    },
+    {
+      "word": "charcoal",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "木炭;炭筆;深灰色",
+      "cefr": "B2"
+    },
+    {
+      "word": "chemical",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "化學製品;化學藥品",
+      "cefr": "B2"
+    },
+    {
+      "word": "chemist",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "化學家",
+      "cefr": "B2"
+    },
+    {
+      "word": "chemistry",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "化學",
+      "cefr": "B2"
+    },
+    {
+      "word": "college",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "學院;大學",
+      "cefr": "B2"
+    },
+    {
+      "word": "colonel",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "陸軍上校",
+      "cefr": "B2"
+    },
+    {
+      "word": "counselor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "顧問;(學生的)輔導員;律師",
+      "cefr": "B2"
+    },
+    {
+      "word": "cultural",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "教養的;人文的",
+      "cefr": "B2"
+    },
+    {
+      "word": "designer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "設計者;構思者;時裝設計師",
+      "cefr": "B2"
+    },
+    {
+      "word": "diagnosis",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "診斷;診斷書;調查分析",
+      "cefr": "B2"
+    },
+    {
+      "word": "dictation",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "口述;聽寫",
+      "cefr": "B2"
+    },
+    {
+      "word": "digital",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "數字的",
+      "cefr": "B2"
+    },
+    {
+      "word": "doctrine",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "教義;信條",
+      "cefr": "B2"
+    },
+    {
+      "word": "dormitory",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "學生宿舍",
+      "cefr": "B2"
+    },
+    {
+      "word": "ecology",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "生態學;生態",
+      "cefr": "B2"
+    },
+    {
+      "word": "economic",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "經濟上的;經濟學的",
+      "cefr": "B2"
+    },
+    {
+      "word": "economics",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "經濟學",
+      "cefr": "B2"
+    },
+    {
+      "word": "economist",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "經濟學者",
+      "cefr": "B2"
+    },
+    {
+      "word": "educate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "教育",
+      "cefr": "B2"
+    },
+    {
+      "word": "education",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "教育",
+      "cefr": "B2"
+    },
+    {
+      "word": "examiner",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "主考人;檢查人;審查員",
+      "cefr": "B2"
+    },
+    {
+      "word": "faculty",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(學校的)全體教員;官能",
+      "cefr": "B2"
+    },
+    {
+      "word": "fluency",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "流暢;流暢的說話(或寫作)",
+      "cefr": "B2"
+    },
+    {
+      "word": "genetic",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "基因的;遺傳(學)的",
+      "cefr": "B2"
+    },
+    {
+      "word": "genetics",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "遺傳學",
+      "cefr": "B2"
+    },
+    {
+      "word": "geometry",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "幾何學",
+      "cefr": "B2"
+    },
+    {
+      "word": "guarantee",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "保證;保證書",
+      "cefr": "B2"
+    },
+    {
+      "word": "historian",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "歷史學家",
+      "cefr": "B2"
+    },
+    {
+      "word": "hygiene",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "衛生;衛生學;保健法",
+      "cefr": "B2"
+    },
+    {
+      "word": "ignorance",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "無知,不學無術;愚昧",
+      "cefr": "B2"
+    },
+    {
+      "word": "ignorant",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "無知的,不學無術的",
+      "cefr": "B2"
+    },
+    {
+      "word": "initial",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(字的)起首字母",
+      "cefr": "B2"
+    },
+    {
+      "word": "initiate",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "初學者;新加入者",
+      "cefr": "B2"
+    },
+    {
+      "word": "institute",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(專科性的)學校,大學;研究所",
+      "cefr": "B2"
+    },
+    {
+      "word": "juvenile",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "青少年;幼體;兒童讀物",
+      "cefr": "B2"
+    },
+    {
+      "word": "knowledge",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "學問;知識",
+      "cefr": "B2"
+    },
+    {
+      "word": "language",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "語言",
+      "cefr": "B2"
+    },
+    {
+      "word": "learned",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "有學問的,博學的;精通的",
+      "cefr": "B2"
+    },
+    {
+      "word": "learning",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "學習;學問,學識",
+      "cefr": "B2"
+    },
+    {
+      "word": "lecture",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "授課;冗長的訓話",
+      "cefr": "B2"
+    },
+    {
+      "word": "librarian",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "圖書館員",
+      "cefr": "B2"
+    },
+    {
+      "word": "library",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "圖書館",
+      "cefr": "B2"
+    },
+    {
+      "word": "linguist",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "語言學者;通曉數種外語的人",
+      "cefr": "B2"
+    },
+    {
+      "word": "literacy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "識字;讀寫能力",
+      "cefr": "B2"
+    },
+    {
+      "word": "literal",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "照字面的;原義的;如實的",
+      "cefr": "B2"
+    },
+    {
+      "word": "literary",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "文學的,文藝的",
+      "cefr": "B2"
+    },
+    {
+      "word": "literate",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "能讀寫的人",
+      "cefr": "B2"
+    },
+    {
+      "word": "magician",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "魔術師",
+      "cefr": "B2"
+    },
+    {
+      "word": "mechanics",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "力學;機械學;技術;技巧",
+      "cefr": "B2"
+    },
+    {
+      "word": "medical",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "醫學的;醫術的;醫療的",
+      "cefr": "B2"
+    },
+    {
+      "word": "ministry",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(常大寫)(政府的)部",
+      "cefr": "B2"
+    },
+    {
+      "word": "notebook",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "筆記本",
+      "cefr": "B2"
+    },
+    {
+      "word": "offering",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "提供;供奉;捐獻物;供物;課程",
+      "cefr": "B2"
+    },
+    {
+      "word": "pacific",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(大寫)太平洋",
+      "cefr": "B2"
+    },
+    {
+      "word": "physician",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "醫師",
+      "cefr": "B2"
+    },
+    {
+      "word": "physicist",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "物理學家",
+      "cefr": "B2"
+    },
+    {
+      "word": "portray",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "畫;描寫",
+      "cefr": "B2"
+    },
+    {
+      "word": "president",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "校長;總統",
+      "cefr": "B2"
+    },
+    {
+      "word": "principal",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(中小學)校長",
+      "cefr": "B2"
+    },
+    {
+      "word": "professor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "教授",
+      "cefr": "B2"
+    },
+    {
+      "word": "pyramid",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(常大寫)金字塔;三角錐",
+      "cefr": "B2"
+    },
+    {
+      "word": "reference",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "參考文獻;出處;提及",
+      "cefr": "B2"
+    },
+    {
+      "word": "religion",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "宗教;宗教信仰",
+      "cefr": "B2"
+    },
+    {
+      "word": "religious",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "宗教的;虔誠的",
+      "cefr": "B2"
+    },
+    {
+      "word": "research",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(學術)研究;調查,探究",
+      "cefr": "B2"
+    },
+    {
+      "word": "revision",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "修訂;校訂;修正",
+      "cefr": "B2"
+    },
+    {
+      "word": "schedule",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "清單;目錄;時間表;課程表",
+      "cefr": "B2"
+    },
+    {
+      "word": "scholar",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "學者",
+      "cefr": "B2"
+    },
+    {
+      "word": "science",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "科學",
+      "cefr": "B2"
+    },
+    {
+      "word": "scientist",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "科學家",
+      "cefr": "B2"
+    },
+    {
+      "word": "secretary",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "秘書",
+      "cefr": "B2"
+    },
+    {
+      "word": "semester",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "學期",
+      "cefr": "B2"
+    },
+    {
+      "word": "sociology",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "社會學",
+      "cefr": "B2"
+    },
+    {
+      "word": "sophomore",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(大學;高中的)二年級學生",
+      "cefr": "B2"
+    },
+    {
+      "word": "spelling",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "拼字;拼寫;拼法",
+      "cefr": "B2"
+    },
+    {
+      "word": "stapler",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "釘書機",
+      "cefr": "B2"
+    },
+    {
+      "word": "subject",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "主題;學科",
+      "cefr": "B2"
+    },
+    {
+      "word": "synonym",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "同義字;同物異名",
+      "cefr": "B2"
+    },
+    {
+      "word": "textbook",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "教科書",
+      "cefr": "B2"
+    },
+    {
+      "word": "therapist",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "治療技師或專家",
+      "cefr": "B2"
+    },
+    {
+      "word": "tuition",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "學費",
+      "cefr": "B2"
+    },
+    {
+      "word": "warranty",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "保證書;保單",
+      "cefr": "B2"
+    }
+  ]
+}

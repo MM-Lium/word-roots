@@ -1,0 +1,219 @@
+{
+  "level": "A2",
+  "part": 4,
+  "totalParts": 11,
+  "title": "基礎級 A2 (Elementary) - 商業與工作",
+  "count": 30,
+  "words": [
+    {
+      "word": "AI",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "人工智慧(artificialintelligence)",
+      "cefr": "A2"
+    },
+    {
+      "word": "bank",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "銀行;堤;岸",
+      "cefr": "A2"
+    },
+    {
+      "word": "boss",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "老闆",
+      "cefr": "A2"
+    },
+    {
+      "word": "care",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "看護;保護;照料;管理;關懷;小心",
+      "cefr": "A2"
+    },
+    {
+      "word": "cent",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "分(錢幣)",
+      "cefr": "A2"
+    },
+    {
+      "word": "factory",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "工廠",
+      "cefr": "A2"
+    },
+    {
+      "word": "fair",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "商品展覽會",
+      "cefr": "A2"
+    },
+    {
+      "word": "homework",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "家庭作業",
+      "cefr": "A2"
+    },
+    {
+      "word": "inn",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小旅館,客棧",
+      "cefr": "A2"
+    },
+    {
+      "word": "job",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "職業;工作",
+      "cefr": "A2"
+    },
+    {
+      "word": "kit",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "成套工具;配套元件",
+      "cefr": "A2"
+    },
+    {
+      "word": "load",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "裝載;擔子;工作量",
+      "cefr": "A2"
+    },
+    {
+      "word": "log",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "原木;木料;工作記錄簿",
+      "cefr": "A2"
+    },
+    {
+      "word": "logo",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "商標",
+      "cefr": "A2"
+    },
+    {
+      "word": "pay",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "薪俸;報酬;報償;懲罰",
+      "cefr": "A2"
+    },
+    {
+      "word": "plant",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "植物,農作物;工廠",
+      "cefr": "A2"
+    },
+    {
+      "word": "price",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "價錢",
+      "cefr": "A2"
+    },
+    {
+      "word": "quit",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "放棄;離職",
+      "cefr": "A2"
+    },
+    {
+      "word": "raw",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "生的,未煮過的;未加工的",
+      "cefr": "A2"
+    },
+    {
+      "word": "sale",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "售賣;賤賣",
+      "cefr": "A2"
+    },
+    {
+      "word": "save",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "救;省;存錢",
+      "cefr": "A2"
+    },
+    {
+      "word": "sell",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "賣",
+      "cefr": "A2"
+    },
+    {
+      "word": "shop",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "商店",
+      "cefr": "A2"
+    },
+    {
+      "word": "silver",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "銀",
+      "cefr": "A2"
+    },
+    {
+      "word": "store",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "商店",
+      "cefr": "A2"
+    },
+    {
+      "word": "task",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "任務;工作",
+      "cefr": "A2"
+    },
+    {
+      "word": "toil",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "辛苦;勞累;苦工",
+      "cefr": "A2"
+    },
+    {
+      "word": "tool",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "工具",
+      "cefr": "A2"
+    },
+    {
+      "word": "vend",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "出售;販賣",
+      "cefr": "A2"
+    },
+    {
+      "word": "worker",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "工人",
+      "cefr": "A2"
+    }
+  ]
+}

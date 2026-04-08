@@ -1,0 +1,296 @@
+{
+  "level": "A2",
+  "part": 9,
+  "totalParts": 11,
+  "title": "基礎級 A2 (Elementary) - 生活與物品",
+  "count": 41,
+  "words": [
+    {
+      "word": "arch",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "拱門,拱形",
+      "cefr": "A2"
+    },
+    {
+      "word": "bag",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "袋子",
+      "cefr": "A2"
+    },
+    {
+      "word": "bath",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "洗澡",
+      "cefr": "A2"
+    },
+    {
+      "word": "believe",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "相信",
+      "cefr": "A2"
+    },
+    {
+      "word": "bolt",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "門栓;螺栓;電光;衝撞",
+      "cefr": "A2"
+    },
+    {
+      "word": "bulb",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "電燈泡",
+      "cefr": "A2"
+    },
+    {
+      "word": "cap",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "無邊便帽;蓋子",
+      "cefr": "A2"
+    },
+    {
+      "word": "crib",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "嬰兒床",
+      "cefr": "A2"
+    },
+    {
+      "word": "cue",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "暗示,信號",
+      "cefr": "A2"
+    },
+    {
+      "word": "cup",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "杯子",
+      "cefr": "A2"
+    },
+    {
+      "word": "dial",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "刻度盤;調節器;撥號盤",
+      "cefr": "A2"
+    },
+    {
+      "word": "disc",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "圓盤;盤狀物;磁盤;鐵餅",
+      "cefr": "A2"
+    },
+    {
+      "word": "disk",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "圓盤;(電腦)磁盤",
+      "cefr": "A2"
+    },
+    {
+      "word": "fax",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "傳真通信",
+      "cefr": "A2"
+    },
+    {
+      "word": "fuse",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "保險絲;引信",
+      "cefr": "A2"
+    },
+    {
+      "word": "gate",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "柵門;登機門",
+      "cefr": "A2"
+    },
+    {
+      "word": "glass",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "玻璃杯;玻璃",
+      "cefr": "A2"
+    },
+    {
+      "word": "hat",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "帽子",
+      "cefr": "A2"
+    },
+    {
+      "word": "hive",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "蜂房;蜂巢;熱鬧的場所",
+      "cefr": "A2"
+    },
+    {
+      "word": "hut",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小屋;臨時營房",
+      "cefr": "A2"
+    },
+    {
+      "word": "kitchen",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "廚房",
+      "cefr": "A2"
+    },
+    {
+      "word": "knife",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "刀子",
+      "cefr": "A2"
+    },
+    {
+      "word": "knit",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "編織衣物",
+      "cefr": "A2"
+    },
+    {
+      "word": "lamp",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "燈",
+      "cefr": "A2"
+    },
+    {
+      "word": "lap",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "膝部;(衣,裙等的)下襬",
+      "cefr": "A2"
+    },
+    {
+      "word": "mail",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "信件",
+      "cefr": "A2"
+    },
+    {
+      "word": "mill",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "磨坊;銑床;銑刀",
+      "cefr": "A2"
+    },
+    {
+      "word": "mug",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(有柄)大杯子",
+      "cefr": "A2"
+    },
+    {
+      "word": "neon",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "氖;霓虹燈",
+      "cefr": "A2"
+    },
+    {
+      "word": "newspaper",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "報紙",
+      "cefr": "A2"
+    },
+    {
+      "word": "pack",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "一小包",
+      "cefr": "A2"
+    },
+    {
+      "word": "pane",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "窗玻璃片;窗格;嵌板",
+      "cefr": "A2"
+    },
+    {
+      "word": "rag",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "破布;抹布;破爛衣衫",
+      "cefr": "A2"
+    },
+    {
+      "word": "sack",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "袋;粗布袋",
+      "cefr": "A2"
+    },
+    {
+      "word": "seal",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "圖章,印信;封(印)",
+      "cefr": "A2"
+    },
+    {
+      "word": "shoe",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鞋子",
+      "cefr": "A2"
+    },
+    {
+      "word": "sink",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "洗物槽",
+      "cefr": "A2"
+    },
+    {
+      "word": "suit",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "一套衣服;訴訟",
+      "cefr": "A2"
+    },
+    {
+      "word": "tray",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "盤子,托盤",
+      "cefr": "A2"
+    },
+    {
+      "word": "tuck",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(衣服等的)褶襉;打褶",
+      "cefr": "A2"
+    },
+    {
+      "word": "undo",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "解開;脫去(衣服等);取消",
+      "cefr": "A2"
+    }
+  ]
+}

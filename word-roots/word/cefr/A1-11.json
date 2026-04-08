@@ -1,0 +1,1059 @@
+{
+  "level": "A1",
+  "part": 11,
+  "totalParts": 11,
+  "title": "入門級 A1 (Beginner) - 基礎與其他詞彙",
+  "count": 150,
+  "words": [
+    {
+      "word": "able",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "能;有能力的",
+      "cefr": "A1"
+    },
+    {
+      "word": "after",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "以後,之後;在後面,隨後",
+      "cefr": "A1"
+    },
+    {
+      "word": "again",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "再一次",
+      "cefr": "A1"
+    },
+    {
+      "word": "ago",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "以前",
+      "cefr": "A1"
+    },
+    {
+      "word": "all",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "全體,一切;全部財產",
+      "cefr": "A1"
+    },
+    {
+      "word": "also",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "也",
+      "cefr": "A1"
+    },
+    {
+      "word": "always",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "總是",
+      "cefr": "A1"
+    },
+    {
+      "word": "another",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "另一個",
+      "cefr": "A1"
+    },
+    {
+      "word": "any",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "任何的",
+      "cefr": "A1"
+    },
+    {
+      "word": "away",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "離開",
+      "cefr": "A1"
+    },
+    {
+      "word": "back",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "背部;後面",
+      "cefr": "A1"
+    },
+    {
+      "word": "bad",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "壞的",
+      "cefr": "A1"
+    },
+    {
+      "word": "be",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "是;要;有;在",
+      "cefr": "A1"
+    },
+    {
+      "word": "beautiful",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "漂亮的",
+      "cefr": "A1"
+    },
+    {
+      "word": "blue",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "藍色",
+      "cefr": "A1"
+    },
+    {
+      "word": "both",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "兩者",
+      "cefr": "A1"
+    },
+    {
+      "word": "brown",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "棕色",
+      "cefr": "A1"
+    },
+    {
+      "word": "by",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "經過;過去;在旁邊",
+      "cefr": "A1"
+    },
+    {
+      "word": "city",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "都市",
+      "cefr": "A1"
+    },
+    {
+      "word": "clean",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "打掃;去垢",
+      "cefr": "A1"
+    },
+    {
+      "word": "come",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "到來",
+      "cefr": "A1"
+    },
+    {
+      "word": "cool",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "涼爽",
+      "cefr": "A1"
+    },
+    {
+      "word": "correct",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "改正;糾正",
+      "cefr": "A1"
+    },
+    {
+      "word": "cost",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "費用;成本",
+      "cefr": "A1"
+    },
+    {
+      "word": "country",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "國家;鄉下",
+      "cefr": "A1"
+    },
+    {
+      "word": "dark",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "黑暗,暗處;曖昧;隱晦",
+      "cefr": "A1"
+    },
+    {
+      "word": "dead",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "死的",
+      "cefr": "A1"
+    },
+    {
+      "word": "deep",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "深的",
+      "cefr": "A1"
+    },
+    {
+      "word": "different",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "不同的",
+      "cefr": "A1"
+    },
+    {
+      "word": "difficult",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "困難的",
+      "cefr": "A1"
+    },
+    {
+      "word": "dirty",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "弄髒;變髒",
+      "cefr": "A1"
+    },
+    {
+      "word": "do",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "做",
+      "cefr": "A1"
+    },
+    {
+      "word": "dream",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "夢",
+      "cefr": "A1"
+    },
+    {
+      "word": "drink",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "飲料",
+      "cefr": "A1"
+    },
+    {
+      "word": "each",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "每個",
+      "cefr": "A1"
+    },
+    {
+      "word": "east",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "東方",
+      "cefr": "A1"
+    },
+    {
+      "word": "easy",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "容易的",
+      "cefr": "A1"
+    },
+    {
+      "word": "eight",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "八",
+      "cefr": "A1"
+    },
+    {
+      "word": "either",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "兩者之一",
+      "cefr": "A1"
+    },
+    {
+      "word": "else",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "其他,另外;否則,要不然",
+      "cefr": "A1"
+    },
+    {
+      "word": "even",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使平坦;弄平;使相等",
+      "cefr": "A1"
+    },
+    {
+      "word": "every",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "每一個的",
+      "cefr": "A1"
+    },
+    {
+      "word": "face",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "臉",
+      "cefr": "A1"
+    },
+    {
+      "word": "family",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "家庭",
+      "cefr": "A1"
+    },
+    {
+      "word": "fast",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "快的",
+      "cefr": "A1"
+    },
+    {
+      "word": "five",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "五",
+      "cefr": "A1"
+    },
+    {
+      "word": "fly",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "蒼蠅",
+      "cefr": "A1"
+    },
+    {
+      "word": "four",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "四",
+      "cefr": "A1"
+    },
+    {
+      "word": "free",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使自由;解放;使解脫",
+      "cefr": "A1"
+    },
+    {
+      "word": "fresh",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "新鮮的",
+      "cefr": "A1"
+    },
+    {
+      "word": "full",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "飽的;滿的",
+      "cefr": "A1"
+    },
+    {
+      "word": "get",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "得到;拿到",
+      "cefr": "A1"
+    },
+    {
+      "word": "give",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "給",
+      "cefr": "A1"
+    },
+    {
+      "word": "good",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "利益;好處;優點",
+      "cefr": "A1"
+    },
+    {
+      "word": "green",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "綠色",
+      "cefr": "A1"
+    },
+    {
+      "word": "grey",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "灰色;暗淡的光線",
+      "cefr": "A1"
+    },
+    {
+      "word": "group",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "一群",
+      "cefr": "A1"
+    },
+    {
+      "word": "guess",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "猜測",
+      "cefr": "A1"
+    },
+    {
+      "word": "happen",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "發生",
+      "cefr": "A1"
+    },
+    {
+      "word": "hard",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "硬的;難的",
+      "cefr": "A1"
+    },
+    {
+      "word": "have",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "有",
+      "cefr": "A1"
+    },
+    {
+      "word": "home",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "家",
+      "cefr": "A1"
+    },
+    {
+      "word": "hope",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "希望,期望",
+      "cefr": "A1"
+    },
+    {
+      "word": "hot",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "熱的",
+      "cefr": "A1"
+    },
+    {
+      "word": "how",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "如何",
+      "cefr": "A1"
+    },
+    {
+      "word": "hungry",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "飢餓的",
+      "cefr": "A1"
+    },
+    {
+      "word": "ice",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "冰",
+      "cefr": "A1"
+    },
+    {
+      "word": "idea",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "主意",
+      "cefr": "A1"
+    },
+    {
+      "word": "in",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "在裡面的",
+      "cefr": "A1"
+    },
+    {
+      "word": "inside",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "內部,裡面;內幕",
+      "cefr": "A1"
+    },
+    {
+      "word": "just",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "正直的;公平的;應得的;正確的",
+      "cefr": "A1"
+    },
+    {
+      "word": "keep",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "生活費,生計",
+      "cefr": "A1"
+    },
+    {
+      "word": "kind",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "種類",
+      "cefr": "A1"
+    },
+    {
+      "word": "know",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "知道",
+      "cefr": "A1"
+    },
+    {
+      "word": "leave",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "准假;休假",
+      "cefr": "A1"
+    },
+    {
+      "word": "let",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "讓",
+      "cefr": "A1"
+    },
+    {
+      "word": "lie",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "謊言",
+      "cefr": "A1"
+    },
+    {
+      "word": "live",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "居住",
+      "cefr": "A1"
+    },
+    {
+      "word": "make",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "製造;使得",
+      "cefr": "A1"
+    },
+    {
+      "word": "mean",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "意指",
+      "cefr": "A1"
+    },
+    {
+      "word": "milk",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "牛奶",
+      "cefr": "A1"
+    },
+    {
+      "word": "mind",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "心智",
+      "cefr": "A1"
+    },
+    {
+      "word": "mouth",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "嘴巴",
+      "cefr": "A1"
+    },
+    {
+      "word": "move",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "移動",
+      "cefr": "A1"
+    },
+    {
+      "word": "need",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "需要;需求;貧窮",
+      "cefr": "A1"
+    },
+    {
+      "word": "never",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "永不",
+      "cefr": "A1"
+    },
+    {
+      "word": "new",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "新的",
+      "cefr": "A1"
+    },
+    {
+      "word": "next",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "下一個",
+      "cefr": "A1"
+    },
+    {
+      "word": "nice",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "好的",
+      "cefr": "A1"
+    },
+    {
+      "word": "north",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "北方",
+      "cefr": "A1"
+    },
+    {
+      "word": "not",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "不",
+      "cefr": "A1"
+    },
+    {
+      "word": "now",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "現在,目前,此刻",
+      "cefr": "A1"
+    },
+    {
+      "word": "other",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "其他的",
+      "cefr": "A1"
+    },
+    {
+      "word": "own",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "擁有",
+      "cefr": "A1"
+    },
+    {
+      "word": "park",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "公園",
+      "cefr": "A1"
+    },
+    {
+      "word": "part",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "部份",
+      "cefr": "A1"
+    },
+    {
+      "word": "picture",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "圖畫;照片",
+      "cefr": "A1"
+    },
+    {
+      "word": "plan",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "計畫",
+      "cefr": "A1"
+    },
+    {
+      "word": "poor",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "貧窮的",
+      "cefr": "A1"
+    },
+    {
+      "word": "pretty",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "漂亮的",
+      "cefr": "A1"
+    },
+    {
+      "word": "public",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "公眾,民眾",
+      "cefr": "A1"
+    },
+    {
+      "word": "put",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "放置",
+      "cefr": "A1"
+    },
+    {
+      "word": "quick",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "快的",
+      "cefr": "A1"
+    },
+    {
+      "word": "quiet",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "安靜;寂靜;安穩;和平",
+      "cefr": "A1"
+    },
+    {
+      "word": "ready",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "預先,事先;使準備好",
+      "cefr": "A1"
+    },
+    {
+      "word": "red",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "紅色",
+      "cefr": "A1"
+    },
+    {
+      "word": "remember",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "記得",
+      "cefr": "A1"
+    },
+    {
+      "word": "rich",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "富有的",
+      "cefr": "A1"
+    },
+    {
+      "word": "right",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "公理;權利",
+      "cefr": "A1"
+    },
+    {
+      "word": "sad",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "難過的",
+      "cefr": "A1"
+    },
+    {
+      "word": "safe",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "保險箱",
+      "cefr": "A1"
+    },
+    {
+      "word": "same",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "相同的",
+      "cefr": "A1"
+    },
+    {
+      "word": "sit",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "坐",
+      "cefr": "A1"
+    },
+    {
+      "word": "six",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "六",
+      "cefr": "A1"
+    },
+    {
+      "word": "sleep",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "睡眠;死亡;冬眠",
+      "cefr": "A1"
+    },
+    {
+      "word": "slow",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使慢,放慢",
+      "cefr": "A1"
+    },
+    {
+      "word": "so",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "這麼;也如此",
+      "cefr": "A1"
+    },
+    {
+      "word": "some",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "一些的",
+      "cefr": "A1"
+    },
+    {
+      "word": "sorry",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "抱歉;遺憾的",
+      "cefr": "A1"
+    },
+    {
+      "word": "south",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "南方",
+      "cefr": "A1"
+    },
+    {
+      "word": "special",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "特別的",
+      "cefr": "A1"
+    },
+    {
+      "word": "start",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "出發;開端;啟動",
+      "cefr": "A1"
+    },
+    {
+      "word": "still",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "靜止的",
+      "cefr": "A1"
+    },
+    {
+      "word": "strong",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "強壯的",
+      "cefr": "A1"
+    },
+    {
+      "word": "such",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "如此的",
+      "cefr": "A1"
+    },
+    {
+      "word": "sure",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "確定",
+      "cefr": "A1"
+    },
+    {
+      "word": "take",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "拿;帶;採用",
+      "cefr": "A1"
+    },
+    {
+      "word": "ten",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "十",
+      "cefr": "A1"
+    },
+    {
+      "word": "that",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "那;那個",
+      "cefr": "A1"
+    },
+    {
+      "word": "these",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "這些(this的複數)",
+      "cefr": "A1"
+    },
+    {
+      "word": "this",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "這",
+      "cefr": "A1"
+    },
+    {
+      "word": "three",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "三",
+      "cefr": "A1"
+    },
+    {
+      "word": "together",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "一同",
+      "cefr": "A1"
+    },
+    {
+      "word": "true",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "配準,擺正",
+      "cefr": "A1"
+    },
+    {
+      "word": "try",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "嘗試;努力",
+      "cefr": "A1"
+    },
+    {
+      "word": "two",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "二",
+      "cefr": "A1"
+    },
+    {
+      "word": "up",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "上升;走運",
+      "cefr": "A1"
+    },
+    {
+      "word": "use",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "用途",
+      "cefr": "A1"
+    },
+    {
+      "word": "very",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "正是;恰好是;僅僅",
+      "cefr": "A1"
+    },
+    {
+      "word": "want",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "需要的東西;必需品;缺乏;匱乏",
+      "cefr": "A1"
+    },
+    {
+      "word": "weak",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "虛弱的",
+      "cefr": "A1"
+    },
+    {
+      "word": "wear",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "穿;戴;佩;磨損",
+      "cefr": "A1"
+    },
+    {
+      "word": "wet",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "把...淋濕,打濕,弄濕;尿濕",
+      "cefr": "A1"
+    },
+    {
+      "word": "which",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "哪一個,哪一些;這個,這些",
+      "cefr": "A1"
+    },
+    {
+      "word": "white",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "白色",
+      "cefr": "A1"
+    },
+    {
+      "word": "will",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "意志;決心;遺囑",
+      "cefr": "A1"
+    },
+    {
+      "word": "wish",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "希望,願望;祝福,祈頌",
+      "cefr": "A1"
+    },
+    {
+      "word": "world",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "世界",
+      "cefr": "A1"
+    },
+    {
+      "word": "wrong",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "錯誤;不道德;違法,犯罪;壞事",
+      "cefr": "A1"
+    },
+    {
+      "word": "zero",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "零",
+      "cefr": "A1"
+    }
+  ]
+}

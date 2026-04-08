@@ -1,0 +1,240 @@
+{
+  "level": "A1",
+  "part": 10,
+  "totalParts": 11,
+  "title": "入門級 A1 (Beginner) - 時間與測量",
+  "count": 33,
+  "words": [
+    {
+      "word": "about",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "在四周;在附近;大約",
+      "cefr": "A1"
+    },
+    {
+      "word": "age",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "年齡",
+      "cefr": "A1"
+    },
+    {
+      "word": "around",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "到處,四處;周圍,附近;環繞;大約",
+      "cefr": "A1"
+    },
+    {
+      "word": "big",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "大的",
+      "cefr": "A1"
+    },
+    {
+      "word": "early",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "早的;提早的",
+      "cefr": "A1"
+    },
+    {
+      "word": "enough",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "足夠,充分",
+      "cefr": "A1"
+    },
+    {
+      "word": "far",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "遠的",
+      "cefr": "A1"
+    },
+    {
+      "word": "few",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "少數的;一些",
+      "cefr": "A1"
+    },
+    {
+      "word": "first",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "第一;第一個;第一名;優等;開始;開始時間",
+      "cefr": "A1"
+    },
+    {
+      "word": "glad",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "高興的",
+      "cefr": "A1"
+    },
+    {
+      "word": "grow",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "種植;成長",
+      "cefr": "A1"
+    },
+    {
+      "word": "here",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "這裡;今世",
+      "cefr": "A1"
+    },
+    {
+      "word": "large",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "大的",
+      "cefr": "A1"
+    },
+    {
+      "word": "late",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "晚的;遲的",
+      "cefr": "A1"
+    },
+    {
+      "word": "left",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "左,左邊;激進分子們",
+      "cefr": "A1"
+    },
+    {
+      "word": "little",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "沒有多少;短時間;短距離",
+      "cefr": "A1"
+    },
+    {
+      "word": "many",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "很多的",
+      "cefr": "A1"
+    },
+    {
+      "word": "more",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "更多的",
+      "cefr": "A1"
+    },
+    {
+      "word": "most",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "最多的;大部分的",
+      "cefr": "A1"
+    },
+    {
+      "word": "much",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "很多的",
+      "cefr": "A1"
+    },
+    {
+      "word": "near",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "近,接近;幾乎,差不多",
+      "cefr": "A1"
+    },
+    {
+      "word": "night",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "夜晚",
+      "cefr": "A1"
+    },
+    {
+      "word": "old",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "年老的",
+      "cefr": "A1"
+    },
+    {
+      "word": "short",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "矮的;短的",
+      "cefr": "A1"
+    },
+    {
+      "word": "small",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "細小的部分;小件物品",
+      "cefr": "A1"
+    },
+    {
+      "word": "smart",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "聰明的",
+      "cefr": "A1"
+    },
+    {
+      "word": "tall",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "高的",
+      "cefr": "A1"
+    },
+    {
+      "word": "then",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "那時,當時",
+      "cefr": "A1"
+    },
+    {
+      "word": "time",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "時間;次數",
+      "cefr": "A1"
+    },
+    {
+      "word": "wait",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "等待;等待的時間",
+      "cefr": "A1"
+    },
+    {
+      "word": "what",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "什麼;多麼,何等",
+      "cefr": "A1"
+    },
+    {
+      "word": "when",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "何時",
+      "cefr": "A1"
+    },
+    {
+      "word": "young",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "青年們;雛",
+      "cefr": "A1"
+    }
+  ]
+}

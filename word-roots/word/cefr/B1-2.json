@@ -1,0 +1,541 @@
+{
+  "level": "B1",
+  "part": 2,
+  "totalParts": 11,
+  "title": "中級 B1 (Intermediate) - 飲食與烹飪",
+  "count": 76,
+  "words": [
+    {
+      "word": "apple",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "蘋果",
+      "cefr": "B1"
+    },
+    {
+      "word": "bacon",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "燻豬肉",
+      "cefr": "B1"
+    },
+    {
+      "word": "bakery",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "麵包店",
+      "cefr": "B1"
+    },
+    {
+      "word": "berry",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "莓果",
+      "cefr": "B1"
+    },
+    {
+      "word": "bingo",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "賓果遊戲",
+      "cefr": "B1"
+    },
+    {
+      "word": "bodily",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "肉體的;身體的;有形的",
+      "cefr": "B1"
+    },
+    {
+      "word": "booth",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(有篷的)貨攤;崗亭;(餐廳等)雅座",
+      "cefr": "B1"
+    },
+    {
+      "word": "broth",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(用肉、蔬菜等煮成的)湯",
+      "cefr": "B1"
+    },
+    {
+      "word": "bruise",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "青腫;(水果等)碰傷;挫傷",
+      "cefr": "B1"
+    },
+    {
+      "word": "brunch",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "早午餐",
+      "cefr": "B1"
+    },
+    {
+      "word": "bubble",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "水泡,氣泡",
+      "cefr": "B1"
+    },
+    {
+      "word": "bucket",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "水桶",
+      "cefr": "B1"
+    },
+    {
+      "word": "buffet",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "自助餐",
+      "cefr": "B1"
+    },
+    {
+      "word": "burger",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "漢堡牛肉餅",
+      "cefr": "B1"
+    },
+    {
+      "word": "catsup",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "果醬;番茄醬",
+      "cefr": "B1"
+    },
+    {
+      "word": "celery",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "芹菜",
+      "cefr": "B1"
+    },
+    {
+      "word": "cellar",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "地下室;地窖;酒窖",
+      "cefr": "B1"
+    },
+    {
+      "word": "cement",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "水泥",
+      "cefr": "B1"
+    },
+    {
+      "word": "cheer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "喝采;鼓勵",
+      "cefr": "B1"
+    },
+    {
+      "word": "chunk",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(肉、木材等的)大塊;厚片",
+      "cefr": "B1"
+    },
+    {
+      "word": "coffee",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "咖啡",
+      "cefr": "B1"
+    },
+    {
+      "word": "crumb",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "麵包屑;碎屑;少許",
+      "cefr": "B1"
+    },
+    {
+      "word": "crust",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "麵包皮;派餅皮;硬外皮",
+      "cefr": "B1"
+    },
+    {
+      "word": "devour",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "狼吞虎嚥地吃;吞沒",
+      "cefr": "B1"
+    },
+    {
+      "word": "divide",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "分歧,不和;分水嶺",
+      "cefr": "B1"
+    },
+    {
+      "word": "dough",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "生麵糰;現款",
+      "cefr": "B1"
+    },
+    {
+      "word": "drain",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "排水管",
+      "cefr": "B1"
+    },
+    {
+      "word": "drunk",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "醉漢,酒鬼;酒宴,鬧飲",
+      "cefr": "B1"
+    },
+    {
+      "word": "faucet",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "水龍頭",
+      "cefr": "B1"
+    },
+    {
+      "word": "flesh",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "肉,肌肉",
+      "cefr": "B1"
+    },
+    {
+      "word": "flood",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "洪水,水災",
+      "cefr": "B1"
+    },
+    {
+      "word": "flour",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "麵粉",
+      "cefr": "B1"
+    },
+    {
+      "word": "grain",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "穀物;(砂,鹽等的)粒,細粒",
+      "cefr": "B1"
+    },
+    {
+      "word": "graze",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "吃草;放牧;擦傷",
+      "cefr": "B1"
+    },
+    {
+      "word": "grill",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "烤架;燒烤的肉類食物",
+      "cefr": "B1"
+    },
+    {
+      "word": "hardy",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "能吃苦耐勞的;(植物等)耐寒的",
+      "cefr": "B1"
+    },
+    {
+      "word": "hunch",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "預感;隆肉;肉峰",
+      "cefr": "B1"
+    },
+    {
+      "word": "idiot",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "白癡;笨蛋",
+      "cefr": "B1"
+    },
+    {
+      "word": "irony",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "反語;諷刺;出乎意料的結果",
+      "cefr": "B1"
+    },
+    {
+      "word": "jelly",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "果凍;果醬",
+      "cefr": "B1"
+    },
+    {
+      "word": "kernel",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(果核或果殼內的)仁;核心,要點",
+      "cefr": "B1"
+    },
+    {
+      "word": "kettle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "水壺",
+      "cefr": "B1"
+    },
+    {
+      "word": "launch",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(船的)下水;發射",
+      "cefr": "B1"
+    },
+    {
+      "word": "liquor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "酒;含酒精飲料",
+      "cefr": "B1"
+    },
+    {
+      "word": "lotion",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(化妝等用的)化妝水,塗劑",
+      "cefr": "B1"
+    },
+    {
+      "word": "mango",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "芒果",
+      "cefr": "B1"
+    },
+    {
+      "word": "melon",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "瓜,甜瓜",
+      "cefr": "B1"
+    },
+    {
+      "word": "muscle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "肌;肌肉",
+      "cefr": "B1"
+    },
+    {
+      "word": "mutton",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "羊肉",
+      "cefr": "B1"
+    },
+    {
+      "word": "napkin",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "餐巾",
+      "cefr": "B1"
+    },
+    {
+      "word": "noodle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "麵",
+      "cefr": "B1"
+    },
+    {
+      "word": "outcome",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "結果;結局",
+      "cefr": "B1"
+    },
+    {
+      "word": "pasta",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "麵糰",
+      "cefr": "B1"
+    },
+    {
+      "word": "peanut",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "花生;花生果;花生米",
+      "cefr": "B1"
+    },
+    {
+      "word": "pickle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "醃黃瓜等的泡菜;鹽滷",
+      "cefr": "B1"
+    },
+    {
+      "word": "picnic",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "野餐",
+      "cefr": "B1"
+    },
+    {
+      "word": "poach",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "水煮(蛋);偷獵;侵佔",
+      "cefr": "B1"
+    },
+    {
+      "word": "punch",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "一種用酒,果汁,香料等調和的飲料",
+      "cefr": "B1"
+    },
+    {
+      "word": "result",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "結果",
+      "cefr": "B1"
+    },
+    {
+      "word": "roast",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "烘烤;烤肉",
+      "cefr": "B1"
+    },
+    {
+      "word": "sailor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "水手",
+      "cefr": "B1"
+    },
+    {
+      "word": "salary",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "薪資,薪水",
+      "cefr": "B1"
+    },
+    {
+      "word": "salmon",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鮭魚;鮭肉;鮭肉色",
+      "cefr": "B1"
+    },
+    {
+      "word": "saloon",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(旅館;輪船等的)大廳;酒館",
+      "cefr": "B1"
+    },
+    {
+      "word": "salty",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "有鹽分的;鹹味濃的",
+      "cefr": "B1"
+    },
+    {
+      "word": "sewer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "污水管;下水道",
+      "cefr": "B1"
+    },
+    {
+      "word": "shell",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "殼,果殼;貝殼",
+      "cefr": "B1"
+    },
+    {
+      "word": "sober",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使醒酒;使清醒;變得嚴肅",
+      "cefr": "B1"
+    },
+    {
+      "word": "supper",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "晚餐",
+      "cefr": "B1"
+    },
+    {
+      "word": "sweat",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "汗,汗水",
+      "cefr": "B1"
+    },
+    {
+      "word": "syrup",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "糖漿",
+      "cefr": "B1"
+    },
+    {
+      "word": "tavern",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小酒館;小客棧",
+      "cefr": "B1"
+    },
+    {
+      "word": "toast",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "烤麵包片",
+      "cefr": "B1"
+    },
+    {
+      "word": "vapor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "水汽",
+      "cefr": "B1"
+    },
+    {
+      "word": "whisky",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "威士忌酒",
+      "cefr": "B1"
+    },
+    {
+      "word": "yummy",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "好吃的",
+      "cefr": "B1"
+    }
+  ]
+}

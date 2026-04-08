@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>字根字首探索器 | Word Root Explorer</title>
+  <meta name="description" content="輕鬆查詢英文字根字首，支援自訂匯入單字 JSON，自動分析並說明字根字首意義。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo-group">
+        <div class="logo-icon">
+          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="40" height="40" rx="12" fill="url(#logoGrad)"/>
+            <text x="8" y="28" font-size="20" fill="white" font-family="Inter" font-weight="800">Rr</text>
+            <defs>
+              <linearGradient id="logoGrad" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#6C63FF"/>
+                <stop offset="1" stop-color="#A855F7"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-title">字根字首探索器</span>
+          <span class="logo-sub">Word Root Explorer</span>
+        </div>
+      </div>
+      <nav class="header-nav">
+        <button class="nav-btn active" id="navSearch" onclick="showTab('search')">🔍 查詢</button>
+        <button class="nav-btn" id="navImport" onclick="showTab('import')">📤 匯入</button>
+        <button class="nav-btn" id="navBrowse" onclick="showTab('browse')">📚 字庫</button>
+        <button class="nav-btn" id="navDB" onclick="showTab('database')">🗂 字根庫</button>
+        <a href="cefr.html" class="nav-btn" style="text-decoration:none">🎓 CEFR 單字表</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+
+    <!-- ========== SEARCH TAB ========== -->
+    <section class="tab-section active" id="tabSearch">
+      <div class="section-hero">
+        <h1 class="hero-title">探索英文單字的<span class="gradient-text">隱藏密碼</span></h1>
+        <p class="hero-sub">輸入任何英文單字，立即分析字根、字首、字尾及其意義</p>
+      </div>
+
+      <div class="search-container">
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input
+            type="text"
+            id="searchInput"
+            class="search-input"
+            placeholder="輸入英文單字，例如：international..."
+            autocomplete="off"
+            spellcheck="false"
+          />
+          <button class="search-btn" id="searchBtn" onclick="performSearch()">分析</button>
+        </div>
+        <div class="search-tags">
+          <span class="search-tag-label">快速試試：</span>
+          <button class="quick-tag" onclick="quickSearch('transportation')">transportation</button>
+          <button class="quick-tag" onclick="quickSearch('autobiography')">autobiography</button>
+          <button class="quick-tag" onclick="quickSearch('microscope')">microscope</button>
+          <button class="quick-tag" onclick="quickSearch('democracy')">democracy</button>
+          <button class="quick-tag" onclick="quickSearch('impossible')">impossible</button>
+          <button class="quick-tag" onclick="quickSearch('transformation')">transformation</button>
+        </div>
+        <div class="search-history" id="searchHistoryContainer" style="display:none">
+          <span class="search-tag-label" style="color:var(--text-primary)">🕒 最近查詢：</span>
+          <div id="searchHistoryTags" style="display:inline-flex; flex-wrap:wrap; gap:8px;"></div>
+          <button class="btn-ghost" style="font-size:11px; padding:2px 6px; margin-left:8px" onclick="clearSearchHistory()">清除</button>
+        </div>
+      </div>
+
+      <!-- Result Area -->
+      <div class="result-area" id="resultArea" style="display:none">
+        <!-- Word Header -->
+        <div class="result-word-card">
+          <div class="result-word-top">
+            <div class="result-word-left">
+              <div class="result-word-title" id="resultWordTitle"></div>
+              <div class="result-word-translation" id="resultWordTranslation"></div>
+              <!-- POS Badges -->
+              <div class="pos-badges" id="posBadges"></div>
+            </div>
+            <div class="result-word-actions">
+              <div class="result-score-badge" id="resultScoreBadge"></div>
+              <a class="cambridge-link" id="cambridgeLink" href="#" target="_blank" rel="noopener">
+                📖 Cambridge
+              </a>
+            </div>
+          </div>
+          <!-- Definition Area -->
+          <div class="word-definition-area" id="wordDefinitionArea" style="display:none">
+            <div class="definition-loading" id="definitionLoading">正在查詢定義...</div>
+            <div class="definition-entries" id="definitionEntries"></div>
+          </div>
+          <!-- Visual Breakdown -->
+          <div class="word-breakdown" id="wordBreakdown"></div>
+          <div class="breakdown-legend">
+            <span class="legend-item prefix">字首 Prefix</span>
+            <span class="legend-item root">字根 Root</span>
+            <span class="legend-item suffix">字尾 Suffix</span>
+          </div>
+        </div>
+
+        <!-- Analysis Cards -->
+        <div class="analysis-grid" id="analysisGrid"></div>
+
+        <!-- Word Relationships Section -->
+        <div class="word-relationships-section" id="wordRelationshipsSection" style="display:none">
+          <div class="related-words-header">
+            <h2 class="related-words-title">📖 同義、反義與搭配詞</h2>
+            <span class="related-words-sub">探索此單字的相似詞彙與常見搭配用法</span>
+          </div>
+          <div class="relationships-container" id="relationshipsContainer"></div>
+        </div>
+
+        <!-- Related Words Section -->
+        <div class="related-words-section" id="relatedWordsSection" style="display:none">
+          <div class="related-words-header">
+            <h2 class="related-words-title">🔗 相同字根延伸單字</h2>
+            <span class="related-words-sub">與此單字共享相同字根字首的相關單字</span>
+          </div>
+          <div class="related-words-grid" id="relatedWordsGrid"></div>
+        </div>
+
+        <!-- Extended Words Section -->
+        <div class="related-words-section" id="extendedWordsSection" style="display:none">
+          <div class="related-words-header">
+            <h2 class="related-words-title">🌱 原字延伸字彙</h2>
+            <span class="related-words-sub">由這個單字加上字首或字尾延伸出的其他單字</span>
+          </div>
+          <div class="related-words-grid" id="extendedWordsGrid"></div>
+        </div>
+      </div>
+
+      <!-- Empty State -->
+      <div class="empty-state" id="emptyState">
+        <div class="empty-icon">💡</div>
+        <div class="empty-title">開始你的字根之旅</div>
+        <div class="empty-sub">在上方搜尋框輸入單字，系統將自動分析並解釋其字根字首組成</div>
+      </div>
+    </section>
+
+    <!-- ========== IMPORT TAB ========== -->
+    <section class="tab-section" id="tabImport">
+      <div class="section-hero">
+        <h1 class="hero-title">匯入<span class="gradient-text">自訂單字</span></h1>
+        <p class="hero-sub">上傳 JSON 檔案或貼上 JSON 內容，批次分析字根字首</p>
+      </div>
+
+      <div class="import-area">
+        <!-- Upload Zone -->
+        <div class="upload-zone" id="uploadZone" onclick="document.getElementById('fileInput').click()">
+          <input type="file" id="fileInput" accept=".json" style="display:none" onchange="handleFileUpload(event)" />
+          <div class="upload-icon">📂</div>
+          <div class="upload-title">點擊或拖曳 JSON 檔案</div>
+          <div class="upload-sub">支援 .json 格式</div>
+        </div>
+
+        <div class="import-divider"><span>或</span></div>
+
+        <!-- JSON Editor -->
+        <div class="json-editor-wrap">
+          <div class="json-editor-header">
+            <span class="json-editor-label">📝 貼上 JSON 內容</span>
+            <button class="btn-ghost" onclick="loadSampleJSON()">載入範例</button>
+          </div>
+          <textarea id="jsonInput" class="json-textarea" placeholder='[
+  "transport",
+  "biology",
+  "incredible",
+  ...
+]
+
+或包含更多資訊：
+[
+  { "word": "transport", "definition": "運輸" },
+  { "word": "biology", "definition": "生物學" }
+]'></textarea>
+          <button class="btn-primary full-width" onclick="processJSONImport()">🚀 開始分析</button>
+        </div>
+      </div>
+
+      <!-- Import Results -->
+      <div class="import-results" id="importResults" style="display:none">
+        <div class="import-results-header">
+          <h2 class="import-results-title">分析結果</h2>
+          <div class="import-results-meta" id="importResultsMeta"></div>
+          <button class="btn-ghost" onclick="exportResults()">📥 匯出結果</button>
+        </div>
+        <div class="import-word-list" id="importWordList"></div>
+      </div>
+    </section>
+
+    <!-- ========== BROWSE TAB ========== -->
+    <section class="tab-section" id="tabBrowse">
+      <div class="section-hero">
+        <h1 class="hero-title">我的<span class="gradient-text">單字庫</span></h1>
+        <p class="hero-sub">已匯入並分析的所有單字</p>
+      </div>
+      <div class="browse-toolbar">
+        <input type="text" id="browseFilter" class="filter-input" placeholder="🔎 篩選單字..." oninput="filterBrowse(this.value)" />
+        <select id="browseSort" class="select-input" onchange="sortBrowse(this.value)">
+          <option value="alpha">按字母排序</option>
+          <option value="score">按分析分數</option>
+          <option value="recent">最近加入</option>
+        </select>
+      </div>
+      <div class="browse-grid" id="browseGrid">
+        <div class="browse-empty">
+          <div class="browse-empty-icon">📭</div>
+          <div>尚未匯入任何單字</div>
+          <button class="btn-primary" onclick="showTab('import')" style="margin-top:16px">前往匯入</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== DATABASE TAB ========== -->
+    <section class="tab-section" id="tabDatabase">
+      <div class="section-hero">
+        <h1 class="hero-title">字根字首<span class="gradient-text">資料庫</span></h1>
+        <p class="hero-sub">收錄 200+ 英文字根、字首、字尾，含中文說明與例字</p>
+      </div>
+      <div class="db-toolbar">
+        <input type="text" id="dbSearch" class="filter-input" placeholder="🔎 搜尋字根字首..." oninput="filterDB(this.value)" />
+        <div class="db-filter-btns">
+          <button class="filter-btn active" data-filter="all" onclick="setDBFilter('all', this)">全部</button>
+          <button class="filter-btn prefix" data-filter="prefix" onclick="setDBFilter('prefix', this)">字首</button>
+          <button class="filter-btn root" data-filter="root" onclick="setDBFilter('root', this)">字根</button>
+          <button class="filter-btn suffix" data-filter="suffix" onclick="setDBFilter('suffix', this)">字尾</button>
+        </div>
+      </div>
+      <div class="db-stats" id="dbStats"></div>
+      <div class="db-grid" id="dbGrid"></div>
+    </section>
+
+  </main>
+
+  <!-- Toast -->
+  <div class="toast" id="toast"></div>
+
+  <script src="data/roots.js"></script>
+  <script src="data/analyzer.js"></script>
+  <script src="app.js?v=2"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+{
+  "level": "C1",
+  "part": 2,
+  "totalParts": 11,
+  "title": "高級 C1 (Advanced) - 飲食與烹飪",
+  "count": 11,
+  "words": [
+    {
+      "word": "carbohydrate",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "碳水化合物;含醣食物",
+      "cefr": "C1"
+    },
+    {
+      "word": "consequence",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "結果,後果",
+      "cefr": "C1"
+    },
+    {
+      "word": "determination",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "堅定;果斷",
+      "cefr": "C1"
+    },
+    {
+      "word": "horizontal",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "水平線;水平面;水平位置",
+      "cefr": "C1"
+    },
+    {
+      "word": "mayonnaise",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "蛋黃醬;美乃滋",
+      "cefr": "C1"
+    },
+    {
+      "word": "nourishment",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "食物,營養品;養育,滋養",
+      "cefr": "C1"
+    },
+    {
+      "word": "outrageous",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "可恥的;無法無天的;令人吃驚的",
+      "cefr": "C1"
+    },
+    {
+      "word": "refreshment",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "茶點;精力恢復",
+      "cefr": "C1"
+    },
+    {
+      "word": "restaurant",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "餐廳",
+      "cefr": "C1"
+    },
+    {
+      "word": "waterproof",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使不透水",
+      "cefr": "C1"
+    },
+    {
+      "word": "watertight",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "不透水的;無懈可擊的",
+      "cefr": "C1"
+    }
+  ]
+}

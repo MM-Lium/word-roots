@@ -1,0 +1,8241 @@
+{
+  "level": "B1",
+  "part": 11,
+  "totalParts": 11,
+  "title": "中級 B1 (Intermediate) - 基礎與其他詞彙",
+  "count": 1176,
+  "words": [
+    {
+      "word": "abide",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "忍受;等候",
+      "cefr": "B1"
+    },
+    {
+      "word": "above",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "上文的,前述的",
+      "cefr": "B1"
+    },
+    {
+      "word": "abroad",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "在國外",
+      "cefr": "B1"
+    },
+    {
+      "word": "abrupt",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "突然的;意外的",
+      "cefr": "B1"
+    },
+    {
+      "word": "absence",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "缺席",
+      "cefr": "B1"
+    },
+    {
+      "word": "absent",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "缺席",
+      "cefr": "B1"
+    },
+    {
+      "word": "absurd",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "荒謬的;愚蠢的",
+      "cefr": "B1"
+    },
+    {
+      "word": "abuse",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "濫用;虐待",
+      "cefr": "B1"
+    },
+    {
+      "word": "accept",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "接受",
+      "cefr": "B1"
+    },
+    {
+      "word": "accord",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "一致;符合",
+      "cefr": "B1"
+    },
+    {
+      "word": "accuse",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "指控",
+      "cefr": "B1"
+    },
+    {
+      "word": "achieve",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "實現",
+      "cefr": "B1"
+    },
+    {
+      "word": "across",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "橫過;寬;在對面;向對面",
+      "cefr": "B1"
+    },
+    {
+      "word": "active",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "活躍的",
+      "cefr": "B1"
+    },
+    {
+      "word": "actual",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "實際的;事實上的",
+      "cefr": "B1"
+    },
+    {
+      "word": "acute",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "尖銳的;敏銳的;劇烈的",
+      "cefr": "B1"
+    },
+    {
+      "word": "admire",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "欽佩;欣賞",
+      "cefr": "B1"
+    },
+    {
+      "word": "admit",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "承認;准許進入;可容納",
+      "cefr": "B1"
+    },
+    {
+      "word": "adverb",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "副詞",
+      "cefr": "B1"
+    },
+    {
+      "word": "advice",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "忠告",
+      "cefr": "B1"
+    },
+    {
+      "word": "advise",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "勸告",
+      "cefr": "B1"
+    },
+    {
+      "word": "affect",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "影響",
+      "cefr": "B1"
+    },
+    {
+      "word": "agency",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "仲介;代理",
+      "cefr": "B1"
+    },
+    {
+      "word": "agenda",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "議程",
+      "cefr": "B1"
+    },
+    {
+      "word": "ahead",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "在前;向前;預先;事前",
+      "cefr": "B1"
+    },
+    {
+      "word": "aisle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "通道;走道",
+      "cefr": "B1"
+    },
+    {
+      "word": "alarm",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "警鈴;警報;驚慌",
+      "cefr": "B1"
+    },
+    {
+      "word": "alert",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "警戒,警報;警戒狀態",
+      "cefr": "B1"
+    },
+    {
+      "word": "alike",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "相似的",
+      "cefr": "B1"
+    },
+    {
+      "word": "alive",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "活著的;活躍的",
+      "cefr": "B1"
+    },
+    {
+      "word": "almond",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "杏仁",
+      "cefr": "B1"
+    },
+    {
+      "word": "almost",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "幾乎",
+      "cefr": "B1"
+    },
+    {
+      "word": "alone",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "單獨的;孤單的",
+      "cefr": "B1"
+    },
+    {
+      "word": "along",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "向前;一起;帶著;來到;去到",
+      "cefr": "B1"
+    },
+    {
+      "word": "alter",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "改變;修改",
+      "cefr": "B1"
+    },
+    {
+      "word": "ambush",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "埋伏;伏擊",
+      "cefr": "B1"
+    },
+    {
+      "word": "amount",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "總數",
+      "cefr": "B1"
+    },
+    {
+      "word": "angle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "角度",
+      "cefr": "B1"
+    },
+    {
+      "word": "announce",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "宣佈",
+      "cefr": "B1"
+    },
+    {
+      "word": "anthem",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "國歌;頌歌",
+      "cefr": "B1"
+    },
+    {
+      "word": "anyhow",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "無論如何,總之",
+      "cefr": "B1"
+    },
+    {
+      "word": "anyway",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "不管怎樣",
+      "cefr": "B1"
+    },
+    {
+      "word": "appeal",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "呼籲,懇求",
+      "cefr": "B1"
+    },
+    {
+      "word": "apply",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "塗,敷;應用",
+      "cefr": "B1"
+    },
+    {
+      "word": "argue",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "爭論",
+      "cefr": "B1"
+    },
+    {
+      "word": "arise",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "升起",
+      "cefr": "B1"
+    },
+    {
+      "word": "armor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "盔甲;裝甲;(動、植物)保護層",
+      "cefr": "B1"
+    },
+    {
+      "word": "arrest",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "逮捕;遏止",
+      "cefr": "B1"
+    },
+    {
+      "word": "arrive",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "到達",
+      "cefr": "B1"
+    },
+    {
+      "word": "arrow",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "箭;箭號",
+      "cefr": "B1"
+    },
+    {
+      "word": "artery",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "動脈;要道",
+      "cefr": "B1"
+    },
+    {
+      "word": "artist",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "藝術家",
+      "cefr": "B1"
+    },
+    {
+      "word": "aside",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "在旁邊;到(或向)旁邊",
+      "cefr": "B1"
+    },
+    {
+      "word": "asleep",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "睡著的",
+      "cefr": "B1"
+    },
+    {
+      "word": "aspect",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "方面,觀點",
+      "cefr": "B1"
+    },
+    {
+      "word": "assert",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "斷言;堅持",
+      "cefr": "B1"
+    },
+    {
+      "word": "asset",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "財產,資產",
+      "cefr": "B1"
+    },
+    {
+      "word": "assist",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "幫助,協助",
+      "cefr": "B1"
+    },
+    {
+      "word": "assume",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "假定",
+      "cefr": "B1"
+    },
+    {
+      "word": "assure",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "向...保證,擔保",
+      "cefr": "B1"
+    },
+    {
+      "word": "asylum",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "收容院;避難所;政治庇護",
+      "cefr": "B1"
+    },
+    {
+      "word": "atomic",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "原子的",
+      "cefr": "B1"
+    },
+    {
+      "word": "attach",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "裝上,貼上;使附屬",
+      "cefr": "B1"
+    },
+    {
+      "word": "attack",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "攻擊",
+      "cefr": "B1"
+    },
+    {
+      "word": "attain",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "達到;獲得",
+      "cefr": "B1"
+    },
+    {
+      "word": "attend",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "出席,參加;照料;伴隨",
+      "cefr": "B1"
+    },
+    {
+      "word": "attic",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "頂樓;閣樓",
+      "cefr": "B1"
+    },
+    {
+      "word": "attract",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "吸引",
+      "cefr": "B1"
+    },
+    {
+      "word": "author",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "作者;作家",
+      "cefr": "B1"
+    },
+    {
+      "word": "avoid",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "避免",
+      "cefr": "B1"
+    },
+    {
+      "word": "await",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "等候,期待",
+      "cefr": "B1"
+    },
+    {
+      "word": "awake",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "喚醒",
+      "cefr": "B1"
+    },
+    {
+      "word": "awaken",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "醒;覺醒;喚起",
+      "cefr": "B1"
+    },
+    {
+      "word": "award",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "獎;獎品",
+      "cefr": "B1"
+    },
+    {
+      "word": "aware",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "知道的,察覺的",
+      "cefr": "B1"
+    },
+    {
+      "word": "awhile",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "片刻",
+      "cefr": "B1"
+    },
+    {
+      "word": "background",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "背景",
+      "cefr": "B1"
+    },
+    {
+      "word": "badge",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "徽章;證章",
+      "cefr": "B1"
+    },
+    {
+      "word": "ballet",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "芭蕾舞",
+      "cefr": "B1"
+    },
+    {
+      "word": "bamboo",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "竹子",
+      "cefr": "B1"
+    },
+    {
+      "word": "banana",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "香蕉",
+      "cefr": "B1"
+    },
+    {
+      "word": "bandit",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "強盜;土匪",
+      "cefr": "B1"
+    },
+    {
+      "word": "barely",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "僅僅;勉強",
+      "cefr": "B1"
+    },
+    {
+      "word": "barren",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "貧瘠的;荒蕪的;不妊的",
+      "cefr": "B1"
+    },
+    {
+      "word": "basic",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "基本的",
+      "cefr": "B1"
+    },
+    {
+      "word": "basics",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "基礎;基本原理(或原則)",
+      "cefr": "B1"
+    },
+    {
+      "word": "basis",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "基礎",
+      "cefr": "B1"
+    },
+    {
+      "word": "basket",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "籃子",
+      "cefr": "B1"
+    },
+    {
+      "word": "batch",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "一批;一群;一爐;一團",
+      "cefr": "B1"
+    },
+    {
+      "word": "battle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "戰鬥;戰役",
+      "cefr": "B1"
+    },
+    {
+      "word": "beard",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鬍子",
+      "cefr": "B1"
+    },
+    {
+      "word": "beast",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "野獸",
+      "cefr": "B1"
+    },
+    {
+      "word": "become",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "變成",
+      "cefr": "B1"
+    },
+    {
+      "word": "beetle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "甲蟲",
+      "cefr": "B1"
+    },
+    {
+      "word": "beggar",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "乞丐",
+      "cefr": "B1"
+    },
+    {
+      "word": "begin",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "開始",
+      "cefr": "B1"
+    },
+    {
+      "word": "behalf",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "代表",
+      "cefr": "B1"
+    },
+    {
+      "word": "behave",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "舉動;守規矩",
+      "cefr": "B1"
+    },
+    {
+      "word": "behavior",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "行為",
+      "cefr": "B1"
+    },
+    {
+      "word": "behind",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "在背後;向背後;遲;落後",
+      "cefr": "B1"
+    },
+    {
+      "word": "being",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "存在;生存;生命;本質",
+      "cefr": "B1"
+    },
+    {
+      "word": "belly",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "腹部",
+      "cefr": "B1"
+    },
+    {
+      "word": "below",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "在下面;到下面",
+      "cefr": "B1"
+    },
+    {
+      "word": "benefit",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "利益;好處",
+      "cefr": "B1"
+    },
+    {
+      "word": "beware",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "當心;提防",
+      "cefr": "B1"
+    },
+    {
+      "word": "Bible",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "聖經",
+      "cefr": "B1"
+    },
+    {
+      "word": "birth",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "出生;起源",
+      "cefr": "B1"
+    },
+    {
+      "word": "bitter",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "苦的;嚴酷的",
+      "cefr": "B1"
+    },
+    {
+      "word": "blame",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "責備,指責;責任",
+      "cefr": "B1"
+    },
+    {
+      "word": "blank",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "空白",
+      "cefr": "B1"
+    },
+    {
+      "word": "blaze",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "火焰;火災;光輝;掃射",
+      "cefr": "B1"
+    },
+    {
+      "word": "bleach",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "漂白;漂白劑",
+      "cefr": "B1"
+    },
+    {
+      "word": "bleak",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "荒涼的;陰冷的;無希望的",
+      "cefr": "B1"
+    },
+    {
+      "word": "blend",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "混合,混雜;交融;混合物",
+      "cefr": "B1"
+    },
+    {
+      "word": "bless",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "祝福;保佑",
+      "cefr": "B1"
+    },
+    {
+      "word": "blues",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "藍調;憂鬱",
+      "cefr": "B1"
+    },
+    {
+      "word": "blunt",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使鈍;使遲鈍;減弱",
+      "cefr": "B1"
+    },
+    {
+      "word": "blush",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "臉紅",
+      "cefr": "B1"
+    },
+    {
+      "word": "boost",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "一舉;一抬;推動;促進",
+      "cefr": "B1"
+    },
+    {
+      "word": "border",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "邊緣;邊境",
+      "cefr": "B1"
+    },
+    {
+      "word": "borrow",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "借",
+      "cefr": "B1"
+    },
+    {
+      "word": "bottom",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "底部;屁股",
+      "cefr": "B1"
+    },
+    {
+      "word": "bounce",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "彈,反彈",
+      "cefr": "B1"
+    },
+    {
+      "word": "bowel",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "腸;內部;深處",
+      "cefr": "B1"
+    },
+    {
+      "word": "boxing",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "拳擊;拳術;裝箱",
+      "cefr": "B1"
+    },
+    {
+      "word": "braid",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "髮辮;穗帶",
+      "cefr": "B1"
+    },
+    {
+      "word": "brass",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "黃銅",
+      "cefr": "B1"
+    },
+    {
+      "word": "brave",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "勇敢的",
+      "cefr": "B1"
+    },
+    {
+      "word": "break",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "暫停",
+      "cefr": "B1"
+    },
+    {
+      "word": "breed",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "品種",
+      "cefr": "B1"
+    },
+    {
+      "word": "bribe",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "賄賂",
+      "cefr": "B1"
+    },
+    {
+      "word": "brick",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "磚塊",
+      "cefr": "B1"
+    },
+    {
+      "word": "bride",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "新娘",
+      "cefr": "B1"
+    },
+    {
+      "word": "bright",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "光亮的",
+      "cefr": "B1"
+    },
+    {
+      "word": "bring",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "帶來",
+      "cefr": "B1"
+    },
+    {
+      "word": "brink",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "邊;邊緣",
+      "cefr": "B1"
+    },
+    {
+      "word": "brisk",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "輕快的;興旺的;寒冷而清新的",
+      "cefr": "B1"
+    },
+    {
+      "word": "broad",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "寬廣的",
+      "cefr": "B1"
+    },
+    {
+      "word": "broil",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "烤;炙",
+      "cefr": "B1"
+    },
+    {
+      "word": "broke",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "一文不名的;破了產的",
+      "cefr": "B1"
+    },
+    {
+      "word": "bronze",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "青銅;青銅製品;古銅色",
+      "cefr": "B1"
+    },
+    {
+      "word": "broom",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "掃帚",
+      "cefr": "B1"
+    },
+    {
+      "word": "browse",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "瀏覽",
+      "cefr": "B1"
+    },
+    {
+      "word": "brush",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "刷子",
+      "cefr": "B1"
+    },
+    {
+      "word": "brutal",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "野蠻的;粗暴的",
+      "cefr": "B1"
+    },
+    {
+      "word": "buckle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "帶釦;搭鉤",
+      "cefr": "B1"
+    },
+    {
+      "word": "budget",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "預算",
+      "cefr": "B1"
+    },
+    {
+      "word": "bullet",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "子彈",
+      "cefr": "B1"
+    },
+    {
+      "word": "bully",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "恃強欺弱者;惡霸",
+      "cefr": "B1"
+    },
+    {
+      "word": "bunch",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "串,束",
+      "cefr": "B1"
+    },
+    {
+      "word": "burden",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "重擔;負擔",
+      "cefr": "B1"
+    },
+    {
+      "word": "bureau",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "事務處",
+      "cefr": "B1"
+    },
+    {
+      "word": "button",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鈕扣",
+      "cefr": "B1"
+    },
+    {
+      "word": "calculate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "計算",
+      "cefr": "B1"
+    },
+    {
+      "word": "camel",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "駱駝",
+      "cefr": "B1"
+    },
+    {
+      "word": "cancel",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "取消",
+      "cefr": "B1"
+    },
+    {
+      "word": "cancer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "癌症",
+      "cefr": "B1"
+    },
+    {
+      "word": "candle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "蠟燭",
+      "cefr": "B1"
+    },
+    {
+      "word": "cannot",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "不能",
+      "cefr": "B1"
+    },
+    {
+      "word": "canoe",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "皮划",
+      "cefr": "B1"
+    },
+    {
+      "word": "canvas",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "油畫布",
+      "cefr": "B1"
+    },
+    {
+      "word": "canyon",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "峽谷",
+      "cefr": "B1"
+    },
+    {
+      "word": "capital",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "首都;首府;資本",
+      "cefr": "B1"
+    },
+    {
+      "word": "carol",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(耶誕)頌歌;讚美詩",
+      "cefr": "B1"
+    },
+    {
+      "word": "carrot",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "胡蘿蔔",
+      "cefr": "B1"
+    },
+    {
+      "word": "carry",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "提;搬運",
+      "cefr": "B1"
+    },
+    {
+      "word": "carve",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "刻,雕刻",
+      "cefr": "B1"
+    },
+    {
+      "word": "castle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "城堡",
+      "cefr": "B1"
+    },
+    {
+      "word": "casual",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "非正式的;隨便的",
+      "cefr": "B1"
+    },
+    {
+      "word": "cater",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "承辦宴席;迎合",
+      "cefr": "B1"
+    },
+    {
+      "word": "cease",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "停息",
+      "cefr": "B1"
+    },
+    {
+      "word": "cereal",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "麥片",
+      "cefr": "B1"
+    },
+    {
+      "word": "chain",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鏈條;項圈",
+      "cefr": "B1"
+    },
+    {
+      "word": "challenge",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "挑戰;艱鉅的事",
+      "cefr": "B1"
+    },
+    {
+      "word": "chaos",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "混亂;雜亂的一團",
+      "cefr": "B1"
+    },
+    {
+      "word": "charge",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "費用;充電",
+      "cefr": "B1"
+    },
+    {
+      "word": "charm",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "魅力",
+      "cefr": "B1"
+    },
+    {
+      "word": "chart",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "圖表",
+      "cefr": "B1"
+    },
+    {
+      "word": "chase",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "追逐;追擊",
+      "cefr": "B1"
+    },
+    {
+      "word": "cheap",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "便宜的",
+      "cefr": "B1"
+    },
+    {
+      "word": "cheat",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "騙子;欺詐,欺騙,作弊",
+      "cefr": "B1"
+    },
+    {
+      "word": "cheek",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "臉頰;腮幫子",
+      "cefr": "B1"
+    },
+    {
+      "word": "cheese",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "起司;乳酪",
+      "cefr": "B1"
+    },
+    {
+      "word": "cherry",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "櫻桃",
+      "cefr": "B1"
+    },
+    {
+      "word": "chess",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "西洋棋",
+      "cefr": "B1"
+    },
+    {
+      "word": "chest",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "胸;箱子,盒子",
+      "cefr": "B1"
+    },
+    {
+      "word": "chili",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "紅番椒",
+      "cefr": "B1"
+    },
+    {
+      "word": "chilly",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "冷颼颼的",
+      "cefr": "B1"
+    },
+    {
+      "word": "China",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "中國",
+      "cefr": "B1"
+    },
+    {
+      "word": "chirp",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "啁啾聲;唧唧聲",
+      "cefr": "B1"
+    },
+    {
+      "word": "choice",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "選擇",
+      "cefr": "B1"
+    },
+    {
+      "word": "choke",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "窒息,噎",
+      "cefr": "B1"
+    },
+    {
+      "word": "choose",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "選擇;挑選",
+      "cefr": "B1"
+    },
+    {
+      "word": "chore",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "家庭雜務",
+      "cefr": "B1"
+    },
+    {
+      "word": "chubby",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "圓胖的",
+      "cefr": "B1"
+    },
+    {
+      "word": "circle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "圓圈;集團",
+      "cefr": "B1"
+    },
+    {
+      "word": "circus",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "馬戲團",
+      "cefr": "B1"
+    },
+    {
+      "word": "citizen",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "市民;公民",
+      "cefr": "B1"
+    },
+    {
+      "word": "civic",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "城市的;市民的",
+      "cefr": "B1"
+    },
+    {
+      "word": "civil",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "市民的,國民的",
+      "cefr": "B1"
+    },
+    {
+      "word": "claim",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "主張,斷言",
+      "cefr": "B1"
+    },
+    {
+      "word": "clamp",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "螺絲鉗;鐵箍",
+      "cefr": "B1"
+    },
+    {
+      "word": "clash",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "碰撞聲,鏗鏘聲",
+      "cefr": "B1"
+    },
+    {
+      "word": "clasp",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "扣子;鉤子;夾子;緊握;緊抱",
+      "cefr": "B1"
+    },
+    {
+      "word": "clause",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(文件的)條款;子句",
+      "cefr": "B1"
+    },
+    {
+      "word": "clench",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "緊握;緊咬",
+      "cefr": "B1"
+    },
+    {
+      "word": "click",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "卡嗒聲",
+      "cefr": "B1"
+    },
+    {
+      "word": "cliff",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "懸崖,峭壁",
+      "cefr": "B1"
+    },
+    {
+      "word": "climb",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "攀登,攀爬",
+      "cefr": "B1"
+    },
+    {
+      "word": "cling",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "黏著;依附;墨守",
+      "cefr": "B1"
+    },
+    {
+      "word": "clone",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "無性繁殖系;複製品",
+      "cefr": "B1"
+    },
+    {
+      "word": "clover",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "苜蓿",
+      "cefr": "B1"
+    },
+    {
+      "word": "clumsy",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "笨拙的",
+      "cefr": "B1"
+    },
+    {
+      "word": "coarse",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "粗的,粗糙的",
+      "cefr": "B1"
+    },
+    {
+      "word": "cocoon",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "繭",
+      "cefr": "B1"
+    },
+    {
+      "word": "coffin",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "棺材;靈柩",
+      "cefr": "B1"
+    },
+    {
+      "word": "combat",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "戰鬥;格鬥;反對",
+      "cefr": "B1"
+    },
+    {
+      "word": "combine",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使結合",
+      "cefr": "B1"
+    },
+    {
+      "word": "comet",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "彗星",
+      "cefr": "B1"
+    },
+    {
+      "word": "comic",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "漫畫",
+      "cefr": "B1"
+    },
+    {
+      "word": "comma",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "逗號;停頓",
+      "cefr": "B1"
+    },
+    {
+      "word": "commit",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使作出保證;犯(罪),做(錯事等)",
+      "cefr": "B1"
+    },
+    {
+      "word": "communicate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "傳達;傳遞",
+      "cefr": "B1"
+    },
+    {
+      "word": "compare",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "比較",
+      "cefr": "B1"
+    },
+    {
+      "word": "compel",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "強迫;強求",
+      "cefr": "B1"
+    },
+    {
+      "word": "compete",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "競爭;對抗",
+      "cefr": "B1"
+    },
+    {
+      "word": "complain",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "抱怨",
+      "cefr": "B1"
+    },
+    {
+      "word": "complete",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "完成",
+      "cefr": "B1"
+    },
+    {
+      "word": "concept",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "概念,觀念",
+      "cefr": "B1"
+    },
+    {
+      "word": "concern",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "關懷",
+      "cefr": "B1"
+    },
+    {
+      "word": "conclude",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "推斷出,斷定",
+      "cefr": "B1"
+    },
+    {
+      "word": "connect",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "連接,連結",
+      "cefr": "B1"
+    },
+    {
+      "word": "control",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "支配;控制;操縱裝置;指揮部",
+      "cefr": "B1"
+    },
+    {
+      "word": "convey",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "運送;傳達",
+      "cefr": "B1"
+    },
+    {
+      "word": "cooker",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "炊具,烹調器具",
+      "cefr": "B1"
+    },
+    {
+      "word": "cookie",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "餅乾",
+      "cefr": "B1"
+    },
+    {
+      "word": "cooky",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "cookie",
+      "cefr": "B1"
+    },
+    {
+      "word": "copper",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "銅",
+      "cefr": "B1"
+    },
+    {
+      "word": "coral",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "珊瑚",
+      "cefr": "B1"
+    },
+    {
+      "word": "corps",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "兵團;部隊;團",
+      "cefr": "B1"
+    },
+    {
+      "word": "corpse",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "屍體;殘骸",
+      "cefr": "B1"
+    },
+    {
+      "word": "cough",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "咳嗽",
+      "cefr": "B1"
+    },
+    {
+      "word": "count",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "計數;計算",
+      "cefr": "B1"
+    },
+    {
+      "word": "county",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "郡",
+      "cefr": "B1"
+    },
+    {
+      "word": "couple",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "一對",
+      "cefr": "B1"
+    },
+    {
+      "word": "covet",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "垂涎;貪圖",
+      "cefr": "B1"
+    },
+    {
+      "word": "cowboy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "牛仔",
+      "cefr": "B1"
+    },
+    {
+      "word": "crack",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "裂縫;爆裂聲",
+      "cefr": "B1"
+    },
+    {
+      "word": "cradle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "搖籃",
+      "cefr": "B1"
+    },
+    {
+      "word": "cramp",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "抽筋;夾鉗;束縛",
+      "cefr": "B1"
+    },
+    {
+      "word": "crash",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "相撞(事故)",
+      "cefr": "B1"
+    },
+    {
+      "word": "crawl",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "緩慢的行進",
+      "cefr": "B1"
+    },
+    {
+      "word": "crazy",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "古怪的;著迷的",
+      "cefr": "B1"
+    },
+    {
+      "word": "creak",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "咯吱咯吱聲",
+      "cefr": "B1"
+    },
+    {
+      "word": "cream",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "奶油",
+      "cefr": "B1"
+    },
+    {
+      "word": "create",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "創造",
+      "cefr": "B1"
+    },
+    {
+      "word": "crime",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "犯罪",
+      "cefr": "B1"
+    },
+    {
+      "word": "crisp",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "脆的,酥的,鬆脆的",
+      "cefr": "B1"
+    },
+    {
+      "word": "crispy",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "酥脆的;清脆的",
+      "cefr": "B1"
+    },
+    {
+      "word": "critic",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "批評家,評論家",
+      "cefr": "B1"
+    },
+    {
+      "word": "crook",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "彎曲的東西;騙子;偷兒",
+      "cefr": "B1"
+    },
+    {
+      "word": "crouch",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "蹲伏(姿勢)",
+      "cefr": "B1"
+    },
+    {
+      "word": "crowd",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "群眾",
+      "cefr": "B1"
+    },
+    {
+      "word": "crown",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "王冠",
+      "cefr": "B1"
+    },
+    {
+      "word": "cruel",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "殘酷的",
+      "cefr": "B1"
+    },
+    {
+      "word": "crush",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "壓碎,毀壞;迷戀;迷戀的對象",
+      "cefr": "B1"
+    },
+    {
+      "word": "crutch",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "丁形柺杖",
+      "cefr": "B1"
+    },
+    {
+      "word": "curry",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "咖喱",
+      "cefr": "B1"
+    },
+    {
+      "word": "curve",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "曲線",
+      "cefr": "B1"
+    },
+    {
+      "word": "custom",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "習俗",
+      "cefr": "B1"
+    },
+    {
+      "word": "cycle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "週期;循環",
+      "cefr": "B1"
+    },
+    {
+      "word": "damage",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "損害",
+      "cefr": "B1"
+    },
+    {
+      "word": "dancer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "舞蹈演員;舞蹈家",
+      "cefr": "B1"
+    },
+    {
+      "word": "darken",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使變暗;變黑",
+      "cefr": "B1"
+    },
+    {
+      "word": "deadly",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "致命的,致死的;非常的,極度的",
+      "cefr": "B1"
+    },
+    {
+      "word": "debate",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "辯論",
+      "cefr": "B1"
+    },
+    {
+      "word": "decay",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "腐爛;蛀牙",
+      "cefr": "B1"
+    },
+    {
+      "word": "decent",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "正派的;體面的",
+      "cefr": "B1"
+    },
+    {
+      "word": "decision",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "決定",
+      "cefr": "B1"
+    },
+    {
+      "word": "deepen",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使加深;使強烈;使變濃",
+      "cefr": "B1"
+    },
+    {
+      "word": "defeat",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "失敗,戰敗,挫折",
+      "cefr": "B1"
+    },
+    {
+      "word": "defect",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "缺點;缺陷;不足之處",
+      "cefr": "B1"
+    },
+    {
+      "word": "defend",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "防禦;保衛;保護",
+      "cefr": "B1"
+    },
+    {
+      "word": "define",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "解釋,給...下定義",
+      "cefr": "B1"
+    },
+    {
+      "word": "degree",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "程度",
+      "cefr": "B1"
+    },
+    {
+      "word": "delay",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "延遲;耽擱",
+      "cefr": "B1"
+    },
+    {
+      "word": "demand",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "要求,請求",
+      "cefr": "B1"
+    },
+    {
+      "word": "denial",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "否認;拒絕",
+      "cefr": "B1"
+    },
+    {
+      "word": "dense",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "密集的,稠密的",
+      "cefr": "B1"
+    },
+    {
+      "word": "dental",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "牙齒的;牙科的",
+      "cefr": "B1"
+    },
+    {
+      "word": "depart",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "起程,出發;離開,離去",
+      "cefr": "B1"
+    },
+    {
+      "word": "depend",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "依賴",
+      "cefr": "B1"
+    },
+    {
+      "word": "depict",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "描畫;雕出;描述",
+      "cefr": "B1"
+    },
+    {
+      "word": "depth",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "深度,厚度",
+      "cefr": "B1"
+    },
+    {
+      "word": "desert",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "沙漠;(常複數)賞罰;(尤指)懲罰",
+      "cefr": "B1"
+    },
+    {
+      "word": "deserve",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "應受,該得",
+      "cefr": "B1"
+    },
+    {
+      "word": "design",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "圖案;設計",
+      "cefr": "B1"
+    },
+    {
+      "word": "desire",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "渴望",
+      "cefr": "B1"
+    },
+    {
+      "word": "detail",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "細節;詳情",
+      "cefr": "B1"
+    },
+    {
+      "word": "detain",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "留住;扣留",
+      "cefr": "B1"
+    },
+    {
+      "word": "detect",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "查出",
+      "cefr": "B1"
+    },
+    {
+      "word": "deter",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "嚇住;使斷念",
+      "cefr": "B1"
+    },
+    {
+      "word": "develop",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "發展",
+      "cefr": "B1"
+    },
+    {
+      "word": "device",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "儀器,裝置",
+      "cefr": "B1"
+    },
+    {
+      "word": "devil",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "魔鬼,惡魔",
+      "cefr": "B1"
+    },
+    {
+      "word": "devote",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "將...奉獻",
+      "cefr": "B1"
+    },
+    {
+      "word": "diaper",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "尿布",
+      "cefr": "B1"
+    },
+    {
+      "word": "differ",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "不同,相異",
+      "cefr": "B1"
+    },
+    {
+      "word": "digest",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "消化",
+      "cefr": "B1"
+    },
+    {
+      "word": "direct",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "指引",
+      "cefr": "B1"
+    },
+    {
+      "word": "discuss",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "討論",
+      "cefr": "B1"
+    },
+    {
+      "word": "dismay",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "驚慌;沮喪",
+      "cefr": "B1"
+    },
+    {
+      "word": "disturb",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "妨礙,打擾",
+      "cefr": "B1"
+    },
+    {
+      "word": "ditch",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "溝;壕溝",
+      "cefr": "B1"
+    },
+    {
+      "word": "dizzy",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "暈眩的",
+      "cefr": "B1"
+    },
+    {
+      "word": "dodge",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "躲閃;託詞",
+      "cefr": "B1"
+    },
+    {
+      "word": "dollar",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "美元",
+      "cefr": "B1"
+    },
+    {
+      "word": "donate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "捐獻,捐贈",
+      "cefr": "B1"
+    },
+    {
+      "word": "donkey",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "驢子",
+      "cefr": "B1"
+    },
+    {
+      "word": "double",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "兩倍",
+      "cefr": "B1"
+    },
+    {
+      "word": "doubt",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "懷疑",
+      "cefr": "B1"
+    },
+    {
+      "word": "dozen",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "一打",
+      "cefr": "B1"
+    },
+    {
+      "word": "dragon",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "龍",
+      "cefr": "B1"
+    },
+    {
+      "word": "drama",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "戲劇",
+      "cefr": "B1"
+    },
+    {
+      "word": "drawer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "抽屜",
+      "cefr": "B1"
+    },
+    {
+      "word": "dread",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "畏懼,恐怖",
+      "cefr": "B1"
+    },
+    {
+      "word": "dreary",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "慘淡的;沈悶的",
+      "cefr": "B1"
+    },
+    {
+      "word": "dress",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "洋裝",
+      "cefr": "B1"
+    },
+    {
+      "word": "drift",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "漂流;漂移",
+      "cefr": "B1"
+    },
+    {
+      "word": "driver",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "司機",
+      "cefr": "B1"
+    },
+    {
+      "word": "drown",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "淹沒,浸濕",
+      "cefr": "B1"
+    },
+    {
+      "word": "drowsy",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "昏昏欲睡的",
+      "cefr": "B1"
+    },
+    {
+      "word": "dusty",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "滿是灰塵的",
+      "cefr": "B1"
+    },
+    {
+      "word": "dwell",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "居住;存在於;思索",
+      "cefr": "B1"
+    },
+    {
+      "word": "e-mail",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "電子郵件",
+      "cefr": "B1"
+    },
+    {
+      "word": "eager",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "渴望的,急切的",
+      "cefr": "B1"
+    },
+    {
+      "word": "eagle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "老鷹",
+      "cefr": "B1"
+    },
+    {
+      "word": "earn",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "賺到",
+      "cefr": "B1"
+    },
+    {
+      "word": "economy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "節約,節省",
+      "cefr": "B1"
+    },
+    {
+      "word": "edible",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "可食的,食用的",
+      "cefr": "B1"
+    },
+    {
+      "word": "effect",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "效力;作用",
+      "cefr": "B1"
+    },
+    {
+      "word": "effort",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "努力",
+      "cefr": "B1"
+    },
+    {
+      "word": "eighty",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "八十",
+      "cefr": "B1"
+    },
+    {
+      "word": "elbow",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "肘部",
+      "cefr": "B1"
+    },
+    {
+      "word": "elect",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "選出",
+      "cefr": "B1"
+    },
+    {
+      "word": "eleven",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "十一",
+      "cefr": "B1"
+    },
+    {
+      "word": "elite",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "精華;精英",
+      "cefr": "B1"
+    },
+    {
+      "word": "email",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "electronicmail",
+      "cefr": "B1"
+    },
+    {
+      "word": "empire",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "帝國",
+      "cefr": "B1"
+    },
+    {
+      "word": "employ",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "僱用",
+      "cefr": "B1"
+    },
+    {
+      "word": "empty",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "倒空;流空",
+      "cefr": "B1"
+    },
+    {
+      "word": "enable",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使成為可能",
+      "cefr": "B1"
+    },
+    {
+      "word": "enact",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "制定(法律);扮演(角色)",
+      "cefr": "B1"
+    },
+    {
+      "word": "endure",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "忍耐,忍受",
+      "cefr": "B1"
+    },
+    {
+      "word": "energy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "精力;能量",
+      "cefr": "B1"
+    },
+    {
+      "word": "engage",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使訂婚;使忙於",
+      "cefr": "B1"
+    },
+    {
+      "word": "engine",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "引擎",
+      "cefr": "B1"
+    },
+    {
+      "word": "enrich",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使富裕;使豐富;使肥沃",
+      "cefr": "B1"
+    },
+    {
+      "word": "enroll",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "把...記入名冊,登記",
+      "cefr": "B1"
+    },
+    {
+      "word": "ensure",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "保證;擔保",
+      "cefr": "B1"
+    },
+    {
+      "word": "enter",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "輸入;進入",
+      "cefr": "B1"
+    },
+    {
+      "word": "entire",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "全部的,整個的",
+      "cefr": "B1"
+    },
+    {
+      "word": "equal",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "相等的事物;相等的數量",
+      "cefr": "B1"
+    },
+    {
+      "word": "equate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "用符號表示某種關係;等同",
+      "cefr": "B1"
+    },
+    {
+      "word": "equip",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "裝備,配備",
+      "cefr": "B1"
+    },
+    {
+      "word": "erase",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "擦掉,抹去",
+      "cefr": "B1"
+    },
+    {
+      "word": "eraser",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "橡皮擦",
+      "cefr": "B1"
+    },
+    {
+      "word": "erect",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使豎立,使豎直",
+      "cefr": "B1"
+    },
+    {
+      "word": "erode",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "腐蝕;侵蝕;磨損",
+      "cefr": "B1"
+    },
+    {
+      "word": "errand",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "差事,差使",
+      "cefr": "B1"
+    },
+    {
+      "word": "error",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "錯誤",
+      "cefr": "B1"
+    },
+    {
+      "word": "erupt",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "噴出;爆發",
+      "cefr": "B1"
+    },
+    {
+      "word": "escort",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "護衛隊;護航隊;護送;護航",
+      "cefr": "B1"
+    },
+    {
+      "word": "establish",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "建立;設立",
+      "cefr": "B1"
+    },
+    {
+      "word": "esteem",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "尊重;評價",
+      "cefr": "B1"
+    },
+    {
+      "word": "estimate",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "估計;估價",
+      "cefr": "B1"
+    },
+    {
+      "word": "ethic",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "倫理標準",
+      "cefr": "B1"
+    },
+    {
+      "word": "event",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "事件",
+      "cefr": "B1"
+    },
+    {
+      "word": "exact",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "確切的,精確的",
+      "cefr": "B1"
+    },
+    {
+      "word": "exceed",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "超過;勝過",
+      "cefr": "B1"
+    },
+    {
+      "word": "excel",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "勝過;突出",
+      "cefr": "B1"
+    },
+    {
+      "word": "except",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "把...除外;反對",
+      "cefr": "B1"
+    },
+    {
+      "word": "excess",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "超越;過量",
+      "cefr": "B1"
+    },
+    {
+      "word": "excite",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使興奮;使激動",
+      "cefr": "B1"
+    },
+    {
+      "word": "exile",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "流放;流亡;被流放者",
+      "cefr": "B1"
+    },
+    {
+      "word": "exist",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "存在",
+      "cefr": "B1"
+    },
+    {
+      "word": "expand",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "展開,張開",
+      "cefr": "B1"
+    },
+    {
+      "word": "expect",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "期待",
+      "cefr": "B1"
+    },
+    {
+      "word": "expel",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "驅逐;排出;開除",
+      "cefr": "B1"
+    },
+    {
+      "word": "experience",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "經驗",
+      "cefr": "B1"
+    },
+    {
+      "word": "expose",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使暴露於",
+      "cefr": "B1"
+    },
+    {
+      "word": "extent",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "程度;限度;範圍",
+      "cefr": "B1"
+    },
+    {
+      "word": "fable",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "寓言",
+      "cefr": "B1"
+    },
+    {
+      "word": "fabric",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "布料;織品",
+      "cefr": "B1"
+    },
+    {
+      "word": "facial",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "臉的;面部的",
+      "cefr": "B1"
+    },
+    {
+      "word": "factor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "因素;要素",
+      "cefr": "B1"
+    },
+    {
+      "word": "faint",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "昏厥",
+      "cefr": "B1"
+    },
+    {
+      "word": "false",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "假的",
+      "cefr": "B1"
+    },
+    {
+      "word": "famine",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "饑荒",
+      "cefr": "B1"
+    },
+    {
+      "word": "famous",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "著名的",
+      "cefr": "B1"
+    },
+    {
+      "word": "fasten",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "紮牢;繫緊",
+      "cefr": "B1"
+    },
+    {
+      "word": "fatal",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "致命的",
+      "cefr": "B1"
+    },
+    {
+      "word": "fault",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "過錯",
+      "cefr": "B1"
+    },
+    {
+      "word": "feast",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "盛宴,筵席",
+      "cefr": "B1"
+    },
+    {
+      "word": "feature",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "特徵,特色",
+      "cefr": "B1"
+    },
+    {
+      "word": "feeble",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "虛弱的;軟弱的",
+      "cefr": "B1"
+    },
+    {
+      "word": "fellow",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "伙伴;同事",
+      "cefr": "B1"
+    },
+    {
+      "word": "fence",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "柵欄;籬笆",
+      "cefr": "B1"
+    },
+    {
+      "word": "fever",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "發燒",
+      "cefr": "B1"
+    },
+    {
+      "word": "fiber",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "纖維",
+      "cefr": "B1"
+    },
+    {
+      "word": "fierce",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "兇猛的;殘酷的",
+      "cefr": "B1"
+    },
+    {
+      "word": "fifty",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "五十",
+      "cefr": "B1"
+    },
+    {
+      "word": "fight",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "打架;戰鬥",
+      "cefr": "B1"
+    },
+    {
+      "word": "filter",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "濾器",
+      "cefr": "B1"
+    },
+    {
+      "word": "finish",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "結束;(傢具等)末道漆",
+      "cefr": "B1"
+    },
+    {
+      "word": "finite",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "有限的",
+      "cefr": "B1"
+    },
+    {
+      "word": "flame",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "火焰;火舌",
+      "cefr": "B1"
+    },
+    {
+      "word": "flash",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "閃光,閃爍",
+      "cefr": "B1"
+    },
+    {
+      "word": "flavor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "味,味道",
+      "cefr": "B1"
+    },
+    {
+      "word": "fluent",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "流利的,流暢的",
+      "cefr": "B1"
+    },
+    {
+      "word": "fluid",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "液體",
+      "cefr": "B1"
+    },
+    {
+      "word": "flunk",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "失敗;不及格",
+      "cefr": "B1"
+    },
+    {
+      "word": "flush",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "紅暈",
+      "cefr": "B1"
+    },
+    {
+      "word": "flute",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "橫笛",
+      "cefr": "B1"
+    },
+    {
+      "word": "focus",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "焦點",
+      "cefr": "B1"
+    },
+    {
+      "word": "foggy",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "有霧的",
+      "cefr": "B1"
+    },
+    {
+      "word": "follow",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "遵循;跟隨",
+      "cefr": "B1"
+    },
+    {
+      "word": "forbid",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "禁止,不許",
+      "cefr": "B1"
+    },
+    {
+      "word": "force",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "力量;暴力",
+      "cefr": "B1"
+    },
+    {
+      "word": "forget",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "忘記",
+      "cefr": "B1"
+    },
+    {
+      "word": "form",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "形態;表格",
+      "cefr": "B1"
+    },
+    {
+      "word": "formal",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "正式的",
+      "cefr": "B1"
+    },
+    {
+      "word": "format",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "版式;形式",
+      "cefr": "B1"
+    },
+    {
+      "word": "former",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "前者",
+      "cefr": "B1"
+    },
+    {
+      "word": "forth",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "向前;向前方;向外",
+      "cefr": "B1"
+    },
+    {
+      "word": "forty",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "四十",
+      "cefr": "B1"
+    },
+    {
+      "word": "foster",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "養育;培養;促進",
+      "cefr": "B1"
+    },
+    {
+      "word": "found",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "建立;建造;鑄造;熔化",
+      "cefr": "B1"
+    },
+    {
+      "word": "frame",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "骨架;結構",
+      "cefr": "B1"
+    },
+    {
+      "word": "frank",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "坦白的",
+      "cefr": "B1"
+    },
+    {
+      "word": "fraud",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "詭計;騙子;假貨",
+      "cefr": "B1"
+    },
+    {
+      "word": "Friday",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "星期五",
+      "cefr": "B1"
+    },
+    {
+      "word": "fridge",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "電冰箱",
+      "cefr": "B1"
+    },
+    {
+      "word": "fright",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "驚嚇,恐怖",
+      "cefr": "B1"
+    },
+    {
+      "word": "front",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "前方",
+      "cefr": "B1"
+    },
+    {
+      "word": "frost",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "霜",
+      "cefr": "B1"
+    },
+    {
+      "word": "frown",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "蹙額;不悅之色",
+      "cefr": "B1"
+    },
+    {
+      "word": "future",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "未來",
+      "cefr": "B1"
+    },
+    {
+      "word": "galaxy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "星系",
+      "cefr": "B1"
+    },
+    {
+      "word": "gallon",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "加侖",
+      "cefr": "B1"
+    },
+    {
+      "word": "gamble",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "賭博;打賭",
+      "cefr": "B1"
+    },
+    {
+      "word": "gather",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "集合",
+      "cefr": "B1"
+    },
+    {
+      "word": "gender",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "性別",
+      "cefr": "B1"
+    },
+    {
+      "word": "generate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "產生;發生(熱;電;光等)",
+      "cefr": "B1"
+    },
+    {
+      "word": "gentle",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "溫柔的",
+      "cefr": "B1"
+    },
+    {
+      "word": "ginger",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "生薑,薑",
+      "cefr": "B1"
+    },
+    {
+      "word": "glance",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "一瞥;掃視",
+      "cefr": "B1"
+    },
+    {
+      "word": "gleam",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "微光;閃光;一絲",
+      "cefr": "B1"
+    },
+    {
+      "word": "glide",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "滑翔,下滑",
+      "cefr": "B1"
+    },
+    {
+      "word": "global",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "全世界的",
+      "cefr": "B1"
+    },
+    {
+      "word": "gloomy",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "陰暗的;憂鬱的",
+      "cefr": "B1"
+    },
+    {
+      "word": "glory",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "光榮,榮譽",
+      "cefr": "B1"
+    },
+    {
+      "word": "golden",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "金色的",
+      "cefr": "B1"
+    },
+    {
+      "word": "goose",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鵝",
+      "cefr": "B1"
+    },
+    {
+      "word": "gorge",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "峽谷;暴食",
+      "cefr": "B1"
+    },
+    {
+      "word": "grand",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "雄偉的;總的",
+      "cefr": "B1"
+    },
+    {
+      "word": "grape",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "葡萄",
+      "cefr": "B1"
+    },
+    {
+      "word": "graph",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(曲線)圖;圖表",
+      "cefr": "B1"
+    },
+    {
+      "word": "grasp",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "抓,緊握;抱",
+      "cefr": "B1"
+    },
+    {
+      "word": "grave",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "墓穴",
+      "cefr": "B1"
+    },
+    {
+      "word": "grease",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "油脂;賄賂",
+      "cefr": "B1"
+    },
+    {
+      "word": "greasy",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "油膩的",
+      "cefr": "B1"
+    },
+    {
+      "word": "greed",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "貪心",
+      "cefr": "B1"
+    },
+    {
+      "word": "greedy",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "貪心的",
+      "cefr": "B1"
+    },
+    {
+      "word": "grieve",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使悲傷;使苦惱",
+      "cefr": "B1"
+    },
+    {
+      "word": "grind",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "研磨",
+      "cefr": "B1"
+    },
+    {
+      "word": "groan",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "呻吟聲;抱怨(聲)",
+      "cefr": "B1"
+    },
+    {
+      "word": "groom",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "馬伕;新郎",
+      "cefr": "B1"
+    },
+    {
+      "word": "grope",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "觸摸;探索",
+      "cefr": "B1"
+    },
+    {
+      "word": "gross",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "總額;總量",
+      "cefr": "B1"
+    },
+    {
+      "word": "guard",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "警衛",
+      "cefr": "B1"
+    },
+    {
+      "word": "guava",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "番石榴",
+      "cefr": "B1"
+    },
+    {
+      "word": "guilt",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "有罪;犯罪;過失",
+      "cefr": "B1"
+    },
+    {
+      "word": "guilty",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "有罪的",
+      "cefr": "B1"
+    },
+    {
+      "word": "guitar",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "吉他",
+      "cefr": "B1"
+    },
+    {
+      "word": "habit",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "習慣",
+      "cefr": "B1"
+    },
+    {
+      "word": "hammer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鎚",
+      "cefr": "B1"
+    },
+    {
+      "word": "handy",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "便利的;靈活的;易於操作的",
+      "cefr": "B1"
+    },
+    {
+      "word": "harass",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "騷擾;使煩惱",
+      "cefr": "B1"
+    },
+    {
+      "word": "harden",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使變硬;使變堅固",
+      "cefr": "B1"
+    },
+    {
+      "word": "hardly",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "幾乎不,簡直不",
+      "cefr": "B1"
+    },
+    {
+      "word": "harsh",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "粗糙的",
+      "cefr": "B1"
+    },
+    {
+      "word": "haste",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "急忙;慌忙;性急",
+      "cefr": "B1"
+    },
+    {
+      "word": "hasten",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "催促;加速;趕緊",
+      "cefr": "B1"
+    },
+    {
+      "word": "hasty",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "倉促的,輕率的",
+      "cefr": "B1"
+    },
+    {
+      "word": "haunt",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "常去之處",
+      "cefr": "B1"
+    },
+    {
+      "word": "hazard",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "危險;危害物",
+      "cefr": "B1"
+    },
+    {
+      "word": "hearty",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "衷心的;健壯的;豐盛的",
+      "cefr": "B1"
+    },
+    {
+      "word": "heavy",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "重的",
+      "cefr": "B1"
+    },
+    {
+      "word": "hence",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "因此;由此",
+      "cefr": "B1"
+    },
+    {
+      "word": "hermit",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "隱士",
+      "cefr": "B1"
+    },
+    {
+      "word": "heroic",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(常用heroics)英雄辭令;豪壯行為",
+      "cefr": "B1"
+    },
+    {
+      "word": "hijack",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "劫持事件",
+      "cefr": "B1"
+    },
+    {
+      "word": "hobby",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "嗜好",
+      "cefr": "B1"
+    },
+    {
+      "word": "holder",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "持有者;支托物",
+      "cefr": "B1"
+    },
+    {
+      "word": "hollow",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "洞,穴;坑",
+      "cefr": "B1"
+    },
+    {
+      "word": "honest",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "誠實的",
+      "cefr": "B1"
+    },
+    {
+      "word": "honor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "榮譽;名譽",
+      "cefr": "B1"
+    },
+    {
+      "word": "horror",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "恐怖,震驚,毛骨悚然",
+      "cefr": "B1"
+    },
+    {
+      "word": "hostel",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "旅舍",
+      "cefr": "B1"
+    },
+    {
+      "word": "hotel",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "旅館",
+      "cefr": "B1"
+    },
+    {
+      "word": "humid",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "潮濕的",
+      "cefr": "B1"
+    },
+    {
+      "word": "humor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "幽默",
+      "cefr": "B1"
+    },
+    {
+      "word": "hunger",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "饑餓",
+      "cefr": "B1"
+    },
+    {
+      "word": "hurry",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "匆忙",
+      "cefr": "B1"
+    },
+    {
+      "word": "icebox",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "冷藏庫;冰箱",
+      "cefr": "B1"
+    },
+    {
+      "word": "identify",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "確認;識別",
+      "cefr": "B1"
+    },
+    {
+      "word": "ignore",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "不理睬",
+      "cefr": "B1"
+    },
+    {
+      "word": "image",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "肖像影像",
+      "cefr": "B1"
+    },
+    {
+      "word": "immune",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "免疫的;免於...的",
+      "cefr": "B1"
+    },
+    {
+      "word": "impact",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "衝擊,撞擊;影響",
+      "cefr": "B1"
+    },
+    {
+      "word": "imply",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "暗指;暗示;意味著",
+      "cefr": "B1"
+    },
+    {
+      "word": "impose",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "徵(稅);加(負擔等)於",
+      "cefr": "B1"
+    },
+    {
+      "word": "improve",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "改善",
+      "cefr": "B1"
+    },
+    {
+      "word": "income",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "收入",
+      "cefr": "B1"
+    },
+    {
+      "word": "increase",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "增加;增強",
+      "cefr": "B1"
+    },
+    {
+      "word": "indeed",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "確實,實在",
+      "cefr": "B1"
+    },
+    {
+      "word": "index",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "索引;標誌;指示符號",
+      "cefr": "B1"
+    },
+    {
+      "word": "indicate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "指出",
+      "cefr": "B1"
+    },
+    {
+      "word": "indoor",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "室內的,戶內的",
+      "cefr": "B1"
+    },
+    {
+      "word": "induce",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "導致;誘導;歸納出",
+      "cefr": "B1"
+    },
+    {
+      "word": "infant",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "嬰兒",
+      "cefr": "B1"
+    },
+    {
+      "word": "infer",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "推斷,推論",
+      "cefr": "B1"
+    },
+    {
+      "word": "influence",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "影響",
+      "cefr": "B1"
+    },
+    {
+      "word": "inform",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "通知,告知",
+      "cefr": "B1"
+    },
+    {
+      "word": "injure",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "傷害;損害;毀壞",
+      "cefr": "B1"
+    },
+    {
+      "word": "injury",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "傷害",
+      "cefr": "B1"
+    },
+    {
+      "word": "inner",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "內部的",
+      "cefr": "B1"
+    },
+    {
+      "word": "input",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "輸入",
+      "cefr": "B1"
+    },
+    {
+      "word": "insect",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "昆蟲",
+      "cefr": "B1"
+    },
+    {
+      "word": "insert",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "插入物;夾在報刊中的散頁廣告",
+      "cefr": "B1"
+    },
+    {
+      "word": "insist",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "堅持",
+      "cefr": "B1"
+    },
+    {
+      "word": "insult",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "侮辱,羞辱",
+      "cefr": "B1"
+    },
+    {
+      "word": "insure",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "投保;確保",
+      "cefr": "B1"
+    },
+    {
+      "word": "intact",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "完整無缺的;原封不動的",
+      "cefr": "B1"
+    },
+    {
+      "word": "intent",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "意圖;目的",
+      "cefr": "B1"
+    },
+    {
+      "word": "invade",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "侵入,侵略",
+      "cefr": "B1"
+    },
+    {
+      "word": "invest",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "投(資)",
+      "cefr": "B1"
+    },
+    {
+      "word": "invite",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "邀請",
+      "cefr": "B1"
+    },
+    {
+      "word": "involve",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使捲入,連累;牽涉",
+      "cefr": "B1"
+    },
+    {
+      "word": "inward",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "裡面的,內部的;內心的;向內的",
+      "cefr": "B1"
+    },
+    {
+      "word": "ironic",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "具有諷刺意味的;挖苦的",
+      "cefr": "B1"
+    },
+    {
+      "word": "ivory",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "象牙",
+      "cefr": "B1"
+    },
+    {
+      "word": "jacket",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "夾克;外套",
+      "cefr": "B1"
+    },
+    {
+      "word": "jeans",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "牛仔褲",
+      "cefr": "B1"
+    },
+    {
+      "word": "jewel",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "寶石",
+      "cefr": "B1"
+    },
+    {
+      "word": "jingle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(鈴、硬幣等金屬的)叮噹聲",
+      "cefr": "B1"
+    },
+    {
+      "word": "jolly",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "快活(常用jollies)",
+      "cefr": "B1"
+    },
+    {
+      "word": "judge",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "法官",
+      "cefr": "B1"
+    },
+    {
+      "word": "jungle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(熱帶)叢林,密林",
+      "cefr": "B1"
+    },
+    {
+      "word": "kidnap",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "綁架;劫持",
+      "cefr": "B1"
+    },
+    {
+      "word": "kidney",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "腎臟",
+      "cefr": "B1"
+    },
+    {
+      "word": "kindle",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "點燃;煽動;照亮",
+      "cefr": "B1"
+    },
+    {
+      "word": "kneel",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "跪(下)",
+      "cefr": "B1"
+    },
+    {
+      "word": "knock",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "敲;擊,打;指摘,挑剔",
+      "cefr": "B1"
+    },
+    {
+      "word": "koala",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "澳洲產無尾熊",
+      "cefr": "B1"
+    },
+    {
+      "word": "ladder",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "梯子",
+      "cefr": "B1"
+    },
+    {
+      "word": "laser",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "雷射",
+      "cefr": "B1"
+    },
+    {
+      "word": "latter",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "後者",
+      "cefr": "B1"
+    },
+    {
+      "word": "lawful",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "合法的",
+      "cefr": "B1"
+    },
+    {
+      "word": "layout",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "設計;佈局;版面設計",
+      "cefr": "B1"
+    },
+    {
+      "word": "league",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "同盟,聯盟",
+      "cefr": "B1"
+    },
+    {
+      "word": "legal",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "合法的",
+      "cefr": "B1"
+    },
+    {
+      "word": "lemon",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "檸檬",
+      "cefr": "B1"
+    },
+    {
+      "word": "liable",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "易...的;可能的;負有法律責任的",
+      "cefr": "B1"
+    },
+    {
+      "word": "likely",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "有可能的",
+      "cefr": "B1"
+    },
+    {
+      "word": "limit",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "限度",
+      "cefr": "B1"
+    },
+    {
+      "word": "linger",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "繼續逗留;持續;磨蹭",
+      "cefr": "B1"
+    },
+    {
+      "word": "liquid",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "液體",
+      "cefr": "B1"
+    },
+    {
+      "word": "liter",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "公升",
+      "cefr": "B1"
+    },
+    {
+      "word": "litter",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "廢棄物,零亂之物",
+      "cefr": "B1"
+    },
+    {
+      "word": "lively",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "精力充沛的;活潑的",
+      "cefr": "B1"
+    },
+    {
+      "word": "liver",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "肝臟",
+      "cefr": "B1"
+    },
+    {
+      "word": "lizard",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "蜥蜴",
+      "cefr": "B1"
+    },
+    {
+      "word": "locate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "把...設置在;使...座落於",
+      "cefr": "B1"
+    },
+    {
+      "word": "locust",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "蝗蟲",
+      "cefr": "B1"
+    },
+    {
+      "word": "lonely",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "寂寞的",
+      "cefr": "B1"
+    },
+    {
+      "word": "loose",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "鬆的",
+      "cefr": "B1"
+    },
+    {
+      "word": "loosen",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "鬆開,解開",
+      "cefr": "B1"
+    },
+    {
+      "word": "loser",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "輸家",
+      "cefr": "B1"
+    },
+    {
+      "word": "loss",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "損失",
+      "cefr": "B1"
+    },
+    {
+      "word": "lousy",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "不潔的;卑鄙的;討厭的",
+      "cefr": "B1"
+    },
+    {
+      "word": "loyal",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "忠誠的,忠心的",
+      "cefr": "B1"
+    },
+    {
+      "word": "lucky",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "幸運的",
+      "cefr": "B1"
+    },
+    {
+      "word": "lumber",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "木材;木料",
+      "cefr": "B1"
+    },
+    {
+      "word": "lyric",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "抒情作品;歌詞",
+      "cefr": "B1"
+    },
+    {
+      "word": "magic",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "魔術",
+      "cefr": "B1"
+    },
+    {
+      "word": "magnet",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "磁鐵,磁石",
+      "cefr": "B1"
+    },
+    {
+      "word": "major",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "主修",
+      "cefr": "B1"
+    },
+    {
+      "word": "mamma",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "mama",
+      "cefr": "B1"
+    },
+    {
+      "word": "manner",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "舉止;態度",
+      "cefr": "B1"
+    },
+    {
+      "word": "margin",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "邊緣;利潤",
+      "cefr": "B1"
+    },
+    {
+      "word": "market",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "市場",
+      "cefr": "B1"
+    },
+    {
+      "word": "marry",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "結婚",
+      "cefr": "B1"
+    },
+    {
+      "word": "matter",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "事情",
+      "cefr": "B1"
+    },
+    {
+      "word": "mature",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "成熟的;到期的",
+      "cefr": "B1"
+    },
+    {
+      "word": "maybe",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "可能;也許",
+      "cefr": "B1"
+    },
+    {
+      "word": "measure",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "尺寸",
+      "cefr": "B1"
+    },
+    {
+      "word": "medal",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "獎章,紀念章,勳章",
+      "cefr": "B1"
+    },
+    {
+      "word": "media",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "媒介物;新聞媒介",
+      "cefr": "B1"
+    },
+    {
+      "word": "mellow",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使成熟;使圓熟",
+      "cefr": "B1"
+    },
+    {
+      "word": "melody",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "旋律;主調",
+      "cefr": "B1"
+    },
+    {
+      "word": "member",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "會員",
+      "cefr": "B1"
+    },
+    {
+      "word": "memory",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "記憶",
+      "cefr": "B1"
+    },
+    {
+      "word": "mental",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "精神的,心理的",
+      "cefr": "B1"
+    },
+    {
+      "word": "mercy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "慈悲,憐憫;仁慈",
+      "cefr": "B1"
+    },
+    {
+      "word": "merge",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "合併;融合",
+      "cefr": "B1"
+    },
+    {
+      "word": "messy",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "混亂的",
+      "cefr": "B1"
+    },
+    {
+      "word": "metal",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "金屬",
+      "cefr": "B1"
+    },
+    {
+      "word": "meter",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "公尺;計量器",
+      "cefr": "B1"
+    },
+    {
+      "word": "method",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "方法",
+      "cefr": "B1"
+    },
+    {
+      "word": "midst",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "當中;中間",
+      "cefr": "B1"
+    },
+    {
+      "word": "might",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "力量,威力",
+      "cefr": "B1"
+    },
+    {
+      "word": "mingle",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使混合;使相混;交往",
+      "cefr": "B1"
+    },
+    {
+      "word": "minus",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "負號",
+      "cefr": "B1"
+    },
+    {
+      "word": "mirror",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鏡子",
+      "cefr": "B1"
+    },
+    {
+      "word": "miser",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "吝嗇鬼;守財奴",
+      "cefr": "B1"
+    },
+    {
+      "word": "mister",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "先生",
+      "cefr": "B1"
+    },
+    {
+      "word": "mobile",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "移動式的;流動的",
+      "cefr": "B1"
+    },
+    {
+      "word": "model",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "模型;模特兒",
+      "cefr": "B1"
+    },
+    {
+      "word": "modern",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "現代的",
+      "cefr": "B1"
+    },
+    {
+      "word": "modest",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "審慎的;適度的",
+      "cefr": "B1"
+    },
+    {
+      "word": "moist",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "潮濕的,微濕的",
+      "cefr": "B1"
+    },
+    {
+      "word": "Monday",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "星期一",
+      "cefr": "B1"
+    },
+    {
+      "word": "monkey",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "猴子",
+      "cefr": "B1"
+    },
+    {
+      "word": "moral",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "道德;品行",
+      "cefr": "B1"
+    },
+    {
+      "word": "motion",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "移動",
+      "cefr": "B1"
+    },
+    {
+      "word": "motive",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "動機;主旨",
+      "cefr": "B1"
+    },
+    {
+      "word": "motor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "馬達,發動機",
+      "cefr": "B1"
+    },
+    {
+      "word": "motto",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "座右銘;格言",
+      "cefr": "B1"
+    },
+    {
+      "word": "murder",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "謀殺,兇殺",
+      "cefr": "B1"
+    },
+    {
+      "word": "museum",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "博物館",
+      "cefr": "B1"
+    },
+    {
+      "word": "mutter",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "咕噥;抱怨",
+      "cefr": "B1"
+    },
+    {
+      "word": "mutual",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "相互的;共同的",
+      "cefr": "B1"
+    },
+    {
+      "word": "naked",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "裸體的",
+      "cefr": "B1"
+    },
+    {
+      "word": "namely",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "即,那就是",
+      "cefr": "B1"
+    },
+    {
+      "word": "nanny",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "保姆",
+      "cefr": "B1"
+    },
+    {
+      "word": "nasty",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "齷齪的;卑鄙的;難處理的",
+      "cefr": "B1"
+    },
+    {
+      "word": "native",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "土著,原住民",
+      "cefr": "B1"
+    },
+    {
+      "word": "navel",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "肚臍;中央;中心",
+      "cefr": "B1"
+    },
+    {
+      "word": "needle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "針",
+      "cefr": "B1"
+    },
+    {
+      "word": "needy",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "貧窮的",
+      "cefr": "B1"
+    },
+    {
+      "word": "nephew",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "侄子;外甥",
+      "cefr": "B1"
+    },
+    {
+      "word": "nerve",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "神經",
+      "cefr": "B1"
+    },
+    {
+      "word": "ninety",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "九十",
+      "cefr": "B1"
+    },
+    {
+      "word": "noble",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "貴族",
+      "cefr": "B1"
+    },
+    {
+      "word": "noisy",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "喧鬧的",
+      "cefr": "B1"
+    },
+    {
+      "word": "normal",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "正常的,正規的",
+      "cefr": "B1"
+    },
+    {
+      "word": "notice",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "注意;通知",
+      "cefr": "B1"
+    },
+    {
+      "word": "notify",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "通知;公佈",
+      "cefr": "B1"
+    },
+    {
+      "word": "nylon",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "尼龍",
+      "cefr": "B1"
+    },
+    {
+      "word": "oasis",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(沙漠中)的綠洲",
+      "cefr": "B1"
+    },
+    {
+      "word": "object",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "物件",
+      "cefr": "B1"
+    },
+    {
+      "word": "oblige",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使不得不;迫使;施恩於",
+      "cefr": "B1"
+    },
+    {
+      "word": "oblong",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "橢圓形",
+      "cefr": "B1"
+    },
+    {
+      "word": "obtain",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "得到,獲得",
+      "cefr": "B1"
+    },
+    {
+      "word": "occupy",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "佔領,佔據",
+      "cefr": "B1"
+    },
+    {
+      "word": "occur",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "發生;出現",
+      "cefr": "B1"
+    },
+    {
+      "word": "offer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "提供,提議;出價;報價",
+      "cefr": "B1"
+    },
+    {
+      "word": "official",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "官員,公務員",
+      "cefr": "B1"
+    },
+    {
+      "word": "often",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "常常",
+      "cefr": "B1"
+    },
+    {
+      "word": "olive",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "橄欖;橄欖色",
+      "cefr": "B1"
+    },
+    {
+      "word": "onion",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "洋蔥",
+      "cefr": "B1"
+    },
+    {
+      "word": "opera",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "歌劇",
+      "cefr": "B1"
+    },
+    {
+      "word": "opportunity",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "機會;良機",
+      "cefr": "B1"
+    },
+    {
+      "word": "oppose",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "反對",
+      "cefr": "B1"
+    },
+    {
+      "word": "option",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "選擇;選擇權",
+      "cefr": "B1"
+    },
+    {
+      "word": "orbit",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "運行軌道",
+      "cefr": "B1"
+    },
+    {
+      "word": "order",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "定單",
+      "cefr": "B1"
+    },
+    {
+      "word": "organ",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "器官",
+      "cefr": "B1"
+    },
+    {
+      "word": "organize",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使有條理;安排",
+      "cefr": "B1"
+    },
+    {
+      "word": "orient",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "亞洲國家(尤指東亞)",
+      "cefr": "B1"
+    },
+    {
+      "word": "origin",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "起源;由來",
+      "cefr": "B1"
+    },
+    {
+      "word": "orphan",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "孤兒",
+      "cefr": "B1"
+    },
+    {
+      "word": "ought",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "應當,應該",
+      "cefr": "B1"
+    },
+    {
+      "word": "ounce",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "盎司,英兩",
+      "cefr": "B1"
+    },
+    {
+      "word": "outdo",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "勝過;超越",
+      "cefr": "B1"
+    },
+    {
+      "word": "outer",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "外面的,外表的",
+      "cefr": "B1"
+    },
+    {
+      "word": "outlaw",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "罪犯;亡命之徒",
+      "cefr": "B1"
+    },
+    {
+      "word": "output",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "出產;生產;產量",
+      "cefr": "B1"
+    },
+    {
+      "word": "outset",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "最初;開始;開端",
+      "cefr": "B1"
+    },
+    {
+      "word": "owner",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "物主",
+      "cefr": "B1"
+    },
+    {
+      "word": "ozone",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "臭氧",
+      "cefr": "B1"
+    },
+    {
+      "word": "paint",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "油漆,塗料",
+      "cefr": "B1"
+    },
+    {
+      "word": "palace",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "皇宮,宮殿",
+      "cefr": "B1"
+    },
+    {
+      "word": "panic",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "恐慌,驚慌",
+      "cefr": "B1"
+    },
+    {
+      "word": "papaya",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "木瓜",
+      "cefr": "B1"
+    },
+    {
+      "word": "pardon",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "原諒,饒恕,寬恕;赦免",
+      "cefr": "B1"
+    },
+    {
+      "word": "parrot",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鸚鵡",
+      "cefr": "B1"
+    },
+    {
+      "word": "paste",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "漿糊",
+      "cefr": "B1"
+    },
+    {
+      "word": "pastry",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "酥皮點心",
+      "cefr": "B1"
+    },
+    {
+      "word": "patch",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "補釘;補片;貼片",
+      "cefr": "B1"
+    },
+    {
+      "word": "patent",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "專利;專利權",
+      "cefr": "B1"
+    },
+    {
+      "word": "patrol",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "巡邏;巡邏兵",
+      "cefr": "B1"
+    },
+    {
+      "word": "pause",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "暫停,間歇;躊躇,猶豫",
+      "cefr": "B1"
+    },
+    {
+      "word": "peace",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "和平",
+      "cefr": "B1"
+    },
+    {
+      "word": "peach",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "桃子",
+      "cefr": "B1"
+    },
+    {
+      "word": "pearl",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "珍珠",
+      "cefr": "B1"
+    },
+    {
+      "word": "penny",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "便士;一便士硬幣",
+      "cefr": "B1"
+    },
+    {
+      "word": "pepper",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "胡椒;辣椒",
+      "cefr": "B1"
+    },
+    {
+      "word": "perform",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "履行;執行;表演,演奏",
+      "cefr": "B1"
+    },
+    {
+      "word": "peril",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(嚴重的)危險;危險的事物",
+      "cefr": "B1"
+    },
+    {
+      "word": "perish",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "消滅;暴卒;枯萎",
+      "cefr": "B1"
+    },
+    {
+      "word": "permit",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "許可證,執照",
+      "cefr": "B1"
+    },
+    {
+      "word": "phase",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "階段;相",
+      "cefr": "B1"
+    },
+    {
+      "word": "photo",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "相片",
+      "cefr": "B1"
+    },
+    {
+      "word": "piano",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鋼琴",
+      "cefr": "B1"
+    },
+    {
+      "word": "piece",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "件;片",
+      "cefr": "B1"
+    },
+    {
+      "word": "pierce",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "刺穿;穿透",
+      "cefr": "B1"
+    },
+    {
+      "word": "piety",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "虔誠;孝順",
+      "cefr": "B1"
+    },
+    {
+      "word": "pigeon",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鴿子",
+      "cefr": "B1"
+    },
+    {
+      "word": "pillar",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "柱子;棟樑",
+      "cefr": "B1"
+    },
+    {
+      "word": "pimple",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "丘疹;面皰",
+      "cefr": "B1"
+    },
+    {
+      "word": "pinch",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "擰;夾;(一)撮",
+      "cefr": "B1"
+    },
+    {
+      "word": "pizza",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "披薩",
+      "cefr": "B1"
+    },
+    {
+      "word": "plain",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "平原",
+      "cefr": "B1"
+    },
+    {
+      "word": "planet",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "行星",
+      "cefr": "B1"
+    },
+    {
+      "word": "plead",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "為(案件)辯護;懇求",
+      "cefr": "B1"
+    },
+    {
+      "word": "please",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "請;取悅",
+      "cefr": "B1"
+    },
+    {
+      "word": "pledge",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "保證;誓言;抵押",
+      "cefr": "B1"
+    },
+    {
+      "word": "plight",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "境況;困境",
+      "cefr": "B1"
+    },
+    {
+      "word": "pluck",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(一)拉;(一)扯",
+      "cefr": "B1"
+    },
+    {
+      "word": "plural",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "複數",
+      "cefr": "B1"
+    },
+    {
+      "word": "poetic",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "詩的;韻文的",
+      "cefr": "B1"
+    },
+    {
+      "word": "poetry",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "詩,詩歌,韻文",
+      "cefr": "B1"
+    },
+    {
+      "word": "point",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "點;要點",
+      "cefr": "B1"
+    },
+    {
+      "word": "poison",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "毒物",
+      "cefr": "B1"
+    },
+    {
+      "word": "polar",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "北極的;南極的;截然對立的",
+      "cefr": "B1"
+    },
+    {
+      "word": "policy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "政策;策略",
+      "cefr": "B1"
+    },
+    {
+      "word": "polish",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "磨光,擦亮",
+      "cefr": "B1"
+    },
+    {
+      "word": "polite",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "有禮貌的",
+      "cefr": "B1"
+    },
+    {
+      "word": "positive",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "正面;正數;正片;(電池的)陽極",
+      "cefr": "B1"
+    },
+    {
+      "word": "potato",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "馬鈴薯",
+      "cefr": "B1"
+    },
+    {
+      "word": "pound",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "磅",
+      "cefr": "B1"
+    },
+    {
+      "word": "powder",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "粉",
+      "cefr": "B1"
+    },
+    {
+      "word": "power",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "權力;動力",
+      "cefr": "B1"
+    },
+    {
+      "word": "praise",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "讚揚,稱讚",
+      "cefr": "B1"
+    },
+    {
+      "word": "prayer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "祈禱,禱告",
+      "cefr": "B1"
+    },
+    {
+      "word": "predict",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "預言;預料",
+      "cefr": "B1"
+    },
+    {
+      "word": "press",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "新聞輿論",
+      "cefr": "B1"
+    },
+    {
+      "word": "prevent",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "防止,預防",
+      "cefr": "B1"
+    },
+    {
+      "word": "pride",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "自豪,得意",
+      "cefr": "B1"
+    },
+    {
+      "word": "prime",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "最初,初期",
+      "cefr": "B1"
+    },
+    {
+      "word": "prince",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "王子",
+      "cefr": "B1"
+    },
+    {
+      "word": "prison",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "監獄",
+      "cefr": "B1"
+    },
+    {
+      "word": "prize",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "獎品",
+      "cefr": "B1"
+    },
+    {
+      "word": "produce",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "農產品",
+      "cefr": "B1"
+    },
+    {
+      "word": "profit",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "利潤,盈利;收益",
+      "cefr": "B1"
+    },
+    {
+      "word": "program",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "節目",
+      "cefr": "B1"
+    },
+    {
+      "word": "prompt",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "催促;提醒",
+      "cefr": "B1"
+    },
+    {
+      "word": "prone",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "有...傾向的;俯伏的",
+      "cefr": "B1"
+    },
+    {
+      "word": "propel",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "推進;推動;驅策",
+      "cefr": "B1"
+    },
+    {
+      "word": "proper",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "適合的,適當的",
+      "cefr": "B1"
+    },
+    {
+      "word": "prose",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "散文;平凡",
+      "cefr": "B1"
+    },
+    {
+      "word": "protect",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "保護",
+      "cefr": "B1"
+    },
+    {
+      "word": "provide",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "供應",
+      "cefr": "B1"
+    },
+    {
+      "word": "prowl",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "四處覓食;徘徊",
+      "cefr": "B1"
+    },
+    {
+      "word": "prune",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "梅乾;深紫紅色",
+      "cefr": "B1"
+    },
+    {
+      "word": "publish",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "出版;發行;刊載",
+      "cefr": "B1"
+    },
+    {
+      "word": "punish",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "處罰",
+      "cefr": "B1"
+    },
+    {
+      "word": "puppet",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "木偶;傀儡",
+      "cefr": "B1"
+    },
+    {
+      "word": "purify",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使純淨;淨化",
+      "cefr": "B1"
+    },
+    {
+      "word": "purity",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "純淨;清潔;純潔",
+      "cefr": "B1"
+    },
+    {
+      "word": "purple",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "紫色",
+      "cefr": "B1"
+    },
+    {
+      "word": "pursue",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "追求;從事",
+      "cefr": "B1"
+    },
+    {
+      "word": "puzzle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "謎",
+      "cefr": "B1"
+    },
+    {
+      "word": "quality",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "品質",
+      "cefr": "B1"
+    },
+    {
+      "word": "quart",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "夸脫(=2品脫)",
+      "cefr": "B1"
+    },
+    {
+      "word": "quench",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "壓制;抑制;解(渴);熄滅",
+      "cefr": "B1"
+    },
+    {
+      "word": "quest",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "追求;探索",
+      "cefr": "B1"
+    },
+    {
+      "word": "quilt",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "被(子);被褥",
+      "cefr": "B1"
+    },
+    {
+      "word": "quote",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "引文;報價",
+      "cefr": "B1"
+    },
+    {
+      "word": "rabbit",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "兔子",
+      "cefr": "B1"
+    },
+    {
+      "word": "racial",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "種族的",
+      "cefr": "B1"
+    },
+    {
+      "word": "racism",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "種族主義;種族歧視",
+      "cefr": "B1"
+    },
+    {
+      "word": "radar",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "雷達",
+      "cefr": "B1"
+    },
+    {
+      "word": "radius",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "半徑",
+      "cefr": "B1"
+    },
+    {
+      "word": "ragged",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "破爛的;不整潔的;參差不齊的",
+      "cefr": "B1"
+    },
+    {
+      "word": "raisin",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "葡萄乾",
+      "cefr": "B1"
+    },
+    {
+      "word": "random",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "胡亂的;隨機的",
+      "cefr": "B1"
+    },
+    {
+      "word": "ransom",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "贖金",
+      "cefr": "B1"
+    },
+    {
+      "word": "rapid",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "迅速的",
+      "cefr": "B1"
+    },
+    {
+      "word": "rather",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "寧可;頗為",
+      "cefr": "B1"
+    },
+    {
+      "word": "ratio",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "比率;比例",
+      "cefr": "B1"
+    },
+    {
+      "word": "rattle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "咯咯聲;吵鬧聲",
+      "cefr": "B1"
+    },
+    {
+      "word": "ravage",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "毀滅;蹂躪;劫掠;災害,災難",
+      "cefr": "B1"
+    },
+    {
+      "word": "react",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "作出反應",
+      "cefr": "B1"
+    },
+    {
+      "word": "realize",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "認知;實現",
+      "cefr": "B1"
+    },
+    {
+      "word": "realm",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "王國;國土;領土",
+      "cefr": "B1"
+    },
+    {
+      "word": "rebel",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "造反者;反抗者",
+      "cefr": "B1"
+    },
+    {
+      "word": "recipe",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "食譜",
+      "cefr": "B1"
+    },
+    {
+      "word": "recite",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "背誦;朗誦;詳述",
+      "cefr": "B1"
+    },
+    {
+      "word": "recognize",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "識別;認識;承認",
+      "cefr": "B1"
+    },
+    {
+      "word": "recur",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "再發生;再現",
+      "cefr": "B1"
+    },
+    {
+      "word": "refine",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "提煉;精鍊",
+      "cefr": "B1"
+    },
+    {
+      "word": "reflect",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "反射;照出,映出",
+      "cefr": "B1"
+    },
+    {
+      "word": "reform",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "改革,改良",
+      "cefr": "B1"
+    },
+    {
+      "word": "refuge",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "躲避;避難;避難所",
+      "cefr": "B1"
+    },
+    {
+      "word": "refund",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "償還;退款",
+      "cefr": "B1"
+    },
+    {
+      "word": "refuse",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "拒絕",
+      "cefr": "B1"
+    },
+    {
+      "word": "refute",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "駁斥;反駁",
+      "cefr": "B1"
+    },
+    {
+      "word": "regime",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "政體;政權",
+      "cefr": "B1"
+    },
+    {
+      "word": "reign",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "統治;在位期間",
+      "cefr": "B1"
+    },
+    {
+      "word": "reject",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "拒絕",
+      "cefr": "B1"
+    },
+    {
+      "word": "relate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "有關,涉及",
+      "cefr": "B1"
+    },
+    {
+      "word": "relax",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使鬆弛,使鬆懈,放鬆",
+      "cefr": "B1"
+    },
+    {
+      "word": "release",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "發行,發表;釋放,解放",
+      "cefr": "B1"
+    },
+    {
+      "word": "relief",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "緩和,減輕;解除",
+      "cefr": "B1"
+    },
+    {
+      "word": "rely",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "依靠,依賴",
+      "cefr": "B1"
+    },
+    {
+      "word": "remain",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "剩下,餘留",
+      "cefr": "B1"
+    },
+    {
+      "word": "remark",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "言辭;談論,評論",
+      "cefr": "B1"
+    },
+    {
+      "word": "remind",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "提醒",
+      "cefr": "B1"
+    },
+    {
+      "word": "remove",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "移動,搬開",
+      "cefr": "B1"
+    },
+    {
+      "word": "render",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使得;使成為;提供",
+      "cefr": "B1"
+    },
+    {
+      "word": "renew",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "換新;修補",
+      "cefr": "B1"
+    },
+    {
+      "word": "rental",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "租金;租賃;出租",
+      "cefr": "B1"
+    },
+    {
+      "word": "repair",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "修理",
+      "cefr": "B1"
+    },
+    {
+      "word": "replace",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "取代;以...代替",
+      "cefr": "B1"
+    },
+    {
+      "word": "report",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "報告",
+      "cefr": "B1"
+    },
+    {
+      "word": "represent",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "象徵;表示",
+      "cefr": "B1"
+    },
+    {
+      "word": "require",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "需要",
+      "cefr": "B1"
+    },
+    {
+      "word": "rescue",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "援救;營救",
+      "cefr": "B1"
+    },
+    {
+      "word": "reside",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "居住;駐在",
+      "cefr": "B1"
+    },
+    {
+      "word": "resign",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "放棄,辭去",
+      "cefr": "B1"
+    },
+    {
+      "word": "resist",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "抵抗,反抗;抗拒",
+      "cefr": "B1"
+    },
+    {
+      "word": "resort",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "休閒度假之處;名勝",
+      "cefr": "B1"
+    },
+    {
+      "word": "resource",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "資源;物力,財力",
+      "cefr": "B1"
+    },
+    {
+      "word": "responsibility",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "責任",
+      "cefr": "B1"
+    },
+    {
+      "word": "retail",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "零售",
+      "cefr": "B1"
+    },
+    {
+      "word": "retain",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "保留,保持",
+      "cefr": "B1"
+    },
+    {
+      "word": "retire",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "退休;退役",
+      "cefr": "B1"
+    },
+    {
+      "word": "retort",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "回嘴;反駁",
+      "cefr": "B1"
+    },
+    {
+      "word": "reveal",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "展現,顯露出",
+      "cefr": "B1"
+    },
+    {
+      "word": "review",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "復習",
+      "cefr": "B1"
+    },
+    {
+      "word": "revive",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "復甦;恢復生機;使甦醒",
+      "cefr": "B1"
+    },
+    {
+      "word": "rhino",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "犀牛",
+      "cefr": "B1"
+    },
+    {
+      "word": "rhythm",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "節奏;韻律",
+      "cefr": "B1"
+    },
+    {
+      "word": "ribbon",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "緞帶;絲帶",
+      "cefr": "B1"
+    },
+    {
+      "word": "riches",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "財富,財產;富有,豐饒",
+      "cefr": "B1"
+    },
+    {
+      "word": "rigid",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "堅硬的;嚴格的;死板的",
+      "cefr": "B1"
+    },
+    {
+      "word": "ripple",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "漣漪;細浪;波紋",
+      "cefr": "B1"
+    },
+    {
+      "word": "ritual",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "儀式;典禮;老規矩",
+      "cefr": "B1"
+    },
+    {
+      "word": "roach",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "蟑螂",
+      "cefr": "B1"
+    },
+    {
+      "word": "robber",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "搶劫者,強盜",
+      "cefr": "B1"
+    },
+    {
+      "word": "role",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "角色",
+      "cefr": "B1"
+    },
+    {
+      "word": "rotten",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "腐爛的;發臭的",
+      "cefr": "B1"
+    },
+    {
+      "word": "royal",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "皇家的",
+      "cefr": "B1"
+    },
+    {
+      "word": "rubber",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "橡膠",
+      "cefr": "B1"
+    },
+    {
+      "word": "ruler",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "尺;統治者",
+      "cefr": "B1"
+    },
+    {
+      "word": "rumble",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "隆隆聲;轆轆聲",
+      "cefr": "B1"
+    },
+    {
+      "word": "rumor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "謠言,謠傳",
+      "cefr": "B1"
+    },
+    {
+      "word": "rural",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "農村的;田園的",
+      "cefr": "B1"
+    },
+    {
+      "word": "rustle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "沙沙聲;窸窣聲",
+      "cefr": "B1"
+    },
+    {
+      "word": "rusty",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "生鏽的",
+      "cefr": "B1"
+    },
+    {
+      "word": "sacred",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "神的;神聖的",
+      "cefr": "B1"
+    },
+    {
+      "word": "safety",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "安全",
+      "cefr": "B1"
+    },
+    {
+      "word": "salad",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "沙拉",
+      "cefr": "B1"
+    },
+    {
+      "word": "salute",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "敬禮;致敬;致意",
+      "cefr": "B1"
+    },
+    {
+      "word": "sample",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "樣品",
+      "cefr": "B1"
+    },
+    {
+      "word": "sauce",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "調味醬,醬汁",
+      "cefr": "B1"
+    },
+    {
+      "word": "saucer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "淺碟",
+      "cefr": "B1"
+    },
+    {
+      "word": "saving",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "挽救;節儉,節約;儲金",
+      "cefr": "B1"
+    },
+    {
+      "word": "scale",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "尺度;等級;級別",
+      "cefr": "B1"
+    },
+    {
+      "word": "scarce",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "缺乏的;不足的",
+      "cefr": "B1"
+    },
+    {
+      "word": "scare",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "驚恐;驚嚇",
+      "cefr": "B1"
+    },
+    {
+      "word": "scarf",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "圍巾",
+      "cefr": "B1"
+    },
+    {
+      "word": "scene",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "景色;場面",
+      "cefr": "B1"
+    },
+    {
+      "word": "scheme",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "計劃;方案",
+      "cefr": "B1"
+    },
+    {
+      "word": "scold",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "責罵",
+      "cefr": "B1"
+    },
+    {
+      "word": "scoop",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "勺子;戽斗",
+      "cefr": "B1"
+    },
+    {
+      "word": "scope",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "範圍;領域",
+      "cefr": "B1"
+    },
+    {
+      "word": "scout",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "斥候;童子軍",
+      "cefr": "B1"
+    },
+    {
+      "word": "scrape",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "刮;擦;擦傷;擦痕",
+      "cefr": "B1"
+    },
+    {
+      "word": "screw",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "螺釘,螺絲釘",
+      "cefr": "B1"
+    },
+    {
+      "word": "scroll",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "卷軸;渦卷形裝飾",
+      "cefr": "B1"
+    },
+    {
+      "word": "search",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "搜查,搜尋;檢查;探索,調查",
+      "cefr": "B1"
+    },
+    {
+      "word": "secret",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "秘密",
+      "cefr": "B1"
+    },
+    {
+      "word": "secure",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "把...弄牢;關緊",
+      "cefr": "B1"
+    },
+    {
+      "word": "seduce",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "誘惑;引誘",
+      "cefr": "B1"
+    },
+    {
+      "word": "seesaw",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "蹺蹺板",
+      "cefr": "B1"
+    },
+    {
+      "word": "seize",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "抓住;捉住;沒收;扣押",
+      "cefr": "B1"
+    },
+    {
+      "word": "select",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "挑選",
+      "cefr": "B1"
+    },
+    {
+      "word": "serene",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "安詳的;寧靜的",
+      "cefr": "B1"
+    },
+    {
+      "word": "series",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "連續;系列",
+      "cefr": "B1"
+    },
+    {
+      "word": "server",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "侍者;伺服器",
+      "cefr": "B1"
+    },
+    {
+      "word": "seven",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "七",
+      "cefr": "B1"
+    },
+    {
+      "word": "severe",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "嚴重的;劇烈的",
+      "cefr": "B1"
+    },
+    {
+      "word": "sexual",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "兩性的;關於性關係的;性慾的",
+      "cefr": "B1"
+    },
+    {
+      "word": "shabby",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "破爛的;破舊的;邋遢的",
+      "cefr": "B1"
+    },
+    {
+      "word": "shade",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "蔭;陰涼處;陰暗",
+      "cefr": "B1"
+    },
+    {
+      "word": "shadow",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "蔭;陰暗處;影子",
+      "cefr": "B1"
+    },
+    {
+      "word": "shady",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "靠不住的;名聲不好的",
+      "cefr": "B1"
+    },
+    {
+      "word": "shake",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "搖動;奶昔",
+      "cefr": "B1"
+    },
+    {
+      "word": "shall",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "將;應該",
+      "cefr": "B1"
+    },
+    {
+      "word": "sharp",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "尖銳的;敏銳的",
+      "cefr": "B1"
+    },
+    {
+      "word": "sheer",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "全然的;(紡織物)極薄的;陡峭的",
+      "cefr": "B1"
+    },
+    {
+      "word": "shelf",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "架子",
+      "cefr": "B1"
+    },
+    {
+      "word": "shield",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "盾;保護者;擋板",
+      "cefr": "B1"
+    },
+    {
+      "word": "shift",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "移動",
+      "cefr": "B1"
+    },
+    {
+      "word": "shiny",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "晴朗的;有光澤的",
+      "cefr": "B1"
+    },
+    {
+      "word": "shiver",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "顫抖;寒顫",
+      "cefr": "B1"
+    },
+    {
+      "word": "shock",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "震驚",
+      "cefr": "B1"
+    },
+    {
+      "word": "shoot",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "幼芽,幼枝;狩獵(隊);射擊;拍攝",
+      "cefr": "B1"
+    },
+    {
+      "word": "shore",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "岸邊",
+      "cefr": "B1"
+    },
+    {
+      "word": "shove",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "推;撞",
+      "cefr": "B1"
+    },
+    {
+      "word": "shovel",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鏟子,鐵鍬",
+      "cefr": "B1"
+    },
+    {
+      "word": "shred",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "碎片;碎條;破布",
+      "cefr": "B1"
+    },
+    {
+      "word": "shrimp",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "蝦子",
+      "cefr": "B1"
+    },
+    {
+      "word": "shrine",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "聖壇;神殿",
+      "cefr": "B1"
+    },
+    {
+      "word": "shrug",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "聳肩",
+      "cefr": "B1"
+    },
+    {
+      "word": "sight",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "視力;景象",
+      "cefr": "B1"
+    },
+    {
+      "word": "silent",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "寂靜的",
+      "cefr": "B1"
+    },
+    {
+      "word": "silly",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "傻的;無聊的",
+      "cefr": "B1"
+    },
+    {
+      "word": "simmer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "即將沸騰(或爆發)的狀態",
+      "cefr": "B1"
+    },
+    {
+      "word": "simple",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "簡單的",
+      "cefr": "B1"
+    },
+    {
+      "word": "since",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "此後;之前,以前",
+      "cefr": "B1"
+    },
+    {
+      "word": "single",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "單的;一壘安打",
+      "cefr": "B1"
+    },
+    {
+      "word": "situation",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "處境,境遇",
+      "cefr": "B1"
+    },
+    {
+      "word": "sixty",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "六十",
+      "cefr": "B1"
+    },
+    {
+      "word": "skinny",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "很瘦的",
+      "cefr": "B1"
+    },
+    {
+      "word": "skirt",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "裙子",
+      "cefr": "B1"
+    },
+    {
+      "word": "slang",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "slang",
+      "cefr": "B1"
+    },
+    {
+      "word": "slave",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "奴隸",
+      "cefr": "B1"
+    },
+    {
+      "word": "sleeve",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "袖子;袖套",
+      "cefr": "B1"
+    },
+    {
+      "word": "slice",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "薄片",
+      "cefr": "B1"
+    },
+    {
+      "word": "slide",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "滑梯;土崩",
+      "cefr": "B1"
+    },
+    {
+      "word": "slight",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "輕蔑;怠慢",
+      "cefr": "B1"
+    },
+    {
+      "word": "slope",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "傾斜;坡度",
+      "cefr": "B1"
+    },
+    {
+      "word": "smash",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "粉碎;瓦解;(演出等的)成功",
+      "cefr": "B1"
+    },
+    {
+      "word": "snack",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "點心",
+      "cefr": "B1"
+    },
+    {
+      "word": "snail",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "蝸牛",
+      "cefr": "B1"
+    },
+    {
+      "word": "snarl",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "吠;咆哮;纏結",
+      "cefr": "B1"
+    },
+    {
+      "word": "snatch",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "奪取;抓走",
+      "cefr": "B1"
+    },
+    {
+      "word": "sneak",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "溜走,不告而別",
+      "cefr": "B1"
+    },
+    {
+      "word": "sneaky",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "鬼鬼祟祟的",
+      "cefr": "B1"
+    },
+    {
+      "word": "sneeze",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "噴嚏",
+      "cefr": "B1"
+    },
+    {
+      "word": "snore",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "打鼾;鼾聲",
+      "cefr": "B1"
+    },
+    {
+      "word": "social",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "社會的;交際的",
+      "cefr": "B1"
+    },
+    {
+      "word": "society",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "社會",
+      "cefr": "B1"
+    },
+    {
+      "word": "sodium",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鈉",
+      "cefr": "B1"
+    },
+    {
+      "word": "soften",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使變柔軟;使變和藹",
+      "cefr": "B1"
+    },
+    {
+      "word": "solemn",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "嚴肅的;莊嚴的;鄭重的",
+      "cefr": "B1"
+    },
+    {
+      "word": "solid",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "結實的;堅固的",
+      "cefr": "B1"
+    },
+    {
+      "word": "solve",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "解決",
+      "cefr": "B1"
+    },
+    {
+      "word": "soothe",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "安慰;哄;減輕",
+      "cefr": "B1"
+    },
+    {
+      "word": "spade",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鏟;鍬",
+      "cefr": "B1"
+    },
+    {
+      "word": "spare",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "備用品;備用零件",
+      "cefr": "B1"
+    },
+    {
+      "word": "speed",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "速度",
+      "cefr": "B1"
+    },
+    {
+      "word": "spider",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "蜘蛛",
+      "cefr": "B1"
+    },
+    {
+      "word": "spill",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "溢出;濺出;散落",
+      "cefr": "B1"
+    },
+    {
+      "word": "spire",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "尖塔;尖頂",
+      "cefr": "B1"
+    },
+    {
+      "word": "spirit",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "精神",
+      "cefr": "B1"
+    },
+    {
+      "word": "spite",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "惡意,心術不良",
+      "cefr": "B1"
+    },
+    {
+      "word": "splash",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "濺潑聲",
+      "cefr": "B1"
+    },
+    {
+      "word": "spouse",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "配偶",
+      "cefr": "B1"
+    },
+    {
+      "word": "sprain",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "扭傷",
+      "cefr": "B1"
+    },
+    {
+      "word": "sprawl",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "伸開四肢的躺臥姿勢;蔓生",
+      "cefr": "B1"
+    },
+    {
+      "word": "spread",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "蔓延;普及;價格差異",
+      "cefr": "B1"
+    },
+    {
+      "word": "square",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "正方形",
+      "cefr": "B1"
+    },
+    {
+      "word": "squash",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "擠壓;壓碎的東西;南瓜",
+      "cefr": "B1"
+    },
+    {
+      "word": "squat",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "蹲坐;蜷伏",
+      "cefr": "B1"
+    },
+    {
+      "word": "stable",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "穩定的,牢固的",
+      "cefr": "B1"
+    },
+    {
+      "word": "stage",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "舞臺;(進展的)階段",
+      "cefr": "B1"
+    },
+    {
+      "word": "stain",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "污點;色斑;染色劑",
+      "cefr": "B1"
+    },
+    {
+      "word": "stake",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "股本;賭金;危險",
+      "cefr": "B1"
+    },
+    {
+      "word": "stale",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "不新鮮的;污濁的;陳舊的",
+      "cefr": "B1"
+    },
+    {
+      "word": "stalk",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "悄悄的追蹤;莖;柄",
+      "cefr": "B1"
+    },
+    {
+      "word": "standard",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "標準",
+      "cefr": "B1"
+    },
+    {
+      "word": "stanza",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "詩的一節",
+      "cefr": "B1"
+    },
+    {
+      "word": "starch",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "澱粉",
+      "cefr": "B1"
+    },
+    {
+      "word": "stare",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "凝視,注視",
+      "cefr": "B1"
+    },
+    {
+      "word": "starve",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "餓死;餓得慌;渴望",
+      "cefr": "B1"
+    },
+    {
+      "word": "state",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "狀態；美國的州",
+      "cefr": "B1"
+    },
+    {
+      "word": "statue",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "雕像,塑像",
+      "cefr": "B1"
+    },
+    {
+      "word": "status",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "狀況,狀態",
+      "cefr": "B1"
+    },
+    {
+      "word": "steady",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(關係確定的)情侶;固定支架",
+      "cefr": "B1"
+    },
+    {
+      "word": "steak",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "牛排",
+      "cefr": "B1"
+    },
+    {
+      "word": "steal",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "偷竊",
+      "cefr": "B1"
+    },
+    {
+      "word": "steel",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鋼,鋼鐵",
+      "cefr": "B1"
+    },
+    {
+      "word": "steep",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "陡峭的",
+      "cefr": "B1"
+    },
+    {
+      "word": "steer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "指點,建議",
+      "cefr": "B1"
+    },
+    {
+      "word": "stern",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "嚴厲的;堅定的",
+      "cefr": "B1"
+    },
+    {
+      "word": "stick",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "棍;棒;杖;枝條",
+      "cefr": "B1"
+    },
+    {
+      "word": "sticky",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "黏的;塗有黏膠物質的;泥濘的",
+      "cefr": "B1"
+    },
+    {
+      "word": "stiff",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "硬的;挺的;拘謹的,不自然的",
+      "cefr": "B1"
+    },
+    {
+      "word": "sting",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "螫針;刺",
+      "cefr": "B1"
+    },
+    {
+      "word": "stoop",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "彎腰;駝背;屈尊",
+      "cefr": "B1"
+    },
+    {
+      "word": "stout",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "矮胖的;結實的;牢固的",
+      "cefr": "B1"
+    },
+    {
+      "word": "stove",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "爐灶",
+      "cefr": "B1"
+    },
+    {
+      "word": "strand",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "股;縷;絞;線;繩;串",
+      "cefr": "B1"
+    },
+    {
+      "word": "strap",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "帶子;皮帶",
+      "cefr": "B1"
+    },
+    {
+      "word": "streak",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "條紋;斑紋;光線",
+      "cefr": "B1"
+    },
+    {
+      "word": "stream",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "溪流",
+      "cefr": "B1"
+    },
+    {
+      "word": "stress",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "壓力",
+      "cefr": "B1"
+    },
+    {
+      "word": "strict",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "嚴謹的,精確的",
+      "cefr": "B1"
+    },
+    {
+      "word": "string",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "線;細繩;帶子",
+      "cefr": "B1"
+    },
+    {
+      "word": "stripe",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "條紋;斑紋;線條",
+      "cefr": "B1"
+    },
+    {
+      "word": "strive",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "努力,苦幹,奮鬥;反抗,鬥爭",
+      "cefr": "B1"
+    },
+    {
+      "word": "struggle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "使勁;掙扎",
+      "cefr": "B1"
+    },
+    {
+      "word": "stuff",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "材料,原料;物品",
+      "cefr": "B1"
+    },
+    {
+      "word": "stupid",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "笨的",
+      "cefr": "B1"
+    },
+    {
+      "word": "sturdy",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "結實的;健康的;堅固的",
+      "cefr": "B1"
+    },
+    {
+      "word": "submit",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "提交;呈遞;使服從",
+      "cefr": "B1"
+    },
+    {
+      "word": "subtle",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "微妙的;難捉摸的",
+      "cefr": "B1"
+    },
+    {
+      "word": "suburb",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "郊區",
+      "cefr": "B1"
+    },
+    {
+      "word": "succeed",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "成功",
+      "cefr": "B1"
+    },
+    {
+      "word": "sudden",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "突然發生的事",
+      "cefr": "B1"
+    },
+    {
+      "word": "suggest",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "建議",
+      "cefr": "B1"
+    },
+    {
+      "word": "sulfur",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "硫(磺);硫磺色",
+      "cefr": "B1"
+    },
+    {
+      "word": "summon",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "召喚",
+      "cefr": "B1"
+    },
+    {
+      "word": "sunny",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "晴朗的",
+      "cefr": "B1"
+    },
+    {
+      "word": "super",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "超級的",
+      "cefr": "B1"
+    },
+    {
+      "word": "superb",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "宏偉的;華麗的;上乘的,一流的",
+      "cefr": "B1"
+    },
+    {
+      "word": "supply",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "生活用品;補給品",
+      "cefr": "B1"
+    },
+    {
+      "word": "support",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "支持",
+      "cefr": "B1"
+    },
+    {
+      "word": "survey",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "調查;調查報告",
+      "cefr": "B1"
+    },
+    {
+      "word": "survive",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "在...之後仍然活著",
+      "cefr": "B1"
+    },
+    {
+      "word": "swear",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "發誓;宣誓",
+      "cefr": "B1"
+    },
+    {
+      "word": "sweep",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "掃除",
+      "cefr": "B1"
+    },
+    {
+      "word": "swell",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鼓起,膨脹",
+      "cefr": "B1"
+    },
+    {
+      "word": "swift",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "快速的,快捷的",
+      "cefr": "B1"
+    },
+    {
+      "word": "switch",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "開關,電閘",
+      "cefr": "B1"
+    },
+    {
+      "word": "symbol",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "符號;象徵",
+      "cefr": "B1"
+    },
+    {
+      "word": "system",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "系統",
+      "cefr": "B1"
+    },
+    {
+      "word": "tangle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "糾結;紛亂",
+      "cefr": "B1"
+    },
+    {
+      "word": "target",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "目標",
+      "cefr": "B1"
+    },
+    {
+      "word": "tariff",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "關稅;稅率",
+      "cefr": "B1"
+    },
+    {
+      "word": "temple",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "廟宇;神殿",
+      "cefr": "B1"
+    },
+    {
+      "word": "tempo",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "速度;拍子",
+      "cefr": "B1"
+    },
+    {
+      "word": "tempt",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "引誘;誘惑",
+      "cefr": "B1"
+    },
+    {
+      "word": "tender",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "溫柔的",
+      "cefr": "B1"
+    },
+    {
+      "word": "tense",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使拉緊,使繃緊",
+      "cefr": "B1"
+    },
+    {
+      "word": "terror",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "恐怖,驚駭",
+      "cefr": "B1"
+    },
+    {
+      "word": "theft",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "偷竊,盜竊",
+      "cefr": "B1"
+    },
+    {
+      "word": "thick",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "粗的;厚的",
+      "cefr": "B1"
+    },
+    {
+      "word": "thirty",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "三十",
+      "cefr": "B1"
+    },
+    {
+      "word": "those",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "那些的;那",
+      "cefr": "B1"
+    },
+    {
+      "word": "though",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "(一般放在句尾)然而,還是",
+      "cefr": "B1"
+    },
+    {
+      "word": "thread",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "線",
+      "cefr": "B1"
+    },
+    {
+      "word": "threat",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "威脅,恐嚇",
+      "cefr": "B1"
+    },
+    {
+      "word": "thrill",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "興奮;顫抖;引起激動的事物",
+      "cefr": "B1"
+    },
+    {
+      "word": "throat",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "喉嚨",
+      "cefr": "B1"
+    },
+    {
+      "word": "throne",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "王座;神座;君權;帝王",
+      "cefr": "B1"
+    },
+    {
+      "word": "throw",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "投擲;披巾;(沙發等的)罩單",
+      "cefr": "B1"
+    },
+    {
+      "word": "thrust",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "猛推;刺;驅動力",
+      "cefr": "B1"
+    },
+    {
+      "word": "thumb",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "拇指",
+      "cefr": "B1"
+    },
+    {
+      "word": "tight",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "緊的",
+      "cefr": "B1"
+    },
+    {
+      "word": "toilet",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "馬桶",
+      "cefr": "B1"
+    },
+    {
+      "word": "token",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "標誌;象徵;代價券;籌碼",
+      "cefr": "B1"
+    },
+    {
+      "word": "tomato",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "番茄",
+      "cefr": "B1"
+    },
+    {
+      "word": "tooth",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "牙齒",
+      "cefr": "B1"
+    },
+    {
+      "word": "topple",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使倒塌;推翻",
+      "cefr": "B1"
+    },
+    {
+      "word": "torch",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "火炬,火把",
+      "cefr": "B1"
+    },
+    {
+      "word": "total",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "總額",
+      "cefr": "B1"
+    },
+    {
+      "word": "towel",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "毛巾",
+      "cefr": "B1"
+    },
+    {
+      "word": "tower",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "塔",
+      "cefr": "B1"
+    },
+    {
+      "word": "toxic",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "毒(性)的;有毒的",
+      "cefr": "B1"
+    },
+    {
+      "word": "trace",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "蹤跡",
+      "cefr": "B1"
+    },
+    {
+      "word": "track",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "行蹤;軌道",
+      "cefr": "B1"
+    },
+    {
+      "word": "trade",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "貿易",
+      "cefr": "B1"
+    },
+    {
+      "word": "tradition",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "傳統",
+      "cefr": "B1"
+    },
+    {
+      "word": "tragic",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "悲慘的,不幸的",
+      "cefr": "B1"
+    },
+    {
+      "word": "trail",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "拖曳物,尾部",
+      "cefr": "B1"
+    },
+    {
+      "word": "translate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "翻譯",
+      "cefr": "B1"
+    },
+    {
+      "word": "trash",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "垃圾",
+      "cefr": "B1"
+    },
+    {
+      "word": "treat",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "款待",
+      "cefr": "B1"
+    },
+    {
+      "word": "treaty",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "條約,協定",
+      "cefr": "B1"
+    },
+    {
+      "word": "tremor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "震顫;顫抖",
+      "cefr": "B1"
+    },
+    {
+      "word": "trench",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "溝;溝渠;戰壕",
+      "cefr": "B1"
+    },
+    {
+      "word": "trial",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "審判",
+      "cefr": "B1"
+    },
+    {
+      "word": "tribal",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "部落的;種族的",
+      "cefr": "B1"
+    },
+    {
+      "word": "tribe",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "部落;種族",
+      "cefr": "B1"
+    },
+    {
+      "word": "trick",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "詭計;戲法;惡作劇",
+      "cefr": "B1"
+    },
+    {
+      "word": "tricky",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "狡猾的;機警的",
+      "cefr": "B1"
+    },
+    {
+      "word": "triple",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "三倍數;三倍量;三個一組;三壘打",
+      "cefr": "B1"
+    },
+    {
+      "word": "troop",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "軍隊,部隊",
+      "cefr": "B1"
+    },
+    {
+      "word": "trophy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "戰利品;獎品",
+      "cefr": "B1"
+    },
+    {
+      "word": "tropic",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "回歸線;熱帶",
+      "cefr": "B1"
+    },
+    {
+      "word": "truce",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "停戰;休戰協定",
+      "cefr": "B1"
+    },
+    {
+      "word": "truth",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "事實;真相",
+      "cefr": "B1"
+    },
+    {
+      "word": "tulip",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鬱金香",
+      "cefr": "B1"
+    },
+    {
+      "word": "tumble",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "跌跤;墜落",
+      "cefr": "B1"
+    },
+    {
+      "word": "tummy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "肚子",
+      "cefr": "B1"
+    },
+    {
+      "word": "tumor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "腫瘤;腫塊",
+      "cefr": "B1"
+    },
+    {
+      "word": "tunnel",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "隧道",
+      "cefr": "B1"
+    },
+    {
+      "word": "turkey",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "火雞",
+      "cefr": "B1"
+    },
+    {
+      "word": "turtle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "烏龜",
+      "cefr": "B1"
+    },
+    {
+      "word": "twelve",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "十二",
+      "cefr": "B1"
+    },
+    {
+      "word": "twenty",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "二十",
+      "cefr": "B1"
+    },
+    {
+      "word": "twice",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "兩次",
+      "cefr": "B1"
+    },
+    {
+      "word": "twist",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "扭傷;曲解",
+      "cefr": "B1"
+    },
+    {
+      "word": "type",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "類型",
+      "cefr": "B1"
+    },
+    {
+      "word": "ulcer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "潰瘍",
+      "cefr": "B1"
+    },
+    {
+      "word": "uncle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "叔叔",
+      "cefr": "B1"
+    },
+    {
+      "word": "unfold",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "展開;呈現",
+      "cefr": "B1"
+    },
+    {
+      "word": "unify",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "統一;聯合;使一致",
+      "cefr": "B1"
+    },
+    {
+      "word": "unite",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "統一;使團結",
+      "cefr": "B1"
+    },
+    {
+      "word": "unity",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "整體;一貫性",
+      "cefr": "B1"
+    },
+    {
+      "word": "unlock",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "開鎖;開啟",
+      "cefr": "B1"
+    },
+    {
+      "word": "uphold",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "舉起;支撐;維護",
+      "cefr": "B1"
+    },
+    {
+      "word": "upload",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "[電腦]上載",
+      "cefr": "B1"
+    },
+    {
+      "word": "upset",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "翻倒;傾覆",
+      "cefr": "B1"
+    },
+    {
+      "word": "urban",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "城市的",
+      "cefr": "B1"
+    },
+    {
+      "word": "urgent",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "緊急的,急迫的",
+      "cefr": "B1"
+    },
+    {
+      "word": "urine",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "尿",
+      "cefr": "B1"
+    },
+    {
+      "word": "usage",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "使用,用法",
+      "cefr": "B1"
+    },
+    {
+      "word": "useful",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "有用的",
+      "cefr": "B1"
+    },
+    {
+      "word": "usher",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(劇場等的)引座員;接待員",
+      "cefr": "B1"
+    },
+    {
+      "word": "usual",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "例常的",
+      "cefr": "B1"
+    },
+    {
+      "word": "vacuum",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "真空;空白;吸塵器",
+      "cefr": "B1"
+    },
+    {
+      "word": "vague",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "(形狀等)模糊不清的;曖昧的",
+      "cefr": "B1"
+    },
+    {
+      "word": "valid",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "有根據的;有效的",
+      "cefr": "B1"
+    },
+    {
+      "word": "value",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "價值",
+      "cefr": "B1"
+    },
+    {
+      "word": "vanish",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使不見;使消失",
+      "cefr": "B1"
+    },
+    {
+      "word": "vanity",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "自負;虛榮;梳妝臺",
+      "cefr": "B1"
+    },
+    {
+      "word": "verbal",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "準動詞",
+      "cefr": "B1"
+    },
+    {
+      "word": "verge",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "邊沿;邊緣",
+      "cefr": "B1"
+    },
+    {
+      "word": "verse",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "詩;韻文",
+      "cefr": "B1"
+    },
+    {
+      "word": "victim",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "受害者",
+      "cefr": "B1"
+    },
+    {
+      "word": "victor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "勝利者",
+      "cefr": "B1"
+    },
+    {
+      "word": "video",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "錄影機;錄影帶",
+      "cefr": "B1"
+    },
+    {
+      "word": "vigor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "vigor",
+      "cefr": "B1"
+    },
+    {
+      "word": "villa",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "別墅;(城郊)住宅",
+      "cefr": "B1"
+    },
+    {
+      "word": "violet",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "紫蘿蘭",
+      "cefr": "B1"
+    },
+    {
+      "word": "virtue",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "美德;優點",
+      "cefr": "B1"
+    },
+    {
+      "word": "vision",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "視力;視覺;洞察力",
+      "cefr": "B1"
+    },
+    {
+      "word": "vital",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "充滿活力的;致命的",
+      "cefr": "B1"
+    },
+    {
+      "word": "vivid",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "鮮豔的;生動的",
+      "cefr": "B1"
+    },
+    {
+      "word": "volume",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "卷,冊",
+      "cefr": "B1"
+    },
+    {
+      "word": "vomit",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "嘔吐;嘔吐物",
+      "cefr": "B1"
+    },
+    {
+      "word": "vulgar",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "粗俗的;下流的",
+      "cefr": "B1"
+    },
+    {
+      "word": "waist",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "腰",
+      "cefr": "B1"
+    },
+    {
+      "word": "waken",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "醒來;睡醒;喚醒",
+      "cefr": "B1"
+    },
+    {
+      "word": "wallet",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "皮夾",
+      "cefr": "B1"
+    },
+    {
+      "word": "walnut",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "胡桃;胡桃色",
+      "cefr": "B1"
+    },
+    {
+      "word": "weaken",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "削弱,減弱",
+      "cefr": "B1"
+    },
+    {
+      "word": "weapon",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "武器",
+      "cefr": "B1"
+    },
+    {
+      "word": "weary",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使疲倦;使厭煩",
+      "cefr": "B1"
+    },
+    {
+      "word": "weave",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "織法,編法",
+      "cefr": "B1"
+    },
+    {
+      "word": "weekly",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "週刊;週報",
+      "cefr": "B1"
+    },
+    {
+      "word": "weigh",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "稱...的重量",
+      "cefr": "B1"
+    },
+    {
+      "word": "weird",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "怪誕的",
+      "cefr": "B1"
+    },
+    {
+      "word": "while",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "一會兒",
+      "cefr": "B1"
+    },
+    {
+      "word": "whirl",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "旋轉;迴旋",
+      "cefr": "B1"
+    },
+    {
+      "word": "whisk",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "撢;迅速移動;攪拌器",
+      "cefr": "B1"
+    },
+    {
+      "word": "whole",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "全部,全體;整體",
+      "cefr": "B1"
+    },
+    {
+      "word": "widow",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "寡婦",
+      "cefr": "B1"
+    },
+    {
+      "word": "willow",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "柳",
+      "cefr": "B1"
+    },
+    {
+      "word": "winner",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "贏家",
+      "cefr": "B1"
+    },
+    {
+      "word": "wisdom",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "智慧,才智;名言",
+      "cefr": "B1"
+    },
+    {
+      "word": "wither",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "枯萎;凋謝",
+      "cefr": "B1"
+    },
+    {
+      "word": "within",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "在內部",
+      "cefr": "B1"
+    },
+    {
+      "word": "wonder",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "驚奇;奇觀",
+      "cefr": "B1"
+    },
+    {
+      "word": "wooden",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "木製的;僵硬的;笨拙的",
+      "cefr": "B1"
+    },
+    {
+      "word": "worse",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "更糟的事",
+      "cefr": "B1"
+    },
+    {
+      "word": "worth",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "價值",
+      "cefr": "B1"
+    },
+    {
+      "word": "worthy",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "值得的",
+      "cefr": "B1"
+    },
+    {
+      "word": "wring",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "絞;擰;扭",
+      "cefr": "B1"
+    },
+    {
+      "word": "X-ray",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "X光照片",
+      "cefr": "B1"
+    },
+    {
+      "word": "Xerox",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "複印件",
+      "cefr": "B1"
+    },
+    {
+      "word": "yearn",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "思念;渴望;嚮往",
+      "cefr": "B1"
+    },
+    {
+      "word": "yellow",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "黃色",
+      "cefr": "B1"
+    },
+    {
+      "word": "yield",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "產量;利潤",
+      "cefr": "B1"
+    },
+    {
+      "word": "yogurt",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "優格",
+      "cefr": "B1"
+    },
+    {
+      "word": "zebra",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "斑馬",
+      "cefr": "B1"
+    },
+    {
+      "word": "zipper",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "拉鍊",
+      "cefr": "B1"
+    }
+  ]
+}

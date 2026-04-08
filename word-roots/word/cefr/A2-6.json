@@ -1,0 +1,604 @@
+{
+  "level": "A2",
+  "part": 6,
+  "totalParts": 11,
+  "title": "基礎級 A2 (Elementary) - 自然與環境",
+  "count": 85,
+  "words": [
+    {
+      "word": "ache",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(持續性地)疼痛",
+      "cefr": "A2"
+    },
+    {
+      "word": "address",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "地址;演說",
+      "cefr": "A2"
+    },
+    {
+      "word": "animal",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "動物",
+      "cefr": "A2"
+    },
+    {
+      "word": "area",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "地區;面積",
+      "cefr": "A2"
+    },
+    {
+      "word": "bass",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "男低音;低音樂器;鱸魚",
+      "cefr": "A2"
+    },
+    {
+      "word": "bay",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "海灣",
+      "cefr": "A2"
+    },
+    {
+      "word": "beach",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "海灘",
+      "cefr": "A2"
+    },
+    {
+      "word": "beak",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鳥嘴",
+      "cefr": "A2"
+    },
+    {
+      "word": "bird",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鳥",
+      "cefr": "A2"
+    },
+    {
+      "word": "blow",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "吹動,吹氣;強風;吹牛",
+      "cefr": "A2"
+    },
+    {
+      "word": "buck",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "雄性動物(鹿、羊或兔等)",
+      "cefr": "A2"
+    },
+    {
+      "word": "bud",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "葉芽;花蕾;少女",
+      "cefr": "A2"
+    },
+    {
+      "word": "cage",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鳥籠;獸籠",
+      "cefr": "A2"
+    },
+    {
+      "word": "calm",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "安靜;鎮定;平靜;無風",
+      "cefr": "A2"
+    },
+    {
+      "word": "camp",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "營地",
+      "cefr": "A2"
+    },
+    {
+      "word": "cape",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "岬,海角",
+      "cefr": "A2"
+    },
+    {
+      "word": "carp",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鯉魚",
+      "cefr": "A2"
+    },
+    {
+      "word": "chat",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "閒談,聊天",
+      "cefr": "A2"
+    },
+    {
+      "word": "claw",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(動物的)爪,腳爪;(蟹,蝦等的)鉗,螯",
+      "cefr": "A2"
+    },
+    {
+      "word": "cloud",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "雲",
+      "cefr": "A2"
+    },
+    {
+      "word": "coast",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "海岸",
+      "cefr": "A2"
+    },
+    {
+      "word": "common",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "公共用地,公有地",
+      "cefr": "A2"
+    },
+    {
+      "word": "eel",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鰻魚",
+      "cefr": "A2"
+    },
+    {
+      "word": "fad",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "一時的流行(或風尚)",
+      "cefr": "A2"
+    },
+    {
+      "word": "fan",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "風扇;扇子;迷友",
+      "cefr": "A2"
+    },
+    {
+      "word": "foil",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "箔;花劍劍術",
+      "cefr": "A2"
+    },
+    {
+      "word": "goat",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "山羊",
+      "cefr": "A2"
+    },
+    {
+      "word": "ground",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "地面",
+      "cefr": "A2"
+    },
+    {
+      "word": "gulf",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "海灣",
+      "cefr": "A2"
+    },
+    {
+      "word": "gull",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鷗,海鷗;易受騙的人",
+      "cefr": "A2"
+    },
+    {
+      "word": "gust",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "一陣強風",
+      "cefr": "A2"
+    },
+    {
+      "word": "hay",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(做飼料用的)乾草",
+      "cefr": "A2"
+    },
+    {
+      "word": "hell",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "地獄,冥府",
+      "cefr": "A2"
+    },
+    {
+      "word": "herb",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "草本植物;藥草",
+      "cefr": "A2"
+    },
+    {
+      "word": "hit",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "打擊;成功而風行一時的事物;安打",
+      "cefr": "A2"
+    },
+    {
+      "word": "isle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小島",
+      "cefr": "A2"
+    },
+    {
+      "word": "kite",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "風箏",
+      "cefr": "A2"
+    },
+    {
+      "word": "knot",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "花結;蝴蝶結",
+      "cefr": "A2"
+    },
+    {
+      "word": "lace",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鞋帶;帶子;花邊",
+      "cefr": "A2"
+    },
+    {
+      "word": "lake",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "湖",
+      "cefr": "A2"
+    },
+    {
+      "word": "land",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "陸地",
+      "cefr": "A2"
+    },
+    {
+      "word": "lash",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鞭打;(風浪等的)猛烈打擊;斥責",
+      "cefr": "A2"
+    },
+    {
+      "word": "lava",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "熔岩;火山岩",
+      "cefr": "A2"
+    },
+    {
+      "word": "lawn",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "草坪,草地",
+      "cefr": "A2"
+    },
+    {
+      "word": "leaf",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "樹葉",
+      "cefr": "A2"
+    },
+    {
+      "word": "lily",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "百合花",
+      "cefr": "A2"
+    },
+    {
+      "word": "male",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "雄性動物",
+      "cefr": "A2"
+    },
+    {
+      "word": "map",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "地圖",
+      "cefr": "A2"
+    },
+    {
+      "word": "mike",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "擴音器;麥克風",
+      "cefr": "A2"
+    },
+    {
+      "word": "mine",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "我的東西;礦;源泉;地雷;坑道",
+      "cefr": "A2"
+    },
+    {
+      "word": "moon",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "月亮",
+      "cefr": "A2"
+    },
+    {
+      "word": "mow",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "刈(草坪等)上的草",
+      "cefr": "A2"
+    },
+    {
+      "word": "navy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "海軍",
+      "cefr": "A2"
+    },
+    {
+      "word": "oak",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "橡樹",
+      "cefr": "A2"
+    },
+    {
+      "word": "ocean",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "海洋",
+      "cefr": "A2"
+    },
+    {
+      "word": "owl",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "貓頭鷹",
+      "cefr": "A2"
+    },
+    {
+      "word": "peak",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "山頂;頂端",
+      "cefr": "A2"
+    },
+    {
+      "word": "pine",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "松樹",
+      "cefr": "A2"
+    },
+    {
+      "word": "pit",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "窪坑,凹處;地窖",
+      "cefr": "A2"
+    },
+    {
+      "word": "plow",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "犁;除雪機",
+      "cefr": "A2"
+    },
+    {
+      "word": "prey",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "被捕食的動物;犧牲者",
+      "cefr": "A2"
+    },
+    {
+      "word": "rank",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "等級;地位,身分",
+      "cefr": "A2"
+    },
+    {
+      "word": "ride",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "搭乘;兜風",
+      "cefr": "A2"
+    },
+    {
+      "word": "risk",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "危險,風險",
+      "cefr": "A2"
+    },
+    {
+      "word": "river",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "河流",
+      "cefr": "A2"
+    },
+    {
+      "word": "rug",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小地毯;毛皮地毯",
+      "cefr": "A2"
+    },
+    {
+      "word": "sea",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "海",
+      "cefr": "A2"
+    },
+    {
+      "word": "site",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "地點,場所",
+      "cefr": "A2"
+    },
+    {
+      "word": "ski",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "滑雪屐",
+      "cefr": "A2"
+    },
+    {
+      "word": "sled",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "平底雪橇",
+      "cefr": "A2"
+    },
+    {
+      "word": "sole",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "腳底;鞋底;襪底;底部;比目魚",
+      "cefr": "A2"
+    },
+    {
+      "word": "stem",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "莖,(樹)幹,(葉)柄",
+      "cefr": "A2"
+    },
+    {
+      "word": "surf",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "海浪",
+      "cefr": "A2"
+    },
+    {
+      "word": "swan",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "天鵝",
+      "cefr": "A2"
+    },
+    {
+      "word": "taste",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "味道,滋味;體驗;風雅;得體;興趣",
+      "cefr": "A2"
+    },
+    {
+      "word": "tile",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "瓦;瓷磚;地磚;(麻將等的)牌",
+      "cefr": "A2"
+    },
+    {
+      "word": "tuna",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鮪魚",
+      "cefr": "A2"
+    },
+    {
+      "word": "vase",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "花瓶",
+      "cefr": "A2"
+    },
+    {
+      "word": "vine",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "藤;藤蔓;葡萄樹",
+      "cefr": "A2"
+    },
+    {
+      "word": "weather",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "天氣",
+      "cefr": "A2"
+    },
+    {
+      "word": "weed",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "雜草;野草",
+      "cefr": "A2"
+    },
+    {
+      "word": "wild",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "荒野,荒地;未開發的地方",
+      "cefr": "A2"
+    },
+    {
+      "word": "wit",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "機智;風趣",
+      "cefr": "A2"
+    },
+    {
+      "word": "yam",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "山芋類植物",
+      "cefr": "A2"
+    },
+    {
+      "word": "zone",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "地區;時區;(地)層",
+      "cefr": "A2"
+    }
+  ]
+}

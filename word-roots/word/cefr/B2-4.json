@@ -1,0 +1,520 @@
+{
+  "level": "B2",
+  "part": 4,
+  "totalParts": 11,
+  "title": "中高級 B2 (Upper-Intermediate) - 商業與工作",
+  "count": 73,
+  "words": [
+    {
+      "word": "administer",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "管理;給予;執行",
+      "cefr": "B2"
+    },
+    {
+      "word": "airline",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "航空公司",
+      "cefr": "B2"
+    },
+    {
+      "word": "allowance",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "津貼,零用錢",
+      "cefr": "B2"
+    },
+    {
+      "word": "amateur",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "業餘從事者;外行",
+      "cefr": "B2"
+    },
+    {
+      "word": "artifact",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "人工製品;手工藝品",
+      "cefr": "B2"
+    },
+    {
+      "word": "attendant",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "出席者;陪從;服務員",
+      "cefr": "B2"
+    },
+    {
+      "word": "auction",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "拍賣",
+      "cefr": "B2"
+    },
+    {
+      "word": "authority",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "職權;官方",
+      "cefr": "B2"
+    },
+    {
+      "word": "business",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "商業;事",
+      "cefr": "B2"
+    },
+    {
+      "word": "caretaker",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "照顧者;管理人",
+      "cefr": "B2"
+    },
+    {
+      "word": "carpenter",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "木工,木匠",
+      "cefr": "B2"
+    },
+    {
+      "word": "carrier",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "運送人;從事運輸業公司;帶菌者",
+      "cefr": "B2"
+    },
+    {
+      "word": "ceramics",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(當單數用)製陶業",
+      "cefr": "B2"
+    },
+    {
+      "word": "cleaner",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "清潔工;乾洗店;吸塵器;清潔劑",
+      "cefr": "B2"
+    },
+    {
+      "word": "clearance",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "清掃;出空;清倉大拍賣",
+      "cefr": "B2"
+    },
+    {
+      "word": "commerce",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "商業,貿易,交易",
+      "cefr": "B2"
+    },
+    {
+      "word": "commodity",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "商品;日用品",
+      "cefr": "B2"
+    },
+    {
+      "word": "company",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "公司",
+      "cefr": "B2"
+    },
+    {
+      "word": "consult",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "與...商量",
+      "cefr": "B2"
+    },
+    {
+      "word": "council",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "會議",
+      "cefr": "B2"
+    },
+    {
+      "word": "counsel",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "商議;忠告;法律顧問",
+      "cefr": "B2"
+    },
+    {
+      "word": "customer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "顧客",
+      "cefr": "B2"
+    },
+    {
+      "word": "delegate",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "代表;會議代表",
+      "cefr": "B2"
+    },
+    {
+      "word": "diploma",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "畢業文憑",
+      "cefr": "B2"
+    },
+    {
+      "word": "displace",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "迫使離開;取代;免職",
+      "cefr": "B2"
+    },
+    {
+      "word": "downtown",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "城市商業區",
+      "cefr": "B2"
+    },
+    {
+      "word": "earnings",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "收入,工資",
+      "cefr": "B2"
+    },
+    {
+      "word": "elevate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "提高;振奮;升職",
+      "cefr": "B2"
+    },
+    {
+      "word": "employee",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "受雇者,雇工,雇員",
+      "cefr": "B2"
+    },
+    {
+      "word": "engineer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "工程師",
+      "cefr": "B2"
+    },
+    {
+      "word": "executive",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "執行者;業務主管",
+      "cefr": "B2"
+    },
+    {
+      "word": "facility",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "能力;技能;設備,設施;工具;(供特定用途的)場所",
+      "cefr": "B2"
+    },
+    {
+      "word": "fishery",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "漁業",
+      "cefr": "B2"
+    },
+    {
+      "word": "fortify",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "築防禦工事於;增強",
+      "cefr": "B2"
+    },
+    {
+      "word": "graduate",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大學畢業生",
+      "cefr": "B2"
+    },
+    {
+      "word": "guardian",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "保護者,守護者;管理員",
+      "cefr": "B2"
+    },
+    {
+      "word": "honorary",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "(學位等)名譽上的;名譽職位的",
+      "cefr": "B2"
+    },
+    {
+      "word": "implement",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "工具;器具;裝備",
+      "cefr": "B2"
+    },
+    {
+      "word": "industry",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "企業;行業",
+      "cefr": "B2"
+    },
+    {
+      "word": "interrupt",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "打斷(談話和工作等)",
+      "cefr": "B2"
+    },
+    {
+      "word": "janitor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "清潔工;管理員;看門人",
+      "cefr": "B2"
+    },
+    {
+      "word": "mechanic",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "技工",
+      "cefr": "B2"
+    },
+    {
+      "word": "merchant",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "商人",
+      "cefr": "B2"
+    },
+    {
+      "word": "monopoly",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "獨佔;專賣;壟斷",
+      "cefr": "B2"
+    },
+    {
+      "word": "negotiate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "談判,協商",
+      "cefr": "B2"
+    },
+    {
+      "word": "outgoing",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "直率的;往外的;即將離職的;友善的",
+      "cefr": "B2"
+    },
+    {
+      "word": "overall",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "工作褲;工作服;防護服",
+      "cefr": "B2"
+    },
+    {
+      "word": "overwork",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "過於繁重的工作;過勞",
+      "cefr": "B2"
+    },
+    {
+      "word": "passenger",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "乘客",
+      "cefr": "B2"
+    },
+    {
+      "word": "personnel",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(總稱)人員;員工;人事部門",
+      "cefr": "B2"
+    },
+    {
+      "word": "pharmacy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "製藥業;藥房",
+      "cefr": "B2"
+    },
+    {
+      "word": "pilgrim",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "香客,朝聖者",
+      "cefr": "B2"
+    },
+    {
+      "word": "plumber",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "管子工,鉛管工",
+      "cefr": "B2"
+    },
+    {
+      "word": "printer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "印表機;印刷業者",
+      "cefr": "B2"
+    },
+    {
+      "word": "publisher",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "出版商",
+      "cefr": "B2"
+    },
+    {
+      "word": "regular",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "正規兵;老客戶;長工;普通尺寸",
+      "cefr": "B2"
+    },
+    {
+      "word": "removal",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "除去;免職",
+      "cefr": "B2"
+    },
+    {
+      "word": "seminar",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "專題討論(課或會議)",
+      "cefr": "B2"
+    },
+    {
+      "word": "servant",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "雇工",
+      "cefr": "B2"
+    },
+    {
+      "word": "service",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "服務",
+      "cefr": "B2"
+    },
+    {
+      "word": "shoplift",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "冒充顧客在商店內偷竊",
+      "cefr": "B2"
+    },
+    {
+      "word": "specialty",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "專業;專長",
+      "cefr": "B2"
+    },
+    {
+      "word": "steward",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "男服務員;管家",
+      "cefr": "B2"
+    },
+    {
+      "word": "supervise",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "監督;管理;指導",
+      "cefr": "B2"
+    },
+    {
+      "word": "trademark",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "商標",
+      "cefr": "B2"
+    },
+    {
+      "word": "traitor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "叛徒;賣國賊;背叛者",
+      "cefr": "B2"
+    },
+    {
+      "word": "utility",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "效用;實用;公用事業",
+      "cefr": "B2"
+    },
+    {
+      "word": "venture",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "冒險;企業",
+      "cefr": "B2"
+    },
+    {
+      "word": "visitor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "訪客",
+      "cefr": "B2"
+    },
+    {
+      "word": "vocation",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "行業;天職",
+      "cefr": "B2"
+    },
+    {
+      "word": "volunteer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "志願者,義工",
+      "cefr": "B2"
+    },
+    {
+      "word": "waitress",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "女服務生",
+      "cefr": "B2"
+    },
+    {
+      "word": "weekday",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "工作日",
+      "cefr": "B2"
+    }
+  ]
+}

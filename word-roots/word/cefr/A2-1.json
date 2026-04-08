@@ -1,0 +1,233 @@
+{
+  "level": "A2",
+  "part": 1,
+  "totalParts": 11,
+  "title": "基礎級 A2 (Elementary) - 體能與運動",
+  "count": 32,
+  "words": [
+    {
+      "word": "ace",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(紙牌)A;么點牌;專家;發球得分",
+      "cefr": "A2"
+    },
+    {
+      "word": "bat",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "球棒;蝙蝠",
+      "cefr": "A2"
+    },
+    {
+      "word": "beat",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "敲打;敲擊聲;心跳聲;滴答聲;拍子",
+      "cefr": "A2"
+    },
+    {
+      "word": "bout",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(拳擊等)比賽;較量;(疾病等)發作",
+      "cefr": "A2"
+    },
+    {
+      "word": "bye",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "次要的東西;(體育比賽中)輪空",
+      "cefr": "A2"
+    },
+    {
+      "word": "catch",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "抓住,捕捉;接球;把手;圈套",
+      "cefr": "A2"
+    },
+    {
+      "word": "dash",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "急衝,奔跑;破折號",
+      "cefr": "A2"
+    },
+    {
+      "word": "dome",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "圓屋頂;穹窿;半球形物",
+      "cefr": "A2"
+    },
+    {
+      "word": "earth",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "地球;土地",
+      "cefr": "A2"
+    },
+    {
+      "word": "flea",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "跳蚤",
+      "cefr": "A2"
+    },
+    {
+      "word": "foul",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(比賽中)犯規",
+      "cefr": "A2"
+    },
+    {
+      "word": "game",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "比賽;遊戲",
+      "cefr": "A2"
+    },
+    {
+      "word": "goal",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "目標;球門",
+      "cefr": "A2"
+    },
+    {
+      "word": "golf",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "高爾夫球",
+      "cefr": "A2"
+    },
+    {
+      "word": "gym",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "體育館;體育;體操",
+      "cefr": "A2"
+    },
+    {
+      "word": "hike",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "徒步旅行",
+      "cefr": "A2"
+    },
+    {
+      "word": "hop",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "單足跳;跳躍;麻藥(尤指鴉片)",
+      "cefr": "A2"
+    },
+    {
+      "word": "jog",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "輕推;輕撞;慢跑;緩行;暗示",
+      "cefr": "A2"
+    },
+    {
+      "word": "jump",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "跳躍;暴漲",
+      "cefr": "A2"
+    },
+    {
+      "word": "knob",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "球形突出物",
+      "cefr": "A2"
+    },
+    {
+      "word": "leap",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "跳,跳躍",
+      "cefr": "A2"
+    },
+    {
+      "word": "pace",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "步速;速度;進度",
+      "cefr": "A2"
+    },
+    {
+      "word": "pass",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "通行證;護照;及格;傳球動作;山隘",
+      "cefr": "A2"
+    },
+    {
+      "word": "player",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "遊戲者;運動者;表演者",
+      "cefr": "A2"
+    },
+    {
+      "word": "playground",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "遊樂場;運動場",
+      "cefr": "A2"
+    },
+    {
+      "word": "pool",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "水池;美式撞球",
+      "cefr": "A2"
+    },
+    {
+      "word": "race",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "競賽;(生物的)種類",
+      "cefr": "A2"
+    },
+    {
+      "word": "roam",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "漫步;漫遊;流浪",
+      "cefr": "A2"
+    },
+    {
+      "word": "sport",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "消遣;運動;突變",
+      "cefr": "A2"
+    },
+    {
+      "word": "step",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "步;臺階",
+      "cefr": "A2"
+    },
+    {
+      "word": "swim",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "游泳;暈眩,眼花;潮流",
+      "cefr": "A2"
+    },
+    {
+      "word": "trot",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(馬等的)小跑;(人的)慢跑",
+      "cefr": "A2"
+    }
+  ]
+}

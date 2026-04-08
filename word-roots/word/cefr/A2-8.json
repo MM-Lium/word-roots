@@ -1,0 +1,415 @@
+{
+  "level": "A2",
+  "part": 8,
+  "totalParts": 11,
+  "title": "基礎級 A2 (Elementary) - 情感與溝通",
+  "count": 58,
+  "words": [
+    {
+      "word": "air",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "空氣",
+      "cefr": "A2"
+    },
+    {
+      "word": "answer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "答案",
+      "cefr": "A2"
+    },
+    {
+      "word": "band",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "樂團;樂隊",
+      "cefr": "A2"
+    },
+    {
+      "word": "beep",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "嗶嗶的聲音",
+      "cefr": "A2"
+    },
+    {
+      "word": "boom",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "隆隆聲;景氣;激增;暴漲",
+      "cefr": "A2"
+    },
+    {
+      "word": "CD",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "激光唱片",
+      "cefr": "A2"
+    },
+    {
+      "word": "club",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "俱樂部;夜總會;社團",
+      "cefr": "A2"
+    },
+    {
+      "word": "cola",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "可樂",
+      "cefr": "A2"
+    },
+    {
+      "word": "cry",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "叫喊;呼叫;(一陣)哭",
+      "cefr": "A2"
+    },
+    {
+      "word": "cute",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "可愛的",
+      "cefr": "A2"
+    },
+    {
+      "word": "damp",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "濕氣,潮濕",
+      "cefr": "A2"
+    },
+    {
+      "word": "fear",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "懼怕",
+      "cefr": "A2"
+    },
+    {
+      "word": "feeling",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "感覺",
+      "cefr": "A2"
+    },
+    {
+      "word": "flu",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "流行性感冒",
+      "cefr": "A2"
+    },
+    {
+      "word": "fond",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "喜歡的;愛好的",
+      "cefr": "A2"
+    },
+    {
+      "word": "fume",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "煙;氣;憤怒",
+      "cefr": "A2"
+    },
+    {
+      "word": "fun",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "樂趣",
+      "cefr": "A2"
+    },
+    {
+      "word": "fury",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "狂怒;狂暴;猛烈",
+      "cefr": "A2"
+    },
+    {
+      "word": "glee",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "快樂;歡欣",
+      "cefr": "A2"
+    },
+    {
+      "word": "grin",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "露齒的笑",
+      "cefr": "A2"
+    },
+    {
+      "word": "gut",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "腸子;內臟;勇氣",
+      "cefr": "A2"
+    },
+    {
+      "word": "hate",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "仇恨,憎恨;厭惡",
+      "cefr": "A2"
+    },
+    {
+      "word": "heat",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "熱氣",
+      "cefr": "A2"
+    },
+    {
+      "word": "howl",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "嗥叫;怒吼;大哭;大笑",
+      "cefr": "A2"
+    },
+    {
+      "word": "jazz",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "爵士樂",
+      "cefr": "A2"
+    },
+    {
+      "word": "joke",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "笑話",
+      "cefr": "A2"
+    },
+    {
+      "word": "joy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "歡喜;樂趣",
+      "cefr": "A2"
+    },
+    {
+      "word": "kick",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "踢;反衝,後座力;刺激,快感",
+      "cefr": "A2"
+    },
+    {
+      "word": "love",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "愛",
+      "cefr": "A2"
+    },
+    {
+      "word": "mama",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(兒語)媽媽",
+      "cefr": "A2"
+    },
+    {
+      "word": "muse",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "沈思;冥想",
+      "cefr": "A2"
+    },
+    {
+      "word": "music",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "音樂",
+      "cefr": "A2"
+    },
+    {
+      "word": "mute",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "啞巴;弱音器",
+      "cefr": "A2"
+    },
+    {
+      "word": "noise",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "噪音",
+      "cefr": "A2"
+    },
+    {
+      "word": "nope",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "(否定的答話)不是;沒有;不可以",
+      "cefr": "A2"
+    },
+    {
+      "word": "odor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "氣味",
+      "cefr": "A2"
+    },
+    {
+      "word": "problem",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "問題",
+      "cefr": "A2"
+    },
+    {
+      "word": "radio",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "收音機",
+      "cefr": "A2"
+    },
+    {
+      "word": "rage",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "狂怒,盛怒",
+      "cefr": "A2"
+    },
+    {
+      "word": "reply",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "答覆",
+      "cefr": "A2"
+    },
+    {
+      "word": "roar",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "吼,嘯;怒號;喧鬧聲",
+      "cefr": "A2"
+    },
+    {
+      "word": "rock",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "岩石;搖滾樂",
+      "cefr": "A2"
+    },
+    {
+      "word": "sense",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "感官;官能",
+      "cefr": "A2"
+    },
+    {
+      "word": "sex",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "性別;色情;性交;性慾;性感",
+      "cefr": "A2"
+    },
+    {
+      "word": "sexy",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "性感的",
+      "cefr": "A2"
+    },
+    {
+      "word": "sigh",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "嘆氣,嘆息",
+      "cefr": "A2"
+    },
+    {
+      "word": "smell",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "氣味;香味;臭味;嗅覺;一嗅,一聞;少許;跡象,影蹤",
+      "cefr": "A2"
+    },
+    {
+      "word": "tale",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "故事,傳說;謊話",
+      "cefr": "A2"
+    },
+    {
+      "word": "tape",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "錄音帶;錄影帶;膠帶",
+      "cefr": "A2"
+    },
+    {
+      "word": "tick",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(鐘;錶等的)滴答聲;蝨",
+      "cefr": "A2"
+    },
+    {
+      "word": "tone",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "音色,音調;色調",
+      "cefr": "A2"
+    },
+    {
+      "word": "vain",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "愛虛榮的;徒然的",
+      "cefr": "A2"
+    },
+    {
+      "word": "visit",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "訪問",
+      "cefr": "A2"
+    },
+    {
+      "word": "wail",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "慟哭聲;哀訴",
+      "cefr": "A2"
+    },
+    {
+      "word": "wake",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "叫醒",
+      "cefr": "A2"
+    },
+    {
+      "word": "weep",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "哭泣",
+      "cefr": "A2"
+    },
+    {
+      "word": "woe",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "悲哀;災難",
+      "cefr": "A2"
+    },
+    {
+      "word": "yell",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "叫喊;吼叫;歡呼",
+      "cefr": "A2"
+    }
+  ]
+}

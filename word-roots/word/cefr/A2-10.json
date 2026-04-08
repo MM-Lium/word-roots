@@ -1,0 +1,408 @@
+{
+  "level": "A2",
+  "part": 10,
+  "totalParts": 11,
+  "title": "基礎級 A2 (Elementary) - 時間與測量",
+  "count": 57,
+  "words": [
+    {
+      "word": "ape",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大猩猩",
+      "cefr": "A2"
+    },
+    {
+      "word": "apt",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "易於...的;恰當的;聰明的",
+      "cefr": "A2"
+    },
+    {
+      "word": "army",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "軍隊;大群",
+      "cefr": "A2"
+    },
+    {
+      "word": "bead",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "有孔小珠",
+      "cefr": "A2"
+    },
+    {
+      "word": "bell",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鈴;鐘",
+      "cefr": "A2"
+    },
+    {
+      "word": "bit",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小片,;少量,一點點;片刻;位元",
+      "cefr": "A2"
+    },
+    {
+      "word": "bold",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "無畏的;大膽的",
+      "cefr": "A2"
+    },
+    {
+      "word": "boot",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(長筒)靴",
+      "cefr": "A2"
+    },
+    {
+      "word": "bug",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小蟲",
+      "cefr": "A2"
+    },
+    {
+      "word": "bulk",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "體積;容積;大塊;大多數",
+      "cefr": "A2"
+    },
+    {
+      "word": "clock",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鐘",
+      "cefr": "A2"
+    },
+    {
+      "word": "date",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "日期",
+      "cefr": "A2"
+    },
+    {
+      "word": "dawn",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "黎明",
+      "cefr": "A2"
+    },
+    {
+      "word": "dot",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "點;小圓點",
+      "cefr": "A2"
+    },
+    {
+      "word": "dull",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "弄鈍;使不活躍;減少;減輕",
+      "cefr": "A2"
+    },
+    {
+      "word": "era",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "時代;年代",
+      "cefr": "A2"
+    },
+    {
+      "word": "evening",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "傍晚",
+      "cefr": "A2"
+    },
+    {
+      "word": "flat",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "平坦部分",
+      "cefr": "A2"
+    },
+    {
+      "word": "fuss",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "忙亂;小題大作;爭論",
+      "cefr": "A2"
+    },
+    {
+      "word": "gang",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "一幫,一群;惡少幫",
+      "cefr": "A2"
+    },
+    {
+      "word": "hall",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大廳;講堂",
+      "cefr": "A2"
+    },
+    {
+      "word": "holiday",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "假日",
+      "cefr": "A2"
+    },
+    {
+      "word": "hose",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "軟管;長統襪;短統襪",
+      "cefr": "A2"
+    },
+    {
+      "word": "hour",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小時",
+      "cefr": "A2"
+    },
+    {
+      "word": "huge",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "巨大的",
+      "cefr": "A2"
+    },
+    {
+      "word": "July",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "七月",
+      "cefr": "A2"
+    },
+    {
+      "word": "June",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "六月",
+      "cefr": "A2"
+    },
+    {
+      "word": "lamb",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小羊",
+      "cefr": "A2"
+    },
+    {
+      "word": "less",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "較少的",
+      "cefr": "A2"
+    },
+    {
+      "word": "lick",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "舔,舐;少量",
+      "cefr": "A2"
+    },
+    {
+      "word": "loud",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "大聲的",
+      "cefr": "A2"
+    },
+    {
+      "word": "lump",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "團;塊;腫塊;小方塊",
+      "cefr": "A2"
+    },
+    {
+      "word": "main",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "總管道;主要部分;要點",
+      "cefr": "A2"
+    },
+    {
+      "word": "mall",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大規模購物中心",
+      "cefr": "A2"
+    },
+    {
+      "word": "May",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "五月",
+      "cefr": "A2"
+    },
+    {
+      "word": "minute",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "分鐘",
+      "cefr": "A2"
+    },
+    {
+      "word": "morning",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "早晨",
+      "cefr": "A2"
+    },
+    {
+      "word": "must",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "必須做的事;不可少的事物",
+      "cefr": "A2"
+    },
+    {
+      "word": "over",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "在上方;越過;過分,太;再一次",
+      "cefr": "A2"
+    },
+    {
+      "word": "past",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "過去,昔日;往事;經歷;過去式",
+      "cefr": "A2"
+    },
+    {
+      "word": "pick",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "精華,最好的部分;收穫(量)",
+      "cefr": "A2"
+    },
+    {
+      "word": "piss",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小便",
+      "cefr": "A2"
+    },
+    {
+      "word": "pony",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "矮種馬;小馬",
+      "cefr": "A2"
+    },
+    {
+      "word": "second",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "第二;秒",
+      "cefr": "A2"
+    },
+    {
+      "word": "size",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大小;尺寸",
+      "cefr": "A2"
+    },
+    {
+      "word": "slim",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "減肥;減少,縮減",
+      "cefr": "A2"
+    },
+    {
+      "word": "sock",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "短襪",
+      "cefr": "A2"
+    },
+    {
+      "word": "soy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "醬油;大豆",
+      "cefr": "A2"
+    },
+    {
+      "word": "span",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "礅距;跨度;一段時間",
+      "cefr": "A2"
+    },
+    {
+      "word": "Sunday",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "星期日",
+      "cefr": "A2"
+    },
+    {
+      "word": "teen",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "青少年",
+      "cefr": "A2"
+    },
+    {
+      "word": "tiny",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "微小的",
+      "cefr": "A2"
+    },
+    {
+      "word": "tip",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "尖端;小費",
+      "cefr": "A2"
+    },
+    {
+      "word": "touch",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "觸,碰;接觸;潤色;特長,才能;少許",
+      "cefr": "A2"
+    },
+    {
+      "word": "vary",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使不同;變更;呈多樣化",
+      "cefr": "A2"
+    },
+    {
+      "word": "wary",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "小心翼翼的;謹防的",
+      "cefr": "A2"
+    },
+    {
+      "word": "year",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "年",
+      "cefr": "A2"
+    }
+  ]
+}

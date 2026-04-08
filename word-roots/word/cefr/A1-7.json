@@ -1,0 +1,205 @@
+{
+  "level": "A1",
+  "part": 7,
+  "totalParts": 11,
+  "title": "入門級 A1 (Beginner) - 人物與感官",
+  "count": 28,
+  "words": [
+    {
+      "word": "am",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "是,在;be動詞第一人稱,單數,現在式",
+      "cefr": "A1"
+    },
+    {
+      "word": "are",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "是,在;be動詞第一、第三人稱,複數,現在式;第二次人單、複數,現在式",
+      "cefr": "A1"
+    },
+    {
+      "word": "black",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "黑色;美國黑人",
+      "cefr": "A1"
+    },
+    {
+      "word": "boy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "男孩",
+      "cefr": "A1"
+    },
+    {
+      "word": "brother",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "兄;弟",
+      "cefr": "A1"
+    },
+    {
+      "word": "can",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "罐頭",
+      "cefr": "A1"
+    },
+    {
+      "word": "dad",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "父親",
+      "cefr": "A1"
+    },
+    {
+      "word": "daughter",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "女兒",
+      "cefr": "A1"
+    },
+    {
+      "word": "dear",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(常作稱呼)親愛的(人)",
+      "cefr": "A1"
+    },
+    {
+      "word": "draw",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "平局;平手",
+      "cefr": "A1"
+    },
+    {
+      "word": "end",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "盡頭;結局",
+      "cefr": "A1"
+    },
+    {
+      "word": "eye",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "眼睛",
+      "cefr": "A1"
+    },
+    {
+      "word": "feel",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "觸覺;手感;觸,摸;感覺,氣氛",
+      "cefr": "A1"
+    },
+    {
+      "word": "foot",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "腳;一尺長",
+      "cefr": "A1"
+    },
+    {
+      "word": "friend",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "朋友",
+      "cefr": "A1"
+    },
+    {
+      "word": "girl",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "女孩",
+      "cefr": "A1"
+    },
+    {
+      "word": "great",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "偉人們,大人物們",
+      "cefr": "A1"
+    },
+    {
+      "word": "hand",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "手",
+      "cefr": "A1"
+    },
+    {
+      "word": "head",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "頭;首長",
+      "cefr": "A1"
+    },
+    {
+      "word": "help",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "幫助;幫手,助手",
+      "cefr": "A1"
+    },
+    {
+      "word": "is",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "是,在;be動詞第三人稱,單數,現在式",
+      "cefr": "A1"
+    },
+    {
+      "word": "kid",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小孩",
+      "cefr": "A1"
+    },
+    {
+      "word": "last",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "最後的人(或東西);最後;上回",
+      "cefr": "A1"
+    },
+    {
+      "word": "look",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "看;瞥;臉色;眼神;表情",
+      "cefr": "A1"
+    },
+    {
+      "word": "man",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "男人;人類",
+      "cefr": "A1"
+    },
+    {
+      "word": "one",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "一;一個人;一件事物",
+      "cefr": "A1"
+    },
+    {
+      "word": "people",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "人們",
+      "cefr": "A1"
+    },
+    {
+      "word": "see",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "看見",
+      "cefr": "A1"
+    }
+  ]
+}

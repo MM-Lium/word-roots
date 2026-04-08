@@ -1,0 +1,702 @@
+{
+  "level": "B2",
+  "part": 6,
+  "totalParts": 11,
+  "title": "中高級 B2 (Upper-Intermediate) - 自然與環境",
+  "count": 99,
+  "words": [
+    {
+      "word": "admiral",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "艦隊司令;海軍上將",
+      "cefr": "B2"
+    },
+    {
+      "word": "altitude",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "高度;海拔",
+      "cefr": "B2"
+    },
+    {
+      "word": "antenna",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "觸角;觸鬚;天線",
+      "cefr": "B2"
+    },
+    {
+      "word": "antique",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "古物;古董;古風",
+      "cefr": "B2"
+    },
+    {
+      "word": "anyplace",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "任何地方(=anywhere)",
+      "cefr": "B2"
+    },
+    {
+      "word": "anywhere",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "任何地方",
+      "cefr": "B2"
+    },
+    {
+      "word": "aptitude",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "傾向;習性;天資",
+      "cefr": "B2"
+    },
+    {
+      "word": "barometer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "晴雨表;顯示變化的事物",
+      "cefr": "B2"
+    },
+    {
+      "word": "basement",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "地下室",
+      "cefr": "B2"
+    },
+    {
+      "word": "blizzard",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大風雪",
+      "cefr": "B2"
+    },
+    {
+      "word": "blossom",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "花;開花",
+      "cefr": "B2"
+    },
+    {
+      "word": "ceiling",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "天花板",
+      "cefr": "B2"
+    },
+    {
+      "word": "cemetery",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "公墓;墓地",
+      "cefr": "B2"
+    },
+    {
+      "word": "chestnut",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "栗子;栗樹;栗色",
+      "cefr": "B2"
+    },
+    {
+      "word": "childlike",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "天真爛漫的",
+      "cefr": "B2"
+    },
+    {
+      "word": "coastline",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "海岸線",
+      "cefr": "B2"
+    },
+    {
+      "word": "colonial",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "殖民地居民",
+      "cefr": "B2"
+    },
+    {
+      "word": "consume",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "消耗,花費;耗盡",
+      "cefr": "B2"
+    },
+    {
+      "word": "continent",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大陸,陸地;大洲",
+      "cefr": "B2"
+    },
+    {
+      "word": "courtyard",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "庭院;天井",
+      "cefr": "B2"
+    },
+    {
+      "word": "creature",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "生物;動物",
+      "cefr": "B2"
+    },
+    {
+      "word": "crocodile",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鱷魚",
+      "cefr": "B2"
+    },
+    {
+      "word": "customs",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "關稅;報關手續;海關出入境口",
+      "cefr": "B2"
+    },
+    {
+      "word": "destiny",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "命運;天數",
+      "cefr": "B2"
+    },
+    {
+      "word": "district",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "地區,區域,地帶",
+      "cefr": "B2"
+    },
+    {
+      "word": "dolphin",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "海豚",
+      "cefr": "B2"
+    },
+    {
+      "word": "drizzle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "毛毛雨",
+      "cefr": "B2"
+    },
+    {
+      "word": "emigrate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "移居外國(或外地)",
+      "cefr": "B2"
+    },
+    {
+      "word": "enclosure",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "封入;圈地;圍牆;附件",
+      "cefr": "B2"
+    },
+    {
+      "word": "evergreen",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "常綠樹;萬年青",
+      "cefr": "B2"
+    },
+    {
+      "word": "fertile",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "(土地)肥沃的,富饒的;受精的",
+      "cefr": "B2"
+    },
+    {
+      "word": "forwards",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "向前;往後,今後;提前地",
+      "cefr": "B2"
+    },
+    {
+      "word": "gardener",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "園丁;花匠",
+      "cefr": "B2"
+    },
+    {
+      "word": "geography",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "地理",
+      "cefr": "B2"
+    },
+    {
+      "word": "glacier",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "冰河",
+      "cefr": "B2"
+    },
+    {
+      "word": "gravity",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "地心吸力",
+      "cefr": "B2"
+    },
+    {
+      "word": "habitat",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "棲地",
+      "cefr": "B2"
+    },
+    {
+      "word": "heavenly",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "天堂般的",
+      "cefr": "B2"
+    },
+    {
+      "word": "horizon",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "地平線",
+      "cefr": "B2"
+    },
+    {
+      "word": "hurricane",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "颶風,暴風雨",
+      "cefr": "B2"
+    },
+    {
+      "word": "iceberg",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "浮在海洋上的巨大冰塊",
+      "cefr": "B2"
+    },
+    {
+      "word": "innocence",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "天真無邪",
+      "cefr": "B2"
+    },
+    {
+      "word": "instinct",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "本能;天性;直覺",
+      "cefr": "B2"
+    },
+    {
+      "word": "interior",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "內部;內地",
+      "cefr": "B2"
+    },
+    {
+      "word": "landmark",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "地標,陸標;里程碑",
+      "cefr": "B2"
+    },
+    {
+      "word": "landscape",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "風景,景色",
+      "cefr": "B2"
+    },
+    {
+      "word": "landslide",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "山崩;(選舉中的)壓倒性大勝利",
+      "cefr": "B2"
+    },
+    {
+      "word": "largely",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "大部分;主要地;大量地",
+      "cefr": "B2"
+    },
+    {
+      "word": "likewise",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "同樣地;也;又",
+      "cefr": "B2"
+    },
+    {
+      "word": "manners",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "禮貌;規矩;風俗,習慣",
+      "cefr": "B2"
+    },
+    {
+      "word": "medieval",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "中世紀的;中古風的;守舊的",
+      "cefr": "B2"
+    },
+    {
+      "word": "mermaid",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "美人魚",
+      "cefr": "B2"
+    },
+    {
+      "word": "migrant",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "移民;候鳥",
+      "cefr": "B2"
+    },
+    {
+      "word": "mountain",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "山",
+      "cefr": "B2"
+    },
+    {
+      "word": "mudslide",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "塌方;山崩",
+      "cefr": "B2"
+    },
+    {
+      "word": "natural",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "天然的",
+      "cefr": "B2"
+    },
+    {
+      "word": "nowhere",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "任何地方都不",
+      "cefr": "B2"
+    },
+    {
+      "word": "octopus",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "章魚",
+      "cefr": "B2"
+    },
+    {
+      "word": "ostrich",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "駝鳥;有駝鳥心理的人",
+      "cefr": "B2"
+    },
+    {
+      "word": "outdoor",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "戶外的,露天的,野外的",
+      "cefr": "B2"
+    },
+    {
+      "word": "outdoors",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "在戶外,在野外,在露天;往戶外",
+      "cefr": "B2"
+    },
+    {
+      "word": "outlook",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "觀點;展望;風光;瞭望",
+      "cefr": "B2"
+    },
+    {
+      "word": "outwards",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "向外;出海,出港;顯而易見地",
+      "cefr": "B2"
+    },
+    {
+      "word": "overhead",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "經常費用;天花板",
+      "cefr": "B2"
+    },
+    {
+      "word": "pavement",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鋪築過的地面;人行道",
+      "cefr": "B2"
+    },
+    {
+      "word": "peninsula",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "半島",
+      "cefr": "B2"
+    },
+    {
+      "word": "popcorn",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "爆米花",
+      "cefr": "B2"
+    },
+    {
+      "word": "prairie",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大草原",
+      "cefr": "B2"
+    },
+    {
+      "word": "precede",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "處在...之前;(地位等)高於",
+      "cefr": "B2"
+    },
+    {
+      "word": "premature",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "過早的;草率的;早產的",
+      "cefr": "B2"
+    },
+    {
+      "word": "rainfall",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "降雨,下雨;降雨量",
+      "cefr": "B2"
+    },
+    {
+      "word": "regional",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "地區的,局部的",
+      "cefr": "B2"
+    },
+    {
+      "word": "reptile",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "爬行動物;爬蟲類",
+      "cefr": "B2"
+    },
+    {
+      "word": "romance",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "戀愛,風流韻事;愛情小說",
+      "cefr": "B2"
+    },
+    {
+      "word": "roughly",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "粗糙地;粗暴地;大約",
+      "cefr": "B2"
+    },
+    {
+      "word": "scarecrow",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "稻草人;威嚇物",
+      "cefr": "B2"
+    },
+    {
+      "word": "scenery",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "風景",
+      "cefr": "B2"
+    },
+    {
+      "word": "seagull",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "海鷗",
+      "cefr": "B2"
+    },
+    {
+      "word": "shortly",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "立刻,馬上;簡短地,扼要地",
+      "cefr": "B2"
+    },
+    {
+      "word": "skeleton",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "骨骼;骨瘦如柴的人(或動物);概略",
+      "cefr": "B2"
+    },
+    {
+      "word": "smallpox",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "天花",
+      "cefr": "B2"
+    },
+    {
+      "word": "someday",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "將來有一天",
+      "cefr": "B2"
+    },
+    {
+      "word": "sometime",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "某一時候;日後,改天",
+      "cefr": "B2"
+    },
+    {
+      "word": "sparkle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "火花;閃耀,閃光",
+      "cefr": "B2"
+    },
+    {
+      "word": "sprinkle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "稀疏小雨",
+      "cefr": "B2"
+    },
+    {
+      "word": "tempest",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "暴風雨;暴風雪;騷動",
+      "cefr": "B2"
+    },
+    {
+      "word": "terrace",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大陽臺;露天階梯看臺;梯田",
+      "cefr": "B2"
+    },
+    {
+      "word": "texture",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(織物的)結構;質地;紋理;肌理",
+      "cefr": "B2"
+    },
+    {
+      "word": "tobacco",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "菸草;煙葉",
+      "cefr": "B2"
+    },
+    {
+      "word": "tornado",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "龍捲風",
+      "cefr": "B2"
+    },
+    {
+      "word": "typhoon",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "颱風",
+      "cefr": "B2"
+    },
+    {
+      "word": "umbrella",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "雨傘",
+      "cefr": "B2"
+    },
+    {
+      "word": "underpass",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "地下通道",
+      "cefr": "B2"
+    },
+    {
+      "word": "upwards",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "向上地,朝上",
+      "cefr": "B2"
+    },
+    {
+      "word": "vanilla",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "香草精",
+      "cefr": "B2"
+    },
+    {
+      "word": "volcano",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "火山",
+      "cefr": "B2"
+    },
+    {
+      "word": "western",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "西部地區的人",
+      "cefr": "B2"
+    },
+    {
+      "word": "wherever",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "無論什麼地方",
+      "cefr": "B2"
+    },
+    {
+      "word": "yesterday",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "昨天;往昔",
+      "cefr": "B2"
+    }
+  ]
+}

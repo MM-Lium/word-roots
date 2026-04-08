@@ -1,0 +1,1332 @@
+{
+  "level": "B2",
+  "part": 10,
+  "totalParts": 11,
+  "title": "中高級 B2 (Upper-Intermediate) - 時間與測量",
+  "count": 189,
+  "words": [
+    {
+      "word": "abundant",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "大量的;充足的;豐富的",
+      "cefr": "B2"
+    },
+    {
+      "word": "adulthood",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "成年(期)",
+      "cefr": "B2"
+    },
+    {
+      "word": "advanced",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "先進的;高等的",
+      "cefr": "B2"
+    },
+    {
+      "word": "alienate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使疏遠;離間",
+      "cefr": "B2"
+    },
+    {
+      "word": "alligator",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "短吻鱷",
+      "cefr": "B2"
+    },
+    {
+      "word": "allocate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "分派;分配",
+      "cefr": "B2"
+    },
+    {
+      "word": "analysis",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "分析",
+      "cefr": "B2"
+    },
+    {
+      "word": "analyze",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "分析",
+      "cefr": "B2"
+    },
+    {
+      "word": "anytime",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "在任何時候",
+      "cefr": "B2"
+    },
+    {
+      "word": "apparent",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "明顯的,顯而易見的",
+      "cefr": "B2"
+    },
+    {
+      "word": "arrogant",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "傲慢的;自大的",
+      "cefr": "B2"
+    },
+    {
+      "word": "baby-sit",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "當臨時保姆",
+      "cefr": "B2"
+    },
+    {
+      "word": "blunder",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大錯",
+      "cefr": "B2"
+    },
+    {
+      "word": "boundary",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "邊界;分界線;界限",
+      "cefr": "B2"
+    },
+    {
+      "word": "breakdown",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "故障;損壞;崩潰;分析",
+      "cefr": "B2"
+    },
+    {
+      "word": "breakup",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "分裂;關係破裂;解體",
+      "cefr": "B2"
+    },
+    {
+      "word": "brilliant",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "明亮的;才華橫溢的;傑出的",
+      "cefr": "B2"
+    },
+    {
+      "word": "broaden",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "變寬;變闊;擴大",
+      "cefr": "B2"
+    },
+    {
+      "word": "brochure",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小冊子",
+      "cefr": "B2"
+    },
+    {
+      "word": "calendar",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "日曆;月曆;行事曆",
+      "cefr": "B2"
+    },
+    {
+      "word": "capsule",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小盒;膠囊;太空艙",
+      "cefr": "B2"
+    },
+    {
+      "word": "captain",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "隊長;機長;艦長",
+      "cefr": "B2"
+    },
+    {
+      "word": "careful",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "小心的",
+      "cefr": "B2"
+    },
+    {
+      "word": "carnival",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "狂歡節;嘉年華會",
+      "cefr": "B2"
+    },
+    {
+      "word": "caution",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小心;謹慎;警告",
+      "cefr": "B2"
+    },
+    {
+      "word": "cautious",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "十分小心的;謹慎的",
+      "cefr": "B2"
+    },
+    {
+      "word": "childhood",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "幼時",
+      "cefr": "B2"
+    },
+    {
+      "word": "civilize",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使文明,使開化",
+      "cefr": "B2"
+    },
+    {
+      "word": "clarify",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "澄清;闡明",
+      "cefr": "B2"
+    },
+    {
+      "word": "classify",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "將...分類",
+      "cefr": "B2"
+    },
+    {
+      "word": "clockwise",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "順時針方向的;右旋的",
+      "cefr": "B2"
+    },
+    {
+      "word": "coincide",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "同時發生;巧合;一致",
+      "cefr": "B2"
+    },
+    {
+      "word": "component",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "構成要素;零件;成分",
+      "cefr": "B2"
+    },
+    {
+      "word": "concise",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "簡明的",
+      "cefr": "B2"
+    },
+    {
+      "word": "condense",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "濃縮;縮短;凝結",
+      "cefr": "B2"
+    },
+    {
+      "word": "cottage",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小屋",
+      "cefr": "B2"
+    },
+    {
+      "word": "cowardly",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "膽小的;懦怯的",
+      "cefr": "B2"
+    },
+    {
+      "word": "daybreak",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "黎明;破曉",
+      "cefr": "B2"
+    },
+    {
+      "word": "December",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "十二月",
+      "cefr": "B2"
+    },
+    {
+      "word": "decline",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "下降;減少;衰退;傾斜",
+      "cefr": "B2"
+    },
+    {
+      "word": "decrease",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "減少,減小;減少額,減小量",
+      "cefr": "B2"
+    },
+    {
+      "word": "definite",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "明確的,確切的",
+      "cefr": "B2"
+    },
+    {
+      "word": "degrade",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "貶低;降級;降低",
+      "cefr": "B2"
+    },
+    {
+      "word": "devalue",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "降低價值;(貨幣)貶值",
+      "cefr": "B2"
+    },
+    {
+      "word": "differentiate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "構成差別;區分",
+      "cefr": "B2"
+    },
+    {
+      "word": "dimension",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(長;寬;厚;高等的)尺寸;大小",
+      "cefr": "B2"
+    },
+    {
+      "word": "diminish",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "減少;減小;縮減",
+      "cefr": "B2"
+    },
+    {
+      "word": "director",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "董事;局長;主任;導演",
+      "cefr": "B2"
+    },
+    {
+      "word": "displease",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使不高興;得罪",
+      "cefr": "B2"
+    },
+    {
+      "word": "dissolve",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "分解;使融化",
+      "cefr": "B2"
+    },
+    {
+      "word": "distant",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "遠離的",
+      "cefr": "B2"
+    },
+    {
+      "word": "distract",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "轉移(目標);使分心",
+      "cefr": "B2"
+    },
+    {
+      "word": "distribute",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "分發;分配",
+      "cefr": "B2"
+    },
+    {
+      "word": "diverse",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "互異的;多變化的",
+      "cefr": "B2"
+    },
+    {
+      "word": "diversify",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使多樣化",
+      "cefr": "B2"
+    },
+    {
+      "word": "diversion",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "轉向;轉移;分散注意力",
+      "cefr": "B2"
+    },
+    {
+      "word": "diversity",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "差異;多樣性",
+      "cefr": "B2"
+    },
+    {
+      "word": "division",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "區域;部分;除(法)",
+      "cefr": "B2"
+    },
+    {
+      "word": "downward",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "向下的,下降的;日趨沒落的",
+      "cefr": "B2"
+    },
+    {
+      "word": "duckling",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小鴨",
+      "cefr": "B2"
+    },
+    {
+      "word": "efficient",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "效率高的;有能力的",
+      "cefr": "B2"
+    },
+    {
+      "word": "elderly",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "年長的;上了年紀的",
+      "cefr": "B2"
+    },
+    {
+      "word": "element",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "要素,成分",
+      "cefr": "B2"
+    },
+    {
+      "word": "elephant",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大象",
+      "cefr": "B2"
+    },
+    {
+      "word": "embassy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大使館",
+      "cefr": "B2"
+    },
+    {
+      "word": "enhance",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "提高,增加",
+      "cefr": "B2"
+    },
+    {
+      "word": "enlarge",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "擴大;擴展",
+      "cefr": "B2"
+    },
+    {
+      "word": "enormous",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "巨大的",
+      "cefr": "B2"
+    },
+    {
+      "word": "eternity",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "永遠;永恆;永世",
+      "cefr": "B2"
+    },
+    {
+      "word": "evident",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "明顯的;明白的",
+      "cefr": "B2"
+    },
+    {
+      "word": "extension",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "伸長;擴大;延期",
+      "cefr": "B2"
+    },
+    {
+      "word": "extensive",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "廣大的;廣闊的",
+      "cefr": "B2"
+    },
+    {
+      "word": "faction",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "派別;小集團;派系之爭",
+      "cefr": "B2"
+    },
+    {
+      "word": "farther",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "far的比較級;更遠的,再往前的",
+      "cefr": "B2"
+    },
+    {
+      "word": "fashion",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "流行式樣;時尚",
+      "cefr": "B2"
+    },
+    {
+      "word": "February",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "二月",
+      "cefr": "B2"
+    },
+    {
+      "word": "festival",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "節日",
+      "cefr": "B2"
+    },
+    {
+      "word": "forever",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "永遠",
+      "cefr": "B2"
+    },
+    {
+      "word": "fraction",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小部分;片段;碎片",
+      "cefr": "B2"
+    },
+    {
+      "word": "freshman",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "一年級生,新生",
+      "cefr": "B2"
+    },
+    {
+      "word": "gigantic",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "巨大的,龐大的",
+      "cefr": "B2"
+    },
+    {
+      "word": "giraffe",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "長頸鹿",
+      "cefr": "B2"
+    },
+    {
+      "word": "glitter",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "閃光;光彩;(裝飾用)小發光物",
+      "cefr": "B2"
+    },
+    {
+      "word": "gorilla",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大猩猩",
+      "cefr": "B2"
+    },
+    {
+      "word": "governor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "州長",
+      "cefr": "B2"
+    },
+    {
+      "word": "handful",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "少數,少量",
+      "cefr": "B2"
+    },
+    {
+      "word": "heighten",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "加高;增高;增加",
+      "cefr": "B2"
+    },
+    {
+      "word": "honeymoon",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "蜜月",
+      "cefr": "B2"
+    },
+    {
+      "word": "immense",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "巨大的;廣大的",
+      "cefr": "B2"
+    },
+    {
+      "word": "implicit",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "不言明的;含蓄的",
+      "cefr": "B2"
+    },
+    {
+      "word": "integrate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使結合;求積分",
+      "cefr": "B2"
+    },
+    {
+      "word": "invention",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "發明,創造",
+      "cefr": "B2"
+    },
+    {
+      "word": "inventor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "發明家",
+      "cefr": "B2"
+    },
+    {
+      "word": "January",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "一月",
+      "cefr": "B2"
+    },
+    {
+      "word": "journal",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "日報;雜誌;期刊;日誌",
+      "cefr": "B2"
+    },
+    {
+      "word": "justify",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "證明...是正當的;辯解",
+      "cefr": "B2"
+    },
+    {
+      "word": "leisure",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "閒暇,空暇時間",
+      "cefr": "B2"
+    },
+    {
+      "word": "lengthen",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使加長,使延長",
+      "cefr": "B2"
+    },
+    {
+      "word": "lengthy",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "長的;冗長的;囉唆的",
+      "cefr": "B2"
+    },
+    {
+      "word": "lighten",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使光明,照亮",
+      "cefr": "B2"
+    },
+    {
+      "word": "longevity",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "長壽;壽命",
+      "cefr": "B2"
+    },
+    {
+      "word": "magnify",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "放大;擴大;誇張",
+      "cefr": "B2"
+    },
+    {
+      "word": "magnitude",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "巨大;重大;強度",
+      "cefr": "B2"
+    },
+    {
+      "word": "mainland",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大陸",
+      "cefr": "B2"
+    },
+    {
+      "word": "majestic",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "雄偉的;威嚴的;崇高的",
+      "cefr": "B2"
+    },
+    {
+      "word": "majority",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "過半數,大多數",
+      "cefr": "B2"
+    },
+    {
+      "word": "manifest",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "表明;顯示",
+      "cefr": "B2"
+    },
+    {
+      "word": "mansion",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大廈,大樓",
+      "cefr": "B2"
+    },
+    {
+      "word": "marshal",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "元帥;高級將官;典禮官",
+      "cefr": "B2"
+    },
+    {
+      "word": "massacre",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大屠殺;慘敗",
+      "cefr": "B2"
+    },
+    {
+      "word": "massive",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "厚實的;粗大的;大量的",
+      "cefr": "B2"
+    },
+    {
+      "word": "maximum",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "最高極限",
+      "cefr": "B2"
+    },
+    {
+      "word": "meantime",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "其時,其間",
+      "cefr": "B2"
+    },
+    {
+      "word": "meanwhile",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "其時,其間",
+      "cefr": "B2"
+    },
+    {
+      "word": "milestone",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "里程碑;劃時代的事件",
+      "cefr": "B2"
+    },
+    {
+      "word": "militant",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "好鬥者;激進分子",
+      "cefr": "B2"
+    },
+    {
+      "word": "miniature",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "縮樣;縮圖;小型物",
+      "cefr": "B2"
+    },
+    {
+      "word": "minimal",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "最小的;極微的",
+      "cefr": "B2"
+    },
+    {
+      "word": "minimize",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使減到最少(或最小);低估",
+      "cefr": "B2"
+    },
+    {
+      "word": "minimum",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "最小數;最低限度",
+      "cefr": "B2"
+    },
+    {
+      "word": "minister",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "部長;大臣",
+      "cefr": "B2"
+    },
+    {
+      "word": "minority",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "少數;少數民族;未成年",
+      "cefr": "B2"
+    },
+    {
+      "word": "molecule",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "分子;微小顆粒",
+      "cefr": "B2"
+    },
+    {
+      "word": "monthly",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "月刊",
+      "cefr": "B2"
+    },
+    {
+      "word": "multiple",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "複合的;多樣的",
+      "cefr": "B2"
+    },
+    {
+      "word": "mustache",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "髭;小鬍子",
+      "cefr": "B2"
+    },
+    {
+      "word": "November",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "十一月",
+      "cefr": "B2"
+    },
+    {
+      "word": "nowadays",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "現今,時下",
+      "cefr": "B2"
+    },
+    {
+      "word": "numerous",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "許多的,很多的",
+      "cefr": "B2"
+    },
+    {
+      "word": "o'clock",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "點鐘",
+      "cefr": "B2"
+    },
+    {
+      "word": "obvious",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "明顯的;顯著的",
+      "cefr": "B2"
+    },
+    {
+      "word": "occasion",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "場合,時刻",
+      "cefr": "B2"
+    },
+    {
+      "word": "October",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "十月",
+      "cefr": "B2"
+    },
+    {
+      "word": "pamphlet",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小冊子",
+      "cefr": "B2"
+    },
+    {
+      "word": "partial",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "部分的,局部的;不完全的",
+      "cefr": "B2"
+    },
+    {
+      "word": "peddler",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小販",
+      "cefr": "B2"
+    },
+    {
+      "word": "percent",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "百分之一",
+      "cefr": "B2"
+    },
+    {
+      "word": "permanent",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "永久的,永恆的;永遠的",
+      "cefr": "B2"
+    },
+    {
+      "word": "platform",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "月台;平台",
+      "cefr": "B2"
+    },
+    {
+      "word": "plentiful",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "豐富的,充足的;多的",
+      "cefr": "B2"
+    },
+    {
+      "word": "portion",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(一)部分",
+      "cefr": "B2"
+    },
+    {
+      "word": "primitive",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "原始的;遠古的;早期的",
+      "cefr": "B2"
+    },
+    {
+      "word": "prolong",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "延長;拉長;拖延",
+      "cefr": "B2"
+    },
+    {
+      "word": "punctual",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "準時的",
+      "cefr": "B2"
+    },
+    {
+      "word": "quarter",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "¼;美金25分;15分鐘",
+      "cefr": "B2"
+    },
+    {
+      "word": "rational",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "理性的;明事理的;合理的",
+      "cefr": "B2"
+    },
+    {
+      "word": "rectangle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "長方形",
+      "cefr": "B2"
+    },
+    {
+      "word": "reduction",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "減少;削減",
+      "cefr": "B2"
+    },
+    {
+      "word": "redundant",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "多餘的;過剩的",
+      "cefr": "B2"
+    },
+    {
+      "word": "revenue",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(國家的)歲入;稅收",
+      "cefr": "B2"
+    },
+    {
+      "word": "sandwich",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "三明治",
+      "cefr": "B2"
+    },
+    {
+      "word": "scatter",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "消散;分散",
+      "cefr": "B2"
+    },
+    {
+      "word": "sensible",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "有知覺的;明顯的",
+      "cefr": "B2"
+    },
+    {
+      "word": "September",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "九月",
+      "cefr": "B2"
+    },
+    {
+      "word": "sheriff",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "警長",
+      "cefr": "B2"
+    },
+    {
+      "word": "shortage",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "缺少,不足,匱乏",
+      "cefr": "B2"
+    },
+    {
+      "word": "shorten",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使變短;縮短",
+      "cefr": "B2"
+    },
+    {
+      "word": "skeptical",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "懷疑的;多疑的",
+      "cefr": "B2"
+    },
+    {
+      "word": "slaughter",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "屠宰;大屠殺",
+      "cefr": "B2"
+    },
+    {
+      "word": "slippery",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "容易滑的;不明確的",
+      "cefr": "B2"
+    },
+    {
+      "word": "sometimes",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "有時候",
+      "cefr": "B2"
+    },
+    {
+      "word": "soybean",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大豆",
+      "cefr": "B2"
+    },
+    {
+      "word": "specify",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "具體指定;詳細指明",
+      "cefr": "B2"
+    },
+    {
+      "word": "spiritual",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "心靈的;崇高純潔的",
+      "cefr": "B2"
+    },
+    {
+      "word": "stocking",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "長襪",
+      "cefr": "B2"
+    },
+    {
+      "word": "stretch",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "伸直;伸出;伸長",
+      "cefr": "B2"
+    },
+    {
+      "word": "stylish",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "時髦的;漂亮的",
+      "cefr": "B2"
+    },
+    {
+      "word": "substantial",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "大量的;實在的",
+      "cefr": "B2"
+    },
+    {
+      "word": "suburban",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "郊區的;近郊的",
+      "cefr": "B2"
+    },
+    {
+      "word": "superior",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "上司;長官",
+      "cefr": "B2"
+    },
+    {
+      "word": "supreme",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "最高的,至上的",
+      "cefr": "B2"
+    },
+    {
+      "word": "surpass",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "勝過;大於;多於",
+      "cefr": "B2"
+    },
+    {
+      "word": "suspect",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "嫌疑犯;可疑分子",
+      "cefr": "B2"
+    },
+    {
+      "word": "suspense",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "掛慮;懸疑;暫時停止",
+      "cefr": "B2"
+    },
+    {
+      "word": "teenage",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "十幾歲的",
+      "cefr": "B2"
+    },
+    {
+      "word": "telescope",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "望遠鏡",
+      "cefr": "B2"
+    },
+    {
+      "word": "temporary",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "臨時的;暫時的",
+      "cefr": "B2"
+    },
+    {
+      "word": "tentative",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "試驗性的;暫時性的;猶豫的",
+      "cefr": "B2"
+    },
+    {
+      "word": "tolerance",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "寬容,寬大",
+      "cefr": "B2"
+    },
+    {
+      "word": "tonight",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "今夜;今晚",
+      "cefr": "B2"
+    },
+    {
+      "word": "transparent",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "透明的;一目了然的;易懂的",
+      "cefr": "B2"
+    },
+    {
+      "word": "trousers",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "長褲",
+      "cefr": "B2"
+    },
+    {
+      "word": "trumpet",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小喇叭",
+      "cefr": "B2"
+    },
+    {
+      "word": "twilight",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "微明;薄暮;暮年;朦朧狀態",
+      "cefr": "B2"
+    },
+    {
+      "word": "versatile",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "多才多藝的;多功能的",
+      "cefr": "B2"
+    },
+    {
+      "word": "whenever",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "無論什麼時候",
+      "cefr": "B2"
+    },
+    {
+      "word": "widespread",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "分佈(或散佈)廣的",
+      "cefr": "B2"
+    },
+    {
+      "word": "without",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "在沒有(或缺少)的情況下",
+      "cefr": "B2"
+    },
+    {
+      "word": "youthful",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "年輕的;富青春活力的",
+      "cefr": "B2"
+    }
+  ]
+}

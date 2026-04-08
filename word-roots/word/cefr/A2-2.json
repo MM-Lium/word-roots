@@ -1,0 +1,457 @@
+{
+  "level": "A2",
+  "part": 2,
+  "totalParts": 11,
+  "title": "基礎級 A2 (Elementary) - 飲食與烹飪",
+  "count": 64,
+  "words": [
+    {
+      "word": "ass",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "驢子;笨蛋;太自負的人",
+      "cefr": "A2"
+    },
+    {
+      "word": "bar",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "棒,條;酒吧",
+      "cefr": "A2"
+    },
+    {
+      "word": "BBQ",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "烤肉barbecue",
+      "cefr": "A2"
+    },
+    {
+      "word": "beef",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "牛肉",
+      "cefr": "A2"
+    },
+    {
+      "word": "beer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "啤酒",
+      "cefr": "A2"
+    },
+    {
+      "word": "blot",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "墨水漬;污漬;污點",
+      "cefr": "A2"
+    },
+    {
+      "word": "bun",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小圓麵包",
+      "cefr": "A2"
+    },
+    {
+      "word": "café",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小餐館;咖啡廳",
+      "cefr": "A2"
+    },
+    {
+      "word": "candy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "糖果",
+      "cefr": "A2"
+    },
+    {
+      "word": "chef",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(餐館等的)主廚;大師傅",
+      "cefr": "A2"
+    },
+    {
+      "word": "chop",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "肋骨肉",
+      "cefr": "A2"
+    },
+    {
+      "word": "clap",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "拍手喝采(聲);霹靂聲;輕拍",
+      "cefr": "A2"
+    },
+    {
+      "word": "core",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "果核;精髓;要義",
+      "cefr": "A2"
+    },
+    {
+      "word": "curb",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "人行道旁的水泥(或石)邊;抑制",
+      "cefr": "A2"
+    },
+    {
+      "word": "dam",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "水壩",
+      "cefr": "A2"
+    },
+    {
+      "word": "dew",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "露水;朝氣",
+      "cefr": "A2"
+    },
+    {
+      "word": "dine",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "進餐,用餐",
+      "cefr": "A2"
+    },
+    {
+      "word": "dinner",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "晚餐",
+      "cefr": "A2"
+    },
+    {
+      "word": "dish",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "盤子;一盤菜",
+      "cefr": "A2"
+    },
+    {
+      "word": "drip",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "滴下;滴水聲",
+      "cefr": "A2"
+    },
+    {
+      "word": "drop",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(一)滴;點滴;空投;點藥水",
+      "cefr": "A2"
+    },
+    {
+      "word": "egg",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "蛋",
+      "cefr": "A2"
+    },
+    {
+      "word": "feed",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(動物或嬰兒的)一餐;飼料",
+      "cefr": "A2"
+    },
+    {
+      "word": "fowl",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "禽;禽肉",
+      "cefr": "A2"
+    },
+    {
+      "word": "fruit",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "水果",
+      "cefr": "A2"
+    },
+    {
+      "word": "glue",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "膠;膠水",
+      "cefr": "A2"
+    },
+    {
+      "word": "gum",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "口香糖",
+      "cefr": "A2"
+    },
+    {
+      "word": "ink",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "墨水",
+      "cefr": "A2"
+    },
+    {
+      "word": "jack",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "千斤頂;(紙牌中的)J牌,杰克;水手",
+      "cefr": "A2"
+    },
+    {
+      "word": "jam",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "果醬;擁塞",
+      "cefr": "A2"
+    },
+    {
+      "word": "jug",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "水罐;甕;壺;監牢",
+      "cefr": "A2"
+    },
+    {
+      "word": "juice",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "果汁",
+      "cefr": "A2"
+    },
+    {
+      "word": "leak",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(水,瓦斯等的)漏出;漏電",
+      "cefr": "A2"
+    },
+    {
+      "word": "level",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "水平線",
+      "cefr": "A2"
+    },
+    {
+      "word": "loaf",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "一條(麵包)",
+      "cefr": "A2"
+    },
+    {
+      "word": "lunch",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "午餐",
+      "cefr": "A2"
+    },
+    {
+      "word": "meal",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "餐",
+      "cefr": "A2"
+    },
+    {
+      "word": "meat",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "肉類",
+      "cefr": "A2"
+    },
+    {
+      "word": "menu",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "菜單",
+      "cefr": "A2"
+    },
+    {
+      "word": "mint",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "薄荷;薄荷糖;造幣廠",
+      "cefr": "A2"
+    },
+    {
+      "word": "nut",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "核果",
+      "cefr": "A2"
+    },
+    {
+      "word": "peel",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(水果,蔬菜等的)皮;(對蝦等的)殼",
+      "cefr": "A2"
+    },
+    {
+      "word": "pen",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "原子筆;墨水筆",
+      "cefr": "A2"
+    },
+    {
+      "word": "pork",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "豬肉",
+      "cefr": "A2"
+    },
+    {
+      "word": "pub",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "酒吧",
+      "cefr": "A2"
+    },
+    {
+      "word": "pump",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "唧筒;打氣機;抽水機",
+      "cefr": "A2"
+    },
+    {
+      "word": "salt",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鹽",
+      "cefr": "A2"
+    },
+    {
+      "word": "shed",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "分水嶺;小屋;堆房",
+      "cefr": "A2"
+    },
+    {
+      "word": "slot",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "狹長孔;投幣口;位置;吃角子老虎",
+      "cefr": "A2"
+    },
+    {
+      "word": "soda",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "蘇打;汽水",
+      "cefr": "A2"
+    },
+    {
+      "word": "soup",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "湯",
+      "cefr": "A2"
+    },
+    {
+      "word": "spit",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "唾液,口水",
+      "cefr": "A2"
+    },
+    {
+      "word": "spoon",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "湯匙",
+      "cefr": "A2"
+    },
+    {
+      "word": "stew",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "燉肉;燜菜;燉煮的食物",
+      "cefr": "A2"
+    },
+    {
+      "word": "stun",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使昏迷;使大吃一驚",
+      "cefr": "A2"
+    },
+    {
+      "word": "sugar",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "糖",
+      "cefr": "A2"
+    },
+    {
+      "word": "tar",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "柏油;瀝青;水手",
+      "cefr": "A2"
+    },
+    {
+      "word": "tart",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "水果餡餅;水果蛋糕",
+      "cefr": "A2"
+    },
+    {
+      "word": "tea",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "茶",
+      "cefr": "A2"
+    },
+    {
+      "word": "tide",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "潮汐;潮水",
+      "cefr": "A2"
+    },
+    {
+      "word": "vegetable",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "蔬菜",
+      "cefr": "A2"
+    },
+    {
+      "word": "wage",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "薪水;報酬",
+      "cefr": "A2"
+    },
+    {
+      "word": "wine",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "葡萄酒",
+      "cefr": "A2"
+    },
+    {
+      "word": "yolk",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "蛋黃",
+      "cefr": "A2"
+    }
+  ]
+}

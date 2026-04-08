@@ -1,0 +1,275 @@
+{
+  "level": "A2",
+  "part": 3,
+  "totalParts": 11,
+  "title": "基礎級 A2 (Elementary) - 交通與旅遊",
+  "count": 38,
+  "words": [
+    {
+      "word": "auto",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "汽車",
+      "cefr": "A2"
+    },
+    {
+      "word": "bike",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "腳踏車",
+      "cefr": "A2"
+    },
+    {
+      "word": "bill",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "帳單;鈔票",
+      "cefr": "A2"
+    },
+    {
+      "word": "boat",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小船",
+      "cefr": "A2"
+    },
+    {
+      "word": "bridge",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "橋",
+      "cefr": "A2"
+    },
+    {
+      "word": "cab",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "計程車;出租馬車",
+      "cefr": "A2"
+    },
+    {
+      "word": "cart",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "手推車",
+      "cefr": "A2"
+    },
+    {
+      "word": "crew",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "全體船員",
+      "cefr": "A2"
+    },
+    {
+      "word": "cut",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "傷口;刻痕;削減;近路;曠課",
+      "cefr": "A2"
+    },
+    {
+      "word": "dart",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "標槍;鏢;飛奔",
+      "cefr": "A2"
+    },
+    {
+      "word": "deck",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(船的)艙面,甲板;(紙牌的)一副",
+      "cefr": "A2"
+    },
+    {
+      "word": "fare",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(交通工具的)票價,車(船)費",
+      "cefr": "A2"
+    },
+    {
+      "word": "gear",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "齒輪;工具;設備",
+      "cefr": "A2"
+    },
+    {
+      "word": "honk",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "雁鳴或汽車喇叭聲",
+      "cefr": "A2"
+    },
+    {
+      "word": "hood",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "兜帽;風帽;罩;車蓋",
+      "cefr": "A2"
+    },
+    {
+      "word": "jeep",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "吉普車",
+      "cefr": "A2"
+    },
+    {
+      "word": "lane",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "巷,弄;車道",
+      "cefr": "A2"
+    },
+    {
+      "word": "path",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小徑;路線",
+      "cefr": "A2"
+    },
+    {
+      "word": "pave",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "鋪,築(路等)",
+      "cefr": "A2"
+    },
+    {
+      "word": "poll",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "民意測驗;投票,選舉",
+      "cefr": "A2"
+    },
+    {
+      "word": "post",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "郵件;柱;樁;崗位;站;交易所",
+      "cefr": "A2"
+    },
+    {
+      "word": "return",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "回答;收益;利息;來回票;退貨",
+      "cefr": "A2"
+    },
+    {
+      "word": "rush",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "急速行動;(交通等的)繁忙;搶購",
+      "cefr": "A2"
+    },
+    {
+      "word": "sail",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "帆,篷;帆狀物;船隻",
+      "cefr": "A2"
+    },
+    {
+      "word": "ship",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "船",
+      "cefr": "A2"
+    },
+    {
+      "word": "soar",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "往上飛舞;翱翔;暴漲",
+      "cefr": "A2"
+    },
+    {
+      "word": "solo",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "獨奏(曲);獨唱(曲);單飛",
+      "cefr": "A2"
+    },
+    {
+      "word": "station",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "車站;場所",
+      "cefr": "A2"
+    },
+    {
+      "word": "taxi",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "計程車",
+      "cefr": "A2"
+    },
+    {
+      "word": "tire",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "輪胎",
+      "cefr": "A2"
+    },
+    {
+      "word": "tour",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "旅行",
+      "cefr": "A2"
+    },
+    {
+      "word": "tow",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "拖,拉;牽引;拖輪;拖曳車",
+      "cefr": "A2"
+    },
+    {
+      "word": "train",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "火車",
+      "cefr": "A2"
+    },
+    {
+      "word": "trek",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(長途而辛苦的)旅行或移居",
+      "cefr": "A2"
+    },
+    {
+      "word": "trip",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "旅行",
+      "cefr": "A2"
+    },
+    {
+      "word": "van",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "有蓋小貨車",
+      "cefr": "A2"
+    },
+    {
+      "word": "vote",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "選舉,投票,表決",
+      "cefr": "A2"
+    },
+    {
+      "word": "way",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "方法;路",
+      "cefr": "A2"
+    }
+  ]
+}

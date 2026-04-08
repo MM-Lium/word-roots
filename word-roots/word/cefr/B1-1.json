@@ -1,0 +1,226 @@
+{
+  "level": "B1",
+  "part": 1,
+  "totalParts": 11,
+  "title": "中級 B1 (Intermediate) - 體能與運動",
+  "count": 31,
+  "words": [
+    {
+      "word": "arena",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "體育場;競技場",
+      "cefr": "B1"
+    },
+    {
+      "word": "bound",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "跳躍;領域;界限",
+      "cefr": "B1"
+    },
+    {
+      "word": "court",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "法庭；(網球等的)場地",
+      "cefr": "B1"
+    },
+    {
+      "word": "escape",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "逃跑;逃脫",
+      "cefr": "B1"
+    },
+    {
+      "word": "field",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "原野;田賽場地;野外",
+      "cefr": "B1"
+    },
+    {
+      "word": "final",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "決賽;期末考;(當日報紙的)末版",
+      "cefr": "B1"
+    },
+    {
+      "word": "float",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "漂游物;木筏",
+      "cefr": "B1"
+    },
+    {
+      "word": "gallop",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(馬等的)疾馳;騎馬奔馳",
+      "cefr": "B1"
+    },
+    {
+      "word": "globe",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "地球儀;地球",
+      "cefr": "B1"
+    },
+    {
+      "word": "gypsy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "吉普賽人;流浪者",
+      "cefr": "B1"
+    },
+    {
+      "word": "hockey",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "曲棍球",
+      "cefr": "B1"
+    },
+    {
+      "word": "hurdle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "跳欄;跨欄賽跑;障礙",
+      "cefr": "B1"
+    },
+    {
+      "word": "knight",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "騎士,武士;護衛者",
+      "cefr": "B1"
+    },
+    {
+      "word": "match",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "比賽,競賽;對手;相配者;火柴",
+      "cefr": "B1"
+    },
+    {
+      "word": "mount",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "騎;可乘騎的東西;底座;山丘",
+      "cefr": "B1"
+    },
+    {
+      "word": "paddle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "槳;(桌球的)球拍",
+      "cefr": "B1"
+    },
+    {
+      "word": "pitch",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "投;投球;音高",
+      "cefr": "B1"
+    },
+    {
+      "word": "plunge",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "跳入;衝進;猛跌",
+      "cefr": "B1"
+    },
+    {
+      "word": "pulse",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "脈搏;有節奏的跳動",
+      "cefr": "B1"
+    },
+    {
+      "word": "relay",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "轉達;轉播;接力賽跑",
+      "cefr": "B1"
+    },
+    {
+      "word": "rifle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "步槍,來福槍",
+      "cefr": "B1"
+    },
+    {
+      "word": "runner",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "賽跑者;逃亡者",
+      "cefr": "B1"
+    },
+    {
+      "word": "soccer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "足球",
+      "cefr": "B1"
+    },
+    {
+      "word": "sphere",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "球;球體;球形",
+      "cefr": "B1"
+    },
+    {
+      "word": "sprint",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "全速疾跑;短距離賽跑",
+      "cefr": "B1"
+    },
+    {
+      "word": "stride",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "闊步;步姿",
+      "cefr": "B1"
+    },
+    {
+      "word": "stroll",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "散步;閒逛",
+      "cefr": "B1"
+    },
+    {
+      "word": "tennis",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "網球",
+      "cefr": "B1"
+    },
+    {
+      "word": "throb",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "跳動;悸動;抽動;抽痛",
+      "cefr": "B1"
+    },
+    {
+      "word": "tramp",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "沈重的腳步聲;流浪;流浪者;蕩婦",
+      "cefr": "B1"
+    },
+    {
+      "word": "umpire",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "仲裁人;(棒球等的)裁判員",
+      "cefr": "B1"
+    }
+  ]
+}

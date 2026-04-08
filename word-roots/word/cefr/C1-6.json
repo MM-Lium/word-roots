@@ -1,0 +1,219 @@
+{
+  "level": "C1",
+  "part": 6,
+  "totalParts": 11,
+  "title": "高級 C1 (Advanced) - 自然與環境",
+  "count": 30,
+  "words": [
+    {
+      "word": "aboriginal",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "土著居民;土生動物(或植物)",
+      "cefr": "C1"
+    },
+    {
+      "word": "accordingly",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "照著;相應地;因此",
+      "cefr": "C1"
+    },
+    {
+      "word": "alternative",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "選擇的自由(或餘地)",
+      "cefr": "C1"
+    },
+    {
+      "word": "altogether",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "完全地;總共",
+      "cefr": "C1"
+    },
+    {
+      "word": "articulate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "清晰地講話;相互連貫",
+      "cefr": "C1"
+    },
+    {
+      "word": "beforehand",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "事先;提前地",
+      "cefr": "C1"
+    },
+    {
+      "word": "championship",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "冠軍的地位",
+      "cefr": "C1"
+    },
+    {
+      "word": "cosmopolitan",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "世界主義者;四海為家者",
+      "cefr": "C1"
+    },
+    {
+      "word": "cultivate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "栽培(作物等);養殖(魚等);培育",
+      "cefr": "C1"
+    },
+    {
+      "word": "demonstration",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "實地示範",
+      "cefr": "C1"
+    },
+    {
+      "word": "destination",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "目的地,終點",
+      "cefr": "C1"
+    },
+    {
+      "word": "earthquake",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "地震",
+      "cefr": "C1"
+    },
+    {
+      "word": "especially",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "特別地",
+      "cefr": "C1"
+    },
+    {
+      "word": "hippopotamus",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "河馬",
+      "cefr": "C1"
+    },
+    {
+      "word": "increasingly",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "漸增地",
+      "cefr": "C1"
+    },
+    {
+      "word": "mainstream",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(河的)主流;主要傾向",
+      "cefr": "C1"
+    },
+    {
+      "word": "microphone",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "麥克風",
+      "cefr": "C1"
+    },
+    {
+      "word": "mountainous",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "多山的;巨大的",
+      "cefr": "C1"
+    },
+    {
+      "word": "navigation",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "航海;航空;導航",
+      "cefr": "C1"
+    },
+    {
+      "word": "plantation",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大農園;造林地",
+      "cefr": "C1"
+    },
+    {
+      "word": "provincial",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "地方居民;鄉下人",
+      "cefr": "C1"
+    },
+    {
+      "word": "revelation",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "揭示;顯示;天啟",
+      "cefr": "C1"
+    },
+    {
+      "word": "skyscraper",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "摩天樓",
+      "cefr": "C1"
+    },
+    {
+      "word": "strawberry",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "草莓",
+      "cefr": "C1"
+    },
+    {
+      "word": "threateningly",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "威脅地；脅迫地",
+      "cefr": "C1"
+    },
+    {
+      "word": "tug-of-war",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "拔河",
+      "cefr": "C1"
+    },
+    {
+      "word": "underground",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "地面下層;地下組織",
+      "cefr": "C1"
+    },
+    {
+      "word": "undoubtedly",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "毫無疑問地;肯定地",
+      "cefr": "C1"
+    },
+    {
+      "word": "vegetation",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "植被;草木",
+      "cefr": "C1"
+    },
+    {
+      "word": "woodpecker",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "啄木鳥",
+      "cefr": "C1"
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "level": "C1",
+  "part": 10,
+  "totalParts": 11,
+  "title": "高級 C1 (Advanced) - 時間與測量",
+  "count": 51,
+  "words": [
+    {
+      "word": "accelerate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "加快;增長",
+      "cefr": "C1"
+    },
+    {
+      "word": "accessible",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "可(或易)接近的;可(或易)得到的",
+      "cefr": "C1"
+    },
+    {
+      "word": "adolescent",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "青少年",
+      "cefr": "C1"
+    },
+    {
+      "word": "ambassador",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大使",
+      "cefr": "C1"
+    },
+    {
+      "word": "analytical",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "分析的",
+      "cefr": "C1"
+    },
+    {
+      "word": "anniversary",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "周年紀念日",
+      "cefr": "C1"
+    },
+    {
+      "word": "approximate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "接近;近似;大致估計",
+      "cefr": "C1"
+    },
+    {
+      "word": "binoculars",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "雙筒望遠鏡",
+      "cefr": "C1"
+    },
+    {
+      "word": "catastrophe",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大災難;慘敗",
+      "cefr": "C1"
+    },
+    {
+      "word": "centimeter",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "公分",
+      "cefr": "C1"
+    },
+    {
+      "word": "civilization",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "文明",
+      "cefr": "C1"
+    },
+    {
+      "word": "classification",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "分類;分級",
+      "cefr": "C1"
+    },
+    {
+      "word": "considerable",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "相當大的;相當多的",
+      "cefr": "C1"
+    },
+    {
+      "word": "constituent",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "成分;組成的要素;選民",
+      "cefr": "C1"
+    },
+    {
+      "word": "continental",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "洲的;大陸的",
+      "cefr": "C1"
+    },
+    {
+      "word": "counterclockwise",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "逆時針方向的",
+      "cefr": "C1"
+    },
+    {
+      "word": "declaration",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "宣佈,宣告;宣言,聲明",
+      "cefr": "C1"
+    },
+    {
+      "word": "delinquent",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "青少年罪犯;違法者",
+      "cefr": "C1"
+    },
+    {
+      "word": "development",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "生長;發展",
+      "cefr": "C1"
+    },
+    {
+      "word": "discotheque",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小舞廳;迪斯科舞廳",
+      "cefr": "C1"
+    },
+    {
+      "word": "discriminate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "歧視;區分出",
+      "cefr": "C1"
+    },
+    {
+      "word": "dispensable",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "非必要的;可分配的",
+      "cefr": "C1"
+    },
+    {
+      "word": "distraction",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "分心;注意力分散",
+      "cefr": "C1"
+    },
+    {
+      "word": "distribution",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "分發;分配",
+      "cefr": "C1"
+    },
+    {
+      "word": "enhancement",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "提高,增加",
+      "cefr": "C1"
+    },
+    {
+      "word": "enlargement",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "放大",
+      "cefr": "C1"
+    },
+    {
+      "word": "exaggerate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "張,誇大;對...言過其實",
+      "cefr": "C1"
+    },
+    {
+      "word": "expedition",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "遠征(隊);探險(隊)",
+      "cefr": "C1"
+    },
+    {
+      "word": "fashionable",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "時尚的",
+      "cefr": "C1"
+    },
+    {
+      "word": "generosity",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "寬宏大量;慷慨",
+      "cefr": "C1"
+    },
+    {
+      "word": "indispensable",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "必不可少的;必需的",
+      "cefr": "C1"
+    },
+    {
+      "word": "installment",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "分期付款;安置",
+      "cefr": "C1"
+    },
+    {
+      "word": "integration",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "整合;積分",
+      "cefr": "C1"
+    },
+    {
+      "word": "intellectual",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "知識分子",
+      "cefr": "C1"
+    },
+    {
+      "word": "interpretation",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "解釋;闡明",
+      "cefr": "C1"
+    },
+    {
+      "word": "lieutenant",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "中尉(或少尉);助理官",
+      "cefr": "C1"
+    },
+    {
+      "word": "meaningful",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "意味深長的;有意義的",
+      "cefr": "C1"
+    },
+    {
+      "word": "nearsighted",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "近視的",
+      "cefr": "C1"
+    },
+    {
+      "word": "neighborhood",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "近鄰",
+      "cefr": "C1"
+    },
+    {
+      "word": "participle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "分詞",
+      "cefr": "C1"
+    },
+    {
+      "word": "percentage",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "百分率,百分比",
+      "cefr": "C1"
+    },
+    {
+      "word": "procession",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "一(長)列;一(長)排;隊伍",
+      "cefr": "C1"
+    },
+    {
+      "word": "refinement",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "優雅,高雅;提煉,精煉",
+      "cefr": "C1"
+    },
+    {
+      "word": "respective",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "分別的;各自的",
+      "cefr": "C1"
+    },
+    {
+      "word": "separation",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "分開;分離",
+      "cefr": "C1"
+    },
+    {
+      "word": "shortcoming",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "缺點,短處",
+      "cefr": "C1"
+    },
+    {
+      "word": "shortsighted",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "近視的;目光短淺的,缺乏遠見的",
+      "cefr": "C1"
+    },
+    {
+      "word": "sufficient",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "足夠的,充分的",
+      "cefr": "C1"
+    },
+    {
+      "word": "suspicious",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "猜疑的,疑心的;多疑的",
+      "cefr": "C1"
+    },
+    {
+      "word": "transition",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "過渡;過渡時期;轉變",
+      "cefr": "C1"
+    },
+    {
+      "word": "underestimate",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "低估;估計不足",
+      "cefr": "C1"
+    }
+  ]
+}

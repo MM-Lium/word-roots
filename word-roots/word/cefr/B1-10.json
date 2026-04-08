@@ -1,0 +1,849 @@
+{
+  "level": "B1",
+  "part": 10,
+  "totalParts": 11,
+  "title": "中級 B1 (Intermediate) - 時間與測量",
+  "count": 120,
+  "words": [
+    {
+      "word": "abound",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "大量存在;富足;充滿",
+      "cefr": "B1"
+    },
+    {
+      "word": "affirm",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "斷言;申明;堅稱",
+      "cefr": "B1"
+    },
+    {
+      "word": "amaze",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使大為驚奇",
+      "cefr": "B1"
+    },
+    {
+      "word": "ample",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "大量的;充裕的",
+      "cefr": "B1"
+    },
+    {
+      "word": "amuse",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "逗...高興",
+      "cefr": "B1"
+    },
+    {
+      "word": "annual",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "一年一次的;每年的",
+      "cefr": "B1"
+    },
+    {
+      "word": "April",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "四月",
+      "cefr": "B1"
+    },
+    {
+      "word": "ascend",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "登高;上升;",
+      "cefr": "B1"
+    },
+    {
+      "word": "assign",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "分配,分派",
+      "cefr": "B1"
+    },
+    {
+      "word": "August",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "八月",
+      "cefr": "B1"
+    },
+    {
+      "word": "banner",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "旗幟;橫幅;大標題",
+      "cefr": "B1"
+    },
+    {
+      "word": "barrel",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大桶",
+      "cefr": "B1"
+    },
+    {
+      "word": "before",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "較早;以前;曾經;在前;向前",
+      "cefr": "B1"
+    },
+    {
+      "word": "beyond",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "在更遠處",
+      "cefr": "B1"
+    },
+    {
+      "word": "bonus",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "獎金;額外津貼;分紅",
+      "cefr": "B1"
+    },
+    {
+      "word": "brace",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "支柱;大括號;(牙齒)矯正器",
+      "cefr": "B1"
+    },
+    {
+      "word": "bulge",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "腫脹;凸塊;增長",
+      "cefr": "B1"
+    },
+    {
+      "word": "bulky",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "體積大的;笨重的",
+      "cefr": "B1"
+    },
+    {
+      "word": "bundle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "捆;大量",
+      "cefr": "B1"
+    },
+    {
+      "word": "cannon",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大砲;榴彈砲",
+      "cefr": "B1"
+    },
+    {
+      "word": "cello",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大提琴",
+      "cefr": "B1"
+    },
+    {
+      "word": "chick",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小雞",
+      "cefr": "B1"
+    },
+    {
+      "word": "chief",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "首領;長官",
+      "cefr": "B1"
+    },
+    {
+      "word": "clever",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "聰明伶俐的",
+      "cefr": "B1"
+    },
+    {
+      "word": "climax",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "頂點,最高點",
+      "cefr": "B1"
+    },
+    {
+      "word": "clown",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小丑,丑角",
+      "cefr": "B1"
+    },
+    {
+      "word": "costly",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "昂貴的;代價高的",
+      "cefr": "B1"
+    },
+    {
+      "word": "couch",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "長沙發",
+      "cefr": "B1"
+    },
+    {
+      "word": "daily",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "日報",
+      "cefr": "B1"
+    },
+    {
+      "word": "decade",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "十;十年",
+      "cefr": "B1"
+    },
+    {
+      "word": "detach",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "分開;拆卸;派遣",
+      "cefr": "B1"
+    },
+    {
+      "word": "devise",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "設計;發明",
+      "cefr": "B1"
+    },
+    {
+      "word": "diary",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "日記",
+      "cefr": "B1"
+    },
+    {
+      "word": "divert",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "轉向;改道;使分心",
+      "cefr": "B1"
+    },
+    {
+      "word": "dwarf",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "矮子;矮小的動(植)物",
+      "cefr": "B1"
+    },
+    {
+      "word": "elder",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "長輩",
+      "cefr": "B1"
+    },
+    {
+      "word": "encourage",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "鼓勵;助長",
+      "cefr": "B1"
+    },
+    {
+      "word": "extend",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "延長,延伸",
+      "cefr": "B1"
+    },
+    {
+      "word": "fiddle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小提琴;欺詐",
+      "cefr": "B1"
+    },
+    {
+      "word": "flake",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小薄片",
+      "cefr": "B1"
+    },
+    {
+      "word": "grade",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "年級;分數",
+      "cefr": "B1"
+    },
+    {
+      "word": "growth",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "成長;發育;增大",
+      "cefr": "B1"
+    },
+    {
+      "word": "height",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "高度",
+      "cefr": "B1"
+    },
+    {
+      "word": "hourly",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "以鐘點計算的",
+      "cefr": "B1"
+    },
+    {
+      "word": "invent",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "發明",
+      "cefr": "B1"
+    },
+    {
+      "word": "juicy",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "多汁的",
+      "cefr": "B1"
+    },
+    {
+      "word": "junior",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "較年少者;三年級生",
+      "cefr": "B1"
+    },
+    {
+      "word": "lately",
+      "pos": "adv",
+      "posZh": "副詞",
+      "definition": "近來,最近;不久前",
+      "cefr": "B1"
+    },
+    {
+      "word": "latest",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "最新的;最近的;最遲的",
+      "cefr": "B1"
+    },
+    {
+      "word": "least",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "最小的;最少的;最不重要的",
+      "cefr": "B1"
+    },
+    {
+      "word": "length",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(距離,尺寸的)長度",
+      "cefr": "B1"
+    },
+    {
+      "word": "lessen",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "變小;變少;減輕",
+      "cefr": "B1"
+    },
+    {
+      "word": "lodge",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "木屋;小旅舍;守衛室",
+      "cefr": "B1"
+    },
+    {
+      "word": "lofty",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "高聳的;極高的;高傲的",
+      "cefr": "B1"
+    },
+    {
+      "word": "lower",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "放下,降下;放低;減低;減弱",
+      "cefr": "B1"
+    },
+    {
+      "word": "lunar",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "月的;陰曆的",
+      "cefr": "B1"
+    },
+    {
+      "word": "marble",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大理石",
+      "cefr": "B1"
+    },
+    {
+      "word": "March",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "三月",
+      "cefr": "B1"
+    },
+    {
+      "word": "mayor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "市長,鎮長",
+      "cefr": "B1"
+    },
+    {
+      "word": "merit",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "長處,優點;法律依據",
+      "cefr": "B1"
+    },
+    {
+      "word": "merry",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "愉快的,興高采烈的",
+      "cefr": "B1"
+    },
+    {
+      "word": "mighty",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "強大的;強有力的",
+      "cefr": "B1"
+    },
+    {
+      "word": "minor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "未成年者;副科",
+      "cefr": "B1"
+    },
+    {
+      "word": "month",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "月份",
+      "cefr": "B1"
+    },
+    {
+      "word": "muddy",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "多爛泥的;泥濘的",
+      "cefr": "B1"
+    },
+    {
+      "word": "murmur",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "低聲抱怨",
+      "cefr": "B1"
+    },
+    {
+      "word": "narrow",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "變窄;收縮;減少",
+      "cefr": "B1"
+    },
+    {
+      "word": "nearby",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "附近的",
+      "cefr": "B1"
+    },
+    {
+      "word": "nibble",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "細咬;啃;少量",
+      "cefr": "B1"
+    },
+    {
+      "word": "nickel",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鎳;五分鎳幣",
+      "cefr": "B1"
+    },
+    {
+      "word": "nobody",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "無名小子",
+      "cefr": "B1"
+    },
+    {
+      "word": "overdo",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "把...做得過分;使過於疲勞",
+      "cefr": "B1"
+    },
+    {
+      "word": "pebble",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小卵石",
+      "cefr": "B1"
+    },
+    {
+      "word": "plenty",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "豐富;充足;大量",
+      "cefr": "B1"
+    },
+    {
+      "word": "prior",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "修道院院長或副院長",
+      "cefr": "B1"
+    },
+    {
+      "word": "proof",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "證據;物證;證明",
+      "cefr": "B1"
+    },
+    {
+      "word": "prove",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "證明,證實",
+      "cefr": "B1"
+    },
+    {
+      "word": "radish",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小蘿蔔",
+      "cefr": "B1"
+    },
+    {
+      "word": "rally",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大集會;重整旗鼓",
+      "cefr": "B1"
+    },
+    {
+      "word": "ranch",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大牧場",
+      "cefr": "B1"
+    },
+    {
+      "word": "range",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "範圍;等級;多爐爐灶",
+      "cefr": "B1"
+    },
+    {
+      "word": "recent",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "最近的",
+      "cefr": "B1"
+    },
+    {
+      "word": "reduce",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "減少;縮小;降低",
+      "cefr": "B1"
+    },
+    {
+      "word": "remote",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "遙遠的;偏僻的",
+      "cefr": "B1"
+    },
+    {
+      "word": "rocky",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "岩石的;多岩石的",
+      "cefr": "B1"
+    },
+    {
+      "word": "rugged",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "高低不平的;粗糙的;粗線條的",
+      "cefr": "B1"
+    },
+    {
+      "word": "scary",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "膽小的;提心吊膽的",
+      "cefr": "B1"
+    },
+    {
+      "word": "scrap",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "碎片;小塊;破爛",
+      "cefr": "B1"
+    },
+    {
+      "word": "separate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "分隔",
+      "cefr": "B1"
+    },
+    {
+      "word": "share",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "股份;市場佔有率;分攤;貢獻",
+      "cefr": "B1"
+    },
+    {
+      "word": "shorts",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "短褲",
+      "cefr": "B1"
+    },
+    {
+      "word": "shrewd",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "精明的;狡猾的;機靈的",
+      "cefr": "B1"
+    },
+    {
+      "word": "shrink",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "縮短,皺縮",
+      "cefr": "B1"
+    },
+    {
+      "word": "slash",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "猛砍;亂砍;大幅度削減",
+      "cefr": "B1"
+    },
+    {
+      "word": "smack",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "滋味;少許;掌摑;咂嘴(聲);響吻",
+      "cefr": "B1"
+    },
+    {
+      "word": "spice",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "香料,調味品;少許,一點",
+      "cefr": "B1"
+    },
+    {
+      "word": "split",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "分裂;分割",
+      "cefr": "B1"
+    },
+    {
+      "word": "squad",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "班;小隊;小組",
+      "cefr": "B1"
+    },
+    {
+      "word": "surge",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大浪;波濤",
+      "cefr": "B1"
+    },
+    {
+      "word": "swarm",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(密集的)一大群",
+      "cefr": "B1"
+    },
+    {
+      "word": "tasty",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "高雅的;大方的",
+      "cefr": "B1"
+    },
+    {
+      "word": "thief",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小偷",
+      "cefr": "B1"
+    },
+    {
+      "word": "third",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "第三;三分之一",
+      "cefr": "B1"
+    },
+    {
+      "word": "thrive",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "興旺;繁榮;茂盛生長",
+      "cefr": "B1"
+    },
+    {
+      "word": "timid",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "膽小的;羞怯的",
+      "cefr": "B1"
+    },
+    {
+      "word": "trait",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "特徵;特點;特性;少許",
+      "cefr": "B1"
+    },
+    {
+      "word": "trend",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "趨勢,傾向;時尚",
+      "cefr": "B1"
+    },
+    {
+      "word": "trifle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "瑣事;小玩意;乳脂鬆糕",
+      "cefr": "B1"
+    },
+    {
+      "word": "upper",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "較高的",
+      "cefr": "B1"
+    },
+    {
+      "word": "upward",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "向上的;升高的",
+      "cefr": "B1"
+    },
+    {
+      "word": "utmost",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "極限;極度;最大可能",
+      "cefr": "B1"
+    },
+    {
+      "word": "variety",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "多樣化,變化",
+      "cefr": "B1"
+    },
+    {
+      "word": "vendor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小販",
+      "cefr": "B1"
+    },
+    {
+      "word": "violin",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小提琴",
+      "cefr": "B1"
+    },
+    {
+      "word": "wealth",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "財富;大量",
+      "cefr": "B1"
+    },
+    {
+      "word": "wheat",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小麥",
+      "cefr": "B1"
+    },
+    {
+      "word": "widen",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "加寬;擴大",
+      "cefr": "B1"
+    },
+    {
+      "word": "worst",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "最壞者;最壞的部分;最壞的情況",
+      "cefr": "B1"
+    },
+    {
+      "word": "yearly",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "每年的;按年的",
+      "cefr": "B1"
+    },
+    {
+      "word": "youth",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "青少年;青少年時代",
+      "cefr": "B1"
+    }
+  ]
+}

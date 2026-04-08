@@ -1,0 +1,79 @@
+{
+  "level": "A1",
+  "part": 2,
+  "totalParts": 11,
+  "title": "入門級 A1 (Beginner) - 飲食與烹飪",
+  "count": 10,
+  "words": [
+    {
+      "word": "bread",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "麵包",
+      "cefr": "A1"
+    },
+    {
+      "word": "cake",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "蛋糕",
+      "cefr": "A1"
+    },
+    {
+      "word": "eat",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "吃",
+      "cefr": "A1"
+    },
+    {
+      "word": "food",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "食物",
+      "cefr": "A1"
+    },
+    {
+      "word": "high",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "高水準;高峰;天空",
+      "cefr": "A1"
+    },
+    {
+      "word": "low",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "低水平,低點;;低速",
+      "cefr": "A1"
+    },
+    {
+      "word": "rice",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "稻米;飯",
+      "cefr": "A1"
+    },
+    {
+      "word": "sweet",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(餐後的)甜點;(用作稱呼語)親愛的,寶貝",
+      "cefr": "A1"
+    },
+    {
+      "word": "water",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "水",
+      "cefr": "A1"
+    },
+    {
+      "word": "well",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "井,水井;採光井;通風井",
+      "cefr": "A1"
+    }
+  ]
+}

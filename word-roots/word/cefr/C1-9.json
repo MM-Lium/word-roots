@@ -1,0 +1,163 @@
+{
+  "level": "C1",
+  "part": 9,
+  "totalParts": 11,
+  "title": "高級 C1 (Advanced) - 生活與物品",
+  "count": 22,
+  "words": [
+    {
+      "word": "believable",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "可信的",
+      "cefr": "C1"
+    },
+    {
+      "word": "calculation",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "計算;估計,推測;盤算",
+      "cefr": "C1"
+    },
+    {
+      "word": "commentator",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(電臺、電視臺等)時事評論者",
+      "cefr": "C1"
+    },
+    {
+      "word": "communication",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "交往;通信",
+      "cefr": "C1"
+    },
+    {
+      "word": "confidence",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "自信,信心,把握",
+      "cefr": "C1"
+    },
+    {
+      "word": "conviction",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "定罪;證明有罪;確信",
+      "cefr": "C1"
+    },
+    {
+      "word": "correspondence",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "一致;相對應;通信;(總稱)信件",
+      "cefr": "C1"
+    },
+    {
+      "word": "correspondent",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "通信者;通訊記者",
+      "cefr": "C1"
+    },
+    {
+      "word": "credibility",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "可信性;確實性",
+      "cefr": "C1"
+    },
+    {
+      "word": "department",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "部門",
+      "cefr": "C1"
+    },
+    {
+      "word": "dependable",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "可靠的;可信任的",
+      "cefr": "C1"
+    },
+    {
+      "word": "disposable",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "用完即丟棄的物品(如紙尿布)",
+      "cefr": "C1"
+    },
+    {
+      "word": "greenhouse",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "溫室,暖房",
+      "cefr": "C1"
+    },
+    {
+      "word": "illuminate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "照亮;用燈裝飾;啟發",
+      "cefr": "C1"
+    },
+    {
+      "word": "lighthouse",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "燈塔",
+      "cefr": "C1"
+    },
+    {
+      "word": "recommendation",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "推薦;推薦信",
+      "cefr": "C1"
+    },
+    {
+      "word": "reservation",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "保留(意見);預訂的房間(或席座)",
+      "cefr": "C1"
+    },
+    {
+      "word": "screwdriver",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "螺絲刀;螺絲起子",
+      "cefr": "C1"
+    },
+    {
+      "word": "specialize",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "專攻;專門從事",
+      "cefr": "C1"
+    },
+    {
+      "word": "superstition",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "迷信",
+      "cefr": "C1"
+    },
+    {
+      "word": "superstitious",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "迷信的",
+      "cefr": "C1"
+    },
+    {
+      "word": "television",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "電視",
+      "cefr": "C1"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "level": "C1",
+  "part": 1,
+  "totalParts": 11,
+  "title": "高級 C1 (Advanced) - 體能與運動",
+  "count": 13,
+  "words": [
+    {
+      "word": "basketball",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "籃球",
+      "cefr": "C1"
+    },
+    {
+      "word": "concession",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "讓步;讓予物",
+      "cefr": "C1"
+    },
+    {
+      "word": "constitutional",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "保健散步;保健運動",
+      "cefr": "C1"
+    },
+    {
+      "word": "contestant",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "參加競賽者;角逐者",
+      "cefr": "C1"
+    },
+    {
+      "word": "hemisphere",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(地球的)半球;半球體",
+      "cefr": "C1"
+    },
+    {
+      "word": "pedestrian",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "步行者;行人",
+      "cefr": "C1"
+    },
+    {
+      "word": "preliminary",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "初步;初試;預賽",
+      "cefr": "C1"
+    },
+    {
+      "word": "simultaneous",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "同時發生的;同步的",
+      "cefr": "C1"
+    },
+    {
+      "word": "sportsmanship",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "運動員精神,運動道德",
+      "cefr": "C1"
+    },
+    {
+      "word": "sportswoman",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "女運動家",
+      "cefr": "C1"
+    },
+    {
+      "word": "tabletennis",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "乒乓球",
+      "cefr": "C1"
+    },
+    {
+      "word": "tournament",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "比賽;錦標賽",
+      "cefr": "C1"
+    },
+    {
+      "word": "volleyball",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "排球",
+      "cefr": "C1"
+    }
+  ]
+}

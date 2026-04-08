@@ -1,0 +1,65 @@
+{
+  "level": "A1",
+  "part": 1,
+  "totalParts": 11,
+  "title": "入門級 A1 (Beginner) - 體能與運動",
+  "count": 8,
+  "words": [
+    {
+      "word": "ball",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "球",
+      "cefr": "A1"
+    },
+    {
+      "word": "drive",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "兜風;車程;幹勁;比賽",
+      "cefr": "A1"
+    },
+    {
+      "word": "meet",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "集會;競賽大會",
+      "cefr": "A1"
+    },
+    {
+      "word": "open",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "戶外,野外;曠野,空地;公開賽",
+      "cefr": "A1"
+    },
+    {
+      "word": "out",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "託辭;(棒球等)出局",
+      "cefr": "A1"
+    },
+    {
+      "word": "run",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "跑",
+      "cefr": "A1"
+    },
+    {
+      "word": "walk",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "散步;人行道;四壞球保送上一壘",
+      "cefr": "A1"
+    },
+    {
+      "word": "wide",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "歪球,壞球",
+      "cefr": "A1"
+    }
+  ]
+}

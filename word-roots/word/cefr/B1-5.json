@@ -1,0 +1,387 @@
+{
+  "level": "B1",
+  "part": 5,
+  "totalParts": 11,
+  "title": "中級 B1 (Intermediate) - 學校與教育",
+  "count": 54,
+  "words": [
+    {
+      "word": "academic",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "學術的",
+      "cefr": "B1"
+    },
+    {
+      "word": "adjust",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "校準;調整;適應",
+      "cefr": "B1"
+    },
+    {
+      "word": "barber",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "男理髮師",
+      "cefr": "B1"
+    },
+    {
+      "word": "botany",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "植物學;(總稱)一個地區的植物",
+      "cefr": "B1"
+    },
+    {
+      "word": "boxer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "拳擊手;拳師;拳師狗",
+      "cefr": "B1"
+    },
+    {
+      "word": "brief",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "概要;訴書;短而緊的內褲;簡報",
+      "cefr": "B1"
+    },
+    {
+      "word": "campus",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "校園",
+      "cefr": "B1"
+    },
+    {
+      "word": "carbon",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "碳;複寫紙",
+      "cefr": "B1"
+    },
+    {
+      "word": "chalk",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "粉筆",
+      "cefr": "B1"
+    },
+    {
+      "word": "choir",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(教堂的)唱詩班;合唱團",
+      "cefr": "B1"
+    },
+    {
+      "word": "church",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "教堂",
+      "cefr": "B1"
+    },
+    {
+      "word": "coach",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "教練",
+      "cefr": "B1"
+    },
+    {
+      "word": "consider",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "考慮",
+      "cefr": "B1"
+    },
+    {
+      "word": "course",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "課程;科目",
+      "cefr": "B1"
+    },
+    {
+      "word": "crayon",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "蠟筆",
+      "cefr": "B1"
+    },
+    {
+      "word": "cross",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "十字架",
+      "cefr": "B1"
+    },
+    {
+      "word": "editor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "編者;校訂者",
+      "cefr": "B1"
+    },
+    {
+      "word": "ending",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "結局,結尾;終結;字尾",
+      "cefr": "B1"
+    },
+    {
+      "word": "ethnic",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "維護語言或風俗的小組成員",
+      "cefr": "B1"
+    },
+    {
+      "word": "figure",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "外形;數字;圖表;(溜冰等)花式",
+      "cefr": "B1"
+    },
+    {
+      "word": "gospel",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "基督教教義;福音書",
+      "cefr": "B1"
+    },
+    {
+      "word": "grant",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "獎學金,助學金",
+      "cefr": "B1"
+    },
+    {
+      "word": "lawyer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "律師",
+      "cefr": "B1"
+    },
+    {
+      "word": "logic",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "邏輯;邏輯學",
+      "cefr": "B1"
+    },
+    {
+      "word": "makeup",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "構造;性格;化妝;補考;排版",
+      "cefr": "B1"
+    },
+    {
+      "word": "novice",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "新手;初學者",
+      "cefr": "B1"
+    },
+    {
+      "word": "number",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "號碼;數字",
+      "cefr": "B1"
+    },
+    {
+      "word": "ordeal",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "嚴峻考驗;折磨",
+      "cefr": "B1"
+    },
+    {
+      "word": "pencil",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鉛筆",
+      "cefr": "B1"
+    },
+    {
+      "word": "period",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "一段時間;一堂課",
+      "cefr": "B1"
+    },
+    {
+      "word": "physical",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "身體的;物理學的",
+      "cefr": "B1"
+    },
+    {
+      "word": "ponder",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "仔細考慮;衡量;回想",
+      "cefr": "B1"
+    },
+    {
+      "word": "preach",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "佈道;說教",
+      "cefr": "B1"
+    },
+    {
+      "word": "priest",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "牧師;神父",
+      "cefr": "B1"
+    },
+    {
+      "word": "pupil",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "學生",
+      "cefr": "B1"
+    },
+    {
+      "word": "refer",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "論及,談到;參考",
+      "cefr": "B1"
+    },
+    {
+      "word": "repeat",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "重複;重播;複寫;副本;",
+      "cefr": "B1"
+    },
+    {
+      "word": "revise",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "校訂;更改",
+      "cefr": "B1"
+    },
+    {
+      "word": "script",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "筆跡;(戲劇、廣播等的)腳本",
+      "cefr": "B1"
+    },
+    {
+      "word": "senior",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "資深人士;(大學)四年級生",
+      "cefr": "B1"
+    },
+    {
+      "word": "sermon",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "佈道;說教",
+      "cefr": "B1"
+    },
+    {
+      "word": "shaver",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "理髮師",
+      "cefr": "B1"
+    },
+    {
+      "word": "sketch",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "速寫,素描",
+      "cefr": "B1"
+    },
+    {
+      "word": "spell",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "拼字",
+      "cefr": "B1"
+    },
+    {
+      "word": "spine",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "脊柱;書脊;骨氣",
+      "cefr": "B1"
+    },
+    {
+      "word": "staple",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "U形釘;釘書針;日常必需品",
+      "cefr": "B1"
+    },
+    {
+      "word": "stroke",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "中風;打,擊;(寫字,繪畫的)一筆",
+      "cefr": "B1"
+    },
+    {
+      "word": "stump",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "殘幹;(鉛筆)頭;(煙)蒂",
+      "cefr": "B1"
+    },
+    {
+      "word": "tailor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "裁縫師",
+      "cefr": "B1"
+    },
+    {
+      "word": "theory",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "學說;論說",
+      "cefr": "B1"
+    },
+    {
+      "word": "tutor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "家庭教師",
+      "cefr": "B1"
+    },
+    {
+      "word": "typist",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "打字員",
+      "cefr": "B1"
+    },
+    {
+      "word": "visual",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "視力的;光學的",
+      "cefr": "B1"
+    },
+    {
+      "word": "vowel",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "母音字母",
+      "cefr": "B1"
+    }
+  ]
+}

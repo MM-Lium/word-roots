@@ -1,0 +1,373 @@
+{
+  "level": "C1",
+  "part": 4,
+  "totalParts": 11,
+  "title": "高級 C1 (Advanced) - 商業與工作",
+  "count": 52,
+  "words": [
+    {
+      "word": "administrate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "管理;支配",
+      "cefr": "C1"
+    },
+    {
+      "word": "administration",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "管理;經營;管理部門",
+      "cefr": "C1"
+    },
+    {
+      "word": "administrative",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "管理的;行政的",
+      "cefr": "C1"
+    },
+    {
+      "word": "administrator",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "管理人;行政官員",
+      "cefr": "C1"
+    },
+    {
+      "word": "advertiser",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "刊登廣告者;廣告客戶",
+      "cefr": "C1"
+    },
+    {
+      "word": "agricultural",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "農業的",
+      "cefr": "C1"
+    },
+    {
+      "word": "agriculture",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "農業",
+      "cefr": "C1"
+    },
+    {
+      "word": "arrangement",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "安排;準備工作",
+      "cefr": "C1"
+    },
+    {
+      "word": "artificial",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "人工的",
+      "cefr": "C1"
+    },
+    {
+      "word": "assignment",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(分派的)任務;工作;(課外)作業",
+      "cefr": "C1"
+    },
+    {
+      "word": "collective",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "集體農場(或企業);集團",
+      "cefr": "C1"
+    },
+    {
+      "word": "commercial",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "商業廣告",
+      "cefr": "C1"
+    },
+    {
+      "word": "competence",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "能力;勝任;稱職",
+      "cefr": "C1"
+    },
+    {
+      "word": "conference",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(正式)會議;討論會,協商會",
+      "cefr": "C1"
+    },
+    {
+      "word": "consultation",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "諮詢;商議",
+      "cefr": "C1"
+    },
+    {
+      "word": "contractor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "承包商;立契約者",
+      "cefr": "C1"
+    },
+    {
+      "word": "convention",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "會議,大會",
+      "cefr": "C1"
+    },
+    {
+      "word": "cooperative",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "合作社;合作商店",
+      "cefr": "C1"
+    },
+    {
+      "word": "corporation",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "股份(有限)公司",
+      "cefr": "C1"
+    },
+    {
+      "word": "deliberate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "仔細考慮;商議",
+      "cefr": "C1"
+    },
+    {
+      "word": "electrician",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "電工;電氣技師",
+      "cefr": "C1"
+    },
+    {
+      "word": "engineering",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "工程;工程學",
+      "cefr": "C1"
+    },
+    {
+      "word": "enterprise",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "企業,公司",
+      "cefr": "C1"
+    },
+    {
+      "word": "graduation",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "畢業典禮",
+      "cefr": "C1"
+    },
+    {
+      "word": "handicraft",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "手工藝;手工藝品",
+      "cefr": "C1"
+    },
+    {
+      "word": "headquarters",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "總部,總公司,總局",
+      "cefr": "C1"
+    },
+    {
+      "word": "hospitable",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "好客的;(氣候等)宜人的",
+      "cefr": "C1"
+    },
+    {
+      "word": "hospitality",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "好客;殷勤招待",
+      "cefr": "C1"
+    },
+    {
+      "word": "industrial",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "工業的,產業的",
+      "cefr": "C1"
+    },
+    {
+      "word": "industrialize",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使工業化",
+      "cefr": "C1"
+    },
+    {
+      "word": "journalism",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "新聞業;新聞學",
+      "cefr": "C1"
+    },
+    {
+      "word": "journalist",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "新聞工作者",
+      "cefr": "C1"
+    },
+    {
+      "word": "legislator",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "立法委員;國會議員",
+      "cefr": "C1"
+    },
+    {
+      "word": "management",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "管理;經營;處理",
+      "cefr": "C1"
+    },
+    {
+      "word": "manufacturer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "製造業者,廠商",
+      "cefr": "C1"
+    },
+    {
+      "word": "merchandise",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "商品;貨物",
+      "cefr": "C1"
+    },
+    {
+      "word": "negotiation",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "談判,協商",
+      "cefr": "C1"
+    },
+    {
+      "word": "occupation",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "工作,職業;佔領;佔用",
+      "cefr": "C1"
+    },
+    {
+      "word": "pocketbook",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "錢包;皮夾子;袖珍本",
+      "cefr": "C1"
+    },
+    {
+      "word": "politician",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "政客",
+      "cefr": "C1"
+    },
+    {
+      "word": "presidency",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "公司總裁(大學校長等)的職位",
+      "cefr": "C1"
+    },
+    {
+      "word": "profession",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "職業同行",
+      "cefr": "C1"
+    },
+    {
+      "word": "resignation",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "辭職;放棄",
+      "cefr": "C1"
+    },
+    {
+      "word": "subordinate",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "部下;下級職員",
+      "cefr": "C1"
+    },
+    {
+      "word": "supervision",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "管理;監督",
+      "cefr": "C1"
+    },
+    {
+      "word": "supervisor",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "管理人;指導者",
+      "cefr": "C1"
+    },
+    {
+      "word": "suspension",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "暫停;中止;停職",
+      "cefr": "C1"
+    },
+    {
+      "word": "technological",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "技術(學)的,工藝(學)的",
+      "cefr": "C1"
+    },
+    {
+      "word": "undergraduate",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大學生;大學肄業生",
+      "cefr": "C1"
+    },
+    {
+      "word": "unemployment",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "失業;失業狀態",
+      "cefr": "C1"
+    },
+    {
+      "word": "vocational",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "職業的",
+      "cefr": "C1"
+    },
+    {
+      "word": "worthwhile",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "值得花費時間(或金錢)的",
+      "cefr": "C1"
+    }
+  ]
+}

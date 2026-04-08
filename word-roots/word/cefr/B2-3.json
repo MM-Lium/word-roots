@@ -1,0 +1,324 @@
+{
+  "level": "B2",
+  "part": 3,
+  "totalParts": 11,
+  "title": "中高級 B2 (Upper-Intermediate) - 交通與旅遊",
+  "count": 45,
+  "words": [
+    {
+      "word": "aircraft",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "航空器;飛機",
+      "cefr": "B2"
+    },
+    {
+      "word": "airplane",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "飛機",
+      "cefr": "B2"
+    },
+    {
+      "word": "airport",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "飛機場",
+      "cefr": "B2"
+    },
+    {
+      "word": "ambulance",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "救護車",
+      "cefr": "B2"
+    },
+    {
+      "word": "aviation",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "航空;飛行",
+      "cefr": "B2"
+    },
+    {
+      "word": "barrier",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "障礙物;路障",
+      "cefr": "B2"
+    },
+    {
+      "word": "bicycle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "腳踏車",
+      "cefr": "B2"
+    },
+    {
+      "word": "boulevard",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "林蔭大道;大馬路",
+      "cefr": "B2"
+    },
+    {
+      "word": "calorie",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "卡路里",
+      "cefr": "B2"
+    },
+    {
+      "word": "chariot",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(古代的)雙輪戰車",
+      "cefr": "B2"
+    },
+    {
+      "word": "checkbook",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "支票簿",
+      "cefr": "B2"
+    },
+    {
+      "word": "circuit",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "環道;一圈;巡迴路線;電路",
+      "cefr": "B2"
+    },
+    {
+      "word": "compact",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "連鏡小粉盒;小型轎車",
+      "cefr": "B2"
+    },
+    {
+      "word": "cruiser",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "巡洋艦;遊艇;警察巡邏車",
+      "cefr": "B2"
+    },
+    {
+      "word": "driveway",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "車道",
+      "cefr": "B2"
+    },
+    {
+      "word": "freeway",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "高速公路",
+      "cefr": "B2"
+    },
+    {
+      "word": "freight",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(船運的)貨物;運費",
+      "cefr": "B2"
+    },
+    {
+      "word": "highway",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "公路;幹道",
+      "cefr": "B2"
+    },
+    {
+      "word": "Internet",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "網際網路",
+      "cefr": "B2"
+    },
+    {
+      "word": "jaywalk",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "不守交通規則橫穿馬路",
+      "cefr": "B2"
+    },
+    {
+      "word": "journey",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "旅行",
+      "cefr": "B2"
+    },
+    {
+      "word": "limousine",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "大轎車",
+      "cefr": "B2"
+    },
+    {
+      "word": "lottery",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "獎券;彩票;抽籤;運氣",
+      "cefr": "B2"
+    },
+    {
+      "word": "maturity",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "成熟;完善;(支票等的)到期",
+      "cefr": "B2"
+    },
+    {
+      "word": "missile",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "飛彈,導彈",
+      "cefr": "B2"
+    },
+    {
+      "word": "navigate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "航行於;飛行於;操縱;導航",
+      "cefr": "B2"
+    },
+    {
+      "word": "outline",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "外形;輪廓",
+      "cefr": "B2"
+    },
+    {
+      "word": "overpass",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "天橋",
+      "cefr": "B2"
+    },
+    {
+      "word": "profile",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "側影;輪廓;人物簡介",
+      "cefr": "B2"
+    },
+    {
+      "word": "railroad",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "鐵路",
+      "cefr": "B2"
+    },
+    {
+      "word": "rotation",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "旋轉;自轉;輪流",
+      "cefr": "B2"
+    },
+    {
+      "word": "shuttle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(織機的)梭;短程運行的車輛",
+      "cefr": "B2"
+    },
+    {
+      "word": "sidewalk",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "路邊行人道",
+      "cefr": "B2"
+    },
+    {
+      "word": "spaceship",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "太空船",
+      "cefr": "B2"
+    },
+    {
+      "word": "steamer",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "汽船;蒸鍋;蒸籠",
+      "cefr": "B2"
+    },
+    {
+      "word": "suitcase",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小型旅行箱;手提箱",
+      "cefr": "B2"
+    },
+    {
+      "word": "taxicab",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "計程車",
+      "cefr": "B2"
+    },
+    {
+      "word": "tourism",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "旅遊,觀光",
+      "cefr": "B2"
+    },
+    {
+      "word": "tourist",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "旅遊者,觀光者",
+      "cefr": "B2"
+    },
+    {
+      "word": "traffic",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "交通",
+      "cefr": "B2"
+    },
+    {
+      "word": "transit",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "運輸;通過;公共交通系統;轉變",
+      "cefr": "B2"
+    },
+    {
+      "word": "transport",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "交通工具",
+      "cefr": "B2"
+    },
+    {
+      "word": "traveler",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "旅客;遊客",
+      "cefr": "B2"
+    },
+    {
+      "word": "vehicle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "車輛;飛行器;傳播媒介;工具",
+      "cefr": "B2"
+    },
+    {
+      "word": "website",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "網站",
+      "cefr": "B2"
+    }
+  ]
+}

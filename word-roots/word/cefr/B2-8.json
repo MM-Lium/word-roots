@@ -1,0 +1,730 @@
+{
+  "level": "B2",
+  "part": 8,
+  "totalParts": 11,
+  "title": "中高級 B2 (Upper-Intermediate) - 情感與溝通",
+  "count": 103,
+  "words": [
+    {
+      "word": "affection",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "愛慕;鍾愛",
+      "cefr": "B2"
+    },
+    {
+      "word": "ambiguity",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "意義不明確;模稜兩可的話",
+      "cefr": "B2"
+    },
+    {
+      "word": "amplify",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "放大(聲音等);擴大",
+      "cefr": "B2"
+    },
+    {
+      "word": "amusement",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "樂趣;消遣",
+      "cefr": "B2"
+    },
+    {
+      "word": "bombard",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "砲擊;不斷攻擊;連續提出問題",
+      "cefr": "B2"
+    },
+    {
+      "word": "bravery",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "勇敢,勇氣",
+      "cefr": "B2"
+    },
+    {
+      "word": "cherish",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "撫育;愛護",
+      "cefr": "B2"
+    },
+    {
+      "word": "chuckle",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "咯咯聲;輕笑聲",
+      "cefr": "B2"
+    },
+    {
+      "word": "clarity",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(思想、文體等的)清楚;明晰",
+      "cefr": "B2"
+    },
+    {
+      "word": "comedian",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "喜劇演員",
+      "cefr": "B2"
+    },
+    {
+      "word": "concert",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "音樂會,演奏會",
+      "cefr": "B2"
+    },
+    {
+      "word": "consonant",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "子音",
+      "cefr": "B2"
+    },
+    {
+      "word": "converse",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "交談,談話",
+      "cefr": "B2"
+    },
+    {
+      "word": "convince",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使信服;說服",
+      "cefr": "B2"
+    },
+    {
+      "word": "courage",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "勇氣",
+      "cefr": "B2"
+    },
+    {
+      "word": "creative",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "有創造力(或想像力)的",
+      "cefr": "B2"
+    },
+    {
+      "word": "delight",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "欣喜,愉快",
+      "cefr": "B2"
+    },
+    {
+      "word": "dialogue",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "對話;交談",
+      "cefr": "B2"
+    },
+    {
+      "word": "dislike",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "不喜愛,厭惡",
+      "cefr": "B2"
+    },
+    {
+      "word": "dreadful",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "可怕的",
+      "cefr": "B2"
+    },
+    {
+      "word": "ecstasy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "狂喜;入迷",
+      "cefr": "B2"
+    },
+    {
+      "word": "English",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "英語",
+      "cefr": "B2"
+    },
+    {
+      "word": "enjoyable",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "快樂的;有樂趣的",
+      "cefr": "B2"
+    },
+    {
+      "word": "enjoyment",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "樂趣,享受",
+      "cefr": "B2"
+    },
+    {
+      "word": "exclaim",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "呼喊;驚叫",
+      "cefr": "B2"
+    },
+    {
+      "word": "exhaust",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "排出;排氣",
+      "cefr": "B2"
+    },
+    {
+      "word": "fantasy",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "空想;幻想",
+      "cefr": "B2"
+    },
+    {
+      "word": "fearful",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "可怕的;害怕的",
+      "cefr": "B2"
+    },
+    {
+      "word": "feelings",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "感覺,觸覺",
+      "cefr": "B2"
+    },
+    {
+      "word": "fiction",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小說",
+      "cefr": "B2"
+    },
+    {
+      "word": "folklore",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "民間傳說",
+      "cefr": "B2"
+    },
+    {
+      "word": "frantic",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "(因喜悅或憤怒等)發狂似的",
+      "cefr": "B2"
+    },
+    {
+      "word": "furious",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "狂怒的",
+      "cefr": "B2"
+    },
+    {
+      "word": "grateful",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "感謝的,感激的",
+      "cefr": "B2"
+    },
+    {
+      "word": "gratitude",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "感激之情,感恩,感謝",
+      "cefr": "B2"
+    },
+    {
+      "word": "greeting",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "問候,迎接,招呼;賀詞;問候語",
+      "cefr": "B2"
+    },
+    {
+      "word": "hateful",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "可恨的;充滿憎恨的",
+      "cefr": "B2"
+    },
+    {
+      "word": "homesick",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "想家的",
+      "cefr": "B2"
+    },
+    {
+      "word": "horrible",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "可怕的",
+      "cefr": "B2"
+    },
+    {
+      "word": "humidity",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "濕氣,濕度",
+      "cefr": "B2"
+    },
+    {
+      "word": "illusion",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "錯覺;假象;幻想",
+      "cefr": "B2"
+    },
+    {
+      "word": "imaginary",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "虛構的;幻想的",
+      "cefr": "B2"
+    },
+    {
+      "word": "imagine",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "想像",
+      "cefr": "B2"
+    },
+    {
+      "word": "imposing",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "壯觀的;氣勢宏偉的;莊嚴的",
+      "cefr": "B2"
+    },
+    {
+      "word": "indignant",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "憤怒的;憤慨的",
+      "cefr": "B2"
+    },
+    {
+      "word": "inquire",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "訊問;查問;調查",
+      "cefr": "B2"
+    },
+    {
+      "word": "irritable",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "易怒的;急躁的",
+      "cefr": "B2"
+    },
+    {
+      "word": "irritate",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使惱怒;使煩躁",
+      "cefr": "B2"
+    },
+    {
+      "word": "laughter",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "笑;笑聲",
+      "cefr": "B2"
+    },
+    {
+      "word": "legendary",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "傳說的;傳奇的",
+      "cefr": "B2"
+    },
+    {
+      "word": "Mandarin",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "中國的官話(北京話)",
+      "cefr": "B2"
+    },
+    {
+      "word": "message",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "消息;音信",
+      "cefr": "B2"
+    },
+    {
+      "word": "mischief",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "頑皮,淘氣",
+      "cefr": "B2"
+    },
+    {
+      "word": "miserable",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "悽慘的;悲哀的",
+      "cefr": "B2"
+    },
+    {
+      "word": "moisture",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "濕氣",
+      "cefr": "B2"
+    },
+    {
+      "word": "momentum",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "動量;氣勢;動力",
+      "cefr": "B2"
+    },
+    {
+      "word": "musical",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "歌舞劇;音樂片",
+      "cefr": "B2"
+    },
+    {
+      "word": "musician",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "音樂家",
+      "cefr": "B2"
+    },
+    {
+      "word": "mythology",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(總稱)神話",
+      "cefr": "B2"
+    },
+    {
+      "word": "narrator",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "解說員;敘述者",
+      "cefr": "B2"
+    },
+    {
+      "word": "negative",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "否定語;負數;陰電;底片",
+      "cefr": "B2"
+    },
+    {
+      "word": "nonsense",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "胡說;胡鬧",
+      "cefr": "B2"
+    },
+    {
+      "word": "novelist",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小說家",
+      "cefr": "B2"
+    },
+    {
+      "word": "offense",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "進攻,攻擊;冒犯;觸怒",
+      "cefr": "B2"
+    },
+    {
+      "word": "optimism",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "樂觀;樂觀主義",
+      "cefr": "B2"
+    },
+    {
+      "word": "orchestra",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "管弦樂隊",
+      "cefr": "B2"
+    },
+    {
+      "word": "paradise",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "樂園",
+      "cefr": "B2"
+    },
+    {
+      "word": "passion",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "熱情,激情;酷愛",
+      "cefr": "B2"
+    },
+    {
+      "word": "pastime",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "消遣;娛樂",
+      "cefr": "B2"
+    },
+    {
+      "word": "patriot",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "愛國者",
+      "cefr": "B2"
+    },
+    {
+      "word": "patriotic",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "愛國的",
+      "cefr": "B2"
+    },
+    {
+      "word": "perceive",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "察覺;感知;意識到",
+      "cefr": "B2"
+    },
+    {
+      "word": "persuade",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "說服,勸服",
+      "cefr": "B2"
+    },
+    {
+      "word": "playful",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "愛玩耍的;開玩笑的",
+      "cefr": "B2"
+    },
+    {
+      "word": "pronounce",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "發...音",
+      "cefr": "B2"
+    },
+    {
+      "word": "proverb",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "諺語,俗語",
+      "cefr": "B2"
+    },
+    {
+      "word": "provoke",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "對...挑釁;煽動;激怒",
+      "cefr": "B2"
+    },
+    {
+      "word": "question",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "問題",
+      "cefr": "B2"
+    },
+    {
+      "word": "reaction",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "反應,感應",
+      "cefr": "B2"
+    },
+    {
+      "word": "recorder",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "錄影機;錄音機",
+      "cefr": "B2"
+    },
+    {
+      "word": "rejoice",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "欣喜;慶祝",
+      "cefr": "B2"
+    },
+    {
+      "word": "respond",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "作答,回答",
+      "cefr": "B2"
+    },
+    {
+      "word": "response",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "回答;答覆",
+      "cefr": "B2"
+    },
+    {
+      "word": "ridicule",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "嘲笑;揶揄;奚落",
+      "cefr": "B2"
+    },
+    {
+      "word": "sensation",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "感覺;知覺;轟動",
+      "cefr": "B2"
+    },
+    {
+      "word": "sensitive",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "敏感的;易受傷害的",
+      "cefr": "B2"
+    },
+    {
+      "word": "sentiment",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "感情;情緒;感傷",
+      "cefr": "B2"
+    },
+    {
+      "word": "solution",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "解答;溶劑",
+      "cefr": "B2"
+    },
+    {
+      "word": "statement",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "陳述,說明;結單",
+      "cefr": "B2"
+    },
+    {
+      "word": "strength",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "力量,力氣",
+      "cefr": "B2"
+    },
+    {
+      "word": "suppose",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "猜想,以為;假定",
+      "cefr": "B2"
+    },
+    {
+      "word": "syllable",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "音節",
+      "cefr": "B2"
+    },
+    {
+      "word": "symphony",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "交響樂,交響曲",
+      "cefr": "B2"
+    },
+    {
+      "word": "talkative",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "好說話的",
+      "cefr": "B2"
+    },
+    {
+      "word": "telephone",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "電話",
+      "cefr": "B2"
+    },
+    {
+      "word": "terrible",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "可怕的",
+      "cefr": "B2"
+    },
+    {
+      "word": "terrific",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "非常好的;可怕的",
+      "cefr": "B2"
+    },
+    {
+      "word": "terrify",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "使害怕;使恐怖",
+      "cefr": "B2"
+    },
+    {
+      "word": "thankful",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "感謝的,感激的",
+      "cefr": "B2"
+    },
+    {
+      "word": "thought",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "思想",
+      "cefr": "B2"
+    },
+    {
+      "word": "thriller",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "恐怖小說(或電影等)",
+      "cefr": "B2"
+    },
+    {
+      "word": "torrent",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "洪流;(話語的)連發;(感情的)狂潮",
+      "cefr": "B2"
+    },
+    {
+      "word": "willing",
+      "pos": "adj",
+      "posZh": "形容詞",
+      "definition": "願意的,樂意的",
+      "cefr": "B2"
+    }
+  ]
+}

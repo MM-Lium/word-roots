@@ -1,0 +1,79 @@
+{
+  "level": "A1",
+  "part": 9,
+  "totalParts": 11,
+  "title": "入門級 A1 (Beginner) - 生活與物品",
+  "count": 10,
+  "words": [
+    {
+      "word": "bed",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "床",
+      "cefr": "A1"
+    },
+    {
+      "word": "chair",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "椅子",
+      "cefr": "A1"
+    },
+    {
+      "word": "close",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "結束,終止;(金融)收盤價",
+      "cefr": "A1"
+    },
+    {
+      "word": "door",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "門",
+      "cefr": "A1"
+    },
+    {
+      "word": "house",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "房子",
+      "cefr": "A1"
+    },
+    {
+      "word": "light",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "光線;燈",
+      "cefr": "A1"
+    },
+    {
+      "word": "paper",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "紙張",
+      "cefr": "A1"
+    },
+    {
+      "word": "room",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "房間",
+      "cefr": "A1"
+    },
+    {
+      "word": "table",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "桌子;表,目錄",
+      "cefr": "A1"
+    },
+    {
+      "word": "wash",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "洗,洗滌;要洗的(洗好的)衣服",
+      "cefr": "A1"
+    }
+  ]
+}

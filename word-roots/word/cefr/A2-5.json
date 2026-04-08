@@ -1,0 +1,135 @@
+{
+  "level": "A2",
+  "part": 5,
+  "totalParts": 11,
+  "title": "基礎級 A2 (Elementary) - 學校與教育",
+  "count": 18,
+  "words": [
+    {
+      "word": "acid",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(化學)酸",
+      "cefr": "A2"
+    },
+    {
+      "word": "class",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "階級;班級;上課",
+      "cefr": "A2"
+    },
+    {
+      "word": "deed",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "契據;證書",
+      "cefr": "A2"
+    },
+    {
+      "word": "edit",
+      "pos": "v",
+      "posZh": "動詞",
+      "definition": "編輯;校訂",
+      "cefr": "A2"
+    },
+    {
+      "word": "exam",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "考試",
+      "cefr": "A2"
+    },
+    {
+      "word": "lead",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "指導;領先地位;線索,鉛筆心",
+      "cefr": "A2"
+    },
+    {
+      "word": "lesson",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "課;教訓",
+      "cefr": "A2"
+    },
+    {
+      "word": "letter",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "信;字母",
+      "cefr": "A2"
+    },
+    {
+      "word": "lord",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "(大寫)上帝,基督",
+      "cefr": "A2"
+    },
+    {
+      "word": "math",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "數學",
+      "cefr": "A2"
+    },
+    {
+      "word": "mock",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "嘲弄;笑柄;仿製品;模擬考",
+      "cefr": "A2"
+    },
+    {
+      "word": "note",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "筆記;音符;記錄;便條",
+      "cefr": "A2"
+    },
+    {
+      "word": "quiz",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "小考",
+      "cefr": "A2"
+    },
+    {
+      "word": "robe",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "長袍,浴衣,睡袍;學士服",
+      "cefr": "A2"
+    },
+    {
+      "word": "student",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "學生",
+      "cefr": "A2"
+    },
+    {
+      "word": "teacher",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "老師",
+      "cefr": "A2"
+    },
+    {
+      "word": "term",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "術語;學期",
+      "cefr": "A2"
+    },
+    {
+      "word": "test",
+      "pos": "n",
+      "posZh": "名詞",
+      "definition": "測驗;考試",
+      "cefr": "A2"
+    }
+  ]
+}
