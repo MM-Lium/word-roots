@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>字根字首探索器 | Word Root Explorer</title>
+  <title>Word Root Explorer</title>
   <meta name="description" content="輕鬆查詢英文字根字首，支援自訂匯入單字 JSON，自動分析並說明字根字首意義。" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -32,13 +32,27 @@
           <span class="logo-sub">Word Root Explorer</span>
         </div>
       </div>
-      <nav class="header-nav">
+      <!-- 手機版漢堡選單按鈕 -->
+      <button class="menu-toggle" id="menuToggle" aria-label="開啟選單" onclick="toggleMobileMenu()">
+        <span class="menu-bar"></span>
+        <span class="menu-bar"></span>
+        <span class="menu-bar"></span>
+      </button>
+      <nav class="header-nav" id="headerNav">
         <button class="nav-btn active" id="navSearch" onclick="showTab('search')">🔍 查詢</button>
         <button class="nav-btn" id="navImport" onclick="showTab('import')">📤 匯入</button>
         <button class="nav-btn" id="navBrowse" onclick="showTab('browse')">📚 字庫</button>
         <button class="nav-btn" id="navDB" onclick="showTab('database')">🗂 字根庫</button>
         <a href="cefr.html" class="nav-btn" style="text-decoration:none">🎓 CEFR 單字表</a>
       </nav>
+      <!-- 手機版下拉選單 -->
+      <div class="mobile-nav-dropdown" id="mobileNavDropdown">
+        <button class="nav-btn" onclick="showTab('search'); toggleMobileMenu();">🔍 查詢</button>
+        <button class="nav-btn" onclick="showTab('import'); toggleMobileMenu();">📤 匯入</button>
+        <button class="nav-btn" onclick="showTab('browse'); toggleMobileMenu();">📚 字庫</button>
+        <button class="nav-btn" onclick="showTab('database'); toggleMobileMenu();">🗂 字根庫</button>
+        <a href="cefr.html" class="nav-btn" style="text-decoration:none" onclick="toggleMobileMenu()">🎓 CEFR 單字表</a>
+      </div>
     </div>
   </header>
 
@@ -253,4 +267,22 @@
   <script src="data/analyzer.js"></script>
   <script src="app.js?v=2"></script>
 </body>
+<script>
+// 手機版選單開關
+function toggleMobileMenu() {
+  const dropdown = document.getElementById('mobileNavDropdown');
+  dropdown.classList.toggle('open');
+  document.body.classList.toggle('mobile-menu-open');
+}
+// 點擊外部自動關閉
+document.addEventListener('click', function(e) {
+  const dropdown = document.getElementById('mobileNavDropdown');
+  const toggle = document.getElementById('menuToggle');
+  if (!dropdown || !toggle) return;
+  if (!dropdown.contains(e.target) && !toggle.contains(e.target)) {
+    dropdown.classList.remove('open');
+    document.body.classList.remove('mobile-menu-open');
+  }
+});
+</script>
 </html>

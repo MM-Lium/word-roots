@@ -32,7 +32,7 @@
     @media (max-width: 900px) {
       .cefr-layout { grid-template-columns: 1fr; }
       .cefr-sidebar { display: none; }
-      .cefr-sidebar.open { display: block; }
+      .cefr-sidebar.open { display: block;z-index: 2; }
     }
 
     /* ── Sidebar ── */
@@ -680,11 +680,20 @@
   //  Level & Part Selection
   // ═══════════════════════════════════════════════
   async function selectLevel(lv, part) {
+
     currentLevel = lv;
     currentPart  = part;
     searchQuery  = '';
     updateSidebarActive(lv);
     document.getElementById('mobileLevelLabel').textContent = `${lv} — ${LEVEL_META[lv].name}`;
+
+    // 手機版自動收合 sidebar
+    if (window.innerWidth <= 900) {
+      const sidebar = document.getElementById('cefrSidebar');
+      if (sidebar && sidebar.classList.contains('open')) {
+        sidebar.classList.remove('open');
+      }
+    }
 
     const main = document.getElementById('cefrMain');
     main.innerHTML = `<div class="loading-spinner"><div class="spinner-ring"></div><span>載入 ${lv} 單字…</span></div>`;

@@ -1,3 +1,57 @@
+/* ===== 手機版漢堡選單與下拉選單 ===== */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 200;
+}
+.menu-bar {
+  width: 26px;
+  height: 3px;
+  background: var(--accent-primary);
+  margin: 3px 0;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+.mobile-nav-dropdown {
+  display: none;
+  position: absolute;
+  top: 60px;
+  right: 16px;
+  left: 16px;
+  background: var(--bg-card);
+  border: 1.5px solid var(--border-card);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  flex-direction: column;
+  padding: 12px 0;
+  z-index: 150;
+  animation: fadeInUp 0.3s;
+}
+.mobile-nav-dropdown.open {
+  display: flex;
+}
+
+@media (max-width: 640px) {
+  .header-nav {
+    display: none !important;
+  }
+  .menu-toggle {
+    display: flex;
+  }
+  .mobile-nav-dropdown {
+    display: none;
+  }
+  .mobile-nav-dropdown.open {
+    display: flex;
+  }
+}
 /* =============================================
    WORD ROOT EXPLORER — styles.css
    Premium Dark Theme with Purple Gradient
@@ -25,11 +79,11 @@
   --suffix-color:  #ff9500;
 
   --text-primary:  #000000;
-  --text-secondary: rgba(60, 60, 67, 0.7);
-  --text-muted:    rgba(60, 60, 67, 0.45);
+  --text-secondary: #444950; /* 原本rgba(60,60,67,0.7)，提升對比度 */
+  --text-muted:    #6c6c77;  /* 原本rgba(60,60,67,0.45)，提升對比度 */
 
-  --border-subtle: rgba(60, 60, 67, 0.08);
-  --border-card:   rgba(60, 60, 67, 0.12);
+  --border-subtle: #d1d5db; /* 提升對比度 */
+  --border-card:   #c3c7ce; /* 提升對比度 */
 
   --glass:         rgba(255, 255, 255, 0.7);
   --glass-border:  rgba(60, 60, 67, 0.08);
@@ -321,7 +375,7 @@ body {
   font-weight: 500;
   margin-top: 4px;
 }
-.result-word-actions { display: flex; flex-direction: column; align-items: flex-end; gap: 8px; }
+.result-word-actions { display: flex; gap: 8px; }
 .result-score-badge {
   padding: 6px 14px;
   border-radius: 20px;
@@ -1120,13 +1174,68 @@ body {
 @media (max-width: 640px) {
   .header-inner { padding: 0 16px; height: 60px; }
   .header-nav { gap: 2px; }
-  .nav-btn { padding: 6px 10px; font-size: 12px; }
+  .nav-btn { padding: 6px 10px; font-size: 13px !important; text-align: center; }
   .logo-sub { display: none; }
   .main-content { padding: 24px 16px 60px; }
   .analysis-grid { grid-template-columns: 1fr; }
   .browse-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
   .db-grid { grid-template-columns: 1fr; }
-  .search-btn { padding: 12px 16px; }
+  .search-btn { padding: 12px 16px; font-size: 15px; }
+
+  /* 字體最小13px，並同步放大相關級距 */
+  .logo-title { font-size: 15px !important; }
+  .search-tag-label,
+  .history-tag,
+  .import-divider,
+  .import-item-def,
+  .import-results-meta,
+  .related-words-sub,
+  .stat-label,
+  .stat-count,
+  .db-stat,
+  .db-card-origin,
+  .db-type-pill,
+  .browse-card-def,
+  .browse-chip,
+  .db-example,
+  .def-num,
+  .def-example,
+  .def-entry-pos,
+  .cambridge-link,
+  .card-type-badge,
+  .word-pos,
+  .pos-badge,
+  .btn-ghost,
+  .filter-btn,
+  .select-input,
+  .filter-input,
+  .legend-item,
+  .empty-sub,
+  .wli-num,
+  .wli-link,
+  .word-card-pos,
+  .word-card-num,
+  .word-card-link {
+    font-size: 13px !important;
+  }
+  .import-item-chip,
+  .db-type-pill,
+  .browse-chip,
+  .card-type-badge {
+    font-size: 13px !important;
+  }
+  .def-num,
+  .db-card-origin,
+  .import-item-def,
+  .related-word-via {
+    font-size: 13px !important;
+  }
+  .browse-card-def,
+  .db-card-origin,
+  .def-example {
+    font-size: 13px !important;
+  }
+  .btn-primary { font-size: 15px !important; }
 }
 
 /* ----- Shimmer Loading ----- */
