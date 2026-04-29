@@ -201,6 +201,45 @@ async function fetchDefinition(word) {
   }
 }
 
+// ─── AI API ──────────────────────────────
+async function fetchAICollocations(word) {
+  const apiKey = localStorage.getItem('GEMINI_API_KEY');
+  if (!apiKey) return null;
+  
+  const cacheKey = `ai_colloc_${word.toLowerCase()}`;
+  const cached = localStorage.getItem(cacheKey);
+  if (cached) {
+    try { return JSON.parse(cached); } catch(e){}
+  }
+
+  try {
+    const prompt = `Provide 3 common English collocations or patterns for the word '${word}'. Output strictly a JSON array of objects with keys: "pattern" (the grammatical pattern, e.g. "Determine + whether/if"), "meaning" (traditional Chinese meaning of the pattern), "example_en" (an English example sentence), and "example_zh" (traditional Chinese translation of the example). Do not include any other text or markdown formatting outside the JSON array.`;
+    
+    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        contents: [{ parts: [{ text: prompt }] }],
+        generationConfig: { temperature: 0.2 }
+      })
+    });
+    
+    if (!response.ok) return null;
+    const data = await response.json();
+    let text = data.candidates[0].content.parts[0].text;
+    text = text.replace(/```json/g, '').replace(/```/g, '').trim();
+    
+    const parsed = JSON.parse(text);
+    if (Array.isArray(parsed) && parsed.length > 0) {
+      localStorage.setItem(cacheKey, JSON.stringify(parsed));
+      return parsed;
+    }
+  } catch(e) {
+    console.error("AI Collocations Error:", e);
+  }
+  return null;
+}
+
 function renderDefinition(data, word) {
   const loading   = document.getElementById('definitionLoading');
   const entries   = document.getElementById('definitionEntries');
@@ -375,29 +414,16 @@ async function renderWordRelationships(word) {
   if (!word || word.length < 2) return;
 
   try {
-    const [synRes, antRes, bgaRes] = await Promise.all([
+    let html = '';
+    let hasData = false;
+
+    // 1. Fetch Synonyms and Antonyms from Datamuse (always available)
+    const [synRes, antRes] = await Promise.all([
       fetch(`https://api.datamuse.com/words?rel_syn=${word}&max=15`),
-      fetch(`https://api.datamuse.com/words?rel_ant=${word}&max=15`),
-      fetch(`https://api.datamuse.com/words?rel_bga=${word}&max=15`) // words that frequently follow
+      fetch(`https://api.datamuse.com/words?rel_ant=${word}&max=15`)
     ]);
-    
     const synData = await synRes.json();
     const antData = await antRes.json();
-    let colDataRaw = await bgaRes.json();
-    let colData = [];
-    
-    // Add phrase context for following words
-    if (colDataRaw.length > 0) {
-      colData = colDataRaw.map(i => ({ ...i, displayWord: `${word} ${i.word}` }));
-    } else {
-      // Fallback: If no following words, try preceding words (rel_bgb)
-      const bgbRes = await fetch(`https://api.datamuse.com/words?rel_bgb=${word}&max=15`);
-      colDataRaw = await bgbRes.json();
-      colData = colDataRaw.map(i => ({ ...i, displayWord: `${i.word} ${word}` }));
-    }
-
-    let hasData = false;
-    let html = '';
 
     const renderGroup = (title, items) => {
       if (!items || items.length === 0) return '';
@@ -416,7 +442,59 @@ async function renderWordRelationships(word) {
 
     html += renderGroup('同義字 (Synonyms)', synData);
     html += renderGroup('反義字 (Antonyms)', antData);
-    html += renderGroup('常見搭配詞 (Collocations)', colData);
+
+    // 2. Collocations - Check Local DB first, then AI, then Fallback
+    let aiKeyMsgHtml = '';
+    const hasApiKey = !!localStorage.getItem('GEMINI_API_KEY');
+    if (!hasApiKey) {
+        aiKeyMsgHtml = `<div style="font-size:12px; color:var(--text-muted); margin-top:8px;">💡 想要每個單字都有完美句型？前往 <button class="btn-ghost" style="padding:2px 4px; font-size:12px" onclick="openSettingsModal()">⚙️ 設定</button> 綁定免費 AI</div>`;
+    }
+
+    if (window.COLLOCATIONS_DB && window.COLLOCATIONS_DB[word]) {
+      const localGroups = window.COLLOCATIONS_DB[word];
+      hasData = true;
+      html += renderCollocationGroups(localGroups, "常見搭配詞與句型 (Collocations & Patterns)");
+    } else {
+      let aiData = await fetchAICollocations(word);
+      if (aiData) {
+        hasData = true;
+        html += renderCollocationGroups(aiData, "🤖 AI 搭配詞與句型 (AI Generated)");
+      } else {
+        // Fallback: Fetch basic collocations from Datamuse
+        const bgaRes = await fetch(`https://api.datamuse.com/words?rel_bga=${word}&max=15`);
+        let colDataRaw = await bgaRes.json();
+        let colData = [];
+        
+        if (colDataRaw.length > 0) {
+          colData = colDataRaw.map(i => ({ ...i, displayWord: `${word} ${i.word}` }));
+        } else {
+          const bgbRes = await fetch(`https://api.datamuse.com/words?rel_bgb=${word}&max=15`);
+          colDataRaw = await bgbRes.json();
+          colData = colDataRaw.map(i => ({ ...i, displayWord: `${i.word} ${word}` }));
+        }
+        html += renderGroup('常見搭配詞 (Collocations)', colData) + aiKeyMsgHtml;
+      }
+    }
+
+    function renderCollocationGroups(groups, title) {
+      let collHtml = `<div class="relationship-group"><div class="relationship-group-title">${title}</div><div class="collocation-list">`;
+      groups.forEach(g => {
+        collHtml += `
+          <div class="collocation-item">
+            <div class="collocation-header">
+              <span class="collocation-pattern">${g.pattern}</span>
+              <span class="collocation-meaning">${g.meaning}</span>
+            </div>
+            <div class="collocation-example">
+              <div class="collocation-ex-en">${g.example_en}</div>
+              <div class="collocation-ex-zh">${g.example_zh}</div>
+            </div>
+          </div>
+        `;
+      });
+      collHtml += `</div></div>`;
+      return collHtml;
+    }
 
     if (hasData) {
       container.innerHTML = html;

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,9 +8,12 @@
   <meta name="description" content="輕鬆查詢英文字根字首，支援自訂匯入單字 JSON，自動分析並說明字根字首意義。" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
   <!-- Header -->
   <header class="site-header">
@@ -17,12 +21,12 @@
       <div class="logo-group">
         <div class="logo-icon">
           <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect width="40" height="40" rx="12" fill="url(#logoGrad)"/>
+            <rect width="40" height="40" rx="12" fill="url(#logoGrad)" />
             <text x="8" y="28" font-size="20" fill="white" font-family="Inter" font-weight="800">Rr</text>
             <defs>
               <linearGradient id="logoGrad" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
-                <stop stop-color="#6C63FF"/>
-                <stop offset="1" stop-color="#A855F7"/>
+                <stop stop-color="#6C63FF" />
+                <stop offset="1" stop-color="#A855F7" />
               </linearGradient>
             </defs>
           </svg>
@@ -44,6 +48,7 @@
         <button class="nav-btn" id="navBrowse" onclick="showTab('browse')">📚 字庫</button>
         <button class="nav-btn" id="navDB" onclick="showTab('database')">🗂 字根庫</button>
         <a href="cefr.html" class="nav-btn" style="text-decoration:none">🎓 CEFR 單字表</a>
+        <button class="nav-btn" onclick="openSettingsModal()">⚙️ 設定</button>
       </nav>
       <!-- 手機版下拉選單 -->
       <div class="mobile-nav-dropdown" id="mobileNavDropdown">
@@ -52,117 +57,139 @@
         <button class="nav-btn" onclick="showTab('browse'); toggleMobileMenu();">📚 字庫</button>
         <button class="nav-btn" onclick="showTab('database'); toggleMobileMenu();">🗂 字根庫</button>
         <a href="cefr.html" class="nav-btn" style="text-decoration:none" onclick="toggleMobileMenu()">🎓 CEFR 單字表</a>
+        <button class="nav-btn" onclick="openSettingsModal(); toggleMobileMenu();">⚙️ 設定</button>
       </div>
     </div>
   </header>
+
+  <!-- Settings Modal -->
+  <div class="modal-overlay" id="settingsModal" style="display:none">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 style="margin:0">⚙️ 系統設定</h3>
+        <button class="btn-ghost" onclick="closeSettingsModal()" style="font-size:20px; padding:0 8px;">×</button>
+      </div>
+      <div class="modal-body" style="padding: 16px 0;">
+        <label style="display:block; font-size:14px; font-weight:600; margin-bottom:8px;">AI 搭配詞引擎預設功能</label>
+        <p style="font-size:13px; color:var(--text-secondary); margin-bottom:12px; line-height:1.5;">
+          為了提供「每一個單字都能顯示完美搭配片語與例句」的功能，我們串聯了 Google 的強大 Gemini 模型。請在此輸入您的 Gemini API Key。<br>
+          <a href="https://aistudio.google.com/app/apikey" target="_blank" style="color:var(--accent-primary)">點此免費申請
+            Gemini API Key</a>
+        </p>
+        <input type="password" id="geminiApiKeyInput" class="filter-input"
+          style="width:100%; border:1px solid var(--border-card);" placeholder="AIzaSy..." />
+      </div>
+      <div class="modal-footer"
+        style="display:flex; justify-content:flex-end; gap:8px; padding-top:16px; border-top:1px solid var(--border-subtle);">
+        <button class="btn-ghost" onclick="closeSettingsModal()">取消</button>
+        <button class="btn-primary" onclick="saveSettings()">儲存</button>
+      </div>
+    </div>
+  </div>
 
   <main class="main-content">
 
     <!-- ========== SEARCH TAB ========== -->
     <section class="tab-section active" id="tabSearch">
-      <div class="section-hero">
-        <h1 class="hero-title">探索英文單字的<span class="gradient-text">隱藏密碼</span></h1>
-        <p class="hero-sub">輸入任何英文單字，立即分析字根、字首、字尾及其意義</p>
-      </div>
+      <div class="search-layout">
+        <!-- Left Sidebar -->
+        <div class="search-sidebar">
+          <div class="section-hero">
+            <h1 class="hero-title">探索英文單字<br><span class="gradient-text"></span></h1>
+            <p class="hero-sub">輸入任意單字，分析字根字首與搭配詞</p>
+          </div>
 
-      <div class="search-container">
-        <div class="search-box">
-          <span class="search-icon">🔍</span>
-          <input
-            type="text"
-            id="searchInput"
-            class="search-input"
-            placeholder="輸入英文單字，例如：international..."
-            autocomplete="off"
-            spellcheck="false"
-          />
-          <button class="search-btn" id="searchBtn" onclick="performSearch()">分析</button>
-        </div>
-        <div class="search-tags">
-          <span class="search-tag-label">快速試試：</span>
-          <button class="quick-tag" onclick="quickSearch('transportation')">transportation</button>
-          <button class="quick-tag" onclick="quickSearch('autobiography')">autobiography</button>
-          <button class="quick-tag" onclick="quickSearch('microscope')">microscope</button>
-          <button class="quick-tag" onclick="quickSearch('democracy')">democracy</button>
-          <button class="quick-tag" onclick="quickSearch('impossible')">impossible</button>
-          <button class="quick-tag" onclick="quickSearch('transformation')">transformation</button>
-        </div>
-        <div class="search-history" id="searchHistoryContainer" style="display:none">
-          <span class="search-tag-label" style="color:var(--text-primary)">🕒 最近查詢：</span>
-          <div id="searchHistoryTags" style="display:inline-flex; flex-wrap:wrap; gap:8px;"></div>
-          <button class="btn-ghost" style="font-size:11px; padding:2px 6px; margin-left:8px" onclick="clearSearchHistory()">清除</button>
-        </div>
-      </div>
-
-      <!-- Result Area -->
-      <div class="result-area" id="resultArea" style="display:none">
-        <!-- Word Header -->
-        <div class="result-word-card">
-          <div class="result-word-top">
-            <div class="result-word-left">
-              <div class="result-word-title" id="resultWordTitle"></div>
-              <div class="result-word-translation" id="resultWordTranslation"></div>
-              <!-- POS Badges -->
-              <div class="pos-badges" id="posBadges"></div>
+          <div class="search-container">
+            <div class="search-box">
+              <span class="search-icon">🔍</span>
+              <input type="text" id="searchInput" class="search-input" placeholder="輸入英文單字，例如：international..."
+                autocomplete="off" spellcheck="false" />
+              <button class="search-btn" id="searchBtn" onclick="performSearch()">分析</button>
             </div>
-            <div class="result-word-actions">
-              <div class="result-score-badge" id="resultScoreBadge"></div>
-              <a class="cambridge-link" id="cambridgeLink" href="#" target="_blank" rel="noopener">
-                📖 Cambridge
-              </a>
+            <div class="search-history" id="searchHistoryContainer" style="display:none">
+              <span class="search-tag-label" style="color:var(--text-primary)">🕒 最近查詢：</span>
+              <div id="searchHistoryTags" style="display:inline-flex; flex-wrap:wrap; gap:8px;"></div>
+              <button class="btn-ghost" style="font-size:11px; padding:2px 6px; margin-left:8px"
+                onclick="clearSearchHistory()">清除</button>
             </div>
           </div>
-          <!-- Definition Area -->
-          <div class="word-definition-area" id="wordDefinitionArea" style="display:none">
-            <div class="definition-loading" id="definitionLoading">正在查詢定義...</div>
-            <div class="definition-entries" id="definitionEntries"></div>
-          </div>
-          <!-- Visual Breakdown -->
-          <div class="word-breakdown" id="wordBreakdown"></div>
-          <div class="breakdown-legend">
-            <span class="legend-item prefix">字首 Prefix</span>
-            <span class="legend-item root">字根 Root</span>
-            <span class="legend-item suffix">字尾 Suffix</span>
-          </div>
         </div>
 
-        <!-- Analysis Cards -->
-        <div class="analysis-grid" id="analysisGrid"></div>
+        <!-- Right Content -->
+        <div class="search-main-content">
+          <!-- Result Area -->
+          <div class="result-area" id="resultArea" style="display:none">
+            <!-- Word Header -->
+            <div class="result-word-card">
+              <div class="result-word-top">
+                <div class="result-word-left">
+                  <div class="result-word-title" id="resultWordTitle"></div>
+                  <div class="result-word-translation" id="resultWordTranslation"></div>
+                  <!-- POS Badges -->
+                  <div class="pos-badges" id="posBadges"></div>
+                </div>
+                <div class="result-word-actions">
+                  <div class="result-score-badge" id="resultScoreBadge"></div>
+                  <a class="cambridge-link" id="cambridgeLink" href="#" target="_blank" rel="noopener">
+                    📖 Cambridge
+                  </a>
+                </div>
+              </div>
+              <!-- Definition Area -->
+              <div class="word-definition-area" id="wordDefinitionArea" style="display:none">
+                <div class="definition-loading" id="definitionLoading">正在查詢定義...</div>
+                <div class="definition-entries" id="definitionEntries"></div>
+              </div>
+              <!-- Visual Breakdown -->
+              <div class="word-breakdown" id="wordBreakdown"></div>
+              <div class="breakdown-legend">
+                <span class="legend-item prefix">字首 Prefix</span>
+                <span class="legend-item root">字根 Root</span>
+                <span class="legend-item suffix">字尾 Suffix</span>
+              </div>
+            </div>
 
-        <!-- Word Relationships Section -->
-        <div class="word-relationships-section" id="wordRelationshipsSection" style="display:none">
-          <div class="related-words-header">
-            <h2 class="related-words-title">📖 同義、反義與搭配詞</h2>
-            <span class="related-words-sub">探索此單字的相似詞彙與常見搭配用法</span>
+            <!-- Analysis Cards -->
+            <div class="analysis-grid" id="analysisGrid"></div>
+
+            <!-- Word Relationships Section -->
+            <div class="word-relationships-section" id="wordRelationshipsSection" style="display:none">
+              <div class="related-words-header">
+                <h2 class="related-words-title">📖 同義、反義與搭配詞</h2>
+                <span class="related-words-sub">探索此單字的相似詞彙與常見搭配用法</span>
+              </div>
+              <div class="relationships-container" id="relationshipsContainer"></div>
+            </div>
+
+            <!-- Extended Words Section -->
+            <div class="related-words-section" id="extendedWordsSection" style="display:none">
+              <div class="related-words-header">
+                <h2 class="related-words-title">🌱 原字延伸字彙</h2>
+                <span class="related-words-sub">由這個單字加上字首或字尾延伸出的其他單字</span>
+              </div>
+              <div class="related-words-grid" id="extendedWordsGrid"></div>
+            </div>
+
+            <!-- Related Words Section -->
+            <div class="related-words-section" id="relatedWordsSection" style="display:none">
+              <div class="related-words-header">
+                <h2 class="related-words-title">🔗 相同字根延伸單字</h2>
+                <span class="related-words-sub">與此單字共享相同字根字首的相關單字</span>
+              </div>
+              <div class="related-words-grid" id="relatedWordsGrid"></div>
+            </div>
+
           </div>
-          <div class="relationships-container" id="relationshipsContainer"></div>
-        </div>
 
-        <!-- Related Words Section -->
-        <div class="related-words-section" id="relatedWordsSection" style="display:none">
-          <div class="related-words-header">
-            <h2 class="related-words-title">🔗 相同字根延伸單字</h2>
-            <span class="related-words-sub">與此單字共享相同字根字首的相關單字</span>
+          <!-- Empty State -->
+          <div class="empty-state" id="emptyState">
+            <div class="empty-icon">💡</div>
+            <div class="empty-title">開始你的字根之旅</div>
+            <div class="empty-sub">在左側搜尋框輸入單字，系統將自動分析並解釋其字根字首組成</div>
           </div>
-          <div class="related-words-grid" id="relatedWordsGrid"></div>
-        </div>
 
-        <!-- Extended Words Section -->
-        <div class="related-words-section" id="extendedWordsSection" style="display:none">
-          <div class="related-words-header">
-            <h2 class="related-words-title">🌱 原字延伸字彙</h2>
-            <span class="related-words-sub">由這個單字加上字首或字尾延伸出的其他單字</span>
-          </div>
-          <div class="related-words-grid" id="extendedWordsGrid"></div>
-        </div>
-      </div>
-
-      <!-- Empty State -->
-      <div class="empty-state" id="emptyState">
-        <div class="empty-icon">💡</div>
-        <div class="empty-title">開始你的字根之旅</div>
-        <div class="empty-sub">在上方搜尋框輸入單字，系統將自動分析並解釋其字根字首組成</div>
-      </div>
+        </div> <!-- End of search-main-content -->
+      </div> <!-- End of search-layout -->
     </section>
 
     <!-- ========== IMPORT TAB ========== -->
@@ -223,7 +250,8 @@
         <p class="hero-sub">已匯入並分析的所有單字</p>
       </div>
       <div class="browse-toolbar">
-        <input type="text" id="browseFilter" class="filter-input" placeholder="🔎 篩選單字..." oninput="filterBrowse(this.value)" />
+        <input type="text" id="browseFilter" class="filter-input" placeholder="🔎 篩選單字..."
+          oninput="filterBrowse(this.value)" />
         <select id="browseSort" class="select-input" onchange="sortBrowse(this.value)">
           <option value="alpha">按字母排序</option>
           <option value="score">按分析分數</option>
@@ -246,7 +274,8 @@
         <p class="hero-sub">收錄 200+ 英文字根、字首、字尾，含中文說明與例字</p>
       </div>
       <div class="db-toolbar">
-        <input type="text" id="dbSearch" class="filter-input" placeholder="🔎 搜尋字根字首..." oninput="filterDB(this.value)" />
+        <input type="text" id="dbSearch" class="filter-input" placeholder="🔎 搜尋字根字首..."
+          oninput="filterDB(this.value)" />
         <div class="db-filter-btns">
           <button class="filter-btn active" data-filter="all" onclick="setDBFilter('all', this)">全部</button>
           <button class="filter-btn prefix" data-filter="prefix" onclick="setDBFilter('prefix', this)">字首</button>
@@ -265,24 +294,45 @@
 
   <script src="data/roots.js"></script>
   <script src="data/analyzer.js"></script>
+  <script src="data/collocations.js"></script>
   <script src="app.js?v=2"></script>
 </body>
 <script>
-// 手機版選單開關
-function toggleMobileMenu() {
-  const dropdown = document.getElementById('mobileNavDropdown');
-  dropdown.classList.toggle('open');
-  document.body.classList.toggle('mobile-menu-open');
-}
-// 點擊外部自動關閉
-document.addEventListener('click', function(e) {
-  const dropdown = document.getElementById('mobileNavDropdown');
-  const toggle = document.getElementById('menuToggle');
-  if (!dropdown || !toggle) return;
-  if (!dropdown.contains(e.target) && !toggle.contains(e.target)) {
-    dropdown.classList.remove('open');
-    document.body.classList.remove('mobile-menu-open');
+  // 手機版選單開關
+  function toggleMobileMenu() {
+    const dropdown = document.getElementById('mobileNavDropdown');
+    dropdown.classList.toggle('open');
+    document.body.classList.toggle('mobile-menu-open');
   }
-});
+  // 點擊外部自動關閉
+  document.addEventListener('click', function (e) {
+    const dropdown = document.getElementById('mobileNavDropdown');
+    const toggle = document.getElementById('menuToggle');
+    if (!dropdown || !toggle) return;
+    if (!dropdown.contains(e.target) && !toggle.contains(e.target)) {
+      dropdown.classList.remove('open');
+      document.body.classList.remove('mobile-menu-open');
+    }
+  });
+
+  // Settings Modal Logic
+  function openSettingsModal() {
+    const key = localStorage.getItem('GEMINI_API_KEY') || '';
+    document.getElementById('geminiApiKeyInput').value = key;
+    document.getElementById('settingsModal').style.display = 'flex';
+  }
+  function closeSettingsModal() {
+    document.getElementById('settingsModal').style.display = 'none';
+  }
+  function saveSettings() {
+    const key = document.getElementById('geminiApiKeyInput').value.trim();
+    if (key) {
+      localStorage.setItem('GEMINI_API_KEY', key);
+    } else {
+      localStorage.removeItem('GEMINI_API_KEY');
+    }
+    closeSettingsModal();
+  }
 </script>
+
 </html>
