@@ -606,6 +606,45 @@ async function handleLookup() {
 }
 
 // ── Toast ──────────────────────────────────────────────────
+// ── Export / Import ───────────────────────────────────────────
+function exportData() {
+  const payload = {
+    version: 1,
+    exportedAt: new Date().toISOString(),
+    holdings: JSON.parse(localStorage.getItem('portfolio_holdings_v2') || '[]'),
+    snapshots: JSON.parse(localStorage.getItem(SNAP_KEY) || '[]'),
+  };
+  const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `portfolio_${new Date().toISOString().slice(0,10)}.json`;
+  a.click();
+  URL.revokeObjectURL(url);
+  showToast('資料已匹出 ✓', 'success');
+}
+
+function importData(file) {
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    try {
+      const payload = JSON.parse(e.target.result);
+      if (!payload.holdings || !Array.isArray(payload.holdings)) throw new Error('invalid');
+      localStorage.setItem('portfolio_holdings_v2', JSON.stringify(payload.holdings));
+      if (payload.snapshots) localStorage.setItem(SNAP_KEY, JSON.stringify(payload.snapshots));
+      loadHoldings();
+      renderHoldings();
+      renderChart();
+      showToast(`已匯入 ${payload.holdings.length} 筆持股 ✓`, 'success');
+      if (STATE.holdings.length > 0) setTimeout(refreshAllPrices, 300);
+    } catch {
+      showToast('檔案格式錯誤，請選擇正確的 JSON 匹出檔', 'error');
+    }
+  };
+  reader.readAsText(file);
+}
+
 function showToast(msg, type = 'info') {
   const container = document.getElementById('toast-container');
   const toast = document.createElement('div');
@@ -950,6 +989,12 @@ function init() {
   loadHoldings();
   fetchUsdRate();
   renderHoldings();
+
+  document.getElementById('export-btn').addEventListener('click', exportData);
+  document.getElementById('import-file').addEventListener('change', e => {
+    importData(e.target.files[0]);
+    e.target.value = ''; // reset so same file can be re-imported
+  });
 
   // Header
   document.getElementById('add-stock-btn').addEventListener('click', () => openModal());
