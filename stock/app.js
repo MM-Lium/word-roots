@@ -218,28 +218,62 @@ async function fetchUSPrice(symbol) {
 async function fetchTWPrice(symbol) {
   const code = symbol.replace(/\.TW$/i, '');
 
-  // Try TWSE MIS (real-time, unofficial)
-  try {
-    const url = `https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_${code}.tw&json=1&delay=0`;
-    const target = encodeURIComponent(url);
-    const res = await fetch(`https://api.allorigins.win/get?url=${target}`, { signal: AbortSignal.timeout(8000) });
-    const json = await res.json();
-    const data = JSON.parse(json.contents);
-    const item = data?.msgArray?.[0];
-    if (item) {
-      const price = parseFloat(item.z || item.y) || 0;
-      const prev  = parseFloat(item.y) || price;
-      const change = price - prev;
-      const changePct = prev ? (change / prev) * 100 : 0;
-      const name = item.n || code;
-      if (price > 0) return { price, change, changePct, name };
+  // Helper: fetch TWSE/TPEx MIS via proxy
+  async function tryMIS(exCh, proxy) {
+    const url = `https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=${exCh}&json=1&delay=0`;
+    let res;
+    if (proxy === 'allorigins') {
+      res = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(url)}`, { signal: AbortSignal.timeout(8000) });
+      const json = await res.json();
+      return JSON.parse(json.contents);
+    } else {
+      res = await fetch(`https://corsproxy.io/?${encodeURIComponent(url)}`, { signal: AbortSignal.timeout(8000) });
+      return await res.json();
     }
+  }
+
+  function parseMIS(data) {
+    const item = data?.msgArray?.[0];
+    if (!item) return null;
+    const price = parseFloat(item.z || item.y) || 0;
+    const prev  = parseFloat(item.y) || price;
+    const change = price - prev;
+    const changePct = prev ? (change / prev) * 100 : 0;
+    if (price > 0) return { price, change, changePct, name: item.n || code };
+    return null;
+  }
+
+  // 1. Try TWSE (上市) via allorigins
+  try {
+    const data = await tryMIS(`tse_${code}.tw`, 'allorigins');
+    const result = parseMIS(data);
+    if (result) return result;
   } catch {}
 
-  // Fallback: TWSE OpenAPI 盤後 (previous day)
+  // 2. Try TPEx (上櫃) via allorigins
+  try {
+    const data = await tryMIS(`otc_${code}.tw`, 'allorigins');
+    const result = parseMIS(data);
+    if (result) return result;
+  } catch {}
+
+  // 3. Try TWSE via corsproxy.io
+  try {
+    const data = await tryMIS(`tse_${code}.tw`, 'corsproxy');
+    const result = parseMIS(data);
+    if (result) return result;
+  } catch {}
+
+  // 4. Try TPEx via corsproxy.io
+  try {
+    const data = await tryMIS(`otc_${code}.tw`, 'corsproxy');
+    const result = parseMIS(data);
+    if (result) return result;
+  } catch {}
+
+  // 5. Fallback: TWSE OpenAPI 盤後
   try {
     const today = new Date();
-    // Try last few days for weekend/holiday fallback
     for (let d = 0; d < 5; d++) {
       const dt = new Date(today); dt.setDate(dt.getDate() - d);
       const dateStr = `${dt.getFullYear()}${String(dt.getMonth()+1).padStart(2,'0')}${String(dt.getDate()).padStart(2,'0')}`;
@@ -249,12 +283,33 @@ async function fetchTWPrice(symbol) {
       const rows = data?.data;
       if (rows && rows.length > 0) {
         const last = rows[rows.length - 1];
-        const price = parseFloat(last[6].replace(/,/g, '')) || 0;
-        const prev  = parseFloat(last[7].replace(/,/g, '')) || 0;
-        const change = prev; // col[7] is the change itself
-        const changePct = price ? (prev / (price - prev)) * 100 : 0;
-        const name = data.title?.match(/(\S+)\s+個股日成交/) ? code : (data.title || code);
-        if (price > 0) return { price, change: prev, changePct, name: code };
+        const price  = parseFloat(last[6].replace(/,/g, '')) || 0;
+        const change = parseFloat(last[7].replace(/,/g, '')) || 0;
+        const changePct = price ? (change / (price - change)) * 100 : 0;
+        if (price > 0) return { price, change, changePct, name: code };
+      }
+    }
+  } catch {}
+
+  // 6. Fallback: TPEx OpenAPI 盤後
+  try {
+    const today = new Date();
+    for (let d = 0; d < 5; d++) {
+      const dt = new Date(today); dt.setDate(dt.getDate() - d);
+      const yy = dt.getFullYear() - 1911;
+      const mm = String(dt.getMonth()+1).padStart(2,'0');
+      const dd = String(dt.getDate()).padStart(2,'0');
+      const dateStr = `${yy}/${mm}/${dd}`;
+      const url = `https://www.tpex.org.tw/web/stock/aftertrading/daily_trading_info/st43_result.php?l=zh-tw&d=${dateStr}&s=${code}`;
+      const res = await fetch(url, { signal: AbortSignal.timeout(8000) });
+      const data = await res.json();
+      const rows = data?.aaData;
+      if (rows && rows.length > 0) {
+        const last = rows[rows.length - 1];
+        const price  = parseFloat(last[2].replace(/,/g, '')) || 0;
+        const change = parseFloat(last[3].replace(/,/g, '')) || 0;
+        const changePct = price ? (change / (price - change)) * 100 : 0;
+        if (price > 0) return { price, change, changePct, name: code };
       }
     }
   } catch {}
