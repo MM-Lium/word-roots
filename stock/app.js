@@ -375,6 +375,7 @@ function setLastUpdated(text) {
 function updateSummary() {
   const rate = STATE.usdRate || 32;
   let totalValue = 0, totalCost = 0;
+  let usValue = 0, twValue = 0, usCost = 0, twCost = 0;
 
   STATE.holdings.forEach(h => {
     if (!h.price) return;
@@ -383,6 +384,8 @@ function updateSummary() {
     const cost = h.cost  * h.shares * multiplier;
     totalValue += val;
     totalCost  += cost;
+    if (h.market === 'us') { usValue += val; usCost += cost; }
+    else                   { twValue += val; twCost += cost; }
   });
 
   const pnl = totalValue - totalCost;
@@ -390,6 +393,19 @@ function updateSummary() {
 
   setText('total-value', totalValue ? formatTWD(totalValue) : '--');
   setText('total-cost',  totalCost  ? formatTWD(totalCost)  : '--');
+
+  // Breakdown lines
+  const mkBreakdown = (us, tw) => {
+    if (!us && !tw) return '';
+    const parts = [];
+    if (us) parts.push(`🇺🇸 ${formatTWD(us)}`);
+    if (tw) parts.push(`🇹🇼 ${formatTWD(tw)}`);
+    return parts.join('&nbsp;&nbsp;');
+  };
+  const vbEl = document.getElementById('value-breakdown');
+  const cbEl = document.getElementById('cost-breakdown');
+  if (vbEl) vbEl.innerHTML = mkBreakdown(usValue, twValue);
+  if (cbEl) cbEl.innerHTML = mkBreakdown(usCost, twCost);
 
   const pnlEl = document.getElementById('total-pnl');
   const pnlPctEl = document.getElementById('total-pnl-pct');

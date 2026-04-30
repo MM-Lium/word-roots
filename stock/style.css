@@ -255,6 +255,12 @@ body {
   color: var(--text-muted);
   margin-top: 4px;
 }
+.summary-card__breakdown {
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  margin-top: 6px;
+  line-height: 1.6;
+}
 
 .summary-card__value.positive { color: var(--green); }
 .summary-card__value.negative { color: var(--red); }
