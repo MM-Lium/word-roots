@@ -1526,15 +1526,20 @@ function init() {
     }, 500);
   }
 
-  // On load: pull from cloud first, then refresh prices
+  // On load: pull from cloud first, then refresh prices, then push clean data back
   const syncCfg = getSyncConfig();
   if (syncCfg?.apiKey && syncCfg?.binId) {
-    syncPull().then(pulled => {
+    syncPull().then(async pulled => {
       if (pulled) {
         loadHoldings();
         renderHoldings();
         renderChart();
-        if (STATE.holdings.length > 0) setTimeout(refreshAllPrices, 400);
+        if (STATE.holdings.length > 0) {
+          await new Promise(r => setTimeout(r, 400));
+          await refreshAllPrices();
+          // Push clean data (no live prices) back to bin, overwriting any stale prices
+          syncPush();
+        }
       }
     });
   }
