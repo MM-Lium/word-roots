@@ -220,7 +220,8 @@ async function fetchTWPrice(symbol) {
 
   // Helper: fetch TWSE/TPEx MIS via proxy
   async function tryMIS(exCh, proxy) {
-    const url = `https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=${exCh}&json=1&delay=0`;
+    const bust = Date.now();
+    const url = `https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=${exCh}&json=1&delay=0&_=${bust}`;
     let res;
     if (proxy === 'allorigins') {
       res = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(url)}`, { signal: AbortSignal.timeout(8000) });
