@@ -394,6 +394,10 @@ function rowPnl(h, rate) {
 }
 
 function buildRow(h, rate) {
+  const wrapper = document.createElement('div');
+  wrapper.className = 'row-swipe-wrapper';
+  wrapper.dataset.id = h.id;
+
   const row = document.createElement('div');
   row.className = 'holding-row';
   row.dataset.id = h.id;
@@ -407,7 +411,6 @@ function buildRow(h, rate) {
 
   const currency = h.market === 'us' ? 'USD' : 'TWD';
 
-  // Session badge (盤前 / 盤後 / 收盤) — only shown for US stocks outside regular hours
   let sessionBadge = '';
   if (h.market === 'us' && h.marketState) {
     const badges = {
@@ -422,14 +425,15 @@ function buildRow(h, rate) {
   row.innerHTML = `
     <div class="row__name">
       <span class="row__symbol">${esc(h.symbol)}</span>
-      <span class="row__company">${esc(h.name || '')}</span>
       <span class="row__badge row__badge--${h.market}">${h.market === 'us' ? '🇺🇸 US' : '🇹🇼 TW'}</span>
     </div>
-    <div class="row__cell" data-price>
-      ${priceStr}
-      <div style="font-size:0.7rem;color:var(--text-muted);display:flex;align-items:center;gap:4px;">${currency}${sessionBadge}</div>
+    <div class="row__cell row__price-change" data-price>
+      <div class="price-line">
+        ${priceStr}
+        <span style="font-size:0.68rem;color:var(--text-muted);margin-left:3px;">${currency}${sessionBadge}</span>
+      </div>
+      <div class="change-line">${changeStr}</div>
     </div>
-    <div class="row__change">${changeStr}</div>
     <div class="row__cell shares-cell">${fmt(h.shares)}</div>
     <div class="row__cell cost-cell row__cell--muted">${formatPrice(h.cost, h.market)}</div>
     <div class="row__cell value-cell">${value != null ? formatTWD(value) : '--'}</div>
@@ -440,24 +444,85 @@ function buildRow(h, rate) {
           <span class="pnl-pct">${(pnlPct >= 0 ? '+' : '') + pnlPct.toFixed(2)}%</span>
         </div>` : '<span style="color:var(--text-muted)">--</span>'}
     </div>
-    <div class="row__actions">
-      <button class="action-btn" data-action="edit" data-id="${h.id}" title="編輯" aria-label="編輯 ${esc(h.symbol)}">
+    <div class="row__actions desktop-actions">
+      <button class="action-btn" data-action="edit" data-id="${h.id}" title="編輯">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
       </button>
-      <button class="action-btn action-btn--delete" data-action="delete" data-id="${h.id}" title="刪除" aria-label="刪除 ${esc(h.symbol)}">
+      <button class="action-btn action-btn--delete" data-action="delete" data-id="${h.id}" title="刪除">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14H6L5 6"/><path d="M10 11v6M14 11v6"/><path d="M9 6V4h6v2"/></svg>
       </button>
     </div>
   `;
 
-  // Flash animation for price updates
+  // Swipe action panel (mobile)
+  const swipeActions = document.createElement('div');
+  swipeActions.className = 'swipe-actions';
+  swipeActions.innerHTML = `
+    <button class="swipe-btn swipe-btn--edit" data-action="edit" data-id="${h.id}">編輯</button>
+    <button class="swipe-btn swipe-btn--delete" data-action="delete" data-id="${h.id}">刪除</button>
+  `;
+
+  wrapper.appendChild(row);
+  wrapper.appendChild(swipeActions);
+
+  // Touch swipe logic
+  let startX = 0, startY = 0, currentX = 0, swiped = false;
+  const SWIPE_THRESHOLD = 60;
+  const SWIPE_OPEN = 120;
+
+  row.addEventListener('touchstart', e => {
+    startX = e.touches[0].clientX;
+    startY = e.touches[0].clientY;
+    currentX = 0;
+    row.style.transition = 'none';
+  }, { passive: true });
+
+  row.addEventListener('touchmove', e => {
+    const dx = e.touches[0].clientX - startX;
+    const dy = e.touches[0].clientY - startY;
+    if (Math.abs(dy) > Math.abs(dx)) return; // vertical scroll
+    if (dx > 0 && !swiped) return; // right swipe: only allow close
+    currentX = Math.max(-SWIPE_OPEN, Math.min(0, dx + (swiped ? -SWIPE_OPEN : 0)));
+    row.style.transform = `translateX(${currentX}px)`;
+  }, { passive: true });
+
+  row.addEventListener('touchend', () => {
+    row.style.transition = 'transform 0.25s ease';
+    if (!swiped && currentX < -SWIPE_THRESHOLD) {
+      row.style.transform = `translateX(-${SWIPE_OPEN}px)`;
+      swiped = true;
+      // close other open rows
+      document.querySelectorAll('.holding-row.swiped').forEach(r => {
+        if (r !== row) { r.style.transform = ''; r.classList.remove('swiped'); }
+      });
+      row.classList.add('swiped');
+    } else if (swiped && currentX > -SWIPE_OPEN + SWIPE_THRESHOLD) {
+      row.style.transform = '';
+      swiped = false;
+      row.classList.remove('swiped');
+    } else {
+      row.style.transform = swiped ? `translateX(-${SWIPE_OPEN}px)` : '';
+    }
+  });
+
+  // Tap elsewhere to close
+  document.addEventListener('touchstart', e => {
+    if (swiped && !wrapper.contains(e.target)) {
+      row.style.transition = 'transform 0.25s ease';
+      row.style.transform = '';
+      swiped = false;
+      row.classList.remove('swiped');
+    }
+  }, { passive: true });
+
+  // Flash animation
   if (h._priceDir) {
     const priceCell = row.querySelector('[data-price]');
     priceCell?.classList.add(`price-flash-${h._priceDir}`);
     h._priceDir = '';
   }
 
-  return row;
+  return wrapper;
 }
 
 
@@ -1211,6 +1276,25 @@ function init() {
     closeSyncModal();
     showToast('已停用同步', 'info');
   });
+
+  // Hamburger menu (mobile)
+  const hamburgerBtn = document.getElementById('hamburger-btn');
+  const headerActions = document.getElementById('header-actions');
+  function closeHamburger() {
+    headerActions.classList.remove('open');
+    hamburgerBtn.setAttribute('aria-expanded', 'false');
+  }
+  hamburgerBtn.addEventListener('click', e => {
+    e.stopPropagation();
+    const isOpen = headerActions.classList.toggle('open');
+    hamburgerBtn.setAttribute('aria-expanded', String(isOpen));
+  });
+  // Close when clicking outside
+  document.addEventListener('click', e => {
+    if (!headerActions.contains(e.target) && e.target !== hamburgerBtn) closeHamburger();
+  });
+  // Close after any action button clicked
+  headerActions.addEventListener('click', () => setTimeout(closeHamburger, 150));
 
   // Header
   document.getElementById('add-stock-btn').addEventListener('click', () => openModal());

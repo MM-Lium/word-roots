@@ -341,7 +341,7 @@ body {
 }
 .holdings__header,
 .holdings__body {
-  --table-cols: 2.5fr 1fr 1.1fr 0.8fr 1fr 1.2fr 1.2fr 80px;
+  --table-cols: 1.2fr 1.4fr 0.8fr 1fr 1.2fr 1.6fr 70px;
 }
 
 .col {
@@ -354,18 +354,58 @@ body {
 .col--price, .col--change, .col--shares, .col--cost, .col--value, .col--pnl { text-align: right; }
 .col--actions { text-align: center; }
 
-/* Holdings Row */
+/* Swipe row wrapper */
+.row-swipe-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid var(--border);
+}
+.row-swipe-wrapper:last-child { border-bottom: none; }
+
+/* Remove border from row itself (wrapper handles it) */
 .holding-row {
   display: grid;
   grid-template-columns: var(--table-cols);
   align-items: center;
   padding: 14px 20px;
-  border-bottom: 1px solid var(--border);
-  transition: background var(--transition);
+  border-bottom: none;
+  transition: background var(--transition), transform 0.25s ease;
   animation: fadeInUp 0.25s ease;
+  background: var(--bg-surface);
+  position: relative;
+  z-index: 1;
 }
-.holding-row:last-child { border-bottom: none; }
 .holding-row:hover { background: var(--bg-card-hover); }
+
+/* Swipe action panel — sits behind the row */
+.swipe-actions {
+  position: absolute;
+  right: 0; top: 0; bottom: 0;
+  width: 120px;
+  display: flex;
+  z-index: 0;
+}
+.swipe-btn {
+  flex: 1;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-family: var(--font-sans);
+  cursor: pointer;
+  color: #fff;
+}
+.swipe-btn--edit   { background: var(--primary); }
+.swipe-btn--delete { background: var(--red); }
+
+/* Desktop: hide swipe panel, show inline actions */
+@media (hover: hover) and (pointer: fine) {
+  .swipe-actions { display: none; }
+  .desktop-actions { display: flex !important; }
+}
+/* Mobile: hide desktop actions col */
+@media (hover: none), (pointer: coarse) {
+  .desktop-actions { display: none !important; }
+}
 
 @keyframes fadeInUp {
   from { opacity: 0; transform: translateY(6px); }
@@ -410,20 +450,39 @@ body {
 }
 .row__cell--muted { color: var(--text-secondary); font-weight: 400; }
 
+.row__price-change {
+  display: flex !important;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 3px;
+}
+.price-line {
+  display: flex;
+  align-items: baseline;
+  gap: 2px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+.change-line {
+  display: flex;
+}
+
 .row__change { text-align: right; }
 .change-badge {
   display: inline-flex;
   align-items: center;
-  gap: 3px;
-  font-size: 0.8rem;
-  font-weight: 600;
-  padding: 3px 8px;
-  border-radius: 6px;
+  gap: 2px;
+  font-size: 0.72rem;
+  font-weight: 500;
+  padding: 0;
+  border-radius: 0;
+  background: none !important;
   font-variant-numeric: tabular-nums;
 }
-.change-badge--up { background: var(--green-dim); color: var(--green); }
-.change-badge--down { background: var(--red-dim); color: var(--red); }
-.change-badge--flat { background: rgba(148,163,184,0.1); color: var(--text-muted); }
+.change-badge--up   { color: var(--green); }
+.change-badge--down { color: var(--red); }
+.change-badge--flat { color: var(--text-muted); }
 
 .row__pnl { text-align: right; }
 .pnl-cell { display: flex; flex-direction: column; align-items: flex-end; gap: 2px; }
@@ -440,7 +499,7 @@ body {
 .pnl-cell.positive .pnl-amount, .pnl-cell.positive .pnl-pct { color: var(--green); }
 .pnl-cell.negative .pnl-amount, .pnl-cell.negative .pnl-pct { color: var(--red); }
 
-.row__actions { display: flex; justify-content: center; gap: 4px; }
+.row__actions { display: flex; justify-content: center; gap: 4px; padding-left: 12px; }
 .action-btn {
   width: 30px; height: 30px;
   border-radius: 6px;
@@ -793,27 +852,56 @@ body {
    Responsive
    ======================================== */
 @media (max-width: 1100px) {
-  .holdings__header, .holdings__body { --table-cols: 2fr 1fr 1fr 0.8fr 1fr 1.2fr 1.2fr 70px; }
+  .holdings__header, .holdings__body { --table-cols: 1.1fr 1.3fr 0.8fr 1fr 1.2fr 1.5fr 60px; }
 }
 
 @media (max-width: 900px) {
   .summary { grid-template-columns: repeat(2, 1fr); }
-  .holdings__header, .holdings__body { --table-cols: 2fr 1fr 1fr 1fr 1fr 70px; }
+  .holdings__header, .holdings__body { --table-cols: 1.0fr 1.2fr 1fr 1.5fr 60px; }
   .col--shares, .row__cell.shares-cell { display: none; }
   .col--cost, .row__cell.cost-cell { display: none; }
+  .col--actions { display: none; }
 }
 
+/* mobile hamburger — hidden on desktop */
+.header__hamburger { display: none; }
+
 @media (max-width: 640px) {
+  /* hamburger visible, actions hidden by default */
+  .header__hamburger { display: flex; }
+  .header__actions {
+    display: none;
+    position: absolute;
+    top: 64px;
+    left: 0; right: 0;
+    background: rgba(240,244,248,0.97);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--border);
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 16px;
+    z-index: 99;
+  }
+  .header__actions.open { display: flex; }
+  .header__last-updated { display: flex !important; font-size: 0.72rem; }
   .header__inner { padding: 0 16px; }
   .main { padding: 20px 16px 48px; gap: 16px; }
   .summary { grid-template-columns: repeat(2, 1fr); gap: 10px; }
   .summary-card { padding: 14px 16px; }
   .summary-card__value { font-size: 1.3rem; }
-  .tabs-wrapper { flex-direction: column; align-items: flex-start; }
-  .holdings__header, .holdings__body { --table-cols: 1.8fr 1fr 1fr 1.2fr 60px; }
+  .tabs-wrapper { flex-direction: column; align-items: stretch; }
+  .tabs { justify-content: stretch; }
+  .tab { flex: 1; justify-content: center; }
+  .holdings__header, .holdings__body { --table-cols: 1.0fr 1.2fr 1.5fr; }
   .col--value, .row__cell.value-cell { display: none; }
-  .col--change { display: none; }
+  .col--actions { display: none; }
   .holding-row { padding: 12px 14px; }
-  .header__last-updated { display: none; }
-  .btn--primary span { display: none; }
+  .chart-section { padding: 16px 14px 12px; }
+  .chart-head { flex-direction: column; gap: 10px; }
+  .chart-head__right { flex-wrap: wrap; }
+  .chart-canvas-wrap { height: 200px; }
 }
