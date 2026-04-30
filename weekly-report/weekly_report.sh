@@ -109,6 +109,8 @@ for repo_git in $repos; do
                 delete d_map;
                 delete type_msgs;
                 delete type_order;
+                delete type_descs;
+                delete type_desc_count;
                 type_count = 0;
                 
                 for (i=1; i<=curr_id; i++) {
@@ -124,9 +126,74 @@ for repo_git in $repos; do
                         if (desc != "" && !type_msgs[m, type, desc]) {
                             type_msgs[m, type, desc] = 1;
                             if (!(type in type_order)) type_order[type] = ++type_count;
-                            if (full_desc[type] != "") full_desc[type] = full_desc[type] "; " desc;
-                            else full_desc[type] = desc;
+                            # Store each desc separately for smart merging
+                            n = ++type_desc_count[type];
+                            type_descs[type, n] = desc;
                         }
+                    }
+                }
+                
+                # Smart summarization: merge similar descriptions per type
+                for (t in type_order) {
+                    n = type_desc_count[t];
+                    
+                    if (n == 0) continue;
+                    
+                    if (n == 1) {
+                        # Only one desc, use as-is
+                        full_desc[t] = type_descs[t, 1];
+                    } else {
+                        # Multiple descs: smart deduplication without splitting Chinese text
+                        # Each commit desc is treated as a whole fragment (no UTF-8-unsafe splitting)
+                        # We rely on the exact-match dedup already done in type_msgs above,
+                        # and here we further deduplicate by substring containment.
+                        delete frag_list;
+                        frag_count = 0;
+                        for (di=1; di<=n; di++) {
+                            raw = type_descs[t, di];
+                            gsub(/^[ \t]+|[ \t]+$/, "", raw);
+                            if (raw != "") frag_list[++frag_count] = raw;
+                        }
+                        
+                        # Step 2: deduplicate by containment - if fragment A is contained in B, drop A
+                        # This safely handles multibyte UTF-8 without substr splitting issues
+                        delete keep_frag;
+                        for (fi=1; fi<=frag_count; fi++) keep_frag[fi] = 1;
+                        
+                        for (fi=1; fi<=frag_count; fi++) {
+                            if (!keep_frag[fi]) continue;
+                            for (fj=1; fj<=frag_count; fj++) {
+                                if (fi == fj || !keep_frag[fj]) continue;
+                                # If frag_list[fi] is a substring of frag_list[fj], drop fi
+                                if (index(frag_list[fj], frag_list[fi]) > 0 && length(frag_list[fj]) > length(frag_list[fi])) {
+                                    keep_frag[fi] = 0;
+                                    break;
+                                }
+                            }
+                        }
+                        
+                        # Collect surviving unique fragments in order
+                        delete final_frags;
+                        final_count = 0;
+                        for (fi=1; fi<=frag_count; fi++) {
+                            if (keep_frag[fi]) final_frags[++final_count] = frag_list[fi];
+                        }
+                        
+                        # Step 3: build final merged string (max 3 items, then append summary suffix)
+                        merged = "";
+                        shown = 0;
+                        MAX_ITEMS = 3;
+                        for (ci=1; ci<=final_count; ci++) {
+                            if (shown < MAX_ITEMS) {
+                                if (merged != "") merged = merged "、" final_frags[ci];
+                                else merged = final_frags[ci];
+                                shown++;
+                            }
+                        }
+                        if (final_count > MAX_ITEMS) {
+                            merged = merged "，及其他相關優化";
+                        }
+                        full_desc[t] = merged;
                     }
                 }
                 
@@ -135,9 +202,9 @@ for repo_git in $repos; do
                 for (t_idx=1; t_idx<=type_count; t_idx++) {
                     for (t in type_order) {
                         if (type_order[t] == t_idx) {
-                            line = "<b>" t "</b>: " full_desc[t];
-                            if (final_content != "") final_content = final_content "<br>- " line;
-                            else final_content = "- " line;
+                            line = full_desc[t];
+                            if (final_content != "") final_content = final_content "<br>" line;
+                            else final_content = line;
                             delete full_desc[t];
                         }
                     }
