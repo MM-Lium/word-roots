@@ -619,16 +619,20 @@ function setSyncConfig(cfg) {
   localStorage.setItem(SYNC_CFG_KEY, JSON.stringify(cfg));
 }
 
-// Put bin ID in URL hash so bookmarking the URL is enough on a new device
+// Put bin ID in URL query string so bookmarking the URL is enough on a new device
 function updateHashBinId(binId) {
-  const desired = binId ? `#b=${binId}` : '';
-  if (window.location.hash !== desired) {
-    history.replaceState(null, '', window.location.pathname + desired);
+  const url = new URL(window.location.href);
+  if (binId) {
+    url.searchParams.set('b', binId);
+  } else {
+    url.searchParams.delete('b');
   }
+  history.replaceState(null, '', url.toString());
 }
 function getBinIdFromHash() {
-  const m = window.location.hash.match(/[#&]b=([^&]+)/);
-  return m ? decodeURIComponent(m[1]) : null;
+  const url = new URL(window.location.href);
+  // Support both ?b= (new) and #b= (legacy)
+  return url.searchParams.get('b') || (window.location.hash.match(/[#&]b=([^&]+)/)?.[1] ?? null);
 }
 
 function setSyncDot(state) { // 'active' | 'inactive' | 'syncing' | 'error'
