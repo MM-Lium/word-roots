@@ -296,7 +296,8 @@ body {
 .tab:hover { color: var(--text-secondary); }
 .tab--active {
   background: linear-gradient(135deg, var(--primary), var(--accent));
-  color: white;
+  color: white !important;
+  -webkit-text-fill-color: white !important;
   box-shadow: 0 2px 8px rgba(99,102,241,0.4);
 }
 .tab__flag { font-size: 0.9em; }
@@ -377,13 +378,14 @@ body {
 }
 .holding-row:hover { background: var(--bg-card-hover); }
 
-/* Swipe action panel — sits behind the row */
+/* Swipe action panel — starts outside wrapper (translateX hides it, clipped by overflow:hidden) */
 .swipe-actions {
   position: absolute;
   right: 0; top: 0; bottom: 0;
   width: 120px;
   display: flex;
-  z-index: 0;
+  transform: translateX(100%);
+  transition: transform 0.25s ease;
 }
 .swipe-btn {
   flex: 1;
@@ -397,15 +399,11 @@ body {
 .swipe-btn--edit   { background: var(--primary); }
 .swipe-btn--delete { background: var(--red); }
 
-/* Desktop: hide swipe panel, show inline actions */
-@media (hover: hover) and (pointer: fine) {
-  .swipe-actions { display: none; }
-  .desktop-actions { display: flex !important; }
-}
-/* Mobile: hide desktop actions col */
-@media (hover: none), (pointer: coarse) {
-  .desktop-actions { display: none !important; }
-}
+/* Desktop: show inline actions, swipe panel stays outside via translateX */
+.desktop-actions { display: flex; }
+
+/* Touch device: hide desktop actions, swipe panel revealed by JS */
+.touch-device .desktop-actions { display: none !important; }
 
 @keyframes fadeInUp {
   from { opacity: 0; transform: translateY(6px); }

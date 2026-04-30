@@ -470,11 +470,36 @@ function buildRow(h, rate) {
   const SWIPE_THRESHOLD = 60;
   const SWIPE_OPEN = 120;
 
+  function openSwipe() {
+    row.style.transform = `translateX(-${SWIPE_OPEN}px)`;
+    swipeActions.style.transform = `translateX(0)`;
+    swiped = true;
+    row.classList.add('swiped');
+  }
+  function closeSwipe() {
+    row.style.transform = '';
+    swipeActions.style.transform = `translateX(100%)`;
+    swiped = false;
+    row.classList.remove('swiped');
+  }
+  function closeOtherRows() {
+    document.querySelectorAll('.holding-row.swiped').forEach(r => {
+      if (r !== row) {
+        r.style.transition = 'transform 0.25s ease';
+        r.style.transform = '';
+        r.classList.remove('swiped');
+        const sa = r.closest('.row-swipe-wrapper')?.querySelector('.swipe-actions');
+        if (sa) { sa.style.transition = 'transform 0.25s ease'; sa.style.transform = 'translateX(100%)'; }
+      }
+    });
+  }
+
   row.addEventListener('touchstart', e => {
     startX = e.touches[0].clientX;
     startY = e.touches[0].clientY;
     currentX = 0;
     row.style.transition = 'none';
+    swipeActions.style.transition = 'none';
   }, { passive: true });
 
   row.addEventListener('touchmove', e => {
@@ -484,24 +509,22 @@ function buildRow(h, rate) {
     if (dx > 0 && !swiped) return; // right swipe: only allow close
     currentX = Math.max(-SWIPE_OPEN, Math.min(0, dx + (swiped ? -SWIPE_OPEN : 0)));
     row.style.transform = `translateX(${currentX}px)`;
+    // swipe-actions moves from 100% toward 0% as row slides left
+    const actionPct = 100 + (currentX / SWIPE_OPEN * 100);
+    swipeActions.style.transform = `translateX(${actionPct}%)`;
   }, { passive: true });
 
   row.addEventListener('touchend', () => {
     row.style.transition = 'transform 0.25s ease';
+    swipeActions.style.transition = 'transform 0.25s ease';
     if (!swiped && currentX < -SWIPE_THRESHOLD) {
-      row.style.transform = `translateX(-${SWIPE_OPEN}px)`;
-      swiped = true;
-      // close other open rows
-      document.querySelectorAll('.holding-row.swiped').forEach(r => {
-        if (r !== row) { r.style.transform = ''; r.classList.remove('swiped'); }
-      });
-      row.classList.add('swiped');
+      closeOtherRows();
+      openSwipe();
     } else if (swiped && currentX > -SWIPE_OPEN + SWIPE_THRESHOLD) {
-      row.style.transform = '';
-      swiped = false;
-      row.classList.remove('swiped');
+      closeSwipe();
     } else {
-      row.style.transform = swiped ? `translateX(-${SWIPE_OPEN}px)` : '';
+      // snap back to open or closed state
+      if (swiped) { openSwipe(); } else { closeSwipe(); }
     }
   });
 
@@ -509,9 +532,8 @@ function buildRow(h, rate) {
   document.addEventListener('touchstart', e => {
     if (swiped && !wrapper.contains(e.target)) {
       row.style.transition = 'transform 0.25s ease';
-      row.style.transform = '';
-      swiped = false;
-      row.classList.remove('swiped');
+      swipeActions.style.transition = 'transform 0.25s ease';
+      closeSwipe();
     }
   }, { passive: true });
 
@@ -1236,6 +1258,11 @@ function renderChart() {
 
 // ── Event Wiring ───────────────────────────────────────────
 function init() {
+  // Detect touch device on first touch
+  document.addEventListener('touchstart', () => {
+    document.body.classList.add('touch-device');
+  }, { once: true, passive: true });
+
   loadHoldings();
   fetchUsdRate();
   renderHoldings();
