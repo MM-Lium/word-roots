@@ -390,6 +390,8 @@ function updateSummary() {
 
   const pnl = totalValue - totalCost;
   const pnlPct = totalCost ? (pnl / totalCost) * 100 : 0;
+  const usPnl = usValue - usCost;
+  const twPnl = twValue - twCost;
 
   setText('total-value', totalValue ? formatTWD(totalValue) : '--');
   setText('total-cost',  totalCost  ? formatTWD(totalCost)  : '--');
@@ -406,6 +408,19 @@ function updateSummary() {
   const cbEl = document.getElementById('cost-breakdown');
   if (vbEl) vbEl.innerHTML = mkBreakdown(usValue, twValue);
   if (cbEl) cbEl.innerHTML = mkBreakdown(usCost, twCost);
+
+  // P&L breakdown
+  const mkPnlBreakdown = (us, tw) => {
+    if (!usCost && !twCost) return '';
+    const fmt = v => (v >= 0 ? '+' : '') + formatTWD(v);
+    const col = v => v >= 0 ? `color:var(--green)` : `color:var(--red)`;
+    const parts = [];
+    if (usCost) parts.push(`<span style="${col(us)}">🇺🇸 ${fmt(us)}</span>`);
+    if (twCost) parts.push(`<span style="${col(tw)}">🇹🇼 ${fmt(tw)}</span>`);
+    return parts.join('&nbsp;&nbsp;');
+  };
+  const pbEl = document.getElementById('pnl-breakdown');
+  if (pbEl) pbEl.innerHTML = mkPnlBreakdown(usPnl, twPnl);
 
   const pnlEl = document.getElementById('total-pnl');
   const pnlPctEl = document.getElementById('total-pnl-pct');
