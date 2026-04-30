@@ -217,6 +217,13 @@ async function fetchUSPrice(symbol) {
 // ── Fetch TW Stock (TWSE/TPEx OpenAPI) ─────────────────────
 async function fetchTWPrice(symbol) {
   const code = symbol.replace(/\.TW$/i, '').toUpperCase();
+  const ticker = `${code}.TW`;
+
+  // 1. Try Yahoo Finance (same as US stocks, reliable)
+  try {
+    const data = await fetchUSPrice(ticker);
+    if (data?.price > 0) return data;
+  } catch {}
 
   // Helper: fetch TWSE/TPEx MIS via proxy
   async function tryMIS(exCh, proxy) {
