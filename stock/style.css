@@ -647,6 +647,21 @@ body {
 @keyframes toastIn { from { opacity: 0; transform: translateX(20px); } to { opacity: 1; transform: translateX(0); } }
 @keyframes toastOut { to { opacity: 0; transform: translateX(20px); } }
 
+/* Sync button */
+.sync-btn { position: relative; }
+.sync-dot {
+  position: absolute;
+  top: 5px; right: 5px;
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  border: 1.5px solid var(--bg-surface);
+  pointer-events: none;
+}
+.sync-dot--active   { background: var(--green); }
+.sync-dot--inactive { background: var(--text-muted); }
+.sync-dot--syncing  { background: var(--yellow); animation: pulse 1s infinite; }
+.sync-dot--error    { background: var(--red); }
+
 /* ========================================
    Asset River Chart
    ======================================== */

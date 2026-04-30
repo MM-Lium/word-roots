@@ -21,6 +21,7 @@ const STATE = {
 // ── Storage ────────────────────────────────────────────────
 function saveHoldings() {
   localStorage.setItem('portfolio_holdings_v2', JSON.stringify(STATE.holdings));
+  syncPush();
 }
 function loadHoldings() {
   try {
@@ -606,6 +607,156 @@ async function handleLookup() {
 }
 
 // ── Toast ──────────────────────────────────────────────────
+// ── Cloud Sync (JSONBin.io) ────────────────────────────────
+const SYNC_CFG_KEY = 'portfolio_sync_cfg_v1';
+const JSONBIN_API  = 'https://api.jsonbin.io/v3';
+
+function getSyncConfig() {
+  try { return JSON.parse(localStorage.getItem(SYNC_CFG_KEY) || 'null'); }
+  catch { return null; }
+}
+function setSyncConfig(cfg) {
+  localStorage.setItem(SYNC_CFG_KEY, JSON.stringify(cfg));
+}
+
+// Put bin ID in URL hash so bookmarking the URL is enough on a new device
+function updateHashBinId(binId) {
+  const desired = binId ? `#b=${binId}` : '';
+  if (window.location.hash !== desired) {
+    history.replaceState(null, '', window.location.pathname + desired);
+  }
+}
+function getBinIdFromHash() {
+  const m = window.location.hash.match(/[#&]b=([^&]+)/);
+  return m ? decodeURIComponent(m[1]) : null;
+}
+
+function setSyncDot(state) { // 'active' | 'inactive' | 'syncing' | 'error'
+  const el = document.getElementById('sync-dot');
+  if (!el) return;
+  el.className = `sync-dot sync-dot--${state}`;
+}
+
+async function syncPush() {
+  const cfg = getSyncConfig();
+  if (!cfg?.apiKey || !cfg?.binId) return;
+  setSyncDot('syncing');
+  try {
+    const payload = {
+      holdings:  JSON.parse(localStorage.getItem('portfolio_holdings_v2') || '[]'),
+      snapshots: JSON.parse(localStorage.getItem(SNAP_KEY) || '[]'),
+      updatedAt: Date.now(),
+    };
+    const res = await fetch(`${JSONBIN_API}/b/${cfg.binId}`, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json', 'X-Access-Key': cfg.apiKey },
+      body: JSON.stringify(payload),
+      signal: AbortSignal.timeout(10000),
+    });
+    setSyncDot(res.ok ? 'active' : 'error');
+  } catch { setSyncDot('error'); }
+}
+
+async function syncPull() {
+  const cfg = getSyncConfig();
+  if (!cfg?.apiKey || !cfg?.binId) return false;
+  setSyncDot('syncing');
+  try {
+    const res = await fetch(`${JSONBIN_API}/b/${cfg.binId}/latest`, {
+      headers: { 'X-Access-Key': cfg.apiKey },
+      signal: AbortSignal.timeout(10000),
+    });
+    if (!res.ok) { setSyncDot('error'); return false; }
+    const data = await res.json();
+    const payload = data.record;
+    // Only overwrite if cloud data is newer
+    if (payload.holdings) {
+      localStorage.setItem('portfolio_holdings_v2', JSON.stringify(payload.holdings));
+    }
+    if (payload.snapshots) {
+      localStorage.setItem(SNAP_KEY, JSON.stringify(payload.snapshots));
+    }
+    setSyncDot('active');
+    return true;
+  } catch { setSyncDot('error'); return false; }
+}
+
+async function setupAndEnableSync(apiKey, binId) {
+  const hint = document.getElementById('sync-hint');
+  const btn  = document.getElementById('sync-save');
+  hint.textContent = '連線中...'; hint.className = 'form-hint';
+  btn.disabled = true;
+
+  try {
+    if (!binId) {
+      // Create a new private bin
+      const payload = {
+        holdings:  JSON.parse(localStorage.getItem('portfolio_holdings_v2') || '[]'),
+        snapshots: JSON.parse(localStorage.getItem(SNAP_KEY) || '[]'),
+        updatedAt: Date.now(),
+      };
+      const res = await fetch(`${JSONBIN_API}/b`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'X-Access-Key': apiKey,
+          'X-Bin-Name': 'portfolio-tracker',
+          'X-Bin-Private': 'true',
+        },
+        body: JSON.stringify(payload),
+        signal: AbortSignal.timeout(12000),
+      });
+      if (!res.ok) throw new Error(`建立 Bin 失敗 (${res.status})`);
+      const data = await res.json();
+      binId = data.metadata.id;
+    } else {
+      // Verify existing bin is accessible
+      const res = await fetch(`${JSONBIN_API}/b/${binId}/latest`, {
+        headers: { 'X-Access-Key': apiKey },
+        signal: AbortSignal.timeout(10000),
+      });
+      if (!res.ok) throw new Error(`無法讀取 Bin，請確認 API Key 和 Bin ID (${res.status})`);
+      // Pull cloud data into local storage
+      const data = await res.json();
+      const payload = data.record;
+      if (payload.holdings) localStorage.setItem('portfolio_holdings_v2', JSON.stringify(payload.holdings));
+      if (payload.snapshots) localStorage.setItem(SNAP_KEY, JSON.stringify(payload.snapshots));
+      loadHoldings();
+      renderHoldings();
+      renderChart();
+    }
+
+    setSyncConfig({ apiKey, binId });
+    updateHashBinId(binId);
+    setSyncDot('active');
+    document.getElementById('sync-binid').value = binId;
+    hint.textContent = `✓ 同步已啟用！Bin ID: ${binId}`;
+    hint.className = 'form-hint success';
+    showToast('雲端同步已啟用 ✓', 'success');
+    if (STATE.holdings.length > 0) setTimeout(refreshAllPrices, 400);
+  } catch(e) {
+    hint.textContent = '❌ ' + e.message;
+    hint.className = 'form-hint error';
+    setSyncDot('error');
+  }
+  btn.disabled = false;
+}
+
+function openSyncModal() {
+  const cfg = getSyncConfig();
+  const binFromHash = getBinIdFromHash();
+  document.getElementById('sync-apikey').value = cfg?.apiKey || '';
+  document.getElementById('sync-binid').value  = cfg?.binId || binFromHash || '';
+  document.getElementById('sync-hint').textContent = cfg
+    ? `目前 Bin ID: ${cfg.binId}`
+    : (binFromHash ? `偵測到 URL 中的 Bin ID: ${binFromHash}，填入 API Key 即可連線` : '');
+  document.getElementById('sync-hint').className = 'form-hint';
+  document.getElementById('sync-overlay').style.display = 'flex';
+}
+function closeSyncModal() {
+  document.getElementById('sync-overlay').style.display = 'none';
+}
+
 // ── Export / Import ───────────────────────────────────────────
 function exportData() {
   const payload = {
@@ -849,6 +1000,7 @@ function recordSnapshot() {
   snaps.push({ ts: now.getTime(), sKey, label, total, us: usVal, tw: twVal });
   snaps.sort((a, b) => a.ts - b.ts);
   localStorage.setItem(SNAP_KEY, JSON.stringify(snaps.slice(-180)));
+  syncPush();
   renderChart();
   return true;
 }
@@ -990,10 +1142,41 @@ function init() {
   fetchUsdRate();
   renderHoldings();
 
+  // Init sync UI dot
+  const cfg = getSyncConfig();
+  setSyncDot(cfg ? 'active' : 'inactive');
+  // If URL has bin ID but no config yet, pre-fill the modal trigger
+  const binFromHash = getBinIdFromHash();
+  if (!cfg && binFromHash) setSyncDot('inactive');
+
   document.getElementById('export-btn').addEventListener('click', exportData);
   document.getElementById('import-file').addEventListener('change', e => {
     importData(e.target.files[0]);
-    e.target.value = ''; // reset so same file can be re-imported
+    e.target.value = '';
+  });
+
+  // Sync modal
+  document.getElementById('sync-btn').addEventListener('click', openSyncModal);
+  document.getElementById('sync-close').addEventListener('click', closeSyncModal);
+  document.getElementById('sync-overlay').addEventListener('click', e => {
+    if (e.target.id === 'sync-overlay') closeSyncModal();
+  });
+  document.getElementById('sync-save').addEventListener('click', () => {
+    const apiKey = document.getElementById('sync-apikey').value.trim();
+    const binId  = document.getElementById('sync-binid').value.trim();
+    if (!apiKey) {
+      document.getElementById('sync-hint').textContent = '請填入 API Key';
+      document.getElementById('sync-hint').className = 'form-hint error';
+      return;
+    }
+    setupAndEnableSync(apiKey, binId || null);
+  });
+  document.getElementById('sync-disable').addEventListener('click', () => {
+    localStorage.removeItem(SYNC_CFG_KEY);
+    updateHashBinId(null);
+    setSyncDot('inactive');
+    closeSyncModal();
+    showToast('已停用同步', 'info');
   });
 
   // Header
@@ -1126,9 +1309,21 @@ function init() {
   if (STATE.holdings.length > 0) {
     setTimeout(async () => {
       await refreshAllPrices();
-      // Auto-backfill history if chart has no data yet
       if (loadSnapshots().length === 0) backfillSnapshots();
     }, 500);
+  }
+
+  // On load: pull from cloud first, then refresh prices
+  const syncCfg = getSyncConfig();
+  if (syncCfg?.apiKey && syncCfg?.binId) {
+    syncPull().then(pulled => {
+      if (pulled) {
+        loadHoldings();
+        renderHoldings();
+        renderChart();
+        if (STATE.holdings.length > 0) setTimeout(refreshAllPrices, 400);
+      }
+    });
   }
 }
 
