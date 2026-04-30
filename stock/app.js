@@ -857,8 +857,6 @@ async function syncPull() {
       localStorage.setItem('portfolio_holdings_v2', JSON.stringify(payload.holdings));
       loadHoldings();
       renderHoldings();
-      if (STATE.holdings.length > 0) setTimeout(refreshAllPrices, 300);
-    }
     }
     if (payload.snapshots) {
       localStorage.setItem(SNAP_KEY, JSON.stringify(payload.snapshots));
