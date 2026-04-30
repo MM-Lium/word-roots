@@ -611,12 +611,41 @@ async function handleLookup() {
 const SYNC_CFG_KEY = 'portfolio_sync_cfg_v1';
 const JSONBIN_API  = 'https://api.jsonbin.io/v3';
 
+// Cookie helpers (fallback when localStorage is cleared)
+function setCookie(name, value, days) {
+  const exp = new Date(Date.now() + days * 864e5).toUTCString();
+  document.cookie = `${name}=${encodeURIComponent(value)};expires=${exp};path=/;SameSite=Lax`;
+}
+function getCookie(name) {
+  const m = document.cookie.match('(?:^|;)\\s*' + name + '=([^;]*)');
+  return m ? decodeURIComponent(m[1]) : null;
+}
+
 function getSyncConfig() {
-  try { return JSON.parse(localStorage.getItem(SYNC_CFG_KEY) || 'null'); }
-  catch { return null; }
+  // Try localStorage first, fall back to cookie
+  try {
+    const raw = localStorage.getItem(SYNC_CFG_KEY);
+    if (raw) return JSON.parse(raw);
+  } catch {}
+  try {
+    const raw = getCookie(SYNC_CFG_KEY);
+    if (raw) {
+      const cfg = JSON.parse(raw);
+      // Restore to localStorage while we're at it
+      localStorage.setItem(SYNC_CFG_KEY, raw);
+      return cfg;
+    }
+  } catch {}
+  return null;
 }
 function setSyncConfig(cfg) {
-  localStorage.setItem(SYNC_CFG_KEY, JSON.stringify(cfg));
+  const val = JSON.stringify(cfg);
+  localStorage.setItem(SYNC_CFG_KEY, val);
+  setCookie(SYNC_CFG_KEY, val, 365); // 1 year cookie backup
+}
+function clearSyncConfig() {
+  localStorage.removeItem(SYNC_CFG_KEY);
+  setCookie(SYNC_CFG_KEY, '', -1); // delete cookie
 }
 
 // Put bin ID in URL query string so bookmarking the URL is enough on a new device
@@ -1176,7 +1205,7 @@ function init() {
     setupAndEnableSync(apiKey, binId || null);
   });
   document.getElementById('sync-disable').addEventListener('click', () => {
-    localStorage.removeItem(SYNC_CFG_KEY);
+    clearSyncConfig();
     updateHashBinId(null);
     setSyncDot('inactive');
     closeSyncModal();
