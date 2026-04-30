@@ -428,9 +428,10 @@ function buildRow(h, rate) {
       <span class="row__badge row__badge--${h.market}">${h.market === 'us' ? '🇺🇸 US' : '🇹🇼 TW'}</span>
     </div>
     <div class="row__cell row__price-change" data-price>
+      ${sessionBadge ? `<div class="session-badge-row">${sessionBadge}</div>` : ''}
       <div class="price-line">
         ${priceStr}
-        <span style="font-size:0.68rem;color:var(--text-muted);margin-left:3px;">${currency}${sessionBadge}</span>
+        <span style="font-size:0.68rem;color:var(--text-muted);margin-left:3px;">${currency}</span>
       </div>
       <div class="change-line">${changeStr}</div>
     </div>
@@ -1258,10 +1259,10 @@ function renderChart() {
 
 // ── Event Wiring ───────────────────────────────────────────
 function init() {
-  // Detect touch device on first touch
-  document.addEventListener('touchstart', () => {
+  // Detect touch device immediately (before rendering)
+  if (navigator.maxTouchPoints > 0 || 'ontouchstart' in window) {
     document.body.classList.add('touch-device');
-  }, { once: true, passive: true });
+  }
 
   loadHoldings();
   fetchUsdRate();

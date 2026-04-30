@@ -399,7 +399,7 @@ body {
 .swipe-btn--edit   { background: var(--primary); }
 .swipe-btn--delete { background: var(--red); }
 
-/* Desktop: show inline actions, swipe panel stays outside via translateX */
+/* Desktop: always show inline actions */
 .desktop-actions { display: flex; }
 
 /* Touch device: hide desktop actions, swipe panel revealed by JS */
@@ -529,6 +529,7 @@ body {
 @keyframes flashRed { 0%, 100% { color: var(--text-primary); } 50% { color: var(--red); } }
 
 /* Session badge (盤前 / 盤後 / 收盤) */
+.session-badge-row { display: flex; justify-content: flex-end; }
 .session-badge {
   display: inline-flex;
   align-items: center;
