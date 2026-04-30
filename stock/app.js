@@ -216,7 +216,7 @@ async function fetchUSPrice(symbol) {
 
 // ── Fetch TW Stock (TWSE/TPEx OpenAPI) ─────────────────────
 async function fetchTWPrice(symbol) {
-  const code = symbol.replace(/\.TW$/i, '');
+  const code = symbol.replace(/\.TW$/i, '').toUpperCase();
 
   // Helper: fetch TWSE/TPEx MIS via proxy
   async function tryMIS(exCh, proxy) {
@@ -854,7 +854,11 @@ async function syncPull() {
     const payload = data.record;
     // Only overwrite if cloud data is newer
     if (payload.holdings) {
-      localStorage.setItem('portfolio_holdings_v2', JSON.stringify(payload.holdings));
+      // Strip stale live-price fields from cloud data
+      const clean = payload.holdings.map(({ id, market, symbol, name, shares, cost, note }) =>
+        ({ id, market, symbol, name, shares, cost, note })
+      );
+      localStorage.setItem('portfolio_holdings_v2', JSON.stringify(clean));
       loadHoldings();
       renderHoldings();
     }
