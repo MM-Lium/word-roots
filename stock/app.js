@@ -813,13 +813,20 @@ function setSyncDot(state) { // 'active' | 'inactive' | 'syncing' | 'error'
   el.className = `sync-dot sync-dot--${state}`;
 }
 
+// Strip live price fields before cloud sync
+function holdingsForSync(holdings) {
+  return holdings.map(({ id, market, symbol, name, shares, cost, note }) =>
+    ({ id, market, symbol, name, shares, cost, note })
+  );
+}
+
 async function syncPush() {
   const cfg = getSyncConfig();
   if (!cfg?.apiKey || !cfg?.binId) return;
   setSyncDot('syncing');
   try {
     const payload = {
-      holdings:  JSON.parse(localStorage.getItem('portfolio_holdings_v2') || '[]'),
+      holdings:  holdingsForSync(JSON.parse(localStorage.getItem('portfolio_holdings_v2') || '[]')),
       snapshots: JSON.parse(localStorage.getItem(SNAP_KEY) || '[]'),
       updatedAt: Date.now(),
     };
@@ -848,6 +855,10 @@ async function syncPull() {
     // Only overwrite if cloud data is newer
     if (payload.holdings) {
       localStorage.setItem('portfolio_holdings_v2', JSON.stringify(payload.holdings));
+      loadHoldings();
+      renderHoldings();
+      if (STATE.holdings.length > 0) setTimeout(refreshAllPrices, 300);
+    }
     }
     if (payload.snapshots) {
       localStorage.setItem(SNAP_KEY, JSON.stringify(payload.snapshots));
@@ -867,7 +878,7 @@ async function setupAndEnableSync(apiKey, binId) {
     if (!binId) {
       // Create a new private bin
       const payload = {
-        holdings:  JSON.parse(localStorage.getItem('portfolio_holdings_v2') || '[]'),
+        holdings:  holdingsForSync(JSON.parse(localStorage.getItem('portfolio_holdings_v2') || '[]')),
         snapshots: JSON.parse(localStorage.getItem(SNAP_KEY) || '[]'),
         updatedAt: Date.now(),
       };
