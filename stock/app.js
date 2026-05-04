@@ -205,7 +205,7 @@ async function fetchUSPrice(symbol) {
       return {
         price, change, changePct,
         name: q.longName || q.shortName || sym,
-        marketState: 'closed',
+        marketState: marketState,
         week52High: q.fiftyTwoWeekHigh || null,
       };
     } catch (e) {
