@@ -348,7 +348,7 @@ body {
 }
 .holdings__header,
 .holdings__body {
-  --table-cols: 1.2fr 1.4fr 0.8fr 1fr 1.2fr 1.6fr 70px;
+  --table-cols: 1.2fr 1.4fr 0.8fr 1fr 1.2fr 1.1fr 1.6fr 70px;
 }
 
 .col {
@@ -502,6 +502,36 @@ body {
 }
 .pnl-cell.positive .pnl-amount, .pnl-cell.positive .pnl-pct { color: var(--green); }
 .pnl-cell.negative .pnl-amount, .pnl-cell.negative .pnl-pct { color: var(--red); }
+
+/* 52-Week High cell */
+.col--week52, .row__cell.week52-cell { text-align: right; }
+.week52-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+}
+.week52-price {
+  font-size: 0.875rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-primary);
+}
+.week52-dist {
+  font-size: 0.7rem;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+  opacity: 0.85;
+}
+/* Near high (within -5%) → amber warning */
+.w52-near .week52-price { color: var(--yellow); }
+.w52-near .week52-dist  { color: var(--yellow); }
+/* Mid (−5% to −15%) → muted */
+.w52-mid .week52-price { color: var(--text-secondary); }
+.w52-mid .week52-dist  { color: var(--text-muted); }
+/* Far from high (> −15%) → subtle red */
+.w52-far .week52-price { color: var(--red); }
+.w52-far .week52-dist  { color: var(--red); }
 
 .row__actions { display: flex; justify-content: center; gap: 4px; padding-left: 12px; }
 .action-btn {
@@ -857,7 +887,7 @@ body {
    Responsive
    ======================================== */
 @media (max-width: 1100px) {
-  .holdings__header, .holdings__body { --table-cols: 1.1fr 1.3fr 0.8fr 1fr 1.2fr 1.5fr 60px; }
+  .holdings__header, .holdings__body { --table-cols: 1.1fr 1.3fr 0.8fr 1fr 1.1fr 1fr 1.5fr 60px; }
 }
 
 @media (max-width: 900px) {
@@ -865,6 +895,7 @@ body {
   .holdings__header, .holdings__body { --table-cols: 1.0fr 1.2fr 1fr 1.5fr 60px; }
   .col--shares, .row__cell.shares-cell { display: none; }
   .col--cost, .row__cell.cost-cell { display: none; }
+  .col--week52, .row__cell.week52-cell { display: none; }
   .col--actions { display: none; }
 }
 

@@ -162,8 +162,9 @@ async function fetchUSPrice(symbol) {
         const change = price - (prev || price);
         const changePct = prev ? (change / prev) * 100 : 0;
         const name = meta.longName || meta.shortName || sym;
+        const week52High = meta.fiftyTwoWeekHigh || null;
 
-        return { price, change, changePct, name, marketState: sessionLabel };
+        return { price, change, changePct, name, marketState: sessionLabel, week52High };
       } catch (e) {
         lastError = e;
       }
@@ -171,7 +172,7 @@ async function fetchUSPrice(symbol) {
   }
 
   // ── Fallback: v7 quote API (includes pre/post market fields) ──────────────────────────────
-  const quoteUrl = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=${sym}&fields=regularMarketPrice,regularMarketChange,regularMarketChangePercent,preMarketPrice,preMarketChange,preMarketChangePercent,postMarketPrice,postMarketChange,postMarketChangePercent,marketState,longName,shortName`;
+  const quoteUrl = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=${sym}&fields=regularMarketPrice,regularMarketChange,regularMarketChangePercent,preMarketPrice,preMarketChange,preMarketChangePercent,postMarketPrice,postMarketChange,postMarketChangePercent,marketState,longName,shortName,fiftyTwoWeekHigh`;
   for (const proxy of proxies) {
     try {
       const res = await fetch(proxy(quoteUrl), { signal: AbortSignal.timeout(12000) });
@@ -205,6 +206,7 @@ async function fetchUSPrice(symbol) {
         price, change, changePct,
         name: q.longName || q.shortName || sym,
         marketState: 'closed',
+        week52High: q.fiftyTwoWeekHigh || null,
       };
     } catch (e) {
       lastError = e;
@@ -348,6 +350,7 @@ async function refreshAllPrices() {
       h.change      = data.change;
       h.changePct   = data.changePct;
       h.marketState = data.marketState ?? null;  // 'pre' | 'regular' | 'post' | 'closed'
+      if (data.week52High) h.week52High = data.week52High;
       if (!h.name || h.name === h.symbol) h.name = data.name;
       h._priceDir = oldPrice ? (data.price > oldPrice ? 'up' : data.price < oldPrice ? 'down' : '') : '';
     } catch (e) {
@@ -516,6 +519,20 @@ function buildRow(h, rate) {
     if (b) sessionBadge = `<span class="session-badge ${b.cls}">${b.label}</span>`;
   }
 
+  // 52-week high cell
+  const w52 = h.week52High;
+  let week52Str = '--';
+  let week52PctStr = '';
+  let week52Cls = '';
+  if (w52 && h.price) {
+    week52Str = formatPrice(w52, h.market);
+    const distPct = ((h.price - w52) / w52) * 100;
+    week52PctStr = (distPct >= 0 ? '+' : '') + distPct.toFixed(1) + '%';
+    week52Cls = distPct >= -5 ? 'w52-near' : distPct >= -15 ? 'w52-mid' : 'w52-far';
+  } else if (w52) {
+    week52Str = formatPrice(w52, h.market);
+  }
+
   row.innerHTML = `
     <div class="row__name">
       <span class="row__symbol">${esc(h.symbol)}</span>
@@ -532,6 +549,13 @@ function buildRow(h, rate) {
     <div class="row__cell shares-cell">${fmt(h.shares)}</div>
     <div class="row__cell cost-cell row__cell--muted">${formatPrice(h.cost, h.market)}</div>
     <div class="row__cell value-cell">${value != null ? formatTWD(value) : '--'}</div>
+    <div class="row__cell week52-cell">
+      ${w52 ? `
+        <div class="week52-wrap ${week52Cls}">
+          <span class="week52-price">${week52Str}</span>
+          ${week52PctStr ? `<span class="week52-dist">${week52PctStr}</span>` : ''}
+        </div>` : '<span style="color:var(--text-muted)">--</span>'}
+    </div>
     <div class="row__pnl">
       ${pnl != null ? `
         <div class="pnl-cell ${pnl >= 0 ? 'positive' : 'negative'}">
@@ -740,6 +764,7 @@ async function handleFormSubmit(e) {
       h.change      = data.change;
       h.changePct   = data.changePct;
       h.marketState = data.marketState ?? null;
+      if (data.week52High) h.week52High = data.week52High;
       if (!name) h.name = data.name;
       saveHoldings();
       renderHoldings();
