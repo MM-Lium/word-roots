@@ -11,3 +11,4 @@ requests==2.31.0
 yfinance==0.2.38
 python-dateutil==2.9.0
 scipy==1.13.0
+apscheduler==3.10.4

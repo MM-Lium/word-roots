@@ -10,6 +10,9 @@ import type {
   DayTradeCandidate,
   BacktestRequest,
   BacktestResult,
+  PaperPosition,
+  PaperTrade,
+  PaperSummary,
 } from '../types';
 
 const api = axios.create({
@@ -71,5 +74,31 @@ export const runBacktest = async (
   request: BacktestRequest
 ): Promise<BacktestResult> => {
   const res = await api.post('/backtest/run', request);
+  return res.data;
+};
+
+// ---- 模擬下單 ----
+export const getPaperPositions = async (): Promise<PaperPosition[]> => {
+  const res = await api.get('/paper-trade/positions');
+  return res.data;
+};
+
+export const getPaperTrades = async (): Promise<PaperTrade[]> => {
+  const res = await api.get('/paper-trade/trades');
+  return res.data;
+};
+
+export const getPaperSummary = async (): Promise<PaperSummary> => {
+  const res = await api.get('/paper-trade/summary');
+  return res.data;
+};
+
+export const triggerPaperScan = async () => {
+  const res = await api.post('/paper-trade/scan');
+  return res.data;
+};
+
+export const clearPaperTrades = async () => {
+  const res = await api.post('/paper-trade/clear');
   return res.data;
 };

@@ -215,3 +215,36 @@ export interface BacktestResult {
   equity_curve: { date: string; value: number }[];
   benchmark_return: number;
 }
+
+// 模擬下單
+export interface PaperPosition {
+  stock_id: string;
+  stock_name: string;
+  entry_time: string;
+  entry_price: number;
+  current_price: number;
+  pnl_pct: number;
+  ma5: number | null;
+  ma20: number | null;
+}
+
+export interface PaperTrade {
+  stock_id: string;
+  stock_name: string;
+  entry_time: string;
+  exit_time: string;
+  entry_price: number;
+  exit_price: number;
+  profit_loss: number;
+  reason: string;
+}
+
+export interface PaperSummary {
+  date: string;
+  last_scan: string | null;
+  open_positions: number;
+  closed_trades: number;
+  win_count: number;
+  win_rate: number;
+  total_pnl_pct: number;
+}

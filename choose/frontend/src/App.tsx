@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-import { BarChart2, Filter, TrendingUp } from 'lucide-react';
+import { BarChart2, Filter, TrendingUp, Activity } from 'lucide-react';
 import StockSearch from './components/StockSearch';
 import StockDetail from './components/StockDetail';
 import StockScreener from './components/StockScreener';
 import BacktestPanel from './components/BacktestPanel';
+import PaperTradePanel from './components/PaperTradePanel';
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -12,7 +13,7 @@ const queryClient = new QueryClient({
   },
 });
 
-type PageKey = 'detail' | 'screener' | 'backtest';
+type PageKey = 'detail' | 'screener' | 'backtest' | 'paper';
 
 const App: React.FC = () => {
   const [page, setPage] = useState<PageKey>('screener');
@@ -27,6 +28,7 @@ const App: React.FC = () => {
     { key: 'screener', label: '智能選股', icon: <Filter className="w-4 h-4" /> },
     { key: 'detail', label: '個股分析', icon: <BarChart2 className="w-4 h-4" /> },
     { key: 'backtest', label: '策略回測', icon: <TrendingUp className="w-4 h-4" /> },
+    { key: 'paper', label: '模擬下單', icon: <Activity className="w-4 h-4" /> },
   ];
 
   return (
@@ -71,6 +73,7 @@ const App: React.FC = () => {
           {page === 'screener' && <StockScreener onSelectStock={handleSelectStock} />}
           {page === 'detail' && <StockDetail stockId={selectedStock} />}
           {page === 'backtest' && <BacktestPanel />}
+          {page === 'paper' && <PaperTradePanel />}
         </main>
       </div>
     </QueryClientProvider>
